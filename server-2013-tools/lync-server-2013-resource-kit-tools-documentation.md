@@ -94,9 +94,9 @@ Lync Server 2013 ABS 구성 도구에서 특성에 대한 "사용" 확인란 선
 ## 출력
 
 ABSConfig는 데이터베이스에 주소록 서비스 구성을 저장합니다.
-
+```C++
     Path: %ProgramFiles%\Microsoft Lync Server 2013\Reskit
-
+```
 ## 용도
 
 ABSConfig를 사용하면 Lync Server 2013 주소록 서비스를 간편하고 쉽게 사용자 지정할 수 있습니다.
@@ -427,7 +427,7 @@ CPS 도구의 용도는 CPS 데이터베이스에 대한 명령줄 액세스 권
 ## 요구 사항
 
 이 도구가 CPS를 실행하는 컴퓨터와 동일한 컴퓨터에서 실행되는 경우에는 요구 사항이 없습니다. 원격 컴퓨터에서 이 도구가 실행되는 경우에는 Lync Server 2013에서 사용하는 SQL Server 데이터베이스가 원격 액세스를 허용하도록 구성되어야 합니다. Call Parkometer는 풀의 SQL Server에 연결하기 위해 SQL Server 데이터베이스 연결 문자열을 사용하여 구성해야 합니다. 이 SQL Server 데이터베이스 연결 문자열은 구성 파일인 **parkometer.exe.config**에서 정의됩니다. 이 파일은 parkometer.exe가 위치한 디렉터리와 동일한 디렉터리에 위치해야 합니다. 다음 XML 파일은 parkometer.exe.config의 예입니다. 구성해야 하는 매개 변수는 사용자 이름(예: mydomain\\Administrator), 암호(예: mypassword), 호스트 이름(예: myserver)입니다.
-
+```XML
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <appSettings>
@@ -438,7 +438,7 @@ CPS 도구의 용도는 CPS 데이터베이스에 대한 명령줄 액세스 권
     Integrated Security=false;"/>
       </appSettings>
     </configuration>
-
+```
 ## 예제
 
 배포된 파킹된 통화 번호 범위: –o 매개 변수는 아래와 같이 이 풀에 대해 구성된 모든 파킹된 통화 번호 범위를 표시합니다.
@@ -480,7 +480,7 @@ Lync Server 2013, 리소스 키트 도구를 설치합니다. 이 도구는 Lync
 ## 예제
 
 C:\\Program Files\\Microsoft Lync Server 2013\\ResKit\\StorageService\> ImportStorageServiceData.exe
-
+```C++
     Description:
     This tool will remove orphaned data from the Storage Service database
     for a pool. You are required to run this tool on a machine inside the
@@ -536,7 +536,7 @@ C:\\Program Files\\Microsoft Lync Server 2013\\ResKit\\StorageService\> ImportSt
     Writing log: M:\Dev\Server\ResKit\StorageService\CleanupStorageServiceData.Log_20121009_151040
     Tool has finished execution.  Errors encountered: 0
     C:\Program Files\Microsoft Lync Server 2013\ResKit\StorageService>
-
+```
 ## DBAnalyze
 
 ## 설명
@@ -596,14 +596,14 @@ Dbanalyze.exe를 설치하려면 로컬 폴더로 복사한 다음 도구를 실
 ## 예제
 
 다음은 유효한 Dbanalyze.exe 명령의 예입니다.
-
+```C++
     dbanalyze.exe /report:diag
     dbanalyze.exe /report:user /user:usera@domainb.com
     dbanalyze.exe /report:conf /user:bob@example.com /conf:1W9J71SKSX2X
     dbanalyze.exe /report:resolve /pstnid:12345
     dbanalyze.exe /report:mcus
     dbanalyze.exe /report:disk
-
+```
 ## 요약
 
 DBAnalyzer를 사용하면 관리자가 Lync Server 2013 데이터베이스를 빠르고 쉽게 분석할 수 있습니다.
@@ -637,7 +637,7 @@ Lync Server 2013, 리소스 키트 도구를 설치합니다. 이 도구는 Lync
 
 
 ## 예제
-
+```C++
     >  C:\StorageService>ImportStorageServiceData.exe
     Description:
     This tool will re-import Storage Service (LYSS) flushed queue data back in.  For a pool: you are required to run this tool on a machine inside the pool which has the Lync Server Management Shell installed.  Additionally, all front end machines need to have Windows Powershell Remoting enabled before executing this tool by executing Enable-PSRemoting.  Also, please ensure that all Storage Service instance DB Size are at the 'Normal' level (verify this by viewing Eventlog events). Otherwise re-importing may cause data to be flushed out again if any Storage Service instance DB size level goes above 'Normal'.
@@ -794,7 +794,7 @@ Lync Server 2013, 리소스 키트 도구를 설치합니다. 이 도구는 Lync
     Log20120910_1609SS
     Tool has finished execution.
     >  C:\StorageService>
-
+```
 ## LCSSync
 
 LCSSync 도구를 사용하여 다중 포리스트 환경에서 Lync Server 2013 통신 소프트웨어를 배포할 수 있습니다. 이 도구는 다른 사용자 포리스트의 사용자 및 그룹을 Active Directory 도메인 서비스 대화 상대 개체로 Lync Server 2013이 설치된 중앙 포리스트와 동기화하는 데 사용됩니다.
@@ -822,7 +822,7 @@ Lync Server 2013, 리소스 키트 도구를 설치합니다. 이 도구는 Lync
 ## 예제
 
 C:\\Program Files\\Microsoft Lync Server 2013\\ResKit\>LookupUserConsole.exe
-
+```C++
     > sip:john.doe@vdomain.com
     
       Execution time (ms):                            171.094
@@ -858,7 +858,7 @@ C:\\Program Files\\Microsoft Lync Server 2013\\ResKit\>LookupUserConsole.exe
       Exeuction result:                               UserDoesNotExist
     
     > exit
-
+```
 ## MsTurnPing
 
 MSTurnPing 도구를 사용하면 Microsoft Lync Server 2013 통신 소프트웨어의 관리자가 토폴로지에서 오디오/비디오 에지 및 오디오/비디오 인증 서비스를 실행하는 서버와 대역폭 정책 서비스를 실행하는 서버의 상태를 확인할 수 있습니다.
@@ -908,11 +908,11 @@ MSTurnPing 도구를 사용하면 Lync Server 2013 통신 소프트웨어의 관
 ## 예제
 
 다음은 도구 입력의 예입니다.
-
+```C++
     MsTurnPing -ServerRole AudioVideoEdgeServer
     
     MsTurnPing -ServerRole BandwidthPolicyServer
-
+```
 ## 요약
 
 이 도구는 오디오/비디오 및 대역폭 정책 서비스 실행 서버의 상태를 확인하려는 Lync Server 2013 관리자에게 중요한 리소스입니다.
@@ -1124,9 +1124,9 @@ SEFAUtil 도구는 신뢰할 수 있는 응용 프로그램 풀에 속한 컴퓨
 **SEFAUtil 도구에 대한 새로운 신뢰할 수 있는 응용 프로그램 만들기**
 
 1.  SEFAUTil 도구는 신뢰할 수 있는 응용 프로그램 풀에 속한 컴퓨터에서만 실행할 수 있습니다. 필요한 경우, Lync Server 관리 셸을 통해 다음 cmdlet을 사용하여 풀을 새로운 신뢰할 수 있는 응용 프로그램 풀로 추가할 수 있습니다.
-    
+    ```C++
         New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
-    
+    ```
 
     > [!NOTE]
     > SEFAUtil 도구를 실행하는 데 사용할 모든 컴퓨터에 UCMA 3.0이 설치되어 있어야 합니다.
@@ -1134,9 +1134,9 @@ SEFAUtil 도구는 신뢰할 수 있는 응용 프로그램 풀에 속한 컴퓨
 
 
 2.  신뢰할 수 있는 응용 프로그램이 SEFAUtil 도구에 대한 토폴로지에 정의되어야 합니다. SEFAUtil을 새로운 신뢰할 수 있는 응용 프로그램으로 정의하려면 Lync Server 관리 셸을 사용하여 다음 cmdlet을 실행합니다.
-    
+    ```C++
         New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
-    
+    ```
 
     > [!NOTE]
     > 필요한 경우 다른 포트를 사용할 수 있습니다.
@@ -1144,15 +1144,15 @@ SEFAUtil 도구는 신뢰할 수 있는 응용 프로그램 풀에 속한 컴퓨
 
 
 3.  토폴로지 변경 내용을 사용하도록 설정해야 합니다. 토폴로지 변경 내용은 Lync Server 관리 셸을 통해 다음 cmdlet을 실행하여 사용하도록 설정할 수 있습니다.
-    
+    ```C++
         Enable-CsToplogy
-
+    ```
 4.  필요한 경우, SEFAUtil 도구를 실행하는 데 사용할 서버에 Lync Server 2013 리소스 키트 도구를 설치합니다(해당 서버는 신뢰할 수 있는 응용 프로그램 풀에 속해 있어야 함).
 
 5.  SEFAUtil이 정상적으로 실행되고 있는지 확인합니다. 이렇게 하려면 관리자 권한으로 Windows 명령 프롬프트에서 도구를 실행하여 배포에서 사용자의 착신 전환 설정을 표시합니다. 기본적으로 도구는 “…\\Program Files\\Microsoft Lync Server 2013\\Reskit”에 있습니다. 사용자의 착신 전환 설정을 표시하려면 다음 명령을 사용합니다.
-    
+    ```C++
         SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
-    
+    ```
     사용자의 착신 전환 설정이 표시되어야 합니다.
 
 ## 그룹 호출 받기
@@ -1172,85 +1172,85 @@ SEFAUtil 도구는 신뢰할 수 있는 응용 프로그램 풀에 속한 컴퓨
 
 
 **출력**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Simulring enabled: False
     User Ring time: 00:00:20
     Call Forward No Answer to: voicemail
-
+```
 ## 착신 전환/응답 없음 대상 설정
 
 이 예제에서는 착신 전환/응답 없음 대상과 연결 지연을 설정합니다. 여기에서는 /server 스위치가 제공되지 않습니다. SEFAUtil에서 Lync Server를 자동 검색합니다.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+1425555 0126@contoso.com;user=phone
-
+```
 **출력**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Simulring enabled: False
     User Ring time: 00:00:30
     Call Forward No Answer to: sip:+14255550126@contoso.com;user=phone
-
+```
 ## 즉시 착신 전환 사용
 
 이 예제에서는 다른 사용자에게 즉시 착신 전환되도록 설정합니다.
-
+```C++
     SEFAUtil.exe sip:katarina@contoso.com /enablefwdimmediate /setfwddestination:anders@contoso.com
-
+```
 **출력**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Simulring enabled: False
     Forward immediate to: sip:anders@contoso.com
-
+```
 ## 즉시 착신 전환 해제
 
 이 예제에서는 즉시 착신 전환을 해제합니다.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com katarina@contoso.com  /disablefwdimmediate
-
+```
 **출력**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Simulring enabled: False
     User Ring time: 00:00:30
     Call Forward No Answer to: voicemail
-
+```
 ## 사용자를 대리인으로 추가 및 대리인의 동시 연결 설정
 
 이 예제에서는 사용자를 대리인으로 추가하고 대리인의 동시 연결을 설정합니다.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /adddelegate:joe@contoso.com /simulringdelegates
-
+```
 **출력**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Simultaneously Ringing Delegates: sip:joe@contoso.com
-
+```
 ## 대리인의 동시 연결 규칙 변경
 
 이 예제에서는 지연된 신호 울림 규칙에 대한 이전 예제에서 설정한 동시 연결 규칙을 변경합니다.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /delayringdelegates:10
-
+```
 **출력**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Simulring enabled: False
     Delay Ringing Delegates (delay:10 seconds): sip:joe@contoso.com
-
+```
 ## 대리인 제거
 
 이 예제에서는 대리인을 제거합니다.
@@ -1260,37 +1260,37 @@ SEFAUtil 도구는 신뢰할 수 있는 응용 프로그램 풀에 속한 컴퓨
 > 마지막 대리인이 제거되면 대리인 신호 울림은 자동으로 해제됩니다.
 
 
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /removedelegate:joe@contoso.com
-
+```
 **출력**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Simulring enabled: False
     User Ring time: 00:00:30
     Call Forward No Answer to: voicemail
-
+```
 ## 대리인 추가 및 대리인에 대한 착신 전환 규칙 설정
 
 이 예제에서는 대리인을 추가하고 대리인에 대한 착신 전환 규칙을 설정합니다.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /adddelegate:anders@contoso.com /fwdtodelegates
-
+```
 **출력**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Forwarding calls to Delegates: sip:anders@contoso.com
-
+```
 ## 동시 연결 사용 및 대상 번호 설정
 
 이 예제에서는 동시 연결을 사용하도록 설정하고 동시 연결 대상 번호를 설정합니다.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /setsimulringdestination:+14255550126 /enablesimulring
-
+```
 
 > [!NOTE]
 > 이미 동시 연결을 사용하도록 설정된 사용자의 동시 연결 대상 번호를 변경하려면 /enablesimulring 스위치를 사용하여 명령을 유지합니다. 그렇지 않으면 대상 번호가 변경되지 않습니다.
@@ -1298,34 +1298,34 @@ SEFAUtil 도구는 신뢰할 수 있는 응용 프로그램 풀에 속한 컴퓨
 
 
 **출력**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Simulring enabled: True
     Simul_Ringing to: sip:+14255550126@contoso.com;user=phone
-
+```
 ## 동시 연결 해제
 
 이 예제에서는 동시 연결을 해제합니다.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /disablesimulring
-
+```
 **출력**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Simulring enabled: False
     User Ring time: 00:00:30
     Call Forward No Answer to: voicemail
-
+```
 ## 팀 통화에 팀 구성원 추가 및 팀 통화 구성원 그룹에 동시 연결 설정
 
 이 예제에서는 사용자의 팀 통화 그룹에 팀 구성원을 추가하고 팀 통화 그룹에 동시 연결을 사용하도록 설정합니다.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /addteammember:anders@contoso.com /simulringteam
-
+```
 
 > [!NOTE]
 > 사용자의 팀 통화 그룹에 구성원을 추가하면 팀 통화 그룹에 동시 연결되는 사용자의 동시 연결 설정이 자동으로 전환됩니다.
@@ -1333,18 +1333,18 @@ SEFAUtil 도구는 신뢰할 수 있는 응용 프로그램 풀에 속한 컴퓨
 
 
 **출력**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Team ringing enabled. Team: sip:anders@contoso.com
-
+```
 ## 팀 통화 그룹에서 구성원 제거
 
 이 예제에서는 사용자의 팀 통화 그룹에서 팀 구성원을 제거합니다.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /removeteammember:anders@contoso.com
-
+```
 
 > [!NOTE]
 > 제거된 구성원이 팀 통화 그룹의 유일한 구성원이었다면 팀 통화 그룹에 대한 동시 연결이 자동으로 해제됩니다.
@@ -1352,32 +1352,32 @@ SEFAUtil 도구는 신뢰할 수 있는 응용 프로그램 풀에 속한 컴퓨
 
 
 **출력**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     User Ring time: 00:00:30
     Call Forward No Answer to: voicemail
-
+```
 ## 팀 통화 그룹에 연결 지연 설정
 
 이 예제에서는 팀 통화 그룹에 대한 연결 지연 설정을 변경합니다.
-
+```C++  
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /delayringteam:5
-
+```
 **출력**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     Delay Ringing Team (delay:5 seconds). Team: sip:anders@contoso.com
-
+```
 ## 팀 통화 사용
 
 이 예제에서는 지정된 사용자가 팀 통화를 사용하도록 설정합니다.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /simulringteam
-
+```
 
 > [!NOTE]
 > 사용자의 팀 통화 그룹에 구성원이 없는 경우 팀 통화를 사용하도록 설정할 수 없습니다.
@@ -1389,23 +1389,23 @@ SEFAUtil 도구는 신뢰할 수 있는 응용 프로그램 풀에 속한 컴퓨
 ## 팀 통화 해제
 
 이 예제에서는 지정된 사용자의 팀 통화를 해제합니다.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /disableteamcall
-
+```
 **출력**
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
     User Ring time: 00:00:30
     Call Forward No Answer to: voicemail
-
+```
 ## 그룹 호출 받기 사용 및 사용자에게 받기 그룹 할당
 
 이 예제에서는 사용자에게 받기 그룹을 할당하고 그룹 호출 받기를 사용하도록 설정합니다.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /enablegrouppickup:199
-
+```
 **출력**
 
     User Aor: sip:katarina@contoso.com
@@ -1416,19 +1416,19 @@ SEFAUtil 도구는 신뢰할 수 있는 응용 프로그램 풀에 속한 컴퓨
 ## 그룹 호출 받기 해제
 
 이 예제에서는 지정된 사용자의 그룹 호출 받기를 해제합니다.
-
+```C++
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /disablegrouppickup
-
+```
 
 > [!NOTE]
 > 사용자에 대해 그룹 호출 받기를 해제하면 해당 사용자에게 할당된 그룹 번호가 보존되지 않습니다. 나중에 해당 사용자에 대해 그룹 호출 받기를 다시 설정하려면 /enablegrouppickup 스위치를 사용하여 그룹 번호를 다시 할당해야 합니다.
 
 
-
+```C++
     User Aor: sip:katarina@contoso.com
     Display Name: Katarina Larsson
     UM Enabled: True
-
+```
 ## SYSPrep.ps1
 
 ## 설명
@@ -1507,9 +1507,9 @@ SYSPrep.ps1 스크립트를 실행하기 전에 Windows Server 2008 운영 체�
 ## 예제
 
 SYSPrep.ps1 스크립트를 실행하여 Lync Server 2013 필수 구성 요소를 설치하려면 관리자 권한 명령 프롬프트에서 다음 명령을 실행합니다.
-
+```C++
     ./SysPrep.PS1 -SetupFolder D:\Setup
-
+```
 ## Unassigned Number Announcements Migration
 
 Lync 관리자는 Unassigned Number Announcements Migration 도구를 사용하여 알림 응용 프로그램에서 서비스를 받고 있는 지정되지 않은 번호 구성을 원본 Lync Server 또는 풀에서 대상 Lync Server 또는 풀로 이동할 수 있습니다.
@@ -1569,15 +1569,15 @@ Move-CsAnnouncementConfiguration 스크립트에는 아래 표의 설명에 나�
 ## Lync Server 2010 풀에서 Lync Server 2013 풀로 지정되지 않은 번호 알림 구성 이동
 
 이 예제에서는 원본 풀(Lync Server 2010)에서 대상 풀(Lync Server 2013)로 지정되지 않은 번호 알림을 이동합니다.
-
+```C++
     Move-CsAnnouncementConfiguration.ps1 -Source LS2010Pool.contoso.com -Destination LS2013Pool.contoso.com
-
+```
 ## Lync Server 2013 풀에서 Lync Server 2010 풀로 지정되지 않은 번호 알림 구성 이동
 
 이 예제에서는 원본 풀(Lync Server 2013)에서 대상 풀(Lync Server 2010)로 지정되지 않은 번호 알림을 이동합니다.
-
+```C++
     Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination LS2010Pool.contoso.com
-
+```
 ## Web Conf Data
 
 Lync Server 2013 통신 소프트웨어의 관리자는 Web Conf Data 도구를 사용하여 이끌이의 웹 회의와 관련된 데이터를 효율적으로 제어할 수 있습니다. 시나리오에는 타임스탬프 조건에 따라 특정 사용자의 모임 데이터를 삭제하는 기능이 포함됩니다.
@@ -1623,13 +1623,13 @@ Lync Server 2013 통신 소프트웨어의 관리자는 Web Conf Data 도구를 
 다음 표에서는 매개 변수에 대해 설명하며, 일부 매개 변수는 예제에서 사용됩니다.
 
 ![Web Conf Data Tool 매개 변수.](images/JJ945604.a733c1c6-5dfc-4874-a74f-bfdee81c1401(OCS.15).jpg "Web Conf Data Tool 매개 변수.")
-
+```C++
     WebConfDataTool.exe /User:user0@contoso.com /Action:query ""/ExpirationDate:08/09/2010 12:00:00""
-
+```
 위의 예제에서는 쿼리 명령이 작동하는 방식을 보여 줍니다. 이 명령은 이 도구의 영향을 받는 모든 모임 콘텐츠 폴더 목록을 출력합니다.
-
+```C++
     WebConfDataTool.exe /User:user0@contoso.com /Action:delete
-
+```
 위의 예제는 삭제 명령을 보여 줍니다. 삭제 명령을 사용하면 이 사용자의 모든 비활성 모임 폴더가 제거됩니다.
 
 ## 요약
