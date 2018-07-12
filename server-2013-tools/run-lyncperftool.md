@@ -25,7 +25,7 @@ The UserProfileGenerator.exe tool creates a batch file that enables you to run L
 
 2.  Navigate to the appropriately numbered client folder and run the RunClient batch script. You can simply double-click the batch file in Windows Explorer and it will run all of the configuration files for that client number. You can also run the script from the appropriate client folder by using the following syntax:
     
-       ```batch
+       ```Batch
         RunClient0.bat "C:\Program Files\Microsoft Lync Server 2013\LyncStressAndPerfTool\LyncStress" 
        ```
 
