@@ -19,13 +19,17 @@ _**마지막으로 수정된 항목:** 2013-02-04_
 
 Depending on your existing settings and configuration of Lync Server 2013, you may need to make the following changes in your environment:
 
-1.  Set the Windows PowerShell execution policy to Unrestricted. To check your execution policy settings, open the Lync Server 관리 셸 and run the following command:
-    
+1.  Set the Windows PowerShell execution policy to Unrestricted. To check your execution policy settings, open the Lync Server Management Shell and run the following command:
+
+    ``` powershell
         Get-ExecutionPolicy
-    
+    ```        
+
     If this command does not return the value Unrestricted, run this command:
-    
+
+    ``` powershell
         Set-ExecutionPolicy -Unrestricted
+    ```
 
 2.  To effectively configure Lync Server 2013, you will need to:
     
@@ -34,9 +38,11 @@ Depending on your existing settings and configuration of Lync Server 2013, you m
       - Assign some of the users that were created to groups, such as Response Group hunt groups (for example, SIP URIs).
 
 3.  To run the script from the command line, you may use:
-    
-        Powershell.exe -file <path to the file>
 
+    ``` powershell
+        Powershell.exe -file <path to the file>
+    ```
+    
 4.  Typically, after one of the scripts in this package runs, the resulting traces from the script will be stored in a file in the same path from which the script was invoked, named \<scriptname\>$h$m$s.txt. For example, running ArchivingPolicy.ps1 at 12:15 P.M. will generate a log file such as ArchivingPolicy121500.txt.
 
 5.  Finally, note that although we have provided examples to configure the server, you are responsible for modifying or deleting the configuration after you have finished running the load.
