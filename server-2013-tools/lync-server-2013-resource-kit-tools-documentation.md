@@ -221,7 +221,7 @@ Bandwidth Utilization Analyzer에는 다음 두 개의 응용 프로그램(도�
 
   - **WanLinkLogCollector.exe**   사용자는 이 도구를 사용하여 필수 정보를 입력할 수 있습니다.
 
-  - **BandwidthUtilizationAnalyzer.xlsm **  Microsoft Excel 스프레드시트 소프트웨어 보고서가 WanLinkLogCollector.exe에서 자동으로 실행됩니다. 사용자는 이 응용 프로그램을 사용하여 보고서에 필터를 적용할 수 있으며, 해당 내용은 이 문서 뒷부분에서 설명합니다.
+  - **BandwidthUtilizationAnalyzer.xlsm**  Microsoft Excel 스프레드시트 소프트웨어 보고서가 WanLinkLogCollector.exe에서 자동으로 실행됩니다. 사용자는 이 응용 프로그램을 사용하여 보고서에 필터를 적용할 수 있으며, 해당 내용은 이 문서 뒷부분에서 설명합니다.
 
 ## Bandwidth Utilization Analyzer 사용 단계
 
@@ -249,7 +249,7 @@ Bandwidth Utilization Analyzer는 다음 두 단계로 사용할 수 있습니�
 
 2.  **파일 디렉터리 지정**   파일 위치 정보를 제공합니다.
 
-3.  **로그 수집 및 보고서 뷰어 시작 **  명령을 실행하여 보고서를 생성합니다.
+3.  **로그 수집 및 보고서 뷰어 시작**  명령을 실행하여 보고서를 생성합니다.
 
 ## 1단계 - 시간 표시 막대 로깅
 
@@ -267,7 +267,7 @@ Bandwidth Utilization Analyzer는 다음 두 단계로 사용할 수 있습니�
 
   - **서버 로그 파일 위치** 대역폭 정책 서버 로그를 저장할 폴더 위치입니다. 일반적으로 \<fileserver\>\\\<FE 선택\>\\AppServerFiles\\PDP입니다.
 
-  - **임시 파일 저장 위치 ** 보고서가 생성되는 동안 중간 파일을 저장할 임시 파일 위치입니다.
+  - **임시 파일 저장 위치** 보고서가 생성되는 동안 중간 파일을 저장할 임시 파일 위치입니다.
 
 ![Bandwidth Utilization Analyzer의 파일 디렉터리](images/JJ945604.d66daeac-1669-45e3-932d-3f6782840c2a(OCS.15).jpg "Bandwidth Utilization Analyzer의 파일 디렉터리")
 
@@ -279,7 +279,7 @@ Bandwidth Utilization Analyzer는 다음 두 단계로 사용할 수 있습니�
 
 ## 3단계 - 로그 수집 및 보고서 뷰어 시작
 
-로그를 수집하고 보고서 뷰어를 시작하려면 아래와 같이 **Execute(실행)**를 클릭합니다. 이 단계에서는 필수 데이터를 수집합니다.
+로그를 수집하고 보고서 뷰어를 시작하려면 아래와 같이 <strong>Execute(실행)</strong>를 클릭합니다. 이 단계에서는 필수 데이터를 수집합니다.
 
 ![Bandwidth Utilization Analyzer의 데이터 수집](images/JJ945604.0019cb2c-7c01-4dc9-ac90-ac47c47d1bfd(OCS.15).jpg "Bandwidth Utilization Analyzer의 데이터 수집")
 
@@ -287,12 +287,12 @@ Bandwidth Utilization Analyzer는 다음 두 단계로 사용할 수 있습니�
 
 ![Bandwidth Utilization Analyzer에 수집된 알림 로그](images/JJ945604.eda91da8-3285-4eab-8ccb-c6d89c8cc221(OCS.15).jpg "Bandwidth Utilization Analyzer에 수집된 알림 로그")
 
-**OK(확인)**를 클릭하면 BandwidthUtilizationAnalyzer.xlsm이 자동으로 시작됩니다. 메시지 상자의 지침을 따릅니다. 자세한 내용은 다음 섹션의 **BandwidthUtilizationAnalyzer.xlsm 사용**을 참고하세요.
+<strong>OK(확인)</strong>를 클릭하면 BandwidthUtilizationAnalyzer.xlsm이 자동으로 시작됩니다. 메시지 상자의 지침을 따릅니다. 자세한 내용은 다음 섹션의 **BandwidthUtilizationAnalyzer.xlsm 사용**을 참고하세요.
 
 
 **BandwidthUtilizationAnalyzer.xlsm 사용**
 
-1.  BandwidthUtilizationAnalyzer.xlsm이 자동으로 시작되면 아래와 같이 **Refresh(새로 고침)**를 클릭합니다.
+1.  BandwidthUtilizationAnalyzer.xlsm이 자동으로 시작되면 아래와 같이 <strong>Refresh(새로 고침)</strong>를 클릭합니다.
     
     ![BandwidthUtilizationAnalyzer.xlsm](images/JJ945604.c4e675b9-1671-400e-a712-6db82d731b39(OCS.15).jpg "BandwidthUtilizationAnalyzer.xlsm")
 
@@ -300,7 +300,7 @@ Bandwidth Utilization Analyzer는 다음 두 단계로 사용할 수 있습니�
     
     ![BandwidthUtilizationAnalyzer의 폴더 열기.](images/JJ945604.601cc572-cee9-45fb-9ed1-c4b96a2fa21e(OCS.15).jpg "BandwidthUtilizationAnalyzer의 폴더 열기.")
 
-3.  **Import(가져오기)**를 클릭합니다.
+3.  <strong>Import(가져오기)</strong>를 클릭합니다.
 
 4.  그래픽 그림은 자동으로 생성되며, 백그라운드 작업 포인터가 사라지면 사용할 수 있습니다.
     
@@ -338,27 +338,27 @@ Bandwidth Utilization Analyzer는 다음 두 단계로 사용할 수 있습니�
 
 다음 그림은 앞에서 설명한 필터를 보여 줍니다.
 
-**Name(이름)**을 기준으로 필터링. 그래프에 표시할 링크 목록을 선택합니다.
+<strong>Name(이름)</strong>을 기준으로 필터링. 그래프에 표시할 링크 목록을 선택합니다.
 
 ![BandwidthUtilizationAnalyzer의 이름을 기준으로 필터링.](images/JJ945604.002b7c8e-f0da-48ce-9e1a-5c34d2cab063(OCS.15).jpg "BandwidthUtilizationAnalyzer의 이름을 기준으로 필터링.")
 
-**Exceeded limit(제한 초과)**를 기준으로 필터링. **True**를 선택하여 필터를 적용합니다.
+<strong>Exceeded limit(제한 초과)</strong>를 기준으로 필터링. **True**를 선택하여 필터를 적용합니다.
 
 ![Exceeded Limit(제한 초과)를 기준으로 필터링.](images/JJ945604.5946c95e-76ce-46ca-8f3e-a79be1e5c527(OCS.15).jpg "Exceeded Limit(제한 초과)를 기준으로 필터링.")
 
-**Critical levels(위험 수준)**를 기준으로 필터링. **True**를 선택하여 필터를 적용합니다.
+<strong>Critical levels(위험 수준)</strong>를 기준으로 필터링. **True**를 선택하여 필터를 적용합니다.
 
 ![Critical Levels(위험 수준)를 기준으로 필터링.](images/JJ945604.60771a52-d8ba-4cb9-a02d-d6c888cb5505(OCS.15).jpg "Critical Levels(위험 수준)를 기준으로 필터링.")
 
-**Under-utilized(낮은 활용도)**를 기준으로 필터링. **True**를 선택하여 필터를 적용합니다.
+<strong>Under-utilized(낮은 활용도)</strong>를 기준으로 필터링. **True**를 선택하여 필터를 적용합니다.
 
 ![Under Utilized(낮은 활용도)를 기준으로 필터링.](images/JJ945604.95a2bf01-5aba-4927-af47-1ad3c459d791(OCS.15).jpg "Under Utilized(낮은 활용도)를 기준으로 필터링.")
 
-**Link type(링크 유형)**를 기준으로 필터링. 표시할 유형을 선택합니다.
+<strong>Link type(링크 유형)</strong>를 기준으로 필터링. 표시할 유형을 선택합니다.
 
 ![Link Type(링크 유형)을 기준으로 필터링.](images/JJ945604.08757949-06bd-4cf3-809f-d81fd23a6639(OCS.15).jpg "Link Type(링크 유형)을 기준으로 필터링.")
 
-**Region(영역)**별 필터. 해당 영역의 링크를 표시할 영역 목록을 선택합니다.
+<strong>Region(영역)</strong>별 필터. 해당 영역의 링크를 표시할 영역 목록을 선택합니다.
 
 ![Region(영역)을 기준으로 필터링.](images/JJ945604.5de4cec4-6c09-48bb-98c7-b56f7bdb3d5a(OCS.15).jpg "Region(영역)을 기준으로 필터링.")
 
@@ -951,7 +951,7 @@ Network Configuration Viewer는 Microsoft Lync Server 2013 통신 소프트웨�
 
 ![네트워크 구성 다운로드.](images/JJ945604.8d126d3f-2545-4f13-a244-974f09614982(OCS.15).jpg "네트워크 구성 다운로드.")
 
-**대역폭 정책 서버 로그 파일에서 그래픽 형식으로 CAC 네트워크 토폴로지 로드 및 보기:**Lync Server 2013 대역폭 정책 서버에서 로깅 메커니즘의 일부로 Lync Server 2013 파일 공유 위치에 CAC 네트워크 토폴로지를 저장합니다. Lync Server 관리자는 아래에 표시된 것처럼 **Open Network Configuration(네트워크 구성 열기)** 옵션을 사용하여 그래픽 형식으로 이러한 파일을 볼 수 있습니다.
+<strong>대역폭 정책 서버 로그 파일에서 그래픽 형식으로 CAC 네트워크 토폴로지 로드 및 보기:</strong>Lync Server 2013 대역폭 정책 서버에서 로깅 메커니즘의 일부로 Lync Server 2013 파일 공유 위치에 CAC 네트워크 토폴로지를 저장합니다. Lync Server 관리자는 아래에 표시된 것처럼 **Open Network Configuration(네트워크 구성 열기)** 옵션을 사용하여 그래픽 형식으로 이러한 파일을 볼 수 있습니다.
 
 ![대역폭 정책 서버 로그 파일 열기.](images/JJ945604.3e503e92-aacb-4921-a8d2-23f860fe2df6(OCS.15).jpg "대역폭 정책 서버 로그 파일 열기.")
 
@@ -963,19 +963,19 @@ JPG 또는 BMP 형식으로 CAC 네트워크 토폴로지 다이어그램 저장
 
 ![네트워크 구성을 그림으로 저장.](images/JJ945604.145a6fb9-58b1-46b1-bbd5-a661ceba07b4(OCS.15).jpg "네트워크 구성을 그림으로 저장.")
 
-**CAC 네트워크 토폴로지 구성 데이터 보기:**Lync Server 2013 관리자는 아래와 같이 View Network Configuration data(네트워크 구성 데이터 보기) 옵션을 사용하여 네트워크 지역, 네트워크 사이트, 대역폭 프로필, 사이트 서브넷 IP 주소와 같은 관련 네트워크 구성 데이터를 텍스트 형식으로 볼 수 있습니다.
+<strong>CAC 네트워크 토폴로지 구성 데이터 보기:</strong>Lync Server 2013 관리자는 아래와 같이 View Network Configuration data(네트워크 구성 데이터 보기) 옵션을 사용하여 네트워크 지역, 네트워크 사이트, 대역폭 프로필, 사이트 서브넷 IP 주소와 같은 관련 네트워크 구성 데이터를 텍스트 형식으로 볼 수 있습니다.
 
 ![네트워크 구성 데이터 보기.](images/JJ945604.b72a4c21-a042-4d91-bf96-fcb396af0679(OCS.15).jpg "네트워크 구성 데이터 보기.")
 
-**트리 보기 스타일로 CAC 네트워크 토폴로지 보기:**Lync Server 2013 관리자는 아래와 같이 도구 창의 왼쪽에 있는 제어판을 사용하여 그래픽 트리 보기 스타일로 관련 네트워크 구성 데이터를 볼 수 있습니다.
+<strong>트리 보기 스타일로 CAC 네트워크 토폴로지 보기:</strong>Lync Server 2013 관리자는 아래와 같이 도구 창의 왼쪽에 있는 제어판을 사용하여 그래픽 트리 보기 스타일로 관련 네트워크 구성 데이터를 볼 수 있습니다.
 
 ![네트워크 구성 데이터를 트리 뷰로 보기.](images/JJ945604.4d924ac9-fd96-430f-b211-ee35b7ef9a23(OCS.15).jpg "네트워크 구성 데이터를 트리 뷰로 보기.")
 
-**CAC 네트워크 토폴로지 링크(예:사이트와 영역 간, 영역과 영역 간, 사이트와 사이트 간 링크)에 대한 사용자 지정 연결선 정의:**Lync Server 2013 관리자는 아래와 같이 Settings(설정) 옵션을 사용하여 CAC 네트워크 구성 WAN 링크에 대한 사용자 지정 그래픽 연결선을 정의할 수 있습니다. 이는 네트워크 구성에 프로비전된 다양한 유형의 네트워크 링크를 식별하는 데 도움이 됩니다.
+<strong>CAC 네트워크 토폴로지 링크(예:사이트와 영역 간, 영역과 영역 간, 사이트와 사이트 간 링크)에 대한 사용자 지정 연결선 정의:</strong>Lync Server 2013 관리자는 아래와 같이 Settings(설정) 옵션을 사용하여 CAC 네트워크 구성 WAN 링크에 대한 사용자 지정 그래픽 연결선을 정의할 수 있습니다. 이는 네트워크 구성에 프로비전된 다양한 유형의 네트워크 링크를 식별하는 데 도움이 됩니다.
 
 ![CAC 네트워크 토폴로지에 대한 사용자 지정 커넥터 정의](images/JJ945604.b20bea67-c8e1-453e-b1dd-e2aa17b62566(OCS.15).jpg "CAC 네트워크 토폴로지에 대한 사용자 지정 커넥터 정의")
 
-**CAC 네트워크 토폴로지 사이트 정보, 영역 정보, 프로비전된 대역폭 정책 보기:**Lync Server 2013 관리자는 아래에 표시된 옵션을 사용하여 관련 CAC 네트워크 지역 정보, 사이트 정보, CAC 대역폭 프로비저닝 정보를 볼 수 있습니다(예: 네트워크 지역 또는 네트워크 사이트 개체에서 **Info(정보)** 클릭).
+<strong>CAC 네트워크 토폴로지 사이트 정보, 영역 정보, 프로비전된 대역폭 정책 보기:</strong>Lync Server 2013 관리자는 아래에 표시된 옵션을 사용하여 관련 CAC 네트워크 지역 정보, 사이트 정보, CAC 대역폭 프로비저닝 정보를 볼 수 있습니다(예: 네트워크 지역 또는 네트워크 사이트 개체에서 **Info(정보)** 클릭).
 
 ![네트워크의 사용자 지정 커넥터 정의.](images/JJ945604.26262c75-4342-41c3-bc98-1793aa6a7713(OCS.15).jpg "네트워크의 사용자 지정 커넥터 정의.")
 
