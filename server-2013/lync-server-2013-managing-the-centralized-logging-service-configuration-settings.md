@@ -45,5 +45,5 @@ _**마지막으로 수정된 항목:** 2012-11-01_
 #### 개념
 
 [중앙화된 로깅 서비스 개요](lync-server-2013-overview-of-the-centralized-logging-service.md)  
-[중앙화된 로깅 Cmdlet](lync-server-2013-centralized-logging-cmdlets.md)
+[중앙화된 로깅 Cmdlet](https://docs.microsoft.com/en-us/powershell/module/skype/)
 
