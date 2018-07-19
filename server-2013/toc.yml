@@ -4838,9 +4838,9 @@
       - name: Lync Server 2013에서 도메인 준비로 인한 변경
         href: lync-server-2013-changes-made-by-domain-preparation.md
       - name: Lync Server 2013에서 Grant-CsSetupPermission으로 인한 변경
-        href: lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsSetupPermission
+        href: lync-server-2013-changes-made-by-grant-cssetuppermission.md
       - name: Lync Server 2013에서 Grant-CsOUPermission으로 인한 변경
-        href: lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsOUPermission
+        href: lync-server-2013-changes-made-by-grant-csoupermission.md
   - name: Lync Server 관리 셸
     href: https://docs.microsoft.com/en-us/powershell/module/skype/
   - name: 용어집

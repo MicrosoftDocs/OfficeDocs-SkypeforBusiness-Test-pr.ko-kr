@@ -64,5 +64,5 @@ ID가 "RedmondAccessPolicy"인 사용자별 정책을 반환하려면 다음 명
 #### 개념
 
 [ID, 범위, 테넌트](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online Cmdlet](the-skype-for-business-online-cmdlets.md)
+[Lync Online Cmdlet](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

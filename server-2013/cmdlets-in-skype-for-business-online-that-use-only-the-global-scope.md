@@ -92,5 +92,5 @@ Identity 매개 변수를 포함하지 않는 경우 기본적으로 Windows Pow
 #### 개념
 
 [ID, 범위, 테넌트](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online Cmdlet](the-skype-for-business-online-cmdlets.md)
+[Lync Online Cmdlet](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

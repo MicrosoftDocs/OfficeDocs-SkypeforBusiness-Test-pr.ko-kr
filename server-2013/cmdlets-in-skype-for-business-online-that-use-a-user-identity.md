@@ -72,5 +72,5 @@ Identity 매개 변수는 특정 사용자에 대한 정보를 반환하려는 �
 #### 개념
 
 [ID, 범위, 테넌트](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online Cmdlet](the-skype-for-business-online-cmdlets.md)
+[Lync Online Cmdlet](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

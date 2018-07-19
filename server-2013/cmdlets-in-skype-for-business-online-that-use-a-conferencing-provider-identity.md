@@ -32,5 +32,5 @@ _**마지막으로 수정된 항목:** 2015-06-22_
 #### 개념
 
 [ID, 범위, 테넌트](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online Cmdlet](the-skype-for-business-online-cmdlets.md)
+[Lync Online Cmdlet](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
