@@ -54,5 +54,5 @@ Lync Server 2013 제어판에서는 사용자가 외부에서 모임에 참가�
         HostingProvider    :
         Regions            : {US}
 
-자세한 내용은 [Get-CsDialInConferencingAccessNumber](get-csdialinconferencingaccessnumber.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDialInConferencingAccessNumber) cmdlet의 도움말 항목을 참조하십시오.
 

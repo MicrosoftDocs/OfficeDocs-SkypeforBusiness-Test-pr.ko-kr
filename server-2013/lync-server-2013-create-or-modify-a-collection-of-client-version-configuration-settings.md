@@ -59,5 +59,5 @@ _**마지막으로 수정된 항목:** 2013-02-23_
     
         Get-CsClientVersionConfiguration | Set-CsClientVersionConfiguration  -Enabled $False
 
-자세한 내용은 [New-CsClientVersionConfiguration](new-csclientversionconfiguration.md) 및 [Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [New-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionConfiguration) 및 [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration) cmdlet의 도움말 항목을 참조하십시오.
 

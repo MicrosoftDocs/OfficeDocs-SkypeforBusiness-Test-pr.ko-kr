@@ -128,5 +128,5 @@ Here are some common reasons why **Test-CsExUMVoiceMail** might fail:
 
 #### 기타 리소스
 
-[Test-CsExUMConnectivity](test-csexumconnectivity.md)
+[Test-CsExUMConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMConnectivity)
 

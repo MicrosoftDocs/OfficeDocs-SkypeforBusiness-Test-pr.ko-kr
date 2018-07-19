@@ -59,5 +59,5 @@ Windows PowerShell 및 Remove-CsPinPolicy cmdlet을 사용해서 PIN 정책을 �
     
         et-CsPinPolicy | Where-Object {$_.AllowCommonPatterns -eq $True} | Remove-CsPinPolicy
 
-자세한 내용은 [Remove-CsPinPolicy](remove-cspinpolicy.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Remove-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsPinPolicy) cmdlet의 도움말 항목을 참조하십시오.
 

@@ -39,5 +39,5 @@ Lync Server 2013 하이브리드 환경이란 사용자가 온-프레미스 Lync
 
 ## Lync Online PowerShell에 연결
 
-관리자는 이제 Windows PowerShell을 사용해 Lync Online 및 해당 Lync Online 사용자 계정을 관리할 수 있습니다. 이렇게 하려면 먼저 Microsoft 다운로드 센터(http://go.microsoft.com/fwlink/?LinkId=294688)에서 Lync Online 커넥터 모듈을 다운로드하고 설치해야 합니다. Lync Online 커넥터 모듈 다운로드, 설치, 사용과 Windows PowerShell을 사용해 Lync Online을 관리하는 방법에 대한 자세한 내용은 [Windows PowerShell을 사용하여 Lync Online 관리](skype-for-business-online-using-windows-powershell-to-manage-your-tenant.md)를 참고하세요.
+관리자는 이제 Windows PowerShell을 사용해 Lync Online 및 해당 Lync Online 사용자 계정을 관리할 수 있습니다. 이렇게 하려면 먼저 Microsoft 다운로드 센터(http://go.microsoft.com/fwlink/?LinkId=294688)에서 Lync Online 커넥터 모듈을 다운로드하고 설치해야 합니다. Lync Online 커넥터 모듈 다운로드, 설치, 사용과 Windows PowerShell을 사용해 Lync Online을 관리하는 방법에 대한 자세한 내용은 [Windows PowerShell을 사용하여 Lync Online 관리](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)를 참고하세요.
 

@@ -22,11 +22,11 @@ _**마지막으로 수정된 항목:** 2012-11-01_
 > 중앙 로깅 서비스용으로 나열된 일부 Windows PowerShell cmdlet은 Lync Server 2013 온-프레미스 배포용이 아닙니다. 다음 cmdlet은 작동하는 것처럼 보일 수 있지만 Lync Server 2013 온-프레미스 배포에서 작동하도록 디자인되지 않았습니다. 
 > <UL>
 > <LI>
-> <P><STRONG>CsClsRegion cmdlet:</STRONG> <A href="get-csclsregion.md">Get-CsClsRegion</A>, <A href="set-csclsregion.md">Set-CsClsRegion</A>, <A href="new-csclsregion.md">New-CsClsRegion</A> 및 <A href="remove-csclsregion.md">Remove-CsClsRegion</A>.</P>
+> <P><STRONG>CsClsRegion cmdlet:</STRONG> <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsRegion">Get-CsClsRegion</A>, <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsRegion">Set-CsClsRegion</A>, <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsRegion">New-CsClsRegion</A> 및 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsRegion">Remove-CsClsRegion</A>.</P>
 > <LI>
-> <P><STRONG>CsClsSearchTerm cmdlet:</STRONG> <A href="get-csclssearchterm.md">Get-CsClsSearchTerm</A> 및 <A href="set-csclssearchterm.md">Set-CsClsSearchTerm</A>.</P>
+> <P><STRONG>CsClsSearchTerm cmdlet:</STRONG> <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsSearchTerm">Get-CsClsSearchTerm</A> 및 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsSearchTerm">Set-CsClsSearchTerm</A>.</P>
 > <LI>
-> <P><STRONG>CsClsSecurityGroup cmdlet:</STRONG> <A href="get-csclssecuritygroup.md">Get-CsClsSecurityGroup</A>, <A href="set-csclssecuritygroup.md">Set-CsClsSecurityGroup</A>, <A href="new-csclssecuritygroup.md">New-CsClsSecurityGroup</A> 및 <A href="remove-csclssecuritygroup.md">Remove-CsClsSecurityGroup</A>.</P></LI></UL>이러한 cmdlet에 정의된 설정은 작업을 방해하거나 부적절한 동작을 유발하지 않지만 Microsoft Office 365용이 아니며 온-프레미스 배포에서 예상한 대로 작동하지 않습니다. 이 말이 온-프레미스 배포에서 이러한 cmdlet을 사용할 수 없음을 의미하는 것은 아니지만 이 설명서에서는 이러한 cmdlet의 용도에 대해 설명하지 않겠습니다.
+> <P><STRONG>CsClsSecurityGroup cmdlet:</STRONG> <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsSecurityGroup">Get-CsClsSecurityGroup</A>, <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsSecurityGroup">Set-CsClsSecurityGroup</A>, <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsSecurityGroup">New-CsClsSecurityGroup</A> 및 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsSecurityGroup">Remove-CsClsSecurityGroup</A>.</P></LI></UL>이러한 cmdlet에 정의된 설정은 작업을 방해하거나 부적절한 동작을 유발하지 않지만 Microsoft Office 365용이 아니며 온-프레미스 배포에서 예상한 대로 작동하지 않습니다. 이 말이 온-프레미스 배포에서 이러한 cmdlet을 사용할 수 없음을 의미하는 것은 아니지만 이 설명서에서는 이러한 cmdlet의 용도에 대해 설명하지 않겠습니다.
 
 
 
@@ -45,5 +45,5 @@ _**마지막으로 수정된 항목:** 2012-11-01_
 #### 개념
 
 [중앙화된 로깅 서비스 개요](lync-server-2013-overview-of-the-centralized-logging-service.md)  
-[중앙화된 로깅 Cmdlet](lync-server-2013-centralized-logging-cmdlets.md)
+[중앙화된 로깅 Cmdlet](https://docs.microsoft.com/en-us/powershell/module/skype/)
 

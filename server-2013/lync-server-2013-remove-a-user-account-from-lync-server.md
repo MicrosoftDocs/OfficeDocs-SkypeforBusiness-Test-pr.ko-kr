@@ -51,7 +51,7 @@ Disable-CsUser cmdlet을 사용하여 사용자 계정을 제거할 수도 있�
     
     이 명령을 실행한 후에는 계정 및 이전 설정을 다시 사용하도록 설정할 수 없습니다. 대신 Enable-CsUser cmdlet을 사용하여 Ken Myer에 대해 새 계정을 만들어야 합니다.
 
-자세한 내용은 [Disable-CsUser](disable-csuser.md) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser) cmdlet에 대한 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

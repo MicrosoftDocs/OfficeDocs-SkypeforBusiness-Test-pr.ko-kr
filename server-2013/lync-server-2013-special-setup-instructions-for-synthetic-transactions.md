@@ -42,7 +42,7 @@ Exchange 통합 메시징(UM) 가상 트랜잭션은 테스트 사용자가 Exch
 
 ## 영구 채팅 가상 트랜잭션
 
-영구 채팅 가상 트랜잭션을 사용하려면 관리자가 먼저 채널을 만들고 테스트 사용자에게 이를 사용할 수 있는 권한을 부여해야 합니다. [Test-CsPersistentChatMessage](test-cspersistentchatmessage.md) cmdlet은 이러한 테스트 사용자를 올바르게 구성하는 데 사용할 수 있습니다.
+영구 채팅 가상 트랜잭션을 사용하려면 관리자가 먼저 채널을 만들고 테스트 사용자에게 이를 사용할 수 있는 권한을 부여해야 합니다. [Test-CsPersistentChatMessage](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPersistentChatMessage) cmdlet은 이러한 테스트 사용자를 올바르게 구성하는 데 사용할 수 있습니다.
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     $cred2 = Get-Credential "litwareinc\pilar"
@@ -61,7 +61,7 @@ Test-CsPersistentChatMessage로 만든 채팅방은 관리자만 삭제할 수 �
 
 ## PSTN 피어 투 피어 통화 가상 트랜잭션
 
-[Test-CsPstnPeerToPeerCall](test-cspstnpeertopeercall.md) 가상 트랜잭션은 PSTN(공중 전화망)을 통해 통화를 걸고 받는 기능을 확인합니다.
+[Test-CsPstnPeerToPeerCall](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPstnPeerToPeerCall) 가상 트랜잭션은 PSTN(공중 전화망)을 통해 통화를 걸고 받는 기능을 확인합니다.
 
 이 가상 트랜잭션을 실행하려면 관리자가 다음을 구성해야 합니다.
 

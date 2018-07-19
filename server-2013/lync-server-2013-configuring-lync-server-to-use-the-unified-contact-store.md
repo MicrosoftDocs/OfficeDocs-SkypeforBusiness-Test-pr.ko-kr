@@ -45,7 +45,7 @@ Lync Server 2013을 설치하면 단일 사용자 서비스 정책(전역 범위
 
 정책을 지정한 후 Lync Server는 사용자의 연락처를 통합 연락처 저장소로 마이그레이션하는 작업을 시작합니다. 마이그레이션이 완료된 후에는 사용자의 연락처가 Lync Server가 아닌 Exchange에 저장됩니다. 마이그레이션이 완료되었을 때 사용자가 Lync 2013에 로그온하면 메시지 상자가 나타나고 프로세스를 종료하기 위해 Lync에서 로그오프하고 다시 로그온하라는 요청이 표시됩니다. 이 사용자별 정책이 지정되지 않은 사용자의 연락처는 통합 연락처 저장소로 마이그레이션되지 않습니다. 이러한 사용자는 글로벌 정책에 의해 관리되며 해당 글로벌 정책에서 통합 연락처 저장소가 사용되지 않도록 설정되었기 때문입니다.
 
-사용자의 연락처가 통합 연락처 저장소에 성공적으로 마이그레이션되었는지 여부는 Lync Server 관리 셸 내에서 [Test-CsUnifiedContactStore](test-csunifiedcontactstore.md) cmdlet을 실행하여 확인할 수 있습니다.
+사용자의 연락처가 통합 연락처 저장소에 성공적으로 마이그레이션되었는지 여부는 Lync Server 관리 셸 내에서 [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore) cmdlet을 실행하여 확인할 수 있습니다.
 
     Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -71,7 +71,7 @@ Test-CsUnifiedContactStore가 성공하면 sip:kenmyer@litwareinc.com 사용자�
 
 통합 연락처 저장소를 사용할 때는 "Ken의 연락처가 통합 연락처 저장소로 마이그레이션되지 않도록 방지"한다는 표현을 기억해야 합니다. 단순히 Ken에게 새로운 사용자 서비스 정책을 지정한다고 해서 이 사용자의 연락처가 통합 연락처 저장소에서 제거되는 것은 아닙니다. 사용자가 Lync Server 2013에 로그온하면 시스템이 해당 사용자의 사용자 서비스 정책을 검사해서 이 사용자의 연락처를 통합 연락처 저장소에 보관해야 하는지 여부를 확인합니다. 답변이 예인 경우(즉, UcsAllowed 속성이 $True로 설정된 경우)에는 해당 연락처가 통합 연락처 저장소로 마이그레이션됩니다(해당 연락처가 아직 통합 연락처 저장소에 없다고 가정). 답변이 아니요인 경우 Lync Server는 단순히 사용자의 연락처를 무시하고 다음 작업으로 이동합니다. 즉, UcsAllowed 속성의 값에 관계없이 Lync Server가 사용자의 연락처를 통합 연락처 저장소에서 자동으로 제거하지 않습니다.
 
-따라서 사용자에게 새 사용자 서비스 정책을 지정한 후[Invoke-CsUcsRollback](invoke-csucsrollback.md) cmdlet을 실행해서 사용자의 연락처를 Exchange 2013에서 Lync Server 2013으로 다시 옮겨야 한다는 것을 의미합니다. 예를 들어 Ken Myer에게 새로운 사용자 서비스 정책을 지정한 후 다음 명령을 사용하여 이 사용자의 연락처를 통합 연락처 저장소에서 제거할 수 있습니다.
+따라서 사용자에게 새 사용자 서비스 정책을 지정한 후[Invoke-CsUcsRollback](https://docs.microsoft.com/en-us/powershell/module/skype/Invoke-CsUcsRollback) cmdlet을 실행해서 사용자의 연락처를 Exchange 2013에서 Lync Server 2013으로 다시 옮겨야 한다는 것을 의미합니다. 예를 들어 Ken Myer에게 새로운 사용자 서비스 정책을 지정한 후 다음 명령을 사용하여 이 사용자의 연락처를 통합 연락처 저장소에서 제거할 수 있습니다.
 
     Invoke-CsUcsRollback -Identity "Ken Myer"
 

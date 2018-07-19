@@ -65,7 +65,7 @@ Windows PowerShell 및 **Grant-CsVoicePolicy** cmdlet을 사용하여 사용자�
 
 ## 여러 사용자에게 사용자별 음성 정책 할당
 
-  - 이 명령은 사용자별 음성 정책 FinanceVoicePolicy를 Active Directory의 Finance OU에 계정이 있는 모든 사용자에게 할당합니다. 이 명령에 사용되는 OU 매개 변수에 대한 자세한 내용은 [Get-CsUser](get-csuser.md) cmdlet에 대한 설명서를 참조하십시오.
+  - 이 명령은 사용자별 음성 정책 FinanceVoicePolicy를 Active Directory의 Finance OU에 계정이 있는 모든 사용자에게 할당합니다. 이 명령에 사용되는 OU 매개 변수에 대한 자세한 내용은 [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) cmdlet에 대한 설명서를 참조하십시오.
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
 
@@ -75,7 +75,7 @@ Windows PowerShell 및 **Grant-CsVoicePolicy** cmdlet을 사용하여 사용자�
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 
-자세한 내용은 [Grant-CsVoicePolicy](grant-csvoicepolicy.md) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy) cmdlet에 대한 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

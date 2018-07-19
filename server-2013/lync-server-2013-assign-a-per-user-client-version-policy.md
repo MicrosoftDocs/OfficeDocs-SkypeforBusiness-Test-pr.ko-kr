@@ -93,7 +93,7 @@ Grant-CsClientVersionPolicy cmdlet을 사용하여 사용자별 클라이언트 
 
 ## 사용자별 클라이언트 버전 정책을 여러 사용자에게 할당하려면
 
-  - 이 명령은 사용자별 클라이언트 버전 정책인 RedmondClientVersionPolicy를 현재 음성 정책인 RedmondVoicePolicy가 할당되어 있는 모든 사용자에게 할당합니다. 이 명령에 사용되는 Filter 매개 변수에 대한 자세한 내용은 [Get-CsUser](get-csuser.md) cmdlet에 대한 설명서를 참조하십시오.
+  - 이 명령은 사용자별 클라이언트 버전 정책인 RedmondClientVersionPolicy를 현재 음성 정책인 RedmondVoicePolicy가 할당되어 있는 모든 사용자에게 할당합니다. 이 명령에 사용되는 Filter 매개 변수에 대한 자세한 내용은 [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) cmdlet에 대한 설명서를 참조하십시오.
     
         Get-CsUser -Filter {VoicePolicy -eq "RedmondVoicePolicy"} | Grant-CsClientVersionPolicy -PolicyName "RedmondClientVersionPolicy"
 
@@ -103,7 +103,7 @@ Grant-CsClientVersionPolicy cmdlet을 사용하여 사용자별 클라이언트 
     
         Grant-CsClientVersionPolicy -Identity "Ken Myer" -PolicyName $Null
 
-자세한 내용은 [Grant-CsClientVersionPolicy](grant-csclientversionpolicy.md) cmdlet 관련 도움말 항목을 참조하십시오.
+자세한 내용은 [Grant-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientVersionPolicy) cmdlet 관련 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

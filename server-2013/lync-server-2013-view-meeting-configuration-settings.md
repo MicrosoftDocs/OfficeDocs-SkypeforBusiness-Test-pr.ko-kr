@@ -60,5 +60,5 @@ Lync Server 2013 제어판에서 모임 구성 설정을 사용하여 모임이 
         CustomFooterText                :
         AllowConferenceRecording        : True
 
-자세한 내용은 [Get-CsMeetingConfiguration](get-csmeetingconfiguration.md) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Get-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingConfiguration) cmdlet에 대한 도움말 항목을 참조하십시오.
 

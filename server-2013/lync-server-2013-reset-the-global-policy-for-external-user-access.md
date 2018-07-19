@@ -39,5 +39,5 @@ _**마지막으로 수정된 항목:** 2013-02-22_
     
         Remove-CsExternalAccessPolicy -Identity "global"
 
-자세한 내용은 [Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md) cmdlet 관련 도움말 항목을 참고하세요.
+자세한 내용은 [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy) cmdlet 관련 도움말 항목을 참고하세요.
 

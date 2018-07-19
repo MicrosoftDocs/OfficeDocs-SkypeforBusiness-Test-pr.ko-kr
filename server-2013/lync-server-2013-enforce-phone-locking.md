@@ -59,7 +59,7 @@ Set-CsUCPhoneConfiguration cmdlet을 사용하여 전화 잠금을 적용할 수
     
         Get-CsUCPhoneConfiguration | Set-CsUCPhoneConfiguration  -EnforcePhoneLock $True
 
-자세한 내용은 [Set-CsUCPhoneConfiguration](set-csucphoneconfiguration.md) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Set-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUCPhoneConfiguration) cmdlet에 대한 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

@@ -91,7 +91,7 @@ Lync Server 2013에서는 정책을 사용하여 Lync Server 2013에 있는 사�
     
         New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True -ArchiveExternal $True
 
-자세한 내용은 [New-CsArchivingPolicy](new-csarchivingpolicy.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [New-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingPolicy) cmdlet의 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

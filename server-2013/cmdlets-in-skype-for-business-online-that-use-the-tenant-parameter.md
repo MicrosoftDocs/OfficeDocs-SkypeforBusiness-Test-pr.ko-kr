@@ -19,7 +19,7 @@ _**마지막으로 수정된 항목:** 2015-06-22_
 
     Set-CsTenantPublicProvider -Tenant "bf19b7db-6960-41e5-a139-2aa373474354" -Provider "WindowsLive"
 
-이러한 cmdlet 중 하나를 실행할 때마다 테넌트 ID(예: bf19b7db-6960-41e5-a139-2aa373474354)를 입력할 필요는 없습니다. 대신 [Get-CsTenant](get-cstenant.md) cmdlet을 실행하여 테넌트 ID를 변수에 저장한 다음 다른 cmdlet 중 하나를 호출할 때 해당 변수를 사용하여 테넌트 ID를 검색할 수 있습니다. 예를 들면 다음과 같습니다.
+이러한 cmdlet 중 하나를 실행할 때마다 테넌트 ID(예: bf19b7db-6960-41e5-a139-2aa373474354)를 입력할 필요는 없습니다. 대신 [Get-CsTenant](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenant) cmdlet을 실행하여 테넌트 ID를 변수에 저장한 다음 다른 cmdlet 중 하나를 호출할 때 해당 변수를 사용하여 테넌트 ID를 검색할 수 있습니다. 예를 들면 다음과 같습니다.
 
     $x = (Get-CsTenant).TenantId
     Set-CsTenantPublicProvider -Tenant $x -Provider "WindowsLive"
@@ -34,17 +34,17 @@ _**마지막으로 수정된 항목:** 2015-06-22_
 
 다음 cmdlet는 테넌트 ID를 허용하지만 이 경우 매개 변수는 선택 사항이며 cmdlet을 호출할 때 입력하지 않아도 됩니다. Windows PowerShell이 현재 사용자가 연결되어 있는 비즈니스용 Skype Online 테넌트를 기준으로 테넌트 ID를 대신 입력합니다.
 
-  - [Get-CsTenant](get-cstenant.md)
+  - [Get-CsTenant](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenant)
 
-  - [Set-CsTenantFederationConfiguration](set-cstenantfederationconfiguration.md)
+  - [Set-CsTenantFederationConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsTenantFederationConfiguration)
 
-  - [Set-CsTenantHybridConfiguration](set-cstenanthybridconfiguration.md)
+  - [Set-CsTenantHybridConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTenantHybridConfiguration)
 
-  - [Get-CsTenantFederationConfiguration](get-cstenantfederationconfiguration.md)
+  - [Get-CsTenantFederationConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTenantFederationConfiguration)
 
-  - [Get-CsTenantHybridConfiguration](get-cstenanthybridconfiguration.md)
+  - [Get-CsTenantHybridConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantHybridConfiguration)
 
-  - [Get-CsTenantLicensingConfiguration](get-cstenantlicensingconfiguration.md)
+  - [Get-CsTenantLicensingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantLicensingConfiguration)
 
 예를 들어 다음 명령을 사용하여 **Get-CsTenantFederationConfiguration** cmdlet을 호출할 수 있습니다.
 
@@ -59,5 +59,5 @@ _**마지막으로 수정된 항목:** 2015-06-22_
 #### 개념
 
 [ID, 범위, 테넌트](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online Cmdlet](the-skype-for-business-online-cmdlets.md)
+[Lync Online Cmdlet](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

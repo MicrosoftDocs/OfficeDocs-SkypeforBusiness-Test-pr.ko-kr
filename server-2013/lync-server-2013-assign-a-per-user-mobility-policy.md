@@ -87,7 +87,7 @@ Lync Server 관리 셸 및 **Grant-CsMobilityPolicy** cmdlet을 사용하여 사
 
 ## 여러 사용자에게 사용자별 모바일 정책을 할당하려면
 
-  - 다음 명령을 실행하면 NorthAmericaMobilityPolicy 정책을 현재 할당받은 모든 사용자에게 사용자별 모바일 정책인 RedmondMobilityPolicy가 할당됩니다. 이 명령에 사용된 Filter 매개 변수에 대한 자세한 내용은 [Get-CsUser](get-csuser.md)를 참조하십시오.
+  - 다음 명령을 실행하면 NorthAmericaMobilityPolicy 정책을 현재 할당받은 모든 사용자에게 사용자별 모바일 정책인 RedmondMobilityPolicy가 할당됩니다. 이 명령에 사용된 Filter 매개 변수에 대한 자세한 내용은 [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)를 참조하십시오.
     
         Get-CsUser -Filter {MobilityPolicy -eq "NorthAmericaMobilityPolicy"} | Grant-CsMobilityPolicy -PolicyName "RedmondMobilityPolicy"
 
@@ -97,7 +97,7 @@ Lync Server 관리 셸 및 **Grant-CsMobilityPolicy** cmdlet을 사용하여 사
     
         Grant-CsMobilityPolicy -Identity "Ken Myer" -PolicyName $Null
 
-자세한 내용은 [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md)를 참조하십시오.
+자세한 내용은 [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy)를 참조하십시오.
 
 ## 참고 항목
 

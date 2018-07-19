@@ -196,7 +196,7 @@ Office Communications Server 2007 R2 에지 서버 및 디렉터에서 Lync Serv
     
         Set-CsAccessEdgeConfiguration
     
-    이러한 cmdlet에 대한 자세한 내용은 [Get-CsAccessEdgeConfiguration](get-csaccessedgeconfiguration.md) 및 [Set-CsAccessEdgeConfiguration](set-csaccessedgeconfiguration.md)을 참조하십시오.
+    이러한 cmdlet에 대한 자세한 내용은 [Get-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAccessEdgeConfiguration) 및 [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration)을 참조하십시오.
 
 4.  복제가 완료될 때까지 기다렸다가 Lync Server 2013 에지 서버를 온라인으로 설정하고 페더레이션 및 외부 액세스를 테스트합니다.
 

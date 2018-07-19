@@ -75,7 +75,7 @@ BranchCache를 사용하지 않도록 설정하는 방법에 대한 자세한 �
 
 ## Lync Web App 배포 확인
 
-Test-CsUcwaConference cmdlet을 사용하여 한 쌍의 테스트 사용자가 UCWA(Unified Communications Web API)를 사용해서 회의에 참가할 수 있는지 확인합니다. 이 cmdlet에 대한 자세한 내용은 Lync Server 관리 셸 설명서에서 [Test-CsUcwaConference](test-csucwaconference.md)를 참고하세요.
+Test-CsUcwaConference cmdlet을 사용하여 한 쌍의 테스트 사용자가 UCWA(Unified Communications Web API)를 사용해서 회의에 참가할 수 있는지 확인합니다. 이 cmdlet에 대한 자세한 내용은 Lync Server 관리 셸 설명서에서 [Test-CsUcwaConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUcwaConference)를 참고하세요.
 
 ## Windows Server 2008 R2에서 플러그인 설치 문제 해결
 

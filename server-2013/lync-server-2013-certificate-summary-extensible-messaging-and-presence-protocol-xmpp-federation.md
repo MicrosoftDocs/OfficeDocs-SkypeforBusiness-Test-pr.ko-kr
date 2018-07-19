@@ -62,6 +62,6 @@ XMPP(Extensible Messaging and Presence Protocol) 파트너와의 통신을 사�
 #### 기타 리소스
 
 [Lync Server 2013의 에지 인증서 설정](lync-server-2013-set-up-edge-certificates.md)  
-[Request-CsCertificate](request-cscertificate.md)  
-[Set-CsCertificate](set-cscertificate.md)
+[Request-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Request-CsCertificate)  
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)
 

@@ -19,7 +19,7 @@ PurgeSettings 테이블에는 오래된 통화 정보 기록을 CDR 데이터베
 
     Get-CsCdrConfiguration
 
-관리자는 PurgeSettings 테이블을 읽기 전용으로 간주해야 합니다. 즉, 통화 정보 삭제 설정은 [New-CsCdrConfiguration](new-cscdrconfiguration.md) 또는 [Set-CsCdrConfiguration](set-cscdrconfiguration.md) cmdlet을 사용해서만 변경해야 합니다.
+관리자는 PurgeSettings 테이블을 읽기 전용으로 간주해야 합니다. 즉, 통화 정보 삭제 설정은 [New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration) 또는 [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration) cmdlet을 사용해서만 변경해야 합니다.
 
 이 테이블은 Microsoft Lync Server 2013에서 도입되었습니다.
 

@@ -69,7 +69,7 @@ Windows PowerShell 및 **Grant-CsdialPlan** cmdlet을 사용하여 사용자별 
 
 ## 여러 사용자에게 사용자별 다이얼 플랜 할당
 
-  - 이 명령은 사용자별 다이얼 플랜 RedmondDialPlan을 Redmond 도시에서 작업하는 모든 사용자에게 할당합니다. 이 명령에 사용되는 LdapFilter 매개 변수에 대한 자세한 내용은 [Get-CsUser](get-csuser.md) cmdlet에 대한 설명서를 참조하십시오.
+  - 이 명령은 사용자별 다이얼 플랜 RedmondDialPlan을 Redmond 도시에서 작업하는 모든 사용자에게 할당합니다. 이 명령에 사용되는 LdapFilter 매개 변수에 대한 자세한 내용은 [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) cmdlet에 대한 설명서를 참조하십시오.
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
 
@@ -79,7 +79,7 @@ Windows PowerShell 및 **Grant-CsdialPlan** cmdlet을 사용하여 사용자별 
     
         Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
 
-자세한 내용은 [Grant-CsDialPlan](grant-csdialplan.md) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Grant-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsDialPlan) cmdlet에 대한 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

@@ -63,7 +63,7 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 
 
 
-응용 프로그램 수준 응답 그룹 구성 설정 집합은 풀당 하나만 정의할 수 있습니다. 이러한 설정에는 기본 통화 대기음 구성, 기본 통화 대기음 오디오 파일, 에이전트 되걸기 유예 기간, 통화 컨텍스트 구성 등이 있습니다. 이러한 구성 설정을 보려면 **Get-CsRgsConfiguration** cmdlet을 실행합니다. **Get-CsRgsConfiguration** cmdlet에 대한 자세한 내용은 [Get-CsRgsConfiguration](get-csrgsconfiguration.md)을 참조하십시오.
+응용 프로그램 수준 응답 그룹 구성 설정 집합은 풀당 하나만 정의할 수 있습니다. 이러한 설정에는 기본 통화 대기음 구성, 기본 통화 대기음 오디오 파일, 에이전트 되걸기 유예 기간, 통화 컨텍스트 구성 등이 있습니다. 이러한 구성 설정을 보려면 **Get-CsRgsConfiguration** cmdlet을 실행합니다. **Get-CsRgsConfiguration** cmdlet에 대한 자세한 내용은 [Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration)을 참조하십시오.
 
 \-ReplaceExistingSettings 매개 변수를 포함해 **Import-CsRgsConfiguration** cmdlet을 사용하여 풀 간에 이러한 응용 프로그램 수준 설정을 전송할 수는 있지만 이렇게 하면 대상 풀의 설정이 재정의됩니다.
 

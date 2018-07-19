@@ -63,7 +63,7 @@ Windows PowerShell 및 **Set-CsArchivingConfiguration** cmdlet을 사용하여 �
 
 ## 내보낸 보관 데이터 삭제만 사용
 
-  - [Export-CsArchivingData](export-csarchivingdata.md) cmdlet을 사용하여 데이터 파일로 내보낸 보관 레코드만 삭제하려면 PurgeExportedArchivedOnly 속성도 True($True)로 설정해야 합니다. 예를 들면 다음과 같습니다.
+  - [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData) cmdlet을 사용하여 데이터 파일로 내보낸 보관 레코드만 삭제하려면 PurgeExportedArchivedOnly 속성도 True($True)로 설정해야 합니다. 예를 들면 다음과 같습니다.
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
     
@@ -75,7 +75,7 @@ Windows PowerShell 및 **Set-CsArchivingConfiguration** cmdlet을 사용하여 �
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 
-보관 데이터 삭제용 추가 옵션을 비롯한 자세한 내용은 [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md) cmdlet에 대한 도움말 항목을 참조하십시오.
+보관 데이터 삭제용 추가 옵션을 비롯한 자세한 내용은 [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration) cmdlet에 대한 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

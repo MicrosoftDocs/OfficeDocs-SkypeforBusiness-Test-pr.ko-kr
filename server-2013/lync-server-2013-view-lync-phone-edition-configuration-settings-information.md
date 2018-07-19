@@ -49,7 +49,7 @@ Lync Server 관리 셸 및 **Get-CsUCPhoneConfiguration** cmdlet을 사용하여
         Voice8021p           : 0
         LoggingLevel         : Off
 
-자세한 내용은 [Get-CsUCPhoneConfiguration](get-csucphoneconfiguration.md)을 참조하십시오.
+자세한 내용은 [Get-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUCPhoneConfiguration)을 참조하십시오.
 
 ## 참고 항목
 

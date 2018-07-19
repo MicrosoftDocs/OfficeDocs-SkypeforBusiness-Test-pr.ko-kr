@@ -80,7 +80,7 @@ Get-CsClientPinInfo cmdlet을 사용하여 사용자 PIN 정보를 볼 수 있�
         LastPinChangeTime : 9/25/2012 1:35:03 PM
         PinExpirationTime :
 
-자세한 내용은 [Get-CsConferenceDisclaimer](get-csconferencedisclaimer.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Get-CsConferenceDisclaimer](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferenceDisclaimer) cmdlet의 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

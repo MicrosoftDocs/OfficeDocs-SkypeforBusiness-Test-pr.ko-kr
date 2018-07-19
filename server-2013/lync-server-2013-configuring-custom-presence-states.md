@@ -82,7 +82,7 @@ XML 구성 파일에서 하나 이상의 LCID(로캘 ID) 스키마를 지정하�
 
 5.  **Grant-CSClientPolicy** cmdlet를 사용하여 새로운 이 정책을 사용자에게 할당합니다.
 
-자세한 내용은 Lync Server 관리 셸 설명서에서 [New-CsClientPolicy](new-csclientpolicy.md) 및 [Grant-CsClientPolicy](grant-csclientpolicy.md)를 참조하십시오.
+자세한 내용은 Lync Server 관리 셸 설명서에서 [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) 및 [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy)를 참조하십시오.
 
 
 > [!NOTE]

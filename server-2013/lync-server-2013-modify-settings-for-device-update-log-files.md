@@ -116,5 +116,5 @@ Windows PowerShell 및 **Set-CsDeviceUpdateConfiguration** cmdlet 사용하여 �
     
         Set-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupTimeOfDay 03:00
 
-자세한 내용은 [Set-CsDeviceUpdateConfiguration](set-csdeviceupdateconfiguration.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsDeviceUpdateConfiguration) cmdlet의 도움말 항목을 참조하십시오.
 

@@ -17,11 +17,11 @@ _**마지막으로 수정된 항목:** 2015-06-22_
 
 허용 목록과 차단 목록(사용자가 어떤 외부 조직과 통신할 수 있는지 결정하는 목록)을 수정할 때 사용되는 cmdlet은 범위 또는 Identity를 사용하지 않습니다. 실제로 **New-CsEdgeAllowAllKnownDomains** cmdlet에는 매개 변수가 하나도 없습니다. 범위 또는 Identity를 사용하지 않는 cmdlet은 다음과 같습니다.
 
-  - [New-CsEdgeAllowAllKnownDomains](new-csedgeallowallknowndomains.md)
+  - [New-CsEdgeAllowAllKnownDomains](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowAllKnownDomains)
 
-  - [New-CsEdgeAllowList](new-csedgeallowlist.md)
+  - [New-CsEdgeAllowList](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowList)
 
-  - [New-CsEdgeDomainPattern](new-csedgedomainpattern.md)
+  - [New-CsEdgeDomainPattern](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeDomainPattern)
 
 **New-CsEdgeAllowList** cmdlet 및 **New-CsEdgeDomainPattern** cmdlet을 사용할 때에는 Domain 매개 변수를 포함해야 합니다. 예를 들면 다음과 같습니다.
 
@@ -32,5 +32,5 @@ _**마지막으로 수정된 항목:** 2015-06-22_
 #### 개념
 
 [ID, 범위, 테넌트](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online Cmdlet](the-skype-for-business-online-cmdlets.md)
+[Lync Online Cmdlet](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

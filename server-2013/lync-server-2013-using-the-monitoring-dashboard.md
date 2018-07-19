@@ -23,7 +23,7 @@ _**마지막으로 수정된 항목:** 2014-02-05_
 
   - 현재 달의 요약과 지난 6개월의 추세 요약(시스템 사용에만 해당)
 
-[Get-CsReportingConfiguration](get-csreportingconfiguration.md) cmdlet을 사용하여 Lync Server 2013 모니터링 보고서에 액세스하는 데 사용한 URL을 반환할 수 있습니다.
+[Get-CsReportingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsReportingConfiguration) cmdlet을 사용하여 Lync Server 2013 모니터링 보고서에 액세스하는 데 사용한 URL을 반환할 수 있습니다.
 
     Get-CsReportingConfiguration
 

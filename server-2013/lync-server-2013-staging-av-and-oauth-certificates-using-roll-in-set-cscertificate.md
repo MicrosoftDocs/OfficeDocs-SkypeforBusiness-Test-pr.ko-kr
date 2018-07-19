@@ -124,6 +124,6 @@ Set-CsCertificate, -Roll 및 -EffectiveDate가 이전 인증서를 계속 사용
 #### 기타 리소스
 
 [Lync Server 2013의 에지 인증서 설정](lync-server-2013-set-up-edge-certificates.md)  
-[Set-CsCertificate](set-cscertificate.md)  
-[Remove-CsCertificate](remove-cscertificate.md)
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)  
+[Remove-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCertificate)
 

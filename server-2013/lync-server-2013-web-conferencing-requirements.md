@@ -53,9 +53,9 @@ Lync Server 2013에서는 파일 저장소에 대해 RAID(Redundant Array of Ind
 
 다음 설정을 사용하여 모임에 대해 콘텐츠가 저장되는 방법을 관리할 수 있습니다.
 
-  - [Set-CsConferencingConfiguration](set-csconferencingconfiguration.md)에 있는 **ContentGracePeriod**는 모임 종료 후 웹 회의 콘텐츠가 서버에 남아 있는 기간을 설정합니다.
+  - [Set-CsConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingConfiguration)에 있는 **ContentGracePeriod**는 모임 종료 후 웹 회의 콘텐츠가 서버에 남아 있는 기간을 설정합니다.
 
-  - [Set-CsConferencingConfiguration](set-csconferencingconfiguration.md)에 있는 **MaxContentStorageMb**는 단일 모임 중 콘텐츠 저장을 위해 허용되는 최대 파일 공간의 양을 설정합니다.
+  - [Set-CsConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingConfiguration)에 있는 **MaxContentStorageMb**는 단일 모임 중 콘텐츠 저장을 위해 허용되는 최대 파일 공간의 양을 설정합니다.
 
 **MaxUploadFileSizeMb**는 Lync Web App의 파일 업로드 설정을 제한하지는 않습니다. Lync Web App의 파일 크기 업로드 제한은 약 30MB로 설정되며 IIS web.config 파일(/DataCollabWeb/Int\[Ext\]/Handler/web.config)을 통해 제어됩니다. Lync Web App에 대해 파일 크기 업로드 제한을 구성하려면 다음과 같이 web.config 파일에서 `maxRequestLength` 및 `maxAllowedContentLength`를 업데이트합니다.
 

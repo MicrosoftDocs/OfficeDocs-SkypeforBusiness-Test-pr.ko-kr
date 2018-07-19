@@ -53,7 +53,7 @@ _**마지막으로 수정된 항목:** 2015-03-09_
     
         Get-CsWebServiceConfiguration
 
-3.  필요에 따라 매개 변수를 True 또는 False로 설정하여 다음 명령을 실행합니다. 이 cmdlet의 매개 변수에 대한 자세한 내용은 Lync Server 2013 관리 셸 설명서의 [Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md)을 참고하세요.
+3.  필요에 따라 매개 변수를 True 또는 False로 설정하여 다음 명령을 실행합니다. 이 cmdlet의 매개 변수에 대한 자세한 내용은 Lync Server 2013 관리 셸 설명서의 [Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration)을 참고하세요.
     
         Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
 
@@ -61,5 +61,5 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 
 #### 기타 리소스
 
-[Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md)
+[Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration)
 

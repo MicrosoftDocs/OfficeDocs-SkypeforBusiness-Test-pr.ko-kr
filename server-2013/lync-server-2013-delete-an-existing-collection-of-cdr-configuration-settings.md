@@ -21,7 +21,7 @@ Microsoft Lync Server 2013을 설치하면 CDR 구성 설정에 대한 단일 �
 
 또한 전역 설정도 "삭제"할 수 있습니다. 하지만 전역 설정이 실제로 제거되지는 않습니다. 대신 해당 컬렉션의 모든 속성이 기본값으로 다시 설정됩니다. 예를 들어, CDR 구성 설정의 컬렉션에서는 기본적으로 삭제를 사용할 수 있도록 설정되어 있습니다. 삭제를 사용하지 않도록 전역 컬렉션을 수정한다고 가정해보겠습니다. 나중에 전역 설정을 삭제하면 모든 속성이 해당 기본값으로 다시 설정됩니다. 따라서 이 경우에는 삭제를 다시 사용할 수 있도록 설정됩니다.
 
-CDR 구성 설정은 Lync Server 제어판 또는 [Remove-CsCdrConfiguration](remove-cscdrconfiguration.md) cmdlet을 사용하여 제거할 수 있습니다.
+CDR 구성 설정은 Lync Server 제어판 또는 [Remove-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCdrConfiguration) cmdlet을 사용하여 제거할 수 있습니다.
 
 ## Lync Server 제어판을 사용하여 CDR 구성 설정을 제거하려면
 
@@ -55,5 +55,5 @@ Windows PowerShell 및 **Remove-CsCdrConfiguration** cmdlet을 사용하여 통�
     
         Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
 
-자세한 내용은 [Remove-CsCdrConfiguration](remove-cscdrconfiguration.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Remove-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCdrConfiguration) cmdlet의 도움말 항목을 참조하십시오.
 

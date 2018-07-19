@@ -59,7 +59,7 @@ Lync Server 2013 제어판에서는 보관 구성을 사용하여 중요 모드�
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 
-자세한 내용은 [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md) cmdlet 관련된 도움말 항목을 참조하십시오.
+자세한 내용은 [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration) cmdlet 관련된 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

@@ -39,5 +39,5 @@ _**마지막으로 수정된 항목:** 2014-10-03_
 
 #### 기타 리소스
 
-[New-CsConferenceDirectory](new-csconferencedirectory.md)
+[New-CsConferenceDirectory](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsConferenceDirectory)
 

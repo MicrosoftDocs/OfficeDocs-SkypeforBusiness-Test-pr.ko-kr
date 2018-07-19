@@ -21,7 +21,7 @@ Lync Server에서는 조직에 대해 유효하지만 할당된 사용자나 전
 
 
 > [!IMPORTANT]
-> 할당되지 않은 번호 테이블을 구성하려면 하나 이상의 알림을 정의하거나 Exchange UM 자동 전화 교환을 설정해야 합니다. 알림을 만드는 방법에 대한 자세한 내용은 <A href="lync-server-2013-create-an-announcement.md">Lync Server 2013에서 알림 만들기</A>를 참조하십시오. Exchange UM 설정이 구성되었는지 확인하려면 <STRONG>Get-CsExUmContact</STRONG> cmdlet을 실행합니다. 자세한 내용은 <A href="get-csexumcontact.md">Get-CsExUmContact</A>를 참조하십시오.
+> 할당되지 않은 번호 테이블을 구성하려면 하나 이상의 알림을 정의하거나 Exchange UM 자동 전화 교환을 설정해야 합니다. 알림을 만드는 방법에 대한 자세한 내용은 <A href="lync-server-2013-create-an-announcement.md">Lync Server 2013에서 알림 만들기</A>를 참조하십시오. Exchange UM 설정이 구성되었는지 확인하려면 <STRONG>Get-CsExUmContact</STRONG> cmdlet을 실행합니다. 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact">Get-CsExUmContact</A>를 참조하십시오.
 
 
 

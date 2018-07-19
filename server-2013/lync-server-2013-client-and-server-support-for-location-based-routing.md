@@ -143,7 +143,7 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 
 
 > [!NOTE]
-> Lync Mobile 2013 클라이언트용 VoIP를 사용하지 않도록 설정하려면 위치 기반 라우팅이 설정된 모든 사용자에 대해 IP 오디오/비디오 설정을 해제한 모바일 정책을 할당합니다. 모바일 정책에 대한 자세한 내용은 <A href="new-csmobilitypolicy.md">New-CsMobilityPolicy</A>를 참고하세요.
+> Lync Mobile 2013 클라이언트용 VoIP를 사용하지 않도록 설정하려면 위치 기반 라우팅이 설정된 모든 사용자에 대해 IP 오디오/비디오 설정을 해제한 모바일 정책을 할당합니다. 모바일 정책에 대한 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</A>를 참고하세요.
 
 
 

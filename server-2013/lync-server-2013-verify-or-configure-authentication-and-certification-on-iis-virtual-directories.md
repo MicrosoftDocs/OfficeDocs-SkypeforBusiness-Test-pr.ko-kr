@@ -19,7 +19,7 @@ _**마지막으로 수정된 항목:** 2012-05-25_
 
 
 > [!NOTE]
-> 다음 절차에서는 IIS에서 범용 Lync Server, 내부 웹 사이트 및 외부 웹 사이트에 사용되는 조합된 인증서를 요청하기 위한 절차를 정의합니다. Lync Server 2010에는 인증서 요청, 가져오기 및 지정을 관리하기 위한 일련의 Lync Server 관리 셸Windows PowerShell cmdlet이 포함되어 있습니다. 이 절차에서는 내부적으로 배포된 CA(인증 기관)가 요청을 처리할 수 있다고 가정합니다. Lync Server용으로 공용 인증서를 사용하거나 CA에서 오프라인 요청이 요구될 경우 이 항목의 세부 구문에서 –Output 매개 변수에 대한 정보를 확인하십시오. <A href="request-cscertificate.md">Request-CsCertificate</A>
+> 다음 절차에서는 IIS에서 범용 Lync Server, 내부 웹 사이트 및 외부 웹 사이트에 사용되는 조합된 인증서를 요청하기 위한 절차를 정의합니다. Lync Server 2010에는 인증서 요청, 가져오기 및 지정을 관리하기 위한 일련의 Lync Server 관리 셸Windows PowerShell cmdlet이 포함되어 있습니다. 이 절차에서는 내부적으로 배포된 CA(인증 기관)가 요청을 처리할 수 있다고 가정합니다. Lync Server용으로 공용 인증서를 사용하거나 CA에서 오프라인 요청이 요구될 경우 이 항목의 세부 구문에서 –Output 매개 변수에 대한 정보를 확인하십시오. <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Request-CsCertificate">Request-CsCertificate</A>
 
 
 
@@ -90,6 +90,6 @@ _**마지막으로 수정된 항목:** 2012-05-25_
 
 #### 기타 리소스
 
-[Get-CsCertificate](get-cscertificate.md)  
-[Set-CsCertificate](set-cscertificate.md)
+[Get-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCertificate)  
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)
 

@@ -57,7 +57,7 @@ Lync Server 2013에 대해 사용자가 설정되었고 Lync Server 2013에 있�
 
 ## 사용자별 보관 정책을 여러 사용자에게 지정
 
-  - 이 명령은 사용자별 보관 정책 RedmondArchivingPolicy를 계정이 등록자 풀 atl-cs-001.litwareinc.com에 있는 모든 사용자에게 지정합니다. 이 명령에 사용되는 필터 매개 변수에 대한 자세한 내용은 [Get-CsUser](get-csuser.md) cmdlet 설명서를 참조하십시오.
+  - 이 명령은 사용자별 보관 정책 RedmondArchivingPolicy를 계정이 등록자 풀 atl-cs-001.litwareinc.com에 있는 모든 사용자에게 지정합니다. 이 명령에 사용되는 필터 매개 변수에 대한 자세한 내용은 [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) cmdlet 설명서를 참조하십시오.
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -67,7 +67,7 @@ Lync Server 2013에 대해 사용자가 설정되었고 Lync Server 2013에 있�
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-자세한 내용은 [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md) cmdlet 설명서를 참조하십시오.
+자세한 내용은 [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy) cmdlet 설명서를 참조하십시오.
 
 ## 참고 항목
 

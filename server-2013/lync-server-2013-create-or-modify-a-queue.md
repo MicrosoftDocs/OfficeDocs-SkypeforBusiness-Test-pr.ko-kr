@@ -117,7 +117,7 @@ _**마지막으로 수정된 항목:** 2013-02-23_
     
 
     > [!NOTE]
-    > 프롬프트로 오디오 파일을 사용하려면 <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet을 사용합니다. 자세한 내용은 <A href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</A>을 참조하십시오.
+    > 프롬프트로 오디오 파일을 사용하려면 <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet을 사용합니다. 자세한 내용은 <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>을 참조하십시오.
 
 
 
@@ -127,7 +127,7 @@ _**마지막으로 수정된 항목:** 2013-02-23_
     
 
     > [!NOTE]
-    > 가능한 동작 및 구문에 대한 자세한 내용은 <A href="new-csrgscallaction.md">New-CsRgsCallAction</A>을 참조하십시오.
+    > 가능한 동작 및 구문에 대한 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>을 참조하십시오.
 
     
     예를 들면 다음과 같습니다.
@@ -144,7 +144,7 @@ _**마지막으로 수정된 항목:** 2013-02-23_
     
 
     > [!NOTE]
-    > 프롬프트로 오디오 파일을 사용하려면 <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet을 사용합니다. 자세한 내용은 <A href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</A>을 참조하십시오.
+    > 프롬프트로 오디오 파일을 사용하려면 <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet을 사용합니다. 자세한 내용은 <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>을 참조하십시오.
 
 
 
@@ -154,7 +154,7 @@ _**마지막으로 수정된 항목:** 2013-02-23_
     
 
     > [!NOTE]
-    > 가능한 동작 및 구문에 대한 자세한 내용은 <A href="new-csrgscallaction.md">New-CsRgsCallAction</A>을 참조하십시오.
+    > 가능한 동작 및 구문에 대한 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>을 참조하십시오.
 
     
     예를 들면 다음과 같습니다.
@@ -171,7 +171,7 @@ _**마지막으로 수정된 항목:** 2013-02-23_
     
 
     > [!NOTE]
-    > 에이전트 그룹을 만드는 방법에 대한 자세한 내용은 <A href="new-csrgsagentgroup.md">New-CsRgsAgentGroup</A>을 참조하십시오.
+    > 에이전트 그룹을 만드는 방법에 대한 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</A>을 참조하십시오.
 
 
 
@@ -191,11 +191,11 @@ _**마지막으로 수정된 항목:** 2013-02-23_
 
 #### 기타 리소스
 
-[New-CsRgsQueue](new-csrgsqueue.md)  
-[Set-CsRgsQueue](set-csrgsqueue.md)  
-[New-CsRgsPrompt](new-csrgsprompt.md)  
-[New-CsRgsCallAction](new-csrgscallaction.md)  
-[Get-CsRgsQueue](get-csrgsqueue.md)  
-[Import-CsRgsAudioFile](import-csrgsaudiofile.md)  
-[Remove-CsRgsQueue](remove-csrgsqueue.md)
+[New-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsQueue)  
+[Set-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsQueue)  
+[New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt)  
+[New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction)  
+[Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsQueue)  
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)  
+[Remove-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsRgsQueue)
 

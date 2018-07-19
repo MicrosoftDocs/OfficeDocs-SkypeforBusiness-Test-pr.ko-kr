@@ -79,7 +79,7 @@ Windows PowerShell 및 **New-CsMobilityPolicy** cmdlet을 사용하여 사이트
     
         New-CsMobilityPolicy "site:Redmond" -EnableMobility $False -EnableOutsideVoice $False
 
-자세한 내용은 [New-CsMobilityPolicy](new-csmobilitypolicy.md) 및 [Set-CsMobilityPolicy](set-csmobilitypolicy.md) cmdlet 관련 도움말 항목을 참조하십시오.
+자세한 내용은 [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy) 및 [Set-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMobilityPolicy) cmdlet 관련 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

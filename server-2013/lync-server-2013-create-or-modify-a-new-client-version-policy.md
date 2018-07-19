@@ -41,7 +41,7 @@ _**마지막으로 수정된 항목:** 2013-02-23_
 
 ## Windows PowerShell cmdlet을 사용하여 클라이언트 버전 정책 만들기 또는 수정
 
-**New-CsClientVersionPolicy** cmdlet을 사용하여 클라이언트 버전 정책을 만들고 **Set-CsClientVersionPolicy** cmdlet을 사용하여 정책을 수정할 수 있습니다. 이러한 cmdlet은 Lync Server 2013 관리 셸Windows PowerShell 또는 원격 Windows PowerShell을 사용하여 Lync Server에 연결하는 방법에 대한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서인 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876))를 참조하세요.의 원격 세션에서 실행할 수 있습니다.
+**New-CsClientVersionPolicy** cmdlet을 사용하여 클라이언트 버전 정책을 만들고 **set-csclientversionpolicy** cmdlet을 사용하여 정책을 수정할 수 있습니다. 이러한 cmdlet은 Lync Server 2013 관리 셸Windows PowerShell 또는 원격 Windows PowerShell을 사용하여 Lync Server에 연결하는 방법에 대한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서인 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876))를 참조하세요.의 원격 세션에서 실행할 수 있습니다.
 
 ## 새 사이트 범위 클라이언트 버전 정책을 만들려면
 
@@ -55,5 +55,5 @@ _**마지막으로 수정된 항목:** 2013-02-23_
     
         New-CsClientVersionPolicy -Identity "RedmondClientVersionPolicy"
 
-자세한 내용은 [New-CsClientVersionPolicy](new-csclientversionpolicy.md) cmdlet 및 [Set-CsClientVersionPolicy](set-csclientversionpolicy.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [New-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionPolicy) cmdlet 및 [set-csclientversionpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy) cmdlet의 도움말 항목을 참조하십시오.
 

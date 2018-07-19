@@ -55,7 +55,7 @@ Lync Server 관리 셸 및 **Get-CsWindowsService** cmdlet을 사용하여 서�
         {ConferencingServer}                      Running
         {MediationServer}                         Running
 
-자세한 내용은 [Get-CsWindowsService](get-cswindowsservice.md)를 참조하십시오.
+자세한 내용은 [Get-CsWindowsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsWindowsService)를 참조하십시오.
 
 ## 참고 항목
 

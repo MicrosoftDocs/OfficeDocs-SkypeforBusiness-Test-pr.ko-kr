@@ -19,7 +19,7 @@ _**마지막으로 수정된 항목:** 2012-09-24_
 
 자세한 내용은 계획 설명서에서 [Lync Server 2013의 호스팅된 Exchange 사용자 관리](lync-server-2013-hosted-exchange-user-management.md)을 참고하세요.
 
-[Set-CsUser](set-csuser.md) cmdlet에 대한 자세한 내용은 Lync Server 관리 셸 설명서를 참조하십시오.
+[Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser) cmdlet에 대한 자세한 내용은 Lync Server 관리 셸 설명서를 참조하십시오.
 
 
 > [!IMPORTANT]

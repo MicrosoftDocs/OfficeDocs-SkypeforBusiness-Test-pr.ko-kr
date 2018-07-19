@@ -38,5 +38,5 @@ _**마지막으로 수정된 항목:** 2013-10-02_
     
         Set-CsMeetingRoom -Identity "Redmond Conferencing device" -LineUri "tel:+12065551219"
 
-자세한 내용은 [Enable-CsMeetingRoom](enable-csmeetingroom.md) cmdlet 및 [Set-CsMeetingRoom](set-csmeetingroom.md) cmdlet의 도움말 항목을 참고하세요.
+자세한 내용은 [Enable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsMeetingRoom) cmdlet 및 [Set-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMeetingRoom) cmdlet의 도움말 항목을 참고하세요.
 

@@ -19,7 +19,7 @@ Lync Server 2013에는 MAC 주소를 포트 및 스위치 정보와 일치시키
 
 SNMP 응용 프로그램이 설치되고 위치 정보 서비스가 위치 데이터베이스에서 일치하는 항목을 찾지 못한 경우 위치 정보 서비스는 클라이언트에서 제공한 MAC 주소를 사용하여 응용 프로그램을 자동으로 쿼리합니다. 그러면 위치 정보 서비스가 SNMP 응용 프로그램에서 반환한 포트 및 스위치 정보를 사용하여 위치 데이터베이스를 다시 쿼리합니다.
 
-자세한 내용은 [Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md)을 참조하십시오.
+자세한 내용은 [Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration)을 참조하십시오.
 
 
 > [!NOTE]

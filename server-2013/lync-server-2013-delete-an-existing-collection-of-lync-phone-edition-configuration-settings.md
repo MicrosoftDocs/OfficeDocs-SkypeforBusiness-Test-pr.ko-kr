@@ -63,5 +63,5 @@ Windows PowerShell 및 **Remove-CsUCConfiguration** cmdlet을 사용하여 Lync 
     
         Get-CsUCPhoneConfiguration | Where-Object {$_.EnforcePhoneLock -eq $False} | Remove-CsUCPhoneConfiguration
 
-자세한 내용은 [Remove-CsUCPhoneConfiguration](remove-csucphoneconfiguration.md)을 참조하십시오.
+자세한 내용은 [Remove-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUCPhoneConfiguration)을 참조하십시오.
 

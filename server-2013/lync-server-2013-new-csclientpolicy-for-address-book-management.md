@@ -37,5 +37,5 @@ New-CsClientPolicy cmdlet은 Lync Server 2013에서 사용할 수 있는 기능�
 
 #### 기타 리소스
 
-[New-CsClientPolicy](new-csclientpolicy.md)
+[New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy)
 

@@ -53,7 +53,7 @@ Windows PowerShell 및 **Remove-CsDeviceUpdateRule** cmdlet을 사용하여 장�
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*" | Remove-CsDeviceUpdateRule
 
-자세한 내용은 [Remove-CsDeviceUpdateRule](remove-csdeviceupdaterule.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Remove-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsDeviceUpdateRule) cmdlet의 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

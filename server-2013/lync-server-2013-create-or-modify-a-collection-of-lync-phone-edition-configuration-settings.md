@@ -65,7 +65,7 @@ Lync Server를 설치하면 Lync Phone Edition 설정에 대한 전역 컬렉션
     
         New-CsUCPhoneConfiguration -Identity "site:Redmond" -EnforcePhoneLock $True -MinPhonePinLength 8
 
-자세한 내용은 [New-CsUCPhoneConfiguration](new-csucphoneconfiguration.md)를 참조하십시오.
+자세한 내용은 [New-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUCPhoneConfiguration)를 참조하십시오.
 
 ## 참고 항목
 

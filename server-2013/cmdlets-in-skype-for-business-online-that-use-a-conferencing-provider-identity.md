@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**마지막으로 수정된 항목:** 2015-06-22_
 
-조직이 계약을 맺은 모든 오디오 회의 공급자에 대한 정보를 반환하려는 경우, 매개 변수 없이 [Get-CsAudioConferencingProvider](get-csaudioconferencingprovider.md) cmdlet만 호출하면 됩니다.
+조직이 계약을 맺은 모든 오디오 회의 공급자에 대한 정보를 반환하려는 경우, 매개 변수 없이 [Get-CsAudioConferencingProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsAudioConferencingProvider) cmdlet만 호출하면 됩니다.
 
     Get-CsAudioConferencingProvider
 
@@ -25,12 +25,12 @@ _**마지막으로 수정된 항목:** 2015-06-22_
 
 오디오 회의 공급자 ID를 허용하는 비즈니스용 Skype Online cmdlet은 단 하나뿐입니다.
 
-  - [Get-CsAudioConferencingProvider](get-csaudioconferencingprovider.md)
+  - [Get-CsAudioConferencingProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsAudioConferencingProvider)
 
 ## 참고 항목
 
 #### 개념
 
 [ID, 범위, 테넌트](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online Cmdlet](the-skype-for-business-online-cmdlets.md)
+[Lync Online Cmdlet](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

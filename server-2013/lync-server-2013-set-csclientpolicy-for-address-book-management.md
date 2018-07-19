@@ -31,5 +31,5 @@ New-CsClientPolicy와 비슷한 Set-CsClientPolicy cmdlet를 통해 이미 지�
 
 #### 기타 리소스
 
-[Set-CsClientPolicy](set-csclientpolicy.md)
+[Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy)
 

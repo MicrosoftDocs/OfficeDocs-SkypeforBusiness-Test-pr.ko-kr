@@ -23,5 +23,5 @@ _**마지막으로 수정된 항목:** 2014-02-05_
 
     Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.litwareinc.com\ITChatRoom" -UserUri "sip:kenmyer@litwareinc.com" -ReplaceMessage "This message is no longer available."
 
-자세한 내용은 [Remove-CsPersistentChatMessage](remove-cspersistentchatmessage.md) cmdlet 관련 도움말 항목을 참고하세요.
+자세한 내용은 [Remove-CsPersistentChatMessage](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsPersistentChatMessage) cmdlet 관련 도움말 항목을 참고하세요.
 

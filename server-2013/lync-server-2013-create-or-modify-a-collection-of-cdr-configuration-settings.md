@@ -19,7 +19,7 @@ CDR(통화 정보 기록)을 사용하면 피어 투 피어 메신저 대화 세
 
 Microsoft Lync Server 2013을 설치하면 CDR 구성 설정의 전체 컬렉션이 하나 만들어집니다. 관리자에게는 또한 사이트 범위에서 사용자 지정 설정을 만드는 옵션이 제공됩니다. 이러한 사이트 범위의 설정은 사용될 때마다 전역 설정보다 높은 우선 순위를 갖습니다. 예를 들어 레드몬드 사이트에 사이트 범위의 설정을 만들면 전역 설정이 아닌 해당 설정이 레드몬드의 CDR 관리에 사용됩니다.
 
-Lync Server 제어판 또는 [New-CsCdrConfiguration](new-cscdrconfiguration.md) cmdlet 중 하나를 사용하여 CDR 구성 설정을 만들 수 있습니다. Lync Server 제어판 또는 [Set-CsCdrConfiguration](set-cscdrconfiguration.md) cmdlet을 사용하여 기존 설정을 수정할 수 있습니다. Lync Server 제어판을 사용하여 설정을 만들고 수정하는 경우 다음 옵션을 사용할 수 있습니다.
+Lync Server 제어판 또는 [New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration) cmdlet 중 하나를 사용하여 CDR 구성 설정을 만들 수 있습니다. Lync Server 제어판 또는 [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration) cmdlet을 사용하여 기존 설정을 수정할 수 있습니다. Lync Server 제어판을 사용하여 설정을 만들고 수정하는 경우 다음 옵션을 사용할 수 있습니다.
 
 
 <table>
@@ -67,7 +67,7 @@ Lync Server 제어판 또는 [New-CsCdrConfiguration](new-cscdrconfiguration.md)
 
 
 > [!NOTE]
-> New-CsCdrConfiguration 및 Set-CsCdrConfiguration cmdlet에 포함된 추가 옵션 중에는 Lync Server 제어판에서 사용할 수 없는 것이 있습니다. 자세한 내용은 <A href="new-cscdrconfiguration.md">New-CsCdrConfiguration</A> 및 <A href="set-cscdrconfiguration.md">Set-CsCdrConfiguration</A> 도움말 항목을 참조하십시오.
+> New-CsCdrConfiguration 및 Set-CsCdrConfiguration cmdlet에 포함된 추가 옵션 중에는 Lync Server 제어판에서 사용할 수 없는 것이 있습니다. 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration">New-CsCdrConfiguration</A> 및 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</A> 도움말 항목을 참조하십시오.
 
 
 
@@ -111,5 +111,5 @@ CDR 구성 설정을 Windows PowerShell 및 **New-CsCdrConfiguration** cmdlet을
     
         New-CsCdrConfiguration -Identity "site:Redmond" -KeepCallDetailForDays 30 -KeepErrorReportForDays 90
 
-자세한 내용은 [New-CsCdrConfiguration](new-cscdrconfiguration.md) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration) cmdlet에 대한 도움말 항목을 참조하십시오.
 

@@ -140,7 +140,7 @@ System Center Operations Manager를 사용하기 위해 감시자 노드를 설�
 
 
 > [!NOTE]
-> 관리자는 또한 Operations Manager를 사용하거나 설치할 필요 없이 가상 트랜잭션을 수동으로 실행할 수 있습니다. 다양한 Test-Cs cmdlet에 대한 자세한 내용은 <A href="lync-server-2013-cmdlets-index.md">Lync Server 2013 Cmdlet 인덱스</A>를 참고하세요.
+> 관리자는 또한 Operations Manager를 사용하거나 설치할 필요 없이 가상 트랜잭션을 수동으로 실행할 수 있습니다. 다양한 Test-Cs cmdlet에 대한 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps">Lync Server 2013 Cmdlet 인덱스</A>를 참고하세요.
 
 
 

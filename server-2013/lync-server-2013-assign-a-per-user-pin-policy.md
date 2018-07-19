@@ -93,7 +93,7 @@ Lync Server 관리 셸 및 **Grant-CsPinPolicy** cmdlet을 사용하여 사용�
 
 ## 여러 사용자에게 사용자별 PIN 정책을 할당하려면
 
-  - 다음 명령을 실행하면 사용자별 PIN 정책인 RedmondUsersPinPolicy를 레드몬드 시에서 작업하는 모든 사용자에게 할당할 수 있습니다. 이 명령에 사용된 LdapFilter 매개 변수에 대한 자세한 내용은 [Get-CsUser](get-csuser.md)를 참조하십시오.
+  - 다음 명령을 실행하면 사용자별 PIN 정책인 RedmondUsersPinPolicy를 레드몬드 시에서 작업하는 모든 사용자에게 할당할 수 있습니다. 이 명령에 사용된 LdapFilter 매개 변수에 대한 자세한 내용은 [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)를 참조하십시오.
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
 
@@ -103,7 +103,7 @@ Lync Server 관리 셸 및 **Grant-CsPinPolicy** cmdlet을 사용하여 사용�
     
         Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
 
-자세한 내용은 [Grant-CsPinPolicy](grant-cspinpolicy.md)를 참조하십시오.
+자세한 내용은 [Grant-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPinPolicy)를 참조하십시오.
 
 ## 참고 항목
 

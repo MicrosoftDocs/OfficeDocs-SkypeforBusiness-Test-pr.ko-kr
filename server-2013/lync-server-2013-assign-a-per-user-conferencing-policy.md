@@ -95,7 +95,7 @@ _**마지막으로 수정된 항목:** 2013-02-22_
 
 ## 사용자별 회의 정책을 여러 사용자에게 지정
 
-  - 이 명령은 사용자별 회의 정책 HRConferencingPolicy를 인사 부서에서 근무하는 모든 사용자에게 지정합니다. 이 명령에 사용된 LdapFilter 매개 변수에 대한 자세한 내용은 [Get-CsUser](get-csuser.md) cmdlet의 설명서를 참조하십시오.
+  - 이 명령은 사용자별 회의 정책 HRConferencingPolicy를 인사 부서에서 근무하는 모든 사용자에게 지정합니다. 이 명령에 사용된 LdapFilter 매개 변수에 대한 자세한 내용은 [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) cmdlet의 설명서를 참조하십시오.
     
         Get-CsUser -LdapFilter "Department=Human Resources" | Grant-CsConferencingPolicy -PolicyName "HRConferencingPolicy"
 
@@ -105,7 +105,7 @@ _**마지막으로 수정된 항목:** 2013-02-22_
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-자세한 내용은 [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy) cmdlet의 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

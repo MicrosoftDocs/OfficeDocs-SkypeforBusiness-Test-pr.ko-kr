@@ -33,7 +33,7 @@ cmdlet을 실행하려면 관리자 권한으로 실행 명령을 사용하여 L
     
         Invoke-CsManagementServerFailover -BackupSqlServerFqdn <Pool B BE FQDN> -BackupSqlInstanceName <Pool B BE instance name> [-BackupMirrorSqlServerFqdn <Pool B Mirror BE FQDN> -BackupMirrorSqlInstanceName <Pool B Mirror BE Instance name>] -Force -Verbose
     
-    이 작업을 수행한 후에는 탄성을 개선하기 위해 CMS를 풀 B에서 쌍을 이루는 기존의 다른 풀로 이동하는 것이 좋습니다. 자세한 내용은 [Move-CsManagementServer](move-csmanagementserver.md)를 참조하십시오.
+    이 작업을 수행한 후에는 탄성을 개선하기 위해 CMS를 풀 B에서 쌍을 이루는 기존의 다른 풀로 이동하는 것이 좋습니다. 자세한 내용은 [Move-CsManagementServer](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsManagementServer)를 참조하십시오.
 
 3.  풀 A에 CMS가 포함되어 있으면 LIS 구성을 풀 A에서 풀 B의 LIS 데이터베이스(Lis.mdf)로 가져옵니다. 이 작업은 LIS 데이터를 정기적으로 백업한 경우에만 수행할 수 있습니다. LIS 구성을 가져오려면 다음 cmdlet을 실행합니다.
     

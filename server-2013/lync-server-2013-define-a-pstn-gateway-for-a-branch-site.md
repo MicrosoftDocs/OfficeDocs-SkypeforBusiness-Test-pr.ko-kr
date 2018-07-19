@@ -50,7 +50,7 @@ _**마지막으로 수정된 항목:** 2012-09-21_
 
 
 > [!TIP]
-> PSTN 게이트웨이의 속성을 수정하려면 <STRONG>Set-CsPstnGateway</STRONG> cmdlet을 사용합니다. 자세한 내용은 Lync Server 관리 셸 도움말의 <A href="set-cspstngateway.md">Set-CsPstnGateway</A>를 참조하십시오.
+> PSTN 게이트웨이의 속성을 수정하려면 <STRONG>Set-CsPstnGateway</STRONG> cmdlet을 사용합니다. 자세한 내용은 Lync Server 관리 셸 도움말의 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPstnGateway">Set-CsPstnGateway</A>를 참조하십시오.
 
 
 

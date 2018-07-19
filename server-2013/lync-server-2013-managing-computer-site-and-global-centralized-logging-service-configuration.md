@@ -31,7 +31,7 @@ Lync Server 관리 셸을 사용하여 중앙 로깅 서비스 범위를 구성�
 
 
 
-단일 컴퓨터 범위는 [Search-CsClsLogging](search-csclslogging.md), [Show-CsClsLogging](show-csclslogging.md), [Start-CsClsLogging](start-csclslogging.md), [Stop-CsClsLogging](stop-csclslogging.md), [Sync-CsClsLogging](sync-csclslogging.md), [Update-CsClsLogging](update-csclslogging.md) 명령을 실행할 때 –Computers 매개 변수를 사용하여 정의할 수 있습니다. -Computers 매개 변수에는 대상 컴퓨터 FQDN(정규화된 도메인 이름)의 쉼표로 구분된 목록이 허용됩니다.
+단일 컴퓨터 범위는 [Search-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging), [Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging), [Start-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Start-CsClsLogging), [Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging), [Sync-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Sync-CsClsLogging), [Update-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsClsLogging) 명령을 실행할 때 –Computers 매개 변수를 사용하여 정의할 수 있습니다. -Computers 매개 변수에는 대상 컴퓨터 FQDN(정규화된 도메인 이름)의 쉼표로 구분된 목록이 허용됩니다.
 
 
 > [!TIP]
@@ -43,7 +43,7 @@ Lync Server 관리 셸을 사용하여 중앙 로깅 서비스 범위를 구성�
 
 
 > [!IMPORTANT]
-> 예로 든 명령들에는 다른 섹션에서 설명하는 매개 변수와 개념이 포함되어 있을 수 있습니다. 이러한 명령은 <STRONG>-Identity</STRONG> 매개 변수를 사용하여 범위를 정의하는 방법을 보여 주기 위한 것이며, 다른 매개 변수들은 예제 명령을 완성하고 그러한 범위를 지정하는 방법을 보여 주기 위해 사용됩니다. <STRONG>Set-CsClsConfiguration</STRONG> cmdlet에 대한 자세한 내용은 작업 설명서에서 <A href="set-csclsconfiguration.md">Set-CsClsConfiguration</A>을 참조하십시오.
+> 예로 든 명령들에는 다른 섹션에서 설명하는 매개 변수와 개념이 포함되어 있을 수 있습니다. 이러한 명령은 <STRONG>-Identity</STRONG> 매개 변수를 사용하여 범위를 정의하는 방법을 보여 주기 위한 것이며, 다른 매개 변수들은 예제 명령을 완성하고 그러한 범위를 지정하는 방법을 보여 주기 위해 사용됩니다. <STRONG>Set-CsClsConfiguration</STRONG> cmdlet에 대한 자세한 내용은 작업 설명서에서 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration">Set-CsClsConfiguration</A>을 참조하십시오.
 
 
 
@@ -129,7 +129,7 @@ Lync Server 관리 셸을 사용하여 중앙 로깅 서비스 범위를 구성�
     
 
     > [!NOTE]
-    > New-CsClsConfiguration을 사용하면 다수의 선택적 구성 설정에 액세스할 수 있습니다. 구성 옵션에 대한 자세한 내용은 <A href="get-csclsconfiguration.md">Get-CsClsConfiguration</A> 및 <A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">중앙화된 로깅 서비스 구성 설정 이해</A>를 참조하십시오.
+    > New-CsClsConfiguration을 사용하면 다수의 선택적 구성 설정에 액세스할 수 있습니다. 구성 옵션에 대한 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration">Get-CsClsConfiguration</A> 및 <A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">중앙화된 로깅 서비스 구성 설정 이해</A>를 참조하십시오.
 
     
     예를 들어 캐시 파일의 네트워크 폴더, 로그 파일의 롤오버 기간 및 로그 파일의 롤오버 크기를 정의하는 새로운 구성을 만들려면 다음 명령을 입력합니다.
@@ -167,8 +167,8 @@ Lync Server 관리 셸을 사용하여 중앙 로깅 서비스 범위를 구성�
 #### 기타 리소스
 
 [PowerShell로 중앙화된 로깅 서비스 구성 설정 관리](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)  
-[Set-CsClsConfiguration](set-csclsconfiguration.md)  
-[Get-CsClsConfiguration](get-csclsconfiguration.md)  
-[New-CsClsConfiguration](new-csclsconfiguration.md)  
-[Remove-CsClsConfiguration](remove-csclsconfiguration.md)
+[Set-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration)  
+[Get-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration)  
+[New-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsConfiguration)  
+[Remove-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsConfiguration)
 

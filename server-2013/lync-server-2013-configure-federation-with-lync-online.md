@@ -47,13 +47,13 @@ Move-CsUser : HostedMigration fault: Error=(510), Description=(이 사용자의 
 
     Import-PSSession $CSSession -AllowClobber
 
-원격 PowerShell 세션을 비즈니스용 Skype Online에 설정하는 방법에 대한 자세한 내용은 [Windows PowerShell을 사용하여 Lync Online에 연결](connecting-to-skype-for-business-online-by-using-windows-powershell.md)을 참고하세요.
+원격 PowerShell 세션을 비즈니스용 Skype Online에 설정하는 방법에 대한 자세한 내용은 [Windows PowerShell을 사용하여 Lync Online에 연결](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)을 참고하세요.
 
-비즈니스용 Skype Online PowerShell 모듈 사용에 대한 자세한 내용은 [Windows PowerShell을 사용하여 Lync Online 관리](skype-for-business-online-using-windows-powershell-to-manage-your-tenant.md)를 참고하세요.
+비즈니스용 Skype Online PowerShell 모듈 사용에 대한 자세한 내용은 [Windows PowerShell을 사용하여 Lync Online 관리](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)를 참고하세요.
 
 ## 참고 항목
 
 #### 기타 리소스
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

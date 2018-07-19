@@ -21,7 +21,7 @@ Lync Server에서는 주소록 서비스를 관리 및 구성하기 위한 여�
 
 ## 이 단원의 내용
 
-  - [주소록 관리용 New-CsAddressBookConfiguration](lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md)
+  - [주소록 관리용 new-csaddressbookconfiguration](lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md)
 
   - [주소록 관리용 Set-CsAddressBookConfiguration](lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md)
 
@@ -41,7 +41,7 @@ Lync Server에서는 주소록 서비스를 관리 및 구성하기 위한 여�
 
   - [주소록 관리용 Get-CsService](lync-server-2013-get-csservice-for-address-book-management.md)
 
-  - [주소록용 New-CsWebServiceConfiguration](lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md)
+  - [주소록용 new-cswebserviceconfiguration](lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md)
 
   - [주소록 관리용 Get-CsWebServiceConfiguration](lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md)
 

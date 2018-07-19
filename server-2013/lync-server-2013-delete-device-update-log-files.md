@@ -51,5 +51,5 @@ Windows PowerShell 및 **Clear-CsDeviceUpdateLog** cmdlet 사용하여 장치 �
     
         Get-CsService -WebServer | Foreach-Object {Clear-CsDeviceUpdateLog -Identity $_.Identity -DaysBack 10}
 
-자세한 내용은 [Clear-CsDeviceUpdateLog](clear-csdeviceupdatelog.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Clear-CsDeviceUpdateLog](https://docs.microsoft.com/en-us/powershell/module/skype/Clear-CsDeviceUpdateLog) cmdlet의 도움말 항목을 참조하십시오.
 

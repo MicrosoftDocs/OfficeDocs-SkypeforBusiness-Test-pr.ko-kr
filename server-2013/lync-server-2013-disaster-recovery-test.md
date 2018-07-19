@@ -85,11 +85,11 @@ Lync Server 2013 사용자 이동 프로세스를 통해 RTC SQL 데이터베이
 #### 개념
 
 [Lync Server 2013의 고가용성 및 재해 복구 계획](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
-[백업 및 고가용성 Cmdlet](lync-server-2013-backup-and-high-availability-cmdlets.md)  
+[백업 및 고가용성 Cmdlet](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)  
 
 #### 기타 리소스
 
-[Import-CsConfiguration](import-csconfiguration.md)  
+[Import-CsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsConfiguration)  
 [Lync Server 2013 백업 및 복원](lync-server-2013-backing-up-and-restoring-lync-server.md)  
 [Lync Server 2013 재해 복구, 고가용성 및 백업 서비스 관리](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)
 

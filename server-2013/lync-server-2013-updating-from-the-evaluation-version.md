@@ -43,7 +43,7 @@ Microsoft Lync Server 2013의 평가판 버전을 설치한 경우에는 해당 
 
     Get-CsServerVersion
 
-[Get-CsServerVersion](get-csserverversion.md) cmdlet은 로컬 컴퓨터를 분석하여 다음 중 하나를 보고합니다.
+[Get-CsServerVersion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsServerVersion) cmdlet은 로컬 컴퓨터를 분석하여 다음 중 하나를 보고합니다.
 
   - Lync Server 볼륨 라이선스 키가 컴퓨터에 설치되어 있음(업데이트가 필요하지 않음)
 

@@ -53,7 +53,7 @@ Windows PowerShell 및 **Approve-CsDeviceUpdateRule** cmdlet을 사용하여 장
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Approve-CsDeviceUpdateRule
 
-자세한 내용은 [Approve-CsDeviceUpdateRule](approve-csdeviceupdaterule.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Approve-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Approve-CsDeviceUpdateRule) cmdlet의 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

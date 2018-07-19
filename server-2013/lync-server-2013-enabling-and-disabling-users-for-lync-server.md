@@ -30,6 +30,6 @@ Lync Server 2013에서 Active Directory 사용자를 사용하도록 설정, 임
 #### 기타 리소스
 
 [Lync Server 2013에서 사용자 관리](lync-server-2013-managing-users-in-lync-server.md)  
-[Enable-CsUser](enable-csuser.md)  
-[Disable-CsUser](disable-csuser.md)
+[Enable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsUser)  
+[Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser)
 

@@ -19,7 +19,7 @@ QoE(체감 품질) 메트릭은 손실된 네트워크 패킷 수, 백그라운�
 
 Microsoft Lync Server 2013을 설치하면 QoE 구성 설정에 대한 단일 전역 컬렉션이 만들어집니다. 관리자도 사이트 범위에서 사용자 지정 설정을 만들 수 있습니다. 이러한 사이트 범위 설정을 사용할 때마다 전역 설정보다 우선 적용됩니다. 예를 들어 Redmond 사이트에 대해 사이트 범위의 설정을 만들었으면 해당 설정(전역 설정이 아니라)이 Redmond의 QoE를 관리하는 데 사용됩니다.
 
-QoE 구성 설정은 Lync Server 제어판 또는 [New-CsQoEConfiguration](new-csqoeconfiguration.md) cmdlet을 사용하여 만들 수 있습니다. Lync Server 제어판을 사용해서 새 설정을 만들 경우 다음과 같은 옵션을 사용할 수 있습니다.
+QoE 구성 설정은 Lync Server 제어판 또는 [New-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration) cmdlet을 사용하여 만들 수 있습니다. Lync Server 제어판을 사용해서 새 설정을 만들 경우 다음과 같은 옵션을 사용할 수 있습니다.
 
 
 <table>
@@ -62,7 +62,7 @@ QoE 구성 설정은 Lync Server 제어판 또는 [New-CsQoEConfiguration](new-c
 
 
 > [!NOTE]
-> New-CsQoEConfiguration cmdlet에는 Lync Server 제어판에서 사용할 수 없는 추가 옵션이 포함됩니다. 자세한 내용은 <A href="new-csqoeconfiguration.md">New-CsQoEConfiguration</A> 도움말 항목을 참조하십시오.
+> New-CsQoEConfiguration cmdlet에는 Lync Server 제어판에서 사용할 수 없는 추가 옵션이 포함됩니다. 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration">New-CsQoEConfiguration</A> 도움말 항목을 참조하십시오.
 
 
 
@@ -110,5 +110,5 @@ QoE 구성 설정은 Windows PowerShell 및 New-CsQoEConfiguration cmdlet을 사
     
         New-CsQoEConfiguration -Identity "site:Redmond" -KeepQoEDataForDays 30 -PurgeHourOfDay 3
 
-자세한 내용은 [New-CsQoEConfiguration](new-csqoeconfiguration.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [New-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration) cmdlet의 도움말 항목을 참조하십시오.
 

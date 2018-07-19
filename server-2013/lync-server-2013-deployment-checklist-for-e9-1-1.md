@@ -51,7 +51,7 @@ E9-1-1을 배포하려면 먼저 중앙 관리 저장소, 프런트 엔드 풀 �
 <td><ol>
 <li><p>새 PSTN 사용 레코드를 만듭니다. 위치 정책의 <strong>PSTN 사용</strong> 설정에 사용되는 이름과 동일한 이름입니다.</p></li>
 <li><p>음성 경로를 만들어 이전 단계에서 만든 PSTN 사용 레코드에 할당한 후 게이트웨이 속성이 E9-1-1 SIP 트렁크 또는 ELIN 게이트웨이를 가리킵니다.</p></li>
-<li><p>SIP 트렁크 E9-1-1 서비스 공급자의 경우 <strong>Set-CsTrunkConfiguration –EnablePIDFLOSupport</strong> cmdlet을 사용하여 SIP를 통한 E9-1-1 통화를 처리할 트렁크를 설정하여 PIDF-LO 데이터를 전달할 수 있습니다.</p></li>
+<li><p>SIP 트렁크 E9-1-1 서비스 공급자의 경우 <strong>set-cstrunkconfiguration –EnablePIDFLOSupport</strong> cmdlet을 사용하여 SIP를 통한 E9-1-1 통화를 처리할 트렁크를 설정하여 PIDF-LO 데이터를 전달할 수 있습니다.</p></li>
 <li><p>선택적으로, SIP 트렁크 E9-1-1 서비스 공급자의 경우 E9-1-1 서비스 공급자의 SIP 트렁크로 처리되지 않는 통화에 대해 로컬 PSTN 경로를 만들어 할당합니다. 이 경로는 E9-1-1 서비스 공급자로의 연결을 사용할 수 없는 경우에 사용됩니다. E9-1-1 서비스 공급자가 지원하는 경우 트렁크 구성 규칙을 게이트웨이에 할당합니다. 이 게이트웨이는 911 전화 번호 문자열을 국가/지역 ECRC(Emergency Call Response Center)의 DID(Direct Inward Dialing)로 변환합니다.</p></li>
 </ol></td>
 <td><p>CSVoiceAdmin</p></td>

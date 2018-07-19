@@ -25,13 +25,13 @@ Lync Server 2013에 대한 Exchange 2013 OWA(Outlook Web Access) 및 IM(인스�
     
         Get-CsSite
     
-    그러면 풀을 만들려는 siteName의 siteID가 반환됩니다. 자세한 내용은 Lync Server 2013 관리 셸 설명서에서 [Get-CsSite](get-cssite.md)를 참조하십시오.
+    그러면 풀을 만들려는 siteName의 siteID가 반환됩니다. 자세한 내용은 Lync Server 2013 관리 셸 설명서에서 [Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite)를 참조하십시오.
 
 3.  다음 cmdlet을 실행합니다.
     
         New-CsTrustedApplicationPool -Identity <E14 CAS FQDN> -ThrottleAsServer $true -TreatAsAuthenticated $true -ComputerFQDN <E14 CAS FQDN> -Site <Site> -Registrar <Pool FQDN in the site> -RequiresReplication $false
     
-    자세한 내용은 Lync Server 2013 관리 셸 설명서에서 [New-CsTrustedApplicationPool](new-cstrustedapplicationpool.md)를 참조하십시오.
+    자세한 내용은 Lync Server 2013 관리 셸 설명서에서 [New-CsTrustedApplicationPool](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrustedApplicationPool)를 참조하십시오.
     
     Exchange Server FQDN은 Exchange OWA 인증서 SN(주체 이름) 또는 SAN(주체 대체 이름)으로 구성되어야 합니다.
     
@@ -61,7 +61,7 @@ Lync Server 2013에 대한 Exchange 2013 OWA(Outlook Web Access) 및 IM(인스�
     
         New-CsTrustedApplication -ApplicationId <AppID String> -TrustedApplicationPoolFqdn <E14 CAS FQDN> -Port <available port number>
     
-    자세한 내용은 Lync Server 2013 관리 셸 설명서의 [New-CsTrustedApplication](new-cstrustedapplication.md) 항목을 참조하십시오.
+    자세한 내용은 Lync Server 2013 관리 셸 설명서의 [New-CsTrustedApplication](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrustedApplication) 항목을 참조하십시오.
 
 3.  **Enable-CsTopology** 를 실행합니다.
 

@@ -17,7 +17,7 @@ _**마지막으로 수정된 항목:** 2013-02-22_
 
 Lync VDI 플러그인을 위한 환경을 준비하려면 다음 단계를 수행해야 합니다.
 
-1.  Lync Server 2013에서 EnableMediaRedirection이 모든 VDI 사용자에 대해 TRUE로 설정되어 있는지 확인합니다. 자세한 내용은 [New-CsClientPolicy](new-csclientpolicy.md) cmdlet 및 [Set-CsClientPolicy](set-csclientpolicy.md) cmdlet의 도움말 항목을 참고하세요.
+1.  Lync Server 2013에서 EnableMediaRedirection이 모든 VDI 사용자에 대해 TRUE로 설정되어 있는지 확인합니다. 자세한 내용은 [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) cmdlet 및 [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy) cmdlet의 도움말 항목을 참고하세요.
 
 2.  데이터 센터 컴퓨터에서 모든 가상 컴퓨터에 Lync 2013 클라이언트를 설치합니다.
 

@@ -36,5 +36,5 @@ _**마지막으로 수정된 항목:** 2013-02-20_
     
         Disable-CsMeetingRoom -Identity "sip:RedmondMeetingRoom@litwareinc.com"
 
-자세한 내용은 [Enable-CsMeetingRoom](enable-csmeetingroom.md) cmdlet 및 [Disable-CsMeetingRoom](disable-csmeetingroom.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Enable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsMeetingRoom) cmdlet 및 [Disable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsMeetingRoom) cmdlet의 도움말 항목을 참조하십시오.
 

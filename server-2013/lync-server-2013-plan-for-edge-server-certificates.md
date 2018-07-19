@@ -31,7 +31,7 @@ Lync Server 2013에서는 에지에 대한 인증서를 만드는 과정이 단�
 
 
 > [!NOTE]
-> Lync Server 2013에 도입된 현재 인증서의 만료 시간 전 오디오/비디오 인증 인증서 준비에는 추가 계획이 필요합니다. 외부 에지 인터페이스용으로 다용도의 단일 인증서 대신에 두 개 인증서가 필요합니다. 하나는 액세스 에지 서비스 및 웹 회의 에지 서비스에 할당되고, 다른 하나는 A/V 에지 서비스용 인증서입니다. 자세한 내용은 <A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md">Set-CsCertificate에 -Roll을 사용하여 Lync Server 2013에서 AV 및 OAuth 인증서 준비</A>를 참조하십시오.
+> Lync Server 2013에 도입된 현재 인증서의 만료 시간 전 오디오/비디오 인증 인증서 준비에는 추가 계획이 필요합니다. 외부 에지 인터페이스용으로 다용도의 단일 인증서 대신에 두 개 인증서가 필요합니다. 하나는 액세스 에지 서비스 및 웹 회의 에지 서비스에 할당되고, 다른 하나는 A/V 에지 서비스용 인증서입니다. 자세한 내용은 <A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate">Set-CsCertificate에 -Roll을 사용하여 Lync Server 2013에서 AV 및 OAuth 인증서 준비</A>를 참조하십시오.
 
 
 
@@ -63,7 +63,7 @@ Lync Server 2013에서는 에지에 대한 인증서를 만드는 과정이 단�
 
 #### 작업
 
-[Set-CsCertificate에 -Roll을 사용하여 Lync Server 2013에서 AV 및 OAuth 인증서 준비](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md)  
+[Set-CsCertificate에 -Roll을 사용하여 Lync Server 2013에서 AV 및 OAuth 인증서 준비](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)  
 
 #### 개념
 

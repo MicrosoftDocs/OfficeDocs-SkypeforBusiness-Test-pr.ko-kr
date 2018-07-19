@@ -53,5 +53,5 @@ _**마지막으로 수정된 항목:** 2013-02-23_
     
         Get-CsProxyConfiguration | Where-Object {$_.UseNtlmForClientToProxyAuth -eq $True}| Remove-CsProxyConfiguration
 
-자세한 내용은 [Remove-CsProxyConfiguration](remove-csproxyconfiguration.md)을 참조하십시오.
+자세한 내용은 [Remove-CsProxyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsProxyConfiguration)을 참조하십시오.
 

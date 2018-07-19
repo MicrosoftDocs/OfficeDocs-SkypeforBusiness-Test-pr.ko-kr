@@ -25,7 +25,7 @@ Lync Server을 설치할 때는 A/V 에지 구성 설정의 전역 컬렉션이 
 
   - 전역 범위의 설정은 개별 서버에 구성된 서비스 설정이 없는 경우 그리고 서버가 배치된 위치에 사이트 설정이 없는 경우에만 사용됩니다.
 
-그런 후 Set-CsAVEdgeConfiguration cmdlet을 사용하여 모든 설정을 수정할 수 있습니다. 자세한 내용은 [New-CsAVEdgeConfiguration](new-csavedgeconfiguration.md) 및 [Set-CsAVEdgeConfiguration](set-csavedgeconfiguration.md) cmdlet에 대한 도움말 항목을 참조하십시오.
+그런 후 Set-CsAVEdgeConfiguration cmdlet을 사용하여 모든 설정을 수정할 수 있습니다. 자세한 내용은 [New-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAVEdgeConfiguration) 및 [Set-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAVEdgeConfiguration) cmdlet에 대한 도움말 항목을 참조하십시오.
 
 ## 사이트 범위에서 새로운 A/V 에지 구성 설정 만들기
 
@@ -61,6 +61,6 @@ Lync Server을 설치할 때는 A/V 에지 구성 설정의 전역 컬렉션이 
 #### 기타 리소스
 
 [Lync Server 2013의 A/V(오디오/비디오) 에지 서버](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[New-CsAVEdgeConfiguration](new-csavedgeconfiguration.md)  
-[Set-CsAVEdgeConfiguration](set-csavedgeconfiguration.md)
+[New-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAVEdgeConfiguration)  
+[Set-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAVEdgeConfiguration)
 

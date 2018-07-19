@@ -47,7 +47,7 @@ Lync Server 2013에서 IPv6를 지원하기 위해 추가된 한 가지 요구 �
 
 서버 간 인증은 배포의 모든 서버에서 요청되고 적용되는 전역 인증서로 관리됩니다. 이 인증서는 Lync Server 2013의 서버 인증뿐만 아니라 Exchange 2013 및 Microsoft SharePoint Server 2013에 대한 인증도 수행합니다. 서버 간 인증의 작동 방식에 대한 자세한 내용은 [Lync Server 2013에서 서버 간 인증(Oauth) 및 파트너 응용 프로그램 관리](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)를 참조하십시오. 오디오/비디오 인증 프로세스와 서버 간 인증 프로세스 간의 중요한 차이점은 인증 또는 토큰의 수명입니다. 오디오/비디오 인증의 경우 인증은 8시간 후에 만료되며, 서버 간 인증은 수명이 24시간입니다. 각 인증서 유형에 맞게 계획을 세워야 합니다.
 
-Lync Server 2013에서 새로운 기능은 현재 인증서가 만료되기 전에 미리 오디오/비디오 인증 인증서 및 서버 간 인증 인증서에 대한 교체 인증서를 준비할 수 있는 기능입니다. 그 다음에는 새로운 토큰 또는 새로운 인증 요청을 생성할 때 새로운 인증서가 사용됩니다. 하지만 이전 인증서는 현재 세션 및 인증을 확인하기 위해 보존됩니다. 이러한 방식으로 토큰 및 인증서 만료로 인한 모든 오류를 효과적으로 방지할 수 있습니다. 이 기능에 대한 자세한 내용 및 구성 방법은 [Set-CsCertificate에 -Roll을 사용하여 Lync Server 2013에서 AV 및 OAuth 인증서 준비](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md)를 참조하십시오.
+Lync Server 2013에서 새로운 기능은 현재 인증서가 만료되기 전에 미리 오디오/비디오 인증 인증서 및 서버 간 인증 인증서에 대한 교체 인증서를 준비할 수 있는 기능입니다. 그 다음에는 새로운 토큰 또는 새로운 인증 요청을 생성할 때 새로운 인증서가 사용됩니다. 하지만 이전 인증서는 현재 세션 및 인증을 확인하기 위해 보존됩니다. 이러한 방식으로 토큰 및 인증서 만료로 인한 모든 오류를 효과적으로 방지할 수 있습니다. 이 기능에 대한 자세한 내용 및 구성 방법은 [Set-CsCertificate에 -Roll을 사용하여 Lync Server 2013에서 AV 및 OAuth 인증서 준비](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)를 참조하십시오.
 
 ## 쿠키 기반 선호도에 대한 의존성 감소
 

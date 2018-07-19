@@ -43,7 +43,7 @@ _**마지막으로 수정된 항목:** 2013-02-21_
     
 
     > [!NOTE]
-    > AlwaysOn 시나리오에는 기본 기간이 없습니다. 즉, 이 시나리오는 <STRONG>Stop-CsClsLogging</STRONG> cmdlet을 사용하여 명시적으로 중지할 때까지 실행됩니다. 자세한 내용은 <A href="stop-csclslogging.md">Stop-CsClsLogging</A>을 참조하십시오. 다른 모든 시나리오의 경우 기본 기간은 4시간입니다.
+    > AlwaysOn 시나리오에는 기본 기간이 없습니다. 즉, 이 시나리오는 <STRONG>Stop-CsClsLogging</STRONG> cmdlet을 사용하여 명시적으로 중지할 때까지 실행됩니다. 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</A>을 참조하십시오. 다른 모든 시나리오의 경우 기본 기간은 4시간입니다.
 
 
 
@@ -62,7 +62,7 @@ _**마지막으로 수정된 항목:** 2013-02-21_
     
 
     > [!IMPORTANT]
-    > 지정된 컴퓨터에서 항상 총 2개의 시나리오를 실행할 수 있습니다. 명령의 범위가 전역인 경우에는 배포의 모든 컴퓨터에서 시나리오를 실행합니다. 세 번째 시나리오를 시작하려면 새 시나리오를 실행할 컴퓨터, 풀, 사이트 또는 전역 범위에서 로깅을 중지해야 합니다. 전역 범위를 시작한 경우에는 하나 이상의 컴퓨터 및 풀에서 시나리오 하나 또는 둘 다에 대해 로깅을 중지하면 됩니다. 실행되는 시나리오를 관리하는 방법에 대한 자세한 내용은 <A href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">중앙화된 로깅 서비스에 중지 사용</A> 및 <A href="stop-csclslogging.md">Stop-CsClsLogging</A>을 참조하십시오.
+    > 지정된 컴퓨터에서 항상 총 2개의 시나리오를 실행할 수 있습니다. 명령의 범위가 전역인 경우에는 배포의 모든 컴퓨터에서 시나리오를 실행합니다. 세 번째 시나리오를 시작하려면 새 시나리오를 실행할 컴퓨터, 풀, 사이트 또는 전역 범위에서 로깅을 중지해야 합니다. 전역 범위를 시작한 경우에는 하나 이상의 컴퓨터 및 풀에서 시나리오 하나 또는 둘 다에 대해 로깅을 중지하면 됩니다. 실행되는 시나리오를 관리하는 방법에 대한 자세한 내용은 <A href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">중앙화된 로깅 서비스에 중지 사용</A> 및 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</A>을 참조하십시오.
 
 
 

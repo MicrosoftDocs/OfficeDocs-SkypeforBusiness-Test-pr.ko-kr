@@ -17,7 +17,7 @@ _**마지막으로 수정된 항목:** 2013-02-21_
 
 SIP 트렁크는 Microsoft Lync Server 2013 VoIP(Voice over IP) 전화 네트워크를 PSTN(공중 전화망)과 연결하는 데 사용됩니다. 이전 버전의 제품에서는 트렁크가 아웃바운드 통화를 중재 서버에서 PSTN 게이트웨이로 라우팅하는 데 사용되었으며 각 게이트웨이는 하나의 트렁크로 제한되었습니다. 그 결과 PSTN 게이트웨이와 SIP 트렁크가 기본적으로 동일했습니다. 따라서 관리자는 단지 연결된 PSTN 게이트웨이에 대한 정보를 봄으로써 개별 SIP 트렁크에 대한 정보를 볼 수 있었습니다.
 
-그러나 Lync Server 2013에서는 이제 하나의 PSTN 게이트웨이에 여러 트렁크를 할당할 수 있습니다. 이는 게이트웨이와 트렁크가 더 이상 동일한 하나가 아님을 의미합니다. 따라서 관리자는 개별 SIP 트렁크에 대한 정보를 보기 위해 [Get-CsTrunk](get-cstrunk.md) cmdlet을 사용해야 합니다.
+그러나 Lync Server 2013에서는 이제 하나의 PSTN 게이트웨이에 여러 트렁크를 할당할 수 있습니다. 이는 게이트웨이와 트렁크가 더 이상 동일한 하나가 아님을 의미합니다. 따라서 관리자는 개별 SIP 트렁크에 대한 정보를 보기 위해 [Get-CsTrunk](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunk) cmdlet을 사용해야 합니다.
 
 Get-CsTrunk cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다. 원격 Windows PowerShell을 사용하여 Lync Server에 연결하는 방법에 대한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서인 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876))를 참조하세요.
 

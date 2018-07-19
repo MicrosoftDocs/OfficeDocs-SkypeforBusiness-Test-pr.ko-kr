@@ -21,7 +21,7 @@ Microsoft Lync Server 2013을 설치할 경우 단일 전역 QoE 구성 설정 �
 
 또한 전역 설정을 “삭제”할 수도 있습니다. 그러나 전역 설정을 사실상 삭제되지 않습니다. 대신에, 해당 모음에 있는 모든 속성이 기본값으로 다시 설정됩니다. 예를 들면 기본적으로 지우기는 QoE 구성 설정 모음에서 사용할 수 있습니다. 지우기를 사용할 수 없도록 전역 모음을 수정한다고 가정하겠습니다. 나중에 전역 설정을 삭제하면 모든 속성이 기본값으로 다시 설정됩니다. 따라서 이 경우에는 지우기를 다시 사용할 수 있게 됩니다.
 
-Lync Server 제어판을 사용하거나 [Remove-CsQoEConfiguration](remove-csqoeconfiguration.md) cmdlet을 사용하여 QoE 구성 설정을 제거할 수 있습니다.
+Lync Server 제어판을 사용하거나 [Remove-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsQoEConfiguration) cmdlet을 사용하여 QoE 구성 설정을 제거할 수 있습니다.
 
 ## Lync Server 제어판을 사용하여 QoE 구성 설정을 삭제하려면
 
@@ -57,5 +57,5 @@ Lync Server 제어판을 사용하거나 [Remove-CsQoEConfiguration](remove-csqo
     
         Get-CsQoEConfiguration | Where-Object {$_.EnableQoE -eq $False} | Remove-CsQoEConfiguration
 
-자세한 내용은 [Remove-CsQoEConfiguration](remove-csqoeconfiguration.md)을 참조하십시오.
+자세한 내용은 [Remove-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsQoEConfiguration)을 참조하십시오.
 

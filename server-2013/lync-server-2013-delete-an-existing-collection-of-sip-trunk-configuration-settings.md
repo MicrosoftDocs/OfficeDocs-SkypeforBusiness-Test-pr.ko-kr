@@ -23,7 +23,7 @@ SIP 트렁크 구성 설정은 중재 서버와 서비스 공급자 쪽 공중 �
 
   - 각 트렁크에 SRTP(Secure Real-Time Protocol) 암호화가 필요한지 여부
 
-Microsoft Lync Server 2013을 설치하면 SIP 트렁크 구성 설정의 전역 컬렉션이 자동으로 만들어집니다. 이 전역 설정 컬렉션은 삭제할 수 없습니다. 그러나 Lync Server 제어판 또는 [Remove-CsTrunkConfiguration](remove-cstrunkconfiguration.md) cmdlet을 사용하여 전역 컬렉션의 속성을 기본값으로 "다시 설정"할 수 있습니다. 예를 들어 Enable3pccRefer 속성을 True로 설정한 경우 전역 컬렉션을 다시 설정하면 Enable3pccRefer 속성이 기본값인 False로 돌아갑니다.
+Microsoft Lync Server 2013을 설치하면 SIP 트렁크 구성 설정의 전역 컬렉션이 자동으로 만들어집니다. 이 전역 설정 컬렉션은 삭제할 수 없습니다. 그러나 Lync Server 제어판 또는 [Remove-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrunkConfiguration) cmdlet을 사용하여 전역 컬렉션의 속성을 기본값으로 "다시 설정"할 수 있습니다. 예를 들어 Enable3pccRefer 속성을 True로 설정한 경우 전역 컬렉션을 다시 설정하면 Enable3pccRefer 속성이 기본값인 False로 돌아갑니다.
 
 관리자는 개별 PSTN 게이트웨이에 대해 사이트 범위 또는 서비스 범위에서 사용자 지정 트렁크 구성 설정을 만들 수도 있습니다. 이러한 사용자 지정 설정은 제거할 수 있습니다. 이와 같은 사용자 지정 설정을 제거할 때는 다음 사항에 유의하십시오.
 
@@ -67,5 +67,5 @@ Windows PowerShell 및 Remove-CsTrunkConfiguration cmdlet을 사용하여 다이
     
         Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration
 
-자세한 내용은 [Remove-CsTrunkConfiguration](remove-cstrunkconfiguration.md) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Remove-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrunkConfiguration) cmdlet에 대한 도움말 항목을 참조하십시오.
 

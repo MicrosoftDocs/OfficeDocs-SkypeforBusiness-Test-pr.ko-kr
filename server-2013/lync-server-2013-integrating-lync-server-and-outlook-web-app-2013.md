@@ -35,7 +35,7 @@ Lync Server 2013에서는 SipName UM 다이얼 플랜을 호스트하는 모든 
 
 
 > [!NOTE]
-> 이처럼 통합의 작동이 중지되는 이유는 이 경우 Lync Server 토폴로지가 같은 컴퓨터에 대해 두 개의 항목(자동 검색 항목과 수동 추가 항목)을 포함하기 때문입니다. 문제를 해결하고 Outlook Web App이 다시 작동하도록 하려면 Windows PowerShell을 사용하여 서버에 대한 신뢰할 수 있는 풀 및 신뢰할 수 있는 응용 프로그램 항목을 제거합니다. 자세한 내용은 <A href="remove-cstrustedapplicationpool.md">Remove-CsTrustedApplicationPool</A> 및 <A href="remove-cstrustedapplication.md">Remove-CsTrustedApplication</A> cmdlet의 도움말 항목을 참조하십시오.
+> 이처럼 통합의 작동이 중지되는 이유는 이 경우 Lync Server 토폴로지가 같은 컴퓨터에 대해 두 개의 항목(자동 검색 항목과 수동 추가 항목)을 포함하기 때문입니다. 문제를 해결하고 Outlook Web App이 다시 작동하도록 하려면 Windows PowerShell을 사용하여 서버에 대한 신뢰할 수 있는 풀 및 신뢰할 수 있는 응용 프로그램 항목을 제거합니다. 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplicationPool">Remove-CsTrustedApplicationPool</A> 및 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplication">Remove-CsTrustedApplication</A> cmdlet의 도움말 항목을 참조하십시오.
 
 
 
