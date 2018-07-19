@@ -256,7 +256,7 @@ AbAttribute 테이블에 나열된 특정 Active Directory 도메인 서비스 �
 
 
 > [!WARNING]
-> 주소록 필터링에 대한 자세한 내용은 <A href="lync-server-2013-address-book-server-cmdlets.md">주소록 서버 Cmdlet</A> 및 <A href="http://go.microsoft.com/fwlink/?linkid=330430">Lync 2013 주소록 필터링</A>을 참고하세요.
+> 주소록 필터링에 대한 자세한 내용은 <A href="https://technet.microsoft.com/en-us/library/gg415643(v=ocs.15)">주소록 서버 Cmdlet</A> 및 <A href="http://go.microsoft.com/fwlink/?linkid=330430">Lync 2013 주소록 필터링</A>을 참고하세요.
 
 
 

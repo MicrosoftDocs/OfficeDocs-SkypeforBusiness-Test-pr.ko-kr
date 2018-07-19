@@ -120,7 +120,7 @@ _**마지막으로 수정된 항목:** 2014-02-05_
 
 [Lync Server 2013에서 조직의 SIP 페더레이션된 도메인 관리](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)  
 [Lync Server 2013에서 조직에 대한 SIP 페더레이션 공급자 관리](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)  
-[Set-CsExternalAccessPolicy](set-csexternalaccesspolicy.md)  
+[Set-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy)  
 [New-CsExternalAccessPolicy](new-csexternalaccesspolicy.md)  
 [Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)  
 [Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md)  

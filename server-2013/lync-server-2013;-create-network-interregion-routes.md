@@ -21,7 +21,7 @@ _**마지막으로 수정된 항목:** 2012-10-20_
 
 네트워크 지역 간 경로를 사용하는 방법에 대한 자세한 내용은 Lync Server 관리 셸 설명서에서 다음 cmdlet을 참조하십시오.
 
-  - [New-CsNetworkInterRegionRoute](new-csnetworkinterregionroute.md)
+  - [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterRegionRoute)
 
   - [Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md)
 

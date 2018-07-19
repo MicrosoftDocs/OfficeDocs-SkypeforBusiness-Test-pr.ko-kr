@@ -93,7 +93,7 @@ Windows PowerShell 및 **Grant-CsArchivingPolicy** cmdlet을 사용하여 사용
 
 ## 여러 사용자에게 사용자별 보관 정책 할당
 
-  - 이 명령은 등록자 풀 atl-cs-001.litwareinc.com에 속한 계정을 가진 모든 사용자에게 사용자별 보관 정책 RedmondArchivingPolicy를 할당합니다. 이 명령에 사용되는 필터 매개 변수에 대한 자세한 내용은 [Get-CsUser](get-csuser.md) cmdlet에 대한 설명서를 참조하십시오.
+  - 이 명령은 등록자 풀 atl-cs-001.litwareinc.com에 속한 계정을 가진 모든 사용자에게 사용자별 보관 정책 RedmondArchivingPolicy를 할당합니다. 이 명령에 사용되는 필터 매개 변수에 대한 자세한 내용은 [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) cmdlet에 대한 설명서를 참조하십시오.
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 

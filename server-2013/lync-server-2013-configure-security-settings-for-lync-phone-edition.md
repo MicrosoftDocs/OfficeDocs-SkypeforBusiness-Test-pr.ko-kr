@@ -53,7 +53,7 @@ SIP 보안 설정 및 전화 잠금 설정을 통해 Lync Phone Edition을 실�
     
         Get-CsUCPhoneConfiguration | Set-CsUCPhoneConfiguration -MinPhonePinLength 7
 
-자세한 내용은 [Get-CsUCPhoneConfiguration](get-csucphoneconfiguration.md)를 참조하십시오.
+자세한 내용은 [Get-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUCPhoneConfiguration)를 참조하십시오.
 
 ## 참고 항목
 

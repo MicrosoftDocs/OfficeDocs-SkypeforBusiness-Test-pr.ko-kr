@@ -35,11 +35,11 @@ _**마지막으로 수정된 항목:** 2015-06-22_
 
 다음 cmdlet은 사용자 ID를 허용합니다.
 
-  - [Disable-CsMeetingRoom](disable-csmeetingroom.md)
+  - [Disable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsMeetingRoom)
 
   - [Enable-CsMeetingRoom](enable-csmeetingroom.md)
 
-  - [Get-CsExUmContact](get-csexumcontact.md)
+  - [Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact)
 
   - [Get-CsMeetingRoom](get-csmeetingroom.md)
 
@@ -57,7 +57,7 @@ _**마지막으로 수정된 항목:** 2015-06-22_
 
   - [Set-CsMeetingRoom](set-csmeetingroom.md)
 
-  - [Set-CsUserAcp](set-csuseracp.md)
+  - [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
 
 **Get-Cs** cmdlet 중 하나를 호출할 때는 사용자 ID를 지정하지 않아도 됩니다. 이 경우 cmdlet은 지정된 항목의 모든 인스턴스를 반환합니다. 예를 들어 다음 명령은 비즈니스용 Skype Online을 사용할 수 있는 모든 사용자에 대한 정보를 반환합니다.
 

@@ -17,7 +17,7 @@ _**마지막으로 수정된 항목:** 2013-07-29_
 
 감시자 노드로 작동할 컴퓨터를 구성한 후에는 다음을 수행해야 합니다.
 
-1.  이러한 감시자 노드에서 사용할 테스트 계정을 만듭니다. 또한 협상 인증 방법을 사용하는 경우에는 [Set-CsTestUserCredential](set-cstestusercredential.md) cmdlet을 사용해서 감시자 노드에 이러한 테스트 계정을 사용하도록 설정해야 합니다.
+1.  이러한 감시자 노드에서 사용할 테스트 계정을 만듭니다. 또한 협상 인증 방법을 사용하는 경우에는 [Set-CsTestUserCredential](https://docs.microsoft.com/en-us/powershell/module/skype/) cmdlet을 사용해서 감시자 노드에 이러한 테스트 계정을 사용하도록 설정해야 합니다.
 
 2.  감시자 노드 구성 설정을 업데이트합니다.
 

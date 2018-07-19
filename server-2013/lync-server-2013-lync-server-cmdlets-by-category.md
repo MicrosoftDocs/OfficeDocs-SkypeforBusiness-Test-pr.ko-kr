@@ -69,7 +69,7 @@ Microsoft Lync Server 2013를 관리하는 데 사용할 수 있는 전체 cmdle
 <td><p><a href="lync-server-2013-persistent-chat-server-cmdlets.md">영구 채팅 서버 Cmdlet</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-federation-and-external-access-cmdlets.md">Lync Server 2013의 페더레이션 및 외부 액세스 Cmdlet</a></p></td>
+<td><p><a href="https://docs.microsoft.com/en-us/powershell/module/skype/">Lync Server 2013의 페더레이션 및 외부 액세스 Cmdlet</a></p></td>
 <td><p><a href="lync-server-2013-centralized-logging-cmdlets.md">중앙화된 로깅 Cmdlet</a></p></td>
 </tr>
 <tr class="even">

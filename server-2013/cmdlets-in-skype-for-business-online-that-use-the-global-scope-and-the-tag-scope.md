@@ -39,7 +39,7 @@ ID가 "RedmondAccessPolicy"인 사용자별 정책을 반환하려면 다음 명
 
 다음 cmdlet은 전역 범위 및 사용자별 (태그) 범위 모두에 대해 실행할 수 있습니다.
 
-  - [Get-CsClientPolicy](get-csclientpolicy.md)
+  - [Get-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientPolicy)
 
   - [Get-CsConferencingPolicy](get-csconferencingpolicy.md)
 

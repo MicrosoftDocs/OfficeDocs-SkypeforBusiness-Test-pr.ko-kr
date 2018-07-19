@@ -88,7 +88,7 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 
 #### 기타 리소스
 
-[New-CsCpsConfiguration](new-cscpsconfiguration.md)  
+[New-CsCpsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCpsConfiguration)  
 [Set-CsCpsConfiguration](set-cscpsconfiguration.md)  
-[Get-CsSite](get-cssite.md)
+[Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite)
 

@@ -43,7 +43,7 @@ Lync Server 2013을 Exchange 2013의 파트너 응용 프로그램으로 구성�
 
     https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 
-Lync Server에서 파트너 응용 프로그램은 [New-CsPartnerApplication](new-cspartnerapplication.md) cmdlet을 사용하여 구성됩니다. 메타데이터 URI를 지정하는 것 이외에도 응용 프로그램 신뢰 수준을 전체로 설정해야 합니다. 이렇게 하면 Exchange가 자신과 해당 영역의 권한 있는 모든 사용자를 모두 나타낼 수 있습니다.
+Lync Server에서 파트너 응용 프로그램은 [New-CsPartnerApplication](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsPartnerApplication) cmdlet을 사용하여 구성됩니다. 메타데이터 URI를 지정하는 것 이외에도 응용 프로그램 신뢰 수준을 전체로 설정해야 합니다. 이렇게 하면 Exchange가 자신과 해당 영역의 권한 있는 모든 사용자를 모두 나타낼 수 있습니다.
 
     New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 

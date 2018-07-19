@@ -32,11 +32,11 @@ Identity 매개 변수를 포함하지 않는 경우 기본적으로 Windows Pow
 
 다음 cmdlet은 전역 범위에서만 작동합니다.
 
-  - [Get-CsImFilterConfiguration](get-csimfilterconfiguration.md)
+  - [Get-CsImFilterConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsImFilterConfiguration)
 
   - [Get-CsMeetingConfiguration](get-csmeetingconfiguration.md)
 
-  - [Get-CsPrivacyConfiguration](get-csprivacyconfiguration.md)
+  - [Get-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPrivacyConfiguration)
 
   - [Get-CsTenantFederationConfiguration](get-cstenantfederationconfiguration.md)
 
@@ -50,7 +50,7 @@ Identity 매개 변수를 포함하지 않는 경우 기본적으로 Windows Pow
 
   - [Set-CsMeetingConfiguration](set-csmeetingconfiguration.md)
 
-  - [Set-CsPrivacyConfiguration](set-csprivacyconfiguration.md)
+  - [Set-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPrivacyConfiguration)
 
 **Remove-CsVoicePolicy** cmdlet은 예외입니다. 먼저, 이 cmdlet에는 Identity 매개 변수를 포함해야 합니다.
 

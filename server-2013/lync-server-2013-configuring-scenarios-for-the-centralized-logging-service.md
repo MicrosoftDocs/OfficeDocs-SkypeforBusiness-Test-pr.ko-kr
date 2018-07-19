@@ -19,7 +19,7 @@ _**마지막으로 수정된 항목:** 2014-02-05_
 
 
 > [!IMPORTANT]
-> 지정된 모든 범위(사이트, 전역, 풀 또는 컴퓨터)에 대해 항상 최대 2개의 시나리오를 실행할 수 있습니다. 현재 실행 중인 시나리오를 확인하려면 Windows PowerShell 및 <A href="get-csclsscenario.md">Get-CsClsScenario</A>를 사용합니다. Windows PowerShell 및 <A href="set-csclsscenario.md">Set-CsClsScenario</A>를 사용하면 실행 중인 시나리오를 동적으로 변경할 수 있습니다. 로깅 세션 중 실행 중인 시나리오를 수정하여 공급자로부터 수집 중인 데이터를 조정하거나 세부적으로 조정할 수 있습니다.
+> 지정된 모든 범위(사이트, 전역, 풀 또는 컴퓨터)에 대해 항상 최대 2개의 시나리오를 실행할 수 있습니다. 현재 실행 중인 시나리오를 확인하려면 Windows PowerShell 및 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</A>를 사용합니다. Windows PowerShell 및 <A href="set-csclsscenario.md">Set-CsClsScenario</A>를 사용하면 실행 중인 시나리오를 동적으로 변경할 수 있습니다. 로깅 세션 중 실행 중인 시나리오를 수정하여 공급자로부터 수집 중인 데이터를 조정하거나 세부적으로 조정할 수 있습니다.
 
 
 

@@ -43,6 +43,6 @@ _**마지막으로 수정된 항목:** 2012-12-12_
 
 #### 기타 리소스
 
-[Get-CsHostingProvider](get-cshostingprovider.md)  
+[Get-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostingProvider)  
 [Set-CsHostingProvider](set-cshostingprovider.md)
 

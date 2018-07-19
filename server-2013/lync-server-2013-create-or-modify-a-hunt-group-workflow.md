@@ -59,7 +59,7 @@ _**마지막으로 수정된 항목:** 2013-09-11_
     
 
     > [!NOTE]
-    > 전역 외부 액세스 정책은 응답 그룹 응용 프로그램에 적용됩니다. Lync Server 제어판을 사용하거나 <STRONG>Set-CsExternalAccessPolicy</STRONG> cmdlet을 사용하여 EnableOutsideAccess 매개 변수를 True로 설정하는 방식으로 응답 그룹 페더레이션에 대한 글로벌 정책을 구성할 수 있습니다. 글로벌 정책 설정은 사이트나 사용자 정책이 할당되지 않은 모든 사용자에게 적용됩니다. 따라서 응답 그룹에 대해 이 설정을 변경하기 전에 페더레이션 설정이 조직의 요구 사항을 충족하는지 확인하십시오. 사용자에게 정책이 적용되는 방법에 대한 자세한 내용은 <A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Lync Server 2013에서 외부 액세스 정책 관리</A>를 참조하십시오. 페더레이션 설정에 대한 자세한 내용은 <A href="set-csexternalaccesspolicy.md">Set-CsExternalAccessPolicy</A>를 참조하십시오.
+    > 전역 외부 액세스 정책은 응답 그룹 응용 프로그램에 적용됩니다. Lync Server 제어판을 사용하거나 <STRONG>Set-CsExternalAccessPolicy</STRONG> cmdlet을 사용하여 EnableOutsideAccess 매개 변수를 True로 설정하는 방식으로 응답 그룹 페더레이션에 대한 글로벌 정책을 구성할 수 있습니다. 글로벌 정책 설정은 사이트나 사용자 정책이 할당되지 않은 모든 사용자에게 적용됩니다. 따라서 응답 그룹에 대해 이 설정을 변경하기 전에 페더레이션 설정이 조직의 요구 사항을 충족하는지 확인하십시오. 사용자에게 정책이 적용되는 방법에 대한 자세한 내용은 <A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Lync Server 2013에서 외부 액세스 정책 관리</A>를 참조하십시오. 페더레이션 설정에 대한 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy">Set-CsExternalAccessPolicy</A>를 참조하십시오.
 
     
 

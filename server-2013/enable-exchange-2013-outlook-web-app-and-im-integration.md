@@ -25,7 +25,7 @@ Lync Server 2013에 대한 Exchange 2013 OWA(Outlook Web Access) 및 IM(인스�
     
         Get-CsSite
     
-    그러면 풀을 만들려는 siteName의 siteID가 반환됩니다. 자세한 내용은 Lync Server 2013 관리 셸 설명서에서 [Get-CsSite](get-cssite.md)를 참조하십시오.
+    그러면 풀을 만들려는 siteName의 siteID가 반환됩니다. 자세한 내용은 Lync Server 2013 관리 셸 설명서에서 [Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite)를 참조하십시오.
 
 3.  다음 cmdlet을 실행합니다.
     

@@ -39,5 +39,5 @@ Update-CsAddressBook cmdlet은 Office Communications Server의 **abserver.exe �
 
 #### 기타 리소스
 
-[Update-CsAddressBook](update-csaddressbook.md)
+[Update-CsAddressBook](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsAddressBook)
 

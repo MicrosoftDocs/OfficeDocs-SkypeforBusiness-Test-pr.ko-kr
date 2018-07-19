@@ -31,5 +31,5 @@ Get-CsManagementStoreReplicationStatus cmdlet을 사용하면 조직에서 사�
 
 #### 기타 리소스
 
-[Get-CsManagementStoreReplicationStatus](get-csmanagementstorereplicationstatus.md)
+[Get-CsManagementStoreReplicationStatus](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsManagementStoreReplicationStatus)
 

@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**마지막으로 수정된 항목:** 2015-06-22_
 
-비즈니스용 Skype Online을 관리하는 데 사용되는 대부분의 Windows PowerShell cmdlet은 관리하려는 항목을 매우 구체적으로 지정해야 합니다. 예를 들어 [Set-CsUserAcp](set-csuseracp.md) cmdlet을 실행할 경우 어떤 사용자를 관리하려는 것인지 확실하게 나타내야 합니다. cmdlet에 어떤 사용자 계정을 관리할 것인지 알리지 않는다면 **Set-CsUserAcp** cmdlet에서 어떤 사용자의 오디오 회의 정보를 수정해야 하는지 알 수 없습니다. 이러한 이유로 **Set-CsUserAcp** cmdlet을 실행할 때마다 Identity 매개 변수를 포함하고 그 뒤에 수정할 사용자 계정의 ID를 넣어야 합니다.
+비즈니스용 Skype Online을 관리하는 데 사용되는 대부분의 Windows PowerShell cmdlet은 관리하려는 항목을 매우 구체적으로 지정해야 합니다. 예를 들어 [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp) cmdlet을 실행할 경우 어떤 사용자를 관리하려는 것인지 확실하게 나타내야 합니다. cmdlet에 어떤 사용자 계정을 관리할 것인지 알리지 않는다면 **Set-CsUserAcp** cmdlet에서 어떤 사용자의 오디오 회의 정보를 수정해야 하는지 알 수 없습니다. 이러한 이유로 **Set-CsUserAcp** cmdlet을 실행할 때마다 Identity 매개 변수를 포함하고 그 뒤에 수정할 사용자 계정의 ID를 넣어야 합니다.
 
     Set-CsUserAcp -Identity "Ken Myer" -TollNumber "14255551298" -ParticipantPassCode 13761 -Domain "fabrikam.com" -Name "Fabrikam ACP"
 

@@ -25,5 +25,5 @@ _**마지막으로 수정된 항목:** 2012-09-26_
 
   - 지정된 OU(조직 구성 단위) 컨테이너에 대화 상대 개체를 만드는 도메인 권한
 
-**Get-CsExumContact** cmdlet 사용에 대한 자세한 내용은 Lync Server 관리 셸 설명서에서 [Get-CsExUmContact](get-csexumcontact.md)를 참조하십시오.
+**Get-CsExumContact** cmdlet 사용에 대한 자세한 내용은 Lync Server 관리 셸 설명서에서 [Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact)를 참조하십시오.
 

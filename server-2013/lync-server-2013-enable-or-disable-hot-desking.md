@@ -44,5 +44,5 @@ _**마지막으로 수정된 항목:** 2013-02-20_
     
         Set-CsClientPolicy -Identity "CommonAreaPhonePolicy" - EnableHotdesking $False
 
-자세한 내용은 [New-CsClientPolicy](new-csclientpolicy.md) cmdlet 및 [Set-CsClientPolicy](set-csclientpolicy.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) cmdlet 및 [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy) cmdlet의 도움말 항목을 참조하십시오.
 

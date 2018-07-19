@@ -101,7 +101,7 @@ Lync Server 2013은 모바일 기능, 회사번호로 전화, VoIP(Voice over IP
 
 #### 기타 리소스
 
-[New-CsMobilityPolicy](new-csmobilitypolicy.md)  
+[New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy)  
 [Set-CsMobilityPolicy](set-csmobilitypolicy.md)  
 [Get-CsMobilityPolicy](get-csmobilitypolicy.md)  
 [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md)  

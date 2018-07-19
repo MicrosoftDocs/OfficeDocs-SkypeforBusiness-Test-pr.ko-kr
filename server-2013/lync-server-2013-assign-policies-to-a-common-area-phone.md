@@ -30,7 +30,7 @@ _**마지막으로 수정된 항목:** 2013-02-20_
     
         Get-CsCommonAreaPhone | Grant-CsVoicePolicy  -PolicyName "RedmondVoicePolicy"
 
-자세한 내용은 [Grant-CsVoicePolicy](grant-csvoicepolicy.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy) cmdlet의 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

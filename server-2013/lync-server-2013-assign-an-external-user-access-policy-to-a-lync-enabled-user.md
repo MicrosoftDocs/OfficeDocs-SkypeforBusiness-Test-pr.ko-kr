@@ -55,7 +55,7 @@ _**마지막으로 수정된 항목:** 2013-02-22_
 
 ## 사용자별 외부 액세스 정책을 여러 사용자에게 지정하려면
 
-  - 이 명령은 사용자별 외부 액세스 정책 USAExternalAccessPolicy를 Active Directory의 UnitedStates OU에 계정이 있는 모든 사용자에게 지정합니다. 이 명령에 사용된 OU 매개 변수에 대한 자세한 내용은 [Get-CsUser](get-csuser.md) cmdlet의 설명서를 참조하십시오.
+  - 이 명령은 사용자별 외부 액세스 정책 USAExternalAccessPolicy를 Active Directory의 UnitedStates OU에 계정이 있는 모든 사용자에게 지정합니다. 이 명령에 사용된 OU 매개 변수에 대한 자세한 내용은 [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) cmdlet의 설명서를 참조하십시오.
     
         Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 

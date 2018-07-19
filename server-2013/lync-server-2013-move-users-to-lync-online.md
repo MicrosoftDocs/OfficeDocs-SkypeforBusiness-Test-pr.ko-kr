@@ -57,7 +57,7 @@ Lync Online으로 사용자를 이동하기 전에 소수의 파일럿 사용자
 
 ## Lync Online으로 사용자 이동
 
-[Get-CsUser](get-csuser.md) cmdlet을 –Filter 매개 변수와 함께 사용하여 사용자 계정에 RegistrarPool 같은 특정 속성이 지정된 사용자를 선택하면 여러 사용자를 이동할 수 있습니다. 그리고 나서 다음 예제에 나와 있는 대로 반환된 사용자를 [Move-CsUser](move-csuser.md) cmdlet에 전달할 수 있습니다.
+[Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) cmdlet을 –Filter 매개 변수와 함께 사용하여 사용자 계정에 RegistrarPool 같은 특정 속성이 지정된 사용자를 선택하면 여러 사용자를 이동할 수 있습니다. 그리고 나서 다음 예제에 나와 있는 대로 반환된 사용자를 [Move-CsUser](move-csuser.md) cmdlet에 전달할 수 있습니다.
 
     Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
 

@@ -118,7 +118,7 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 
 2.  필요한 DNS 호스트(A, IPv6의 경우 AAAA) 및 DNS SRV 레코드를 정의하고 구성합니다.
 
-3.  Lync Server 제어판을 사용하거나 Lync Server 관리 셸 및 적절한 cmdlet을 사용하여 정책을 정의하고 구성합니다. Lync Server 관리 셸 cmdlet에 대한 자세한 내용은 [Lync Server 2013의 페더레이션 및 외부 액세스 Cmdlet](lync-server-2013-federation-and-external-access-cmdlets.md)을 참고하세요.
+3.  Lync Server 제어판을 사용하거나 Lync Server 관리 셸 및 적절한 cmdlet을 사용하여 정책을 정의하고 구성합니다. Lync Server 관리 셸 cmdlet에 대한 자세한 내용은 [Lync Server 2013의 페더레이션 및 외부 액세스 Cmdlet](https://docs.microsoft.com/en-us/powershell/module/skype/)을 참고하세요.
     
 
     > [!NOTE]

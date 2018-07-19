@@ -87,7 +87,7 @@ Lync Server PowerShell 및 Grant-CsPersistentChatPolicy cmdlet을 사용하여 �
 
 ## 여러 사용자에게 사용자별 영구 채팅 정책 할당
 
-  - 이 명령은 영구 채팅 정책인 RedmondUsersPersistentChatPolicy를 IT 부서에서 근무하는 모든 사용자에게 할당합니다. 이 명령에 사용되는 LdapFilter 매개 변수에 대한 자세한 내용은 [Get-CsUser](get-csuser.md) cmdlet에 대한 설명서를 참조하십시오.
+  - 이 명령은 영구 채팅 정책인 RedmondUsersPersistentChatPolicy를 IT 부서에서 근무하는 모든 사용자에게 할당합니다. 이 명령에 사용되는 LdapFilter 매개 변수에 대한 자세한 내용은 [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) cmdlet에 대한 설명서를 참조하십시오.
     
         Get-CsUser -LdapFilter "Department=IT" | Grant-CsPersistentChatPolicy -PolicyName "RedmondUsersPersistentChatPolicy"
 

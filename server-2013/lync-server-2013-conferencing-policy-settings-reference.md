@@ -19,7 +19,7 @@ _**마지막으로 수정된 항목:** 2014-04-22_
 
 ## 이끌이 정책 설정
 
-다음 표에는 회의 이끌이에게 적용될 수 있는 모든 회의 정책 설정이 나와 있습니다. 회의 정책 설정의 최신 목록은 [Set-CsClientPolicy](set-csclientpolicy.md) cmdlet에 대한 도움말 항목을 참고하세요.
+다음 표에는 회의 이끌이에게 적용될 수 있는 모든 회의 정책 설정이 나와 있습니다. 회의 정책 설정의 최신 목록은 [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy) cmdlet에 대한 도움말 항목을 참고하세요.
 
 ### 이끌이 정책 설정
 

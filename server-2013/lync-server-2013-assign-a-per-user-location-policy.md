@@ -95,7 +95,7 @@ Grant-CsLocationPolicy cmdlet을 사용하여 사용자별 위치 정책을 할�
 
 ## 여러 사용자에 대해 사용자별 위치 정책을 할당하려면
 
-  - 다음 명령은 Accounting 부서에서 근무하는 모든 사용자에 대해 사용자별 위치 정책 AccountingDepartmentLocationPolicy를 할당합니다. 이 명령에서 사용되는 LdapFilter 매개 변수에 대한 자세한 내용은 [Get-CsUser](get-csuser.md) cmdlet 설명서를 참조하십시오.
+  - 다음 명령은 Accounting 부서에서 근무하는 모든 사용자에 대해 사용자별 위치 정책 AccountingDepartmentLocationPolicy를 할당합니다. 이 명령에서 사용되는 LdapFilter 매개 변수에 대한 자세한 내용은 [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) cmdlet 설명서를 참조하십시오.
     
         Get-CsUser -LdapFilter "Department=Accounting" | Grant-CsLocationPolicy -PolicyName "AccountingDepartmentLocationPolicy"
 

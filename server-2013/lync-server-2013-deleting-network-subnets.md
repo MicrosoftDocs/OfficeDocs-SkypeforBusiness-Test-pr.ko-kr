@@ -17,7 +17,7 @@ _**마지막으로 수정된 항목:** 2013-02-21_
 
 다음 절차를 사용하여 서브넷을 삭제할 수 있습니다. Lync Server 제어판에서 네트워크 서브넷을 만들거나, 수정하거나, 삭제할 수 있습니다. 네트워크 서브넷을 만들고 수정하는 방법에 대한 자세한 내용은 [네트워크 서브넷 만들기 또는 수정](lync-server-2013-create-or-modify-network-subnets.md)을 참조하십시오.
 
-CAC(통화 허용 제어)를 구현하는 대부분의 Microsoft Lync Server 2013 배포에는 일반적으로 많은 서브넷이 있습니다. 따라서 Lync Server 관리 셸에서 서브넷을 구성하는 것이 가장 효율적인 경우가 많습니다. 여기서 Windows PowerShell cmdlet **Import-CSV**와 함께 **New-CsNetworkSubnet**을 호출할 수 있습니다. 두 cmdlet을 함께 사용하면 CSV(쉼표로 구분된 값) 파일에서 서브넷 설정을 읽어와서 여러 개의 서브넷을 동시에 만들 수 있습니다. .csv 파일에서 서브넷을 만드는 방법의 예제는 [New-CsNetworkSubnet](new-csnetworksubnet.md)을 참조하십시오.
+CAC(통화 허용 제어)를 구현하는 대부분의 Microsoft Lync Server 2013 배포에는 일반적으로 많은 서브넷이 있습니다. 따라서 Lync Server 관리 셸에서 서브넷을 구성하는 것이 가장 효율적인 경우가 많습니다. 여기서 Windows PowerShell cmdlet **Import-CSV**와 함께 **New-CsNetworkSubnet**을 호출할 수 있습니다. 두 cmdlet을 함께 사용하면 CSV(쉼표로 구분된 값) 파일에서 서브넷 설정을 읽어와서 여러 개의 서브넷을 동시에 만들 수 있습니다. .csv 파일에서 서브넷을 만드는 방법의 예제는 [New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet)을 참조하십시오.
 
 ## 네트워크 서브넷을 삭제하려면
 

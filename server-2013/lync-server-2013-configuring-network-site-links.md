@@ -29,7 +29,7 @@ CAC(통화 허용 제어) 구성 내에서 직접 연결된 사이트 간의 대
     
     이 예제에서는 Reno와 Portland 네트워크 사이트 간 대역폭 제한을 설정하는 Reno\_Portland라는 새 네트워크 사이트 링크를 만듭니다. 네트워크 사이트 및 대역폭 정책 프로필은 이 명령을 실행하기 전에 이미 있어야 합니다.
 
-자세한 매개 변수 설명은 Lync Server 관리 셸 설명서의 [New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md)를 참조하십시오. 네트워크 사이트 링크에 적용할 수 있는 대역폭 정책 프로필 목록을 검색하려면 **Get-CsNetworkBandwidthPolicyProfile** cmdlet을 호출합니다. 자세한 내용은 Lync Server 관리 셸 설명서의 [Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md)을 참조하십시오.
+자세한 매개 변수 설명은 Lync Server 관리 셸 설명서의 [New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md)를 참조하십시오. 네트워크 사이트 링크에 적용할 수 있는 대역폭 정책 프로필 목록을 검색하려면 **Get-CsNetworkBandwidthPolicyProfile** cmdlet을 호출합니다. 자세한 내용은 Lync Server 관리 셸 설명서의 [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)을 참조하십시오.
 
 ## 네트워크 사이트 링크를 수정하려면
 
@@ -67,5 +67,5 @@ CAC(통화 허용 제어) 구성 내에서 직접 연결된 사이트 간의 대
 [Set-CsNetworkInterSitePolicy](set-csnetworkintersitepolicy.md)  
 [Remove-CsNetworkInterSitePolicy](remove-csnetworkintersitepolicy.md)  
 [Get-CsNetworkInterSitePolicy](get-csnetworkintersitepolicy.md)  
-[Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md)
+[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
 

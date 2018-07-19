@@ -19,7 +19,7 @@ _**마지막으로 수정된 항목:** 2014-06-24_
 
 
 > [!IMPORTANT]
-> Lync 대화 보관을 완전히 사용하지 않도록 설정하려면 Lync 대화 내용도 사용하지 않도록 설정해야 합니다. 자세한 내용은 <A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Lync Server 2013에서 내부 및 외부 통신의 보관 관리</A>, <A href="new-csclientpolicy.md">New-CsClientPolicy</A>, <A href="set-csclientpolicy.md">Set-CsClientPolicy</A> 항목을 참고하세요.
+> Lync 대화 보관을 완전히 사용하지 않도록 설정하려면 Lync 대화 내용도 사용하지 않도록 설정해야 합니다. 자세한 내용은 <A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Lync Server 2013에서 내부 및 외부 통신의 보관 관리</A>, <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy">New-CsClientPolicy</A>, <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</A> 항목을 참고하세요.
 
 
 

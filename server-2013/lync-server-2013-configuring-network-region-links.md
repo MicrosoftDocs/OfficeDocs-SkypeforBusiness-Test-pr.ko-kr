@@ -67,7 +67,7 @@ CAC(통화 허용 제어)의 일환으로 두 네트워크 지역 간의 링크�
 
 #### 기타 리소스
 
-[New-CsNetworkRegionLink](new-csnetworkregionlink.md)  
+[New-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegionLink)  
 [Set-CsNetworkRegionLink](set-csnetworkregionlink.md)  
 [Remove-CsNetworkRegionLink](remove-csnetworkregionlink.md)  
 [Get-CsNetworkRegionLink](get-csnetworkregionlink.md)

@@ -45,7 +45,7 @@ Lync Server 2013을 설치하면 단일 사용자 서비스 정책(전역 범위
 
 정책을 지정한 후 Lync Server는 사용자의 연락처를 통합 연락처 저장소로 마이그레이션하는 작업을 시작합니다. 마이그레이션이 완료된 후에는 사용자의 연락처가 Lync Server가 아닌 Exchange에 저장됩니다. 마이그레이션이 완료되었을 때 사용자가 Lync 2013에 로그온하면 메시지 상자가 나타나고 프로세스를 종료하기 위해 Lync에서 로그오프하고 다시 로그온하라는 요청이 표시됩니다. 이 사용자별 정책이 지정되지 않은 사용자의 연락처는 통합 연락처 저장소로 마이그레이션되지 않습니다. 이러한 사용자는 글로벌 정책에 의해 관리되며 해당 글로벌 정책에서 통합 연락처 저장소가 사용되지 않도록 설정되었기 때문입니다.
 
-사용자의 연락처가 통합 연락처 저장소에 성공적으로 마이그레이션되었는지 여부는 Lync Server 관리 셸 내에서 [Test-CsUnifiedContactStore](test-csunifiedcontactstore.md) cmdlet을 실행하여 확인할 수 있습니다.
+사용자의 연락처가 통합 연락처 저장소에 성공적으로 마이그레이션되었는지 여부는 Lync Server 관리 셸 내에서 [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore) cmdlet을 실행하여 확인할 수 있습니다.
 
     Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 

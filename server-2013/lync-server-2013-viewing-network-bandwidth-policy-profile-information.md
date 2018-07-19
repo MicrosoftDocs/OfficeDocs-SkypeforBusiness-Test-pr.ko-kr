@@ -49,7 +49,7 @@ _**마지막으로 수정된 항목:** 2013-02-23_
         BWPolicyProfileID : RedmondBandwidthPolicy
         Description       :
 
-자세한 내용은 [Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md) cmdlet 관련 도움말 항목을 참조하십시오.
+자세한 내용은 [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) cmdlet 관련 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 
