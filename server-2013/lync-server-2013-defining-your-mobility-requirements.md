@@ -139,7 +139,7 @@ Lync 2010 Mobile 및 Lync 2013 모바일 클라이언트 사용 시에는 Lync S
     </tbody>
     </table>
     
-    구성할 수 있는 정책 설정 및 정책을 관리하는 방법에 대한 설명은 [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy), [Set-CsMobilityPolicy](set-csmobilitypolicy.md), [Get-CsMobilityPolicy](get-csmobilitypolicy.md), [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md) 및 [Remove-CsMobilityPolicy](remove-csmobilitypolicy.md)를 참조하십시오.
+    구성할 수 있는 정책 설정 및 정책을 관리하는 방법에 대한 설명은 [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy), [Set-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMobilityPolicy), [Get-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMobilityPolicy), [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy) 및 [Remove-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsMobilityPolicy)를 참조하십시오.
 
   - **Enterprise Voice를 사용할 수 있도록 설정되지 않은 사용자가 클릭하여 참가를 사용하여 회의에 참가하도록 할지 여부**
     

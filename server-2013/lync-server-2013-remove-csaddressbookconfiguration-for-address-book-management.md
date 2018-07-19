@@ -31,5 +31,5 @@ _**마지막으로 수정된 항목:** 2012-11-01_
 
 #### 기타 리소스
 
-[Remove-CsAddressBookConfiguration](remove-csaddressbookconfiguration.md)
+[Remove-CsAddressBookConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAddressBookConfiguration)
 

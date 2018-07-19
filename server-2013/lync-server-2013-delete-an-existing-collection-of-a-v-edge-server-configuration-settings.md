@@ -21,7 +21,7 @@ Lync Server을 설치하면 A/V 에지 구성 설정의 전역 컬렉션이 생�
 
 하지만 사이트 범위 또는 서비스 범위에서 만든 사용자 지정 설정 컬렉션은 Remove-CsAVEdgeConfiguration cmdlet을 사용하여 삭제할 수 있습니다. 사이트 설정을 삭제하면 해당 사이트의 A/V 에지 서버가 전역 설정에 의해 관리됩니다. 장치 범위 설정을 삭제할 경우 해당 서버가 사이트 설정(있는 경우)으로 관리되거나, 사이트 설정을 사용할 수 없으면 전역 설정으로 관리됩니다.
 
-자세한 내용은 [Remove-CsAVEdgeConfiguration](remove-csavedgeconfiguration.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration) cmdlet의 도움말 항목을 참조하십시오.
 
 ## 전역 컬렉션 다시 설정
 
@@ -51,5 +51,5 @@ Lync Server을 설치하면 A/V 에지 구성 설정의 전역 컬렉션이 생�
 #### 기타 리소스
 
 [Lync Server 2013의 A/V(오디오/비디오) 에지 서버](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[Remove-CsAVEdgeConfiguration](remove-csavedgeconfiguration.md)
+[Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration)
 

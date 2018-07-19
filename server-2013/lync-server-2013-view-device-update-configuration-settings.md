@@ -42,5 +42,5 @@ Lync Server 관리 셸 및 **Get-CsDeviceUpdateConfiguration** cmdlet을 사용�
         LogFlushInterval       : 00:05:00
         LogCleanUpTimeOfDay    :
 
-이 cmdlet에 대한 자세한 내용은 [Get-CsDeviceUpdateConfiguration](get-csdeviceupdateconfiguration.md)의 도움말 항목을 참조하세요.
+이 cmdlet에 대한 자세한 내용은 [Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDeviceUpdateConfiguration)의 도움말 항목을 참조하세요.
 

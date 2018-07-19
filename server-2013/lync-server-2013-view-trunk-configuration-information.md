@@ -68,5 +68,5 @@ SIP 트렁크 구성 설정은 Lync Server PowerShell과 Get-CsTrunkConfiguratio
         ForwardPAI                                : False
         EnableFastFailoverTimer                   : True
 
-자세한 내용은 [Get-CsTrunkConfiguration](get-cstrunkconfiguration.md) cmdlet 관련 도움말 항목을 참조하십시오.
+자세한 내용은 [Get-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunkConfiguration) cmdlet 관련 도움말 항목을 참조하십시오.
 

@@ -106,5 +106,5 @@ In addition to that, be aware that it’s possible for a test to be able to rout
 
 #### 기타 리소스
 
-[Test-CsVoiceTestConfiguration](test-csvoicetestconfiguration.md)
+[Test-CsVoiceTestConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsVoiceTestConfiguration)
 

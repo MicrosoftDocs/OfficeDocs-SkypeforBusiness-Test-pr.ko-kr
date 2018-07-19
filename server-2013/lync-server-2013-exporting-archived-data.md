@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**마지막으로 수정된 항목:** 2013-02-23_
 
-보관 데이터베이스에 보관된 데이터는 검색 가능하거나 읽기 가능한 형식은 아니지만, Export-CsArchivingData cmdlet을 사용하면 데이터베이스에서 레코드를 추출한 다음 Outlook EML(전자 메일) 파일로 저장할 수 있습니다. 보관된 데이터를 내보내는 방법에 대한 자세한 내용은 작업 설명서에서 [Export-CsArchivingData](export-csarchivingdata.md)를 참조하십시오.
+보관 데이터베이스에 보관된 데이터는 검색 가능하거나 읽기 가능한 형식은 아니지만, Export-CsArchivingData cmdlet을 사용하면 데이터베이스에서 레코드를 추출한 다음 Outlook EML(전자 메일) 파일로 저장할 수 있습니다. 보관된 데이터를 내보내는 방법에 대한 자세한 내용은 작업 설명서에서 [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)를 참조하십시오.
 
 Microsoft Exchange 통합을 사용하도록 설정하면 데이터는 Exchange 2013에 보관됩니다. Exchange 2013에 보관된 데이터는 검색 가능합니다. Exchange 2013 및 Lync Server 2013용 통합 통신 지원에 대한 자세한 내용은 지원 가능성 설명서에서 [Lync Server 2013의 Exchange Server 및 SharePoint 통합 지원](lync-server-2013-exchange-and-sharepoint-integration-support.md)을 참조하십시오. Exchange에 보관된 데이터에 액세스하는 방법에 대한 자세한 내용은 Exchange 2013 설명서를 참조하십시오.
 
@@ -35,7 +35,7 @@ Export-CSArchivingData cmdlet을 사용하여 보관 데이터를 내보낼 수 
     
         Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.litwareinc.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@litwareinc.com"
 
-자세한 내용은 [Export-CsArchivingData](export-csarchivingdata.md) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData) cmdlet에 대한 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 
@@ -45,6 +45,6 @@ Export-CSArchivingData cmdlet을 사용하여 보관 데이터를 내보낼 수 
 
 #### 기타 리소스
 
-[Export-CsArchivingData](export-csarchivingdata.md)  
+[Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)  
 [Lync Server 2013 보관 관리](lync-server-2013-managing-archiving.md)
 

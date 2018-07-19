@@ -132,7 +132,7 @@ Lync Server 배포에는 단일 중앙 관리 저장소가 포함되며, 이 저
     
 
     > [!TIP]
-    > 토폴로지 작성기를 실행하는 대신 <STRONG>Install-CsDatabase</STRONG> cmdlet을 사용하여 각 데이터베이스를 만들고 <STRONG>Install-CsMirrorDatabase</STRONG> cmdlet을 사용하여 미러링을 구성할 수 있습니다. 자세한 내용은 <A href="install-csdatabase.md">Install-CsDatabase</A> 및 <A href="install-csmirrordatabase.md">Install-CsMirrorDatabase</A>를 참조하십시오.
+    > 토폴로지 작성기를 실행하는 대신 <STRONG>Install-CsDatabase</STRONG> cmdlet을 사용하여 각 데이터베이스를 만들고 <STRONG>Install-CsMirrorDatabase</STRONG> cmdlet을 사용하여 미러링을 구성할 수 있습니다. 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</A> 및 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</A>를 참조하십시오.
 
 
 

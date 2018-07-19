@@ -97,7 +97,7 @@ Lync Server PowerShell 및 Grant-CsPersistentChatPolicy cmdlet을 사용하여 �
     
         Grant-CsPersistentChatPolicy -Identity "Ken Myer" -PolicyName $Null
 
-자세한 내용은 [Grant-CsPersistentChatPolicy](grant-cspersistentchatpolicy.md) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Grant-CsPersistentChatPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPersistentChatPolicy) cmdlet에 대한 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

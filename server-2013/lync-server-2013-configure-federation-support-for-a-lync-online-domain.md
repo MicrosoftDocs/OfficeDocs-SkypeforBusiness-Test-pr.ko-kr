@@ -57,5 +57,5 @@ Microsoft Lync Online 2010 고객과 페더레이션하려면 다음 단계를 �
     
       - **IsLocal**은 호스팅 공급자가 사용하는 프록시 서버가 Lync Server 토폴로지에 포함되는지 여부를 나타냅니다.
     
-    이 cmdlet을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [New-CsHostingProvider](new-cshostingprovider.md)를 참조하십시오.
+    이 cmdlet을 사용하는 방법에 대한 자세한 내용은 작업 설명서에서 [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)를 참조하십시오.
 

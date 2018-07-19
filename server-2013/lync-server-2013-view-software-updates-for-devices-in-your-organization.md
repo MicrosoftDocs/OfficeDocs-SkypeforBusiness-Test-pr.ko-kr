@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**마지막으로 수정된 항목:** 2012-11-01_
 
-Lync Server 2013에서는 장치 업데이트 웹 서비스를 사용하여 조직의 장치에 대한 소프트웨어 업데이트를 보고 관리할 수 있습니다. 이 업데이트는 Microsoft 고객지원 웹 사이트([http://go.microsoft.com/fwlink/?linkid=204091\&clcid=0x412](http://go.microsoft.com/fwlink/?linkid=204091%26clcid=0x412))의 .cab(캐비넷) 파일에 있습니다. .cab 파일을 다운로드했으면 **Import-CSdeviceUpdate** cmdlet을 사용하여 .cab 파일에서 장치 업데이트 규칙을 가져옵니다. **Import-CSdeviceUpdate** cmdlet에 대한 자세한 내용은 Lync Server 관리 셸 설명서에서 [Import-CsDeviceUpdate](import-csdeviceupdate.md)를 참조하십시오.
+Lync Server 2013에서는 장치 업데이트 웹 서비스를 사용하여 조직의 장치에 대한 소프트웨어 업데이트를 보고 관리할 수 있습니다. 이 업데이트는 Microsoft 고객지원 웹 사이트([http://go.microsoft.com/fwlink/?linkid=204091\&clcid=0x412](http://go.microsoft.com/fwlink/?linkid=204091%26clcid=0x412))의 .cab(캐비넷) 파일에 있습니다. .cab 파일을 다운로드했으면 **Import-CSdeviceUpdate** cmdlet을 사용하여 .cab 파일에서 장치 업데이트 규칙을 가져옵니다. **Import-CSdeviceUpdate** cmdlet에 대한 자세한 내용은 Lync Server 관리 셸 설명서에서 [Import-CsDeviceUpdate](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsDeviceUpdate)를 참조하십시오.
 
 
 > [!TIP]

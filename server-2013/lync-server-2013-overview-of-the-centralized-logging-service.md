@@ -27,7 +27,7 @@ _**마지막으로 수정된 항목:** 2013-02-22_
 
 Windows Server 명령줄 인터페이스 또는 Lync Server 관리 셸을 사용하여 명령을 실행할 수 있습니다. 명령은 로그인된 컴퓨터에서 실행되어 ClsAgent에 로컬로 전송되거나 배포의 다른 컴퓨터 및 풀로 전송됩니다.
 
-ClsAgent는 로컬 컴퓨터에 있는 모든 .CACHE 파일의 인덱스 파일을 유지합니다. ClsAgent는 CacheFileLocalFolders 옵션으로 정의된 모든 볼륨에 걸쳐 균등하게 분산되도록 .CACHE 파일을 할당하며 각 볼륨의 80% 이하만 사용합니다(**Set-CsClsConfiguration** cmdlet을 사용하여 로컬 캐시 위치와 비율을 구성 가능). 또한 ClsAgent는 오래된 캐시된 이벤트 추적 로그(.etl) 파일을 로컬 컴퓨터에서 에이징합니다. 2주 후에(**Set-CsClsConfiguration** cmdlet을 사용하여 기간을 구성 가능) 이러한 파일은 파일 공유로 복사되어 로컬 컴퓨터에서 삭제됩니다. 자세한 내용은 [Set-CsClsConfiguration](set-csclsconfiguration.md)을 참조하십시오. 검색 요청이 수신되면 검색 조건을 사용하여 캐시된 .etl 파일 집합을 선택하고 에이전트에서 유지되는 인덱스의 값을 사용하여 검색을 수행합니다.
+ClsAgent는 로컬 컴퓨터에 있는 모든 .CACHE 파일의 인덱스 파일을 유지합니다. ClsAgent는 CacheFileLocalFolders 옵션으로 정의된 모든 볼륨에 걸쳐 균등하게 분산되도록 .CACHE 파일을 할당하며 각 볼륨의 80% 이하만 사용합니다(**Set-CsClsConfiguration** cmdlet을 사용하여 로컬 캐시 위치와 비율을 구성 가능). 또한 ClsAgent는 오래된 캐시된 이벤트 추적 로그(.etl) 파일을 로컬 컴퓨터에서 에이징합니다. 2주 후에(**Set-CsClsConfiguration** cmdlet을 사용하여 기간을 구성 가능) 이러한 파일은 파일 공유로 복사되어 로컬 컴퓨터에서 삭제됩니다. 자세한 내용은 [Set-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration)을 참조하십시오. 검색 요청이 수신되면 검색 조건을 사용하여 캐시된 .etl 파일 집합을 선택하고 에이전트에서 유지되는 인덱스의 값을 사용하여 검색을 수행합니다.
 
 
 > [!NOTE]

@@ -27,7 +27,7 @@ _**마지막으로 수정된 항목:** 2015-01-23_
 
   - [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration)
 
-  - [New-CsHostingProvider](new-cshostingprovider.md)
+  - [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 
 
 > [!IMPORTANT]
@@ -96,5 +96,5 @@ _**마지막으로 수정된 항목:** 2015-01-23_
 
 #### 기타 리소스
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

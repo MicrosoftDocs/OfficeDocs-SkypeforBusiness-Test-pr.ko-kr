@@ -47,7 +47,7 @@ _**마지막으로 수정된 항목:** 2013-02-20_
     
 
     > [!NOTE]
-    > 추가 옵션에 대한 자세한 내용은 <A href="remove-cscallparkorbit.md">Remove-CsCallParkOrbit</A>를 참조하십시오.
+    > 추가 옵션에 대한 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>를 참조하십시오.
 
 
 
@@ -59,6 +59,6 @@ _**마지막으로 수정된 항목:** 2013-02-20_
 
 #### 기타 리소스
 
-[Remove-CsCallParkOrbit](remove-cscallparkorbit.md)  
-[Get-CsCallParkOrbit](get-cscallparkorbit.md)
+[Remove-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit)  
+[Get-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCallParkOrbit)
 

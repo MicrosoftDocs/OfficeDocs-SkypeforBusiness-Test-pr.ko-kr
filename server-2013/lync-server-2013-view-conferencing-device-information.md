@@ -23,7 +23,7 @@ Windows PowerShell 및 **Get-CsMeetingRoom** cmdlet을 사용하여 조직에서
 
 
 
-매개 변수를 포함하지 않고 **Get-CsMeetingRoom** cmdlet을 사용하는 경우에는 모든 회의 장치에 대한 정보가 반환됩니다. 선택적 매개 변수를 포함하면 다른 방식으로 정보를 필터링할 수 있습니다. 자세한 내용은 [Get-CsMeetingRoom](get-csmeetingroom.md)의 매개 변수 섹션을 참조하십시오.
+매개 변수를 포함하지 않고 **Get-CsMeetingRoom** cmdlet을 사용하는 경우에는 모든 회의 장치에 대한 정보가 반환됩니다. 선택적 매개 변수를 포함하면 다른 방식으로 정보를 필터링할 수 있습니다. 자세한 내용은 [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom)의 매개 변수 섹션을 참조하십시오.
 
 
 ## 모든 회의 장치에 대한 정보 보기
@@ -58,5 +58,5 @@ Windows PowerShell 및 **Get-CsMeetingRoom** cmdlet을 사용하여 조직에서
     
         Get-CsMeetingRoom -Identity "Room 1219"
 
-자세한 내용은 [Get-CsMeetingRoom](get-csmeetingroom.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom) cmdlet의 도움말 항목을 참조하십시오.
 

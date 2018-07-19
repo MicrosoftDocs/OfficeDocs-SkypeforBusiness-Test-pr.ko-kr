@@ -49,5 +49,5 @@ _**마지막으로 수정된 항목:** 2013-02-23_
     
         Get-CsClientVersionConfiguration | Where-Object {$_.DefaultAction -eq "Block" | Remove-CsClientVersionConfiguration
 
-자세한 내용은 [Remove-CsClientVersionConfiguration](remove-csclientversionconfiguration.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Remove-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClientVersionConfiguration) cmdlet의 도움말 항목을 참조하십시오.
 

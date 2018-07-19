@@ -67,7 +67,7 @@ Ken Myer과 Pilar Ackerman이라는 두 명의 사용자가 있으며 Ken Myer�
 
 보다시피 Ken Myer는 공용 메신저 공급자와 통신할 수 있습니다. 이 사용자에게 할당된 사용자별 정책이 전역 정책의 설정보다 우선하기 때문입니다. Pilar Ackerman은 공용 메신저 공급자와 통신할 수 없습니다. 이 사용자의 경우 전역 정책에 의해 관리되며 전역 정책이 이러한 통신을 금지하기 때문입니다.
 
-사용자별 정책은 Office 365 지원에서 만들어야 합니다. 정책이 만들어지면 적절한 **Grant-Cs** cmdlet(예: [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md))을 사용하여 사용자에게 할당할 수 있습니다. 사용자별 정책의 경우 정책 ID가 항상 태그 **접두사**로 시작되기 때문에 쉽게 구별할 수 있습니다. 예를 들면 다음과 같습니다.
+사용자별 정책은 Office 365 지원에서 만들어야 합니다. 정책이 만들어지면 적절한 **Grant-Cs** cmdlet(예: [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy))을 사용하여 사용자에게 할당할 수 있습니다. 사용자별 정책의 경우 정책 ID가 항상 태그 **접두사**로 시작되기 때문에 쉽게 구별할 수 있습니다. 예를 들면 다음과 같습니다.
 
     Identity : tag:AllowPublicIMCommunication
 

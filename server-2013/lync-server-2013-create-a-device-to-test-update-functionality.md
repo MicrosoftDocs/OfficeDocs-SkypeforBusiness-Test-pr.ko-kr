@@ -67,5 +67,5 @@ Windows PowerShell 및 New-CsTestDevice cmdlet을 사용하여 테스트 장치�
     
         New-CsTestDevice -Identity "site:Redmond/WindowsPhone" -IdentifierType "SerialNumber" -Identifier "01ABC5419JKR55T"
 
-자세한 내용은 [New-CsTestDevice](new-cstestdevice.md) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [New-CsTestDevice](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTestDevice) cmdlet에 대한 도움말 항목을 참조하십시오.
 

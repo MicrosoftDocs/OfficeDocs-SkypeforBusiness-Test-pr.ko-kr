@@ -49,7 +49,7 @@ _**마지막으로 수정된 항목:** 2012-06-19_
 
   - [Lync Server 2013에서 도메인 준비로 인한 변경](lync-server-2013-changes-made-by-domain-preparation.md)
 
-  - [Lync Server 2013에서 Grant-CsSetupPermission으로 인한 변경](lync-server-2013-changes-made-by-grant-cssetuppermission.md)
+  - [Lync Server 2013에서 Grant-CsSetupPermission으로 인한 변경](lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsSetupPermission)
 
-  - [Lync Server 2013에서 Grant-CsOUPermission으로 인한 변경](lync-server-2013-changes-made-by-grant-csoupermission.md)
+  - [Lync Server 2013에서 Grant-CsOUPermission으로 인한 변경](lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsOUPermission)
 

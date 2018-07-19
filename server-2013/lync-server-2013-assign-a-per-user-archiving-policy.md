@@ -103,7 +103,7 @@ Windows PowerShell 및 **Grant-CsArchivingPolicy** cmdlet을 사용하여 사용
     
         Grant-CsarchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-자세한 내용은 [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy) cmdlet에 대한 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

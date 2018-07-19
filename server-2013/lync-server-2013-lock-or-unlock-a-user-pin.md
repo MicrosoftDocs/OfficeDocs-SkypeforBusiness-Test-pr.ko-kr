@@ -99,5 +99,5 @@ Windows PowerShell과 Lock-CsClientPin 및 Unlock-CsClientPin cmdlet을 사용�
     
         Unlock-CsClientPin -Identity "Ken Myer"
 
-자세한 내용은 [Lock-CsClientPin](lock-csclientpin.md) 및 [Unlock-CsClientPin](unlock-csclientpin.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Lock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Lock-CsClientPin) 및 [Unlock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Unlock-CsClientPin) cmdlet의 도움말 항목을 참조하십시오.
 

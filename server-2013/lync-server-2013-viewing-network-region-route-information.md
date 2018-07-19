@@ -53,7 +53,7 @@ Lync Server PowerShell 및 Get-CsNetworkInterRegionRoute cmdlet을 사용하여 
         NetworkRegionID1          : Pacific Northwest
         NetworkRegionID2          : Northeast
 
-자세한 내용은 [Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterRegionRoute) cmdlet에 대한 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

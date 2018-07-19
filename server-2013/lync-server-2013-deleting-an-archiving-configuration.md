@@ -51,7 +51,7 @@ Windows PowerShell 및 Remove-CsArchivingConfiguration cmdlet을 사용하여 �
     
         Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 
-자세한 내용은 [Remove-CsArchivingConfiguration](remove-csarchivingconfiguration.md) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Remove-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsArchivingConfiguration) cmdlet에 대한 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

@@ -36,5 +36,5 @@ _**마지막으로 수정된 항목:** 2013-02-20_
 
 #### 기타 리소스
 
-[Get-CsCommonAreaPhone](get-cscommonareaphone.md)
+[Get-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCommonAreaPhone)
 

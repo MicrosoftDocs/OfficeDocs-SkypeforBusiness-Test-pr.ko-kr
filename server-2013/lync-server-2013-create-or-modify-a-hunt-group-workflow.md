@@ -257,7 +257,7 @@ _**마지막으로 수정된 항목:** 2013-09-11_
     
 
     > [!NOTE]
-    > 프롬프트로 오디오 파일을 사용하려면 <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet을 사용합니다. 자세한 내용은 <A href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</A>을 참조하십시오.
+    > 프롬프트로 오디오 파일을 사용하려면 <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet을 사용합니다. 자세한 내용은 <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>을 참조하십시오.
 
 
 
@@ -265,7 +265,7 @@ _**마지막으로 수정된 항목:** 2013-09-11_
     
         $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
     
-    큐 만들기에 대한 자세한 내용은 [New-CsRgsQueue](new-csrgsqueue.md)를 참조하십시오.
+    큐 만들기에 대한 자세한 내용은 [New-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsQueue)를 참조하십시오.
 
 5.  업무 시간 동안 워크플로를 열 때 수행할 기본 동작을 정의하여 변수에 저장합니다. 명령줄에서 다음을 실행합니다.
     
@@ -282,7 +282,7 @@ _**마지막으로 수정된 항목:** 2013-09-11_
 
 6.  업무 시간과 휴일을 정의하려는 경우 워크플로를 만들거나 수정하기 전에 정의해야 합니다. 자세한 내용은 [(선택 사항) Lync Server 2013에서 응답 그룹 업무 시간 정의](lync-server-2013-optional-define-response-group-business-hours.md)와 [(선택 사항) Lync Server 2013에서 응답 그룹 휴일 집합 정의](lync-server-2013-optional-define-response-group-holiday-sets.md)를 참조하십시오.
 
-7.  업무 시간 외나 휴일에 받는 통화에 대한 프롬프트를 만들려면 **New-CsRgsPrompt** cmdlet을 사용하여 프롬프트를 정의하고 **New-CsRgsCallAction**를 사용하여 프롬프트 후에 수행될 동작을 정의합니다. 자세한 내용은 [New-CsRgsPrompt](new-csrgsprompt.md)와 [New-CsRgsCallAction](new-csrgscallaction.md)을 참조하십시오.
+7.  업무 시간 외나 휴일에 받는 통화에 대한 프롬프트를 만들려면 **New-CsRgsPrompt** cmdlet을 사용하여 프롬프트를 정의하고 **New-CsRgsCallAction**를 사용하여 프롬프트 후에 수행될 동작을 정의합니다. 자세한 내용은 [New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt)와 [New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction)을 참조하십시오.
 
 8.  Lync Server 응답 그룹 서비스에 대한 서비스 이름을 검색하여 변수에 할당합니다. 명령줄에 다음을 실행합니다.
     
@@ -303,7 +303,7 @@ _**마지막으로 수정된 항목:** 2013-09-11_
     
 
     > [!NOTE]
-    > 선택적 추가 매개 변수에 대한 자세한 내용은 <A href="new-csrgsworkflow.md">New-CsRgsWorkflow</A> 또는 <A href="set-csrgsworkflow.md">Set-CsRgsWorkflow</A>를 참조하십시오.
+    > 선택적 추가 매개 변수에 대한 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow">New-CsRgsWorkflow</A> 또는 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</A>를 참조하십시오.
 
 
 
@@ -319,8 +319,8 @@ _**마지막으로 수정된 항목:** 2013-09-11_
 
 #### 기타 리소스
 
-[New-CsRgsWorkflow](new-csrgsworkflow.md)  
-[Set-CsRgsWorkflow](set-csrgsworkflow.md)  
-[New-CsRgsPrompt](new-csrgsprompt.md)  
-[New-CsRgsCallAction](new-csrgscallaction.md)
+[New-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow)  
+[Set-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow)  
+[New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt)  
+[New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction)
 

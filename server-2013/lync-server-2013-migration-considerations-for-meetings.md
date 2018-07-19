@@ -72,7 +72,7 @@ Lync Server 2010에서 Lync Server 2013으로 사용자를 이동하는 경우 �
 
   - 모임 콘텐츠(예: PowerPoint 프레젠테이션, 화이트보드 콘텐츠, 설문 데이터
 
-모임에서 공유한 콘텐츠를 이동하려면 Move-CsUser cmdlet의 MoveMeetingContent 매개 변수를 사용합니다. 이 cmdlet을 사용하는 방법에 대한 자세한 내용은 Lync Server 2013 cmdlet 설명서의 [Move-CsUser](move-csuser.md)를 참고하세요.
+모임에서 공유한 콘텐츠를 이동하려면 Move-CsUser cmdlet의 MoveMeetingContent 매개 변수를 사용합니다. 이 cmdlet을 사용하는 방법에 대한 자세한 내용은 Lync Server 2013 cmdlet 설명서의 [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser)를 참고하세요.
 
 ## Office Communications Server 2007 R2에서 모임 마이그레이션
 

@@ -103,7 +103,7 @@ Grant-CsClientVersionPolicy cmdlet을 사용하여 사용자별 클라이언트 
     
         Grant-CsClientVersionPolicy -Identity "Ken Myer" -PolicyName $Null
 
-자세한 내용은 [Grant-CsClientVersionPolicy](grant-csclientversionpolicy.md) cmdlet 관련 도움말 항목을 참조하십시오.
+자세한 내용은 [Grant-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientVersionPolicy) cmdlet 관련 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

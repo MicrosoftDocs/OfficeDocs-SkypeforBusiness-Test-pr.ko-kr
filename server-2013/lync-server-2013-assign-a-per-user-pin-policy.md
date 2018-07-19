@@ -103,7 +103,7 @@ Lync Server 관리 셸 및 **Grant-CsPinPolicy** cmdlet을 사용하여 사용�
     
         Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
 
-자세한 내용은 [Grant-CsPinPolicy](grant-cspinpolicy.md)를 참조하십시오.
+자세한 내용은 [Grant-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPinPolicy)를 참조하십시오.
 
 ## 참고 항목
 

@@ -106,7 +106,7 @@ Lync Server 2013에서는 프런트 엔드 풀 아키텍처가 변경되었으�
 </table>
 
 
-이후에 풀을 시작할 때마다 위 표에서와 같이 85%의 서버가 시작되어야 합니다. 풀 수준 쿼럼 손실에 해당하지 않을 정도로 충분한 서버가 시작될 수 있지만 이 수만큼 서버를 시작할 수 없는 경우 **Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** cmdlet을 사용하여 이 풀이 라우팅 그룹 수준 쿼럼 손실에서 복구되도록 설정하고 계속 진행할 수 있습니다. 이 cmdlet을 사용하는 방법에 대한 자세한 내용은 [Reset-CsPoolRegistrarState](reset-cspoolregistrarstate.md)를 참조하세요.
+이후에 풀을 시작할 때마다 위 표에서와 같이 85%의 서버가 시작되어야 합니다. 풀 수준 쿼럼 손실에 해당하지 않을 정도로 충분한 서버가 시작될 수 있지만 이 수만큼 서버를 시작할 수 없는 경우 **Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** cmdlet을 사용하여 이 풀이 라우팅 그룹 수준 쿼럼 손실에서 복구되도록 설정하고 계속 진행할 수 있습니다. 이 cmdlet을 사용하는 방법에 대한 자세한 내용은 [Reset-CsPoolRegistrarState](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsPoolRegistrarState)를 참조하세요.
 
 
 > [!NOTE]
@@ -193,7 +193,7 @@ Lync Server 2013에서는 프런트 엔드 풀 아키텍처가 변경되었으�
 
   - 마지막으로 패치한 업그레이드 도메인의 서버가 중지되었거나 다시 시작되지 않을 경우 다음 업그레이드 도메인으로 이동하지 마세요. 업그레이드 내의 서버를 시작할 수 없는 경우에도 마찬가지입니다. **Get-CsPoolFabricState**를 실행하여 모든 라우팅 그룹에 하나의 기본 및 최소 하나의 보조 복제본이 있는지 확인합니다. 이렇게 하면 모든 사용자에게 서비스가 있는지 여부를 확인할 수 있습니다.
 
-  - 일부 사용자에게만 서비스가 있고 다른 사용자에게는 없는 경우에는 –Verbose 옵션과 함께 **Get-CsPoolFabricState**를 실행하여 복제본이 없는 라우팅 그룹을 확인합니다. 문제 해결을 위한 첫 단계로 전체 풀을 다시 시작하지 마세요. 이 cmdlet에 대한 자세한 내용은 [Get-CsPoolFabricState](get-cspoolfabricstate.md)를 참조하세요.
+  - 일부 사용자에게만 서비스가 있고 다른 사용자에게는 없는 경우에는 –Verbose 옵션과 함께 **Get-CsPoolFabricState**를 실행하여 복제본이 없는 라우팅 그룹을 확인합니다. 문제 해결을 위한 첫 단계로 전체 풀을 다시 시작하지 마세요. 이 cmdlet에 대한 자세한 내용은 [Get-CsPoolFabricState](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPoolFabricState)를 참조하세요.
 
   - Windows Fabric 설치/제거를 위해 이벤트 뷰어 또는 성능 모니터 창의 모든 인스턴스가 닫혀 있는지 확인합니다.
 

@@ -77,7 +77,7 @@ Windows PowerShell 및 **Reset-CsDeviceUpdateRule** cmdlet을 사용하여 장�
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Reset-CsDeviceUpdateRule
 
-자세한 내용은 [Reset-CsDeviceUpdateRule](reset-csdeviceupdaterule.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Reset-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsDeviceUpdateRule) cmdlet의 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

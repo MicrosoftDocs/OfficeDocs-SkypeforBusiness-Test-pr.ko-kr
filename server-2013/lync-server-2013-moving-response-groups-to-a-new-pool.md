@@ -53,7 +53,7 @@ FQDN(정규화된 도메인 이름)이 달라도 풀 간에 응답 그룹을 이
     
 
     > [!NOTE]
-    > 응용 프로그램 수준 설정에는 기본 대기 음악 구성, 기본 대기 음악 오디오 파일, 에이전트 되걸기 유예 기간 및 호출 컨텍스트 구성이 포함됩니다. 이러한 구성 설정을 보려면 <STRONG>Get-CsRgsConfiguration</STRONG> cmdlet을 실행합니다. 이 cmdlet에 대한 자세한 내용은 <A href="get-csrgsconfiguration.md">Get-CsRgsConfiguration</A>을 참조하십시오.
+    > 응용 프로그램 수준 설정에는 기본 대기 음악 구성, 기본 대기 음악 오디오 파일, 에이전트 되걸기 유예 기간 및 호출 컨텍스트 구성이 포함됩니다. 이러한 구성 설정을 보려면 <STRONG>Get-CsRgsConfiguration</STRONG> cmdlet을 실행합니다. 이 cmdlet에 대한 자세한 내용은 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</A>을 참조하십시오.
 
 
 

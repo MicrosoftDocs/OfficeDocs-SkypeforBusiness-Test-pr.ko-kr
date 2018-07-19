@@ -75,14 +75,14 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <tr class="even">
 <td><p>Mcx Mobility Service를 사용하여 Lync 2010 Mobile에 대한 모바일 배포 테스트</p></td>
 <td><p><strong>Test-CsMcxP2PIM</strong>을 실행하여 사용자 간의 인스턴트 메시지 전송을 테스트합니다.</p>
-<p>전체 옵션 목록은 Lync Server 관리 셸 cmdlet 설명서에서 <a href="test-csmcxp2pim.md">Test-CsMcxP2PIM</a>를 참조하십시오.</p></td>
+<p>전체 옵션 목록은 Lync Server 관리 셸 cmdlet 설명서에서 <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxP2PIM">Test-CsMcxP2PIM</a>를 참조하십시오.</p></td>
 <td><p>CsAdministrator</p></td>
 <td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Lync Server 2013에서 모바일 기능 배포 확인</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>UCWA 웹 구성 요소를 사용하여 Lync 2013 모바일 클라이언트에 대한 모바일 배포 테스트</p></td>
 <td><p><strong>Test-CsUcwaConference</strong> cmdlet을 사용하여 미리 정의된 테스트 사용자 또는 실제 사용자 쌍이 UCWA를 사용해 회의를 만들고 회의에 참가할 수 있는지를 테스트 및 확인합니다.</p>
-<p>전체 옵션 목록은 Lync Server 관리 셸 cmdlet 설명서에서 <a href="test-csucwaconference.md">Test-CsUcwaConference</a>를 참조하십시오.</p></td>
+<p>전체 옵션 목록은 Lync Server 관리 셸 cmdlet 설명서에서 <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUcwaConference">Test-CsUcwaConference</a>를 참조하십시오.</p></td>
 <td><p>CsAdministrator</p></td>
 <td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Lync Server 2013에서 모바일 기능 배포 확인</a></p></td>
 </tr>

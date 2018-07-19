@@ -23,7 +23,7 @@ Microsoft Lync Server 2013  통신 소프트웨어는 액세스 및 웹 회의 
 
   - 인증서가 에지 풀에서 사용되는 경우 에지 풀의 각 에지 서버에서 사용되는 동일한 인증서와 함께 내보낼 수 있는 상태로 만들어야 합니다. 내보낼 수 있는 개인 키 요구 사항은 풀의 모든 에지 서버에서 동일한 개인 키를 사용해야 하는 A/V 인증 서비스의 목적을 위한 것입니다.
 
-  - 오디오/비디오 서비스의 가동 시간을 최대한으로 유지하려면 분리된 A/V 에지 서비스 인증서(즉, 다른 외부 에지 인증서로 사용할 목적으로 분리된 A/V 에지 서비스 인증서) 구현에 필요한 인증서 요구 사항을 검토하십시오. 자세한 내용은 [에지 서버 계획에 영향을 주는 Lync Server 2013의 변경 사항](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md), [Lync Server 2013의 에지 서버 인증서 계획](lync-server-2013-plan-for-edge-server-certificates.md) 및 [Set-CsCertificate에 -Roll을 사용하여 Lync Server 2013에서 AV 및 OAuth 인증서 준비](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md)를 참조하십시오.
+  - 오디오/비디오 서비스의 가동 시간을 최대한으로 유지하려면 분리된 A/V 에지 서비스 인증서(즉, 다른 외부 에지 인증서로 사용할 목적으로 분리된 A/V 에지 서비스 인증서) 구현에 필요한 인증서 요구 사항을 검토하십시오. 자세한 내용은 [에지 서버 계획에 영향을 주는 Lync Server 2013의 변경 사항](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md), [Lync Server 2013의 에지 서버 인증서 계획](lync-server-2013-plan-for-edge-server-certificates.md) 및 [Set-CsCertificate에 -Roll을 사용하여 Lync Server 2013에서 AV 및 OAuth 인증서 준비](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)를 참조하십시오.
 
   - 인증서의 주체 이름은 액세스 에지 서비스 외부 인터페이스의 FQDN(정규화된 도메인 이름) 또는 하드웨어 부하 분산 장치 VIP(예: access.contoso.com)입니다.
     

@@ -49,7 +49,7 @@ Lync Server에서 파트너 응용 프로그램은 [New-CsPartnerApplication](ht
 
 또한 Lync Server 2013 서버 간 인증 설명서에 있는 스크립트 코드를 복사하여 수정하는 방법으로 파트너 응용 프로그램을 만들 수도 있습니다. 자세한 내용은 [Lync Server 2013에서 서버 간 인증(Oauth) 및 파트너 응용 프로그램 관리](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) 문서를 참조하십시오.
 
-Lync Server과 Exchange을 모두 서로의 파트너 응용 프로그램으로 성공적으로 구성했으면 두 제품 사이의 서버 간 인증도 성공적으로 구성한 것입니다. Lync Server 2013에는 Windows PowerShell cmdlet인 [Test-CsExStorageConnectivity](test-csexstorageconnectivity.md)가 포함되어 있어, 이를 사용하여 서버 간 인증이 올바르게 구성되었는지, 그리고 Lync Server 저장소 서비스에서 Exchange 2013에 연결할 수 있는지 확인할 수 있습니다. 이 cmdlet은 Exchange 2013 사용자의 사서함에 연결하여 해당 사용자의 대화 내용 폴더에 항목을 기록하고 선택적으로 해당 항목을 삭제함으로써 저장소 서비스에서 Exchange 2013에 연결할 수 있는지를 확인합니다.
+Lync Server과 Exchange을 모두 서로의 파트너 응용 프로그램으로 성공적으로 구성했으면 두 제품 사이의 서버 간 인증도 성공적으로 구성한 것입니다. Lync Server 2013에는 Windows PowerShell cmdlet인 [Test-CsExStorageConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExStorageConnectivity)가 포함되어 있어, 이를 사용하여 서버 간 인증이 올바르게 구성되었는지, 그리고 Lync Server 저장소 서비스에서 Exchange 2013에 연결할 수 있는지 확인할 수 있습니다. 이 cmdlet은 Exchange 2013 사용자의 사서함에 연결하여 해당 사용자의 대화 내용 폴더에 항목을 기록하고 선택적으로 해당 항목을 삭제함으로써 저장소 서비스에서 Exchange 2013에 연결할 수 있는지를 확인합니다.
 
 Lync Server 2013과 Exchange 2013의 통합을 테스트하려면 Lync Server 관리 셸 내에서 다음과 같은 명령을 실행합니다.
 

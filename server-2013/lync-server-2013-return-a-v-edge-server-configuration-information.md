@@ -17,7 +17,7 @@ _**마지막으로 수정된 항목:** 2012-11-01_
 
 A/V 에지 서버를 사용하면 내부 사용자(조직 네트워크에 로그온한 사용자)가 외부 사용자(조직 네트워크에 로그온하지 않은 사용자)와 오디오 및 비디오를 공유할 수 있습니다. A/V 에지 서비스는 주로 A/V 에지 구성 설정을 사용하여 관리됩니다. A/V 에지 구성 설정은 사이트 범위 또는 서비스 범위(즉 개별 A/V 에지 서버)에 대해 구성할 수 있습니다.
 
-조직에서 사용 중인 A/V 에지 서버에 대한 정보를 반환하려면 Lync Server 관리 셸과 Get-CsAVEdgeConfiguration cmdlet을 사용해야 합니다. 자세한 내용은 [Get-CsAVEdgeConfiguration](get-csavedgeconfiguration.md) cmdlet에 대한 도움말 항목을 참조하십시오.
+조직에서 사용 중인 A/V 에지 서버에 대한 정보를 반환하려면 Lync Server 관리 셸과 Get-CsAVEdgeConfiguration cmdlet을 사용해야 합니다. 자세한 내용은 [Get-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAVEdgeConfiguration) cmdlet에 대한 도움말 항목을 참조하십시오.
 
 Get-CsAVEdgeConfiguration cmdlet에서 반환되는 정보는 다음과 유사합니다.
 

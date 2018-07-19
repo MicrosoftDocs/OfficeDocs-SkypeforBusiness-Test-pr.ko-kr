@@ -49,7 +49,7 @@ RBAC 역할(예: CsVoiceAdministrator)의 ID는 Active Directory 도메인 서�
 
 7.  **속성** 대화 상자에서 **확인** 을 클릭합니다.
 
-RBAC 역할이 할당되었는지 확인하려면 [Get-CsAdminRoleAssignment](get-csadminroleassignment.md) cmdlet을 사용하고, 사용자의 SamAccountName(Active Directory 로그온 이름)을 cmdlet에 전달합니다. 예를 들어 Lync Server 관리 셸 내에서 아래 명령을 실행합니다.
+RBAC 역할이 할당되었는지 확인하려면 [Get-CsAdminRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdminRoleAssignment) cmdlet을 사용하고, 사용자의 SamAccountName(Active Directory 로그온 이름)을 cmdlet에 전달합니다. 예를 들어 Lync Server 관리 셸 내에서 아래 명령을 실행합니다.
 
     Get-CsAdminRoleAssignment  -Identity "kenmyer"
 

@@ -31,7 +31,7 @@ Enterprise Voice를 배포하고 네트워크 사이트를 구성한 경우 위�
 
     New-CsVoiceRoutingPolicy -Identity <voice routing policy ID> -Name <voice routing policy name> -PstnUsages <usages>
 
-자세한 내용은 [New-CsVoiceRoutingPolicy](new-csvoiceroutingpolicy.md)를 참고하세요.
+자세한 내용은 [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsVoiceRoutingPolicy)를 참고하세요.
 
 다음 표와 Windows PowerShell 명령은 이 시나리오에서 정의된 두 개의 음성 라우팅 정책과 관련 PSTN 사용법을 보여줍니다. 이 표에는 위치 기반 라우팅에 해당되는 설정만 포함되어 있습니다.
 
@@ -123,7 +123,7 @@ Enterprise Voice를 배포하고 네트워크 사이트를 구성한 경우 위�
 
     New-CsTrunkConfiguration -Identity < trunk configuration ID>
 
-자세한 내용은 [New-CsTrunkConfiguration](new-cstrunkconfiguration.md)을 참고하세요.
+자세한 내용은 [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration)을 참고하세요.
 
 다음 Windows PowerShell 명령은 이 시나리오에서 정의된 배포의 트렁크마다 하나의 트렁크 구성을 만드는 과정을 보여줍니다.
 
@@ -132,23 +132,23 @@ Enterprise Voice를 배포하고 네트워크 사이트를 구성한 경우 위�
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 3 DEL-PBX>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 4 HYD-PBX>"
 
-트렁크당 하나의 트렁크 구성을 구성했으면 Lync ServerWindows PowerShell 명령 Set-CsTrunkConfiguration을 사용하여 라우팅 제한을 적용해야 하는 트렁크에 대해 위치 기반 라우팅을 사용하도록 설정할 수 있습니다. 통화의 경로를 PSTN 게이트웨이로 지정하는 트렁크에 대해 위치 기반 라우팅을 설정하고 게이트웨이가 있는 네트워크 사이트를 연결합니다.
+트렁크당 하나의 트렁크 구성을 구성했으면 Lync ServerWindows PowerShell 명령 set-cstrunkconfiguration을 사용하여 라우팅 제한을 적용해야 하는 트렁크에 대해 위치 기반 라우팅을 사용하도록 설정할 수 있습니다. 통화의 경로를 PSTN 게이트웨이로 지정하는 트렁크에 대해 위치 기반 라우팅을 설정하고 게이트웨이가 있는 네트워크 사이트를 연결합니다.
 
-    Set-CsTrunkConfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
+    set-cstrunkconfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
 
-자세한 내용은 [New-CsTrunkConfiguration](new-cstrunkconfiguration.md)을 참고하세요.
+자세한 내용은 [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration)을 참고하세요.
 
 이 예에서는 델리와 히드라바드의 PSTN 게이트웨이에 연결된 각 트렁크에 대해 위치 기반 라우팅이 설정되어 있습니다.
 
-    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
-    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
+    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
+    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
 
   
 
 통화의 경로를 PSTN으로 지정하지 않는 트렁크의 경우 위치 기반 라우팅을 활성화하지 마세요. 하지만 이 경우에도 이 트렁크를 통해 연결되는 끝점에 도달하는 PSTN 통화에 대해 위치 기반 라우팅 제한을 적용해야 하므로 시스템이 있는 네트워크 사이트에 여전히 트렁크를 연결해야 합니다. 이 예에서는 델리와 히드라바드의 PBX 시스템에 연결된 각 트렁크에 대해 위치 기반 라우팅이 설정되어 있지 않습니다.
 
-    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
-    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
+    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
+    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
 
   
 통화의 경로를 PSTN으로 지정하지 않는 시스템(예: PBX)에 연결된 끝점에는 위치 기반 라우팅을 사용할 수 있는 사용자의 Lync 끝점과 비슷한 제한이 적용됩니다. 따라서 이 사용자는 사용자의 위치에 관계없이 Lync 사용자에게 전화를 걸고 받을 수 있습니다. 또한 시스템에 연결된 네트워크 사이트와 상관없이 통화의 경로를 PSTN 네트워크로 지정하지 않는 다른 시스템(예: 다른 PBX에 연결된 끝점)으로 전화를 걸고 받을 수 있습니다. PSTN 끝점이 사용되는 모든 인바운드 통화, 아웃바운드 통화, 통화 전송 및 통화 전달에는 위치 기반 라우팅이 적용됩니다. 이러한 통화는 해당 시스템에 대해 로컬로 정의된 PSTN 게이트웨이만 사용해야 합니다.
@@ -201,7 +201,7 @@ Enterprise Voice를 배포하고 네트워크 사이트를 구성한 경우 위�
 
     Set-CsVoicePolicy -Identity <voice policy ID> -PreventPSTNTollBypass <$true|$false>
 
-자세한 내용은 [New-CsVoicePolicy](new-csvoicepolicy.md)를 참고하세요.
+자세한 내용은 [New-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsVoicePolicy)를 참고하세요.
 
 다음 표와 Windows PowerShell 명령은 이 시나리오에서 정의된 델리와 히드라바드 음성 정책으로 PSTN 유료 우회 방지를 설정하는 과정을 보여줍니다. 이 표에는 위치 기반 라우팅에 해당되는 설정만 포함되어 있습니다.
 
@@ -249,7 +249,7 @@ Enterprise Voice를 배포하고 네트워크 사이트를 구성한 경우 위�
 
     Set-CsRoutingConfiguration -EnableLocationBasedRouting $true
 
-자세한 내용은 [Set-CsRoutingConfiguration](set-csroutingconfiguration.md)을 참고하세요.
+자세한 내용은 [Set-CsRoutingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRoutingConfiguration)을 참고하세요.
 
 
 > [!NOTE]

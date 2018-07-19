@@ -19,9 +19,9 @@ _**마지막으로 수정된 항목:** 2015-06-22_
 
   - [New-CsEdgeAllowAllKnownDomains](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowAllKnownDomains)
 
-  - [New-CsEdgeAllowList](new-csedgeallowlist.md)
+  - [New-CsEdgeAllowList](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowList)
 
-  - [New-CsEdgeDomainPattern](new-csedgedomainpattern.md)
+  - [New-CsEdgeDomainPattern](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeDomainPattern)
 
 **New-CsEdgeAllowList** cmdlet 및 **New-CsEdgeDomainPattern** cmdlet을 사용할 때에는 Domain 매개 변수를 포함해야 합니다. 예를 들면 다음과 같습니다.
 

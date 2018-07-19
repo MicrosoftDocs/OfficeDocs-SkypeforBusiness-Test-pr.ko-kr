@@ -59,5 +59,5 @@ _**마지막으로 수정된 항목:** 2013-02-23_
                       UserAgentFullName=;Enabled=True;CompareOp=LEQ...}
         Description :
 
-자세한 내용은 [Get-CsClientVersionPolicy](get-csclientversionpolicy.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Get-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionPolicy) cmdlet의 도움말 항목을 참조하십시오.
 

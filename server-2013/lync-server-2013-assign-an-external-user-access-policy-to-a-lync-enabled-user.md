@@ -65,5 +65,5 @@ _**마지막으로 수정된 항목:** 2013-02-22_
     
         Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
-자세한 내용은 [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md) cmdlet 관련 도움말 항목을 참고하세요.
+자세한 내용은 [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy) cmdlet 관련 도움말 항목을 참고하세요.
 

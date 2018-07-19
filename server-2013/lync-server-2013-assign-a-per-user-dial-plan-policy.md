@@ -79,7 +79,7 @@ Windows PowerShell 및 **Grant-CsdialPlan** cmdlet을 사용하여 사용자별 
     
         Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
 
-자세한 내용은 [Grant-CsDialPlan](grant-csdialplan.md) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Grant-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsDialPlan) cmdlet에 대한 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

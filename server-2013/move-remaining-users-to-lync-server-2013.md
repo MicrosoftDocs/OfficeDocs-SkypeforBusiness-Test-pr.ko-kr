@@ -45,5 +45,5 @@ Lync Server 제어판 또는 Lync Server 관리 셸을 사용하여 새 Lync Ser
 
 3.  익명 참가자를 허용하는 회의 정책은 Lync Server 2013 제어판에서 **참가자가 익명 사용자를 초대할 수 있도록 허용** 이 선택되고 Lync Server 관리 셸의 **Get-CsConferencingPolicy** cmdlet 출력에 **AllowAnonymousParticipantsInMeetings** 가 **True** 로 설정됩니다.
 
-4.  Lync Server 관리 셸을 사용하여 회의 정책을 구성하는 방법에 대한 자세한 내용은 Lync Server 관리 셸 설명서에서 [Set-CsConferencingPolicy](set-csconferencingpolicy.md)를 참조하십시오.
+4.  Lync Server 관리 셸을 사용하여 회의 정책을 구성하는 방법에 대한 자세한 내용은 Lync Server 관리 셸 설명서에서 [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingPolicy)를 참조하십시오.
 

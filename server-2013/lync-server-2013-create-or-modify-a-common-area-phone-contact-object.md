@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**마지막으로 수정된 항목:** 2013-02-20_
 
-모든 공통 영역 전화에 대해 Active Directory 도메인 서비스 대화 상대 개체를 만들려면**New-CsCommonAreaPhone** cmdlet을 사용합니다. 이 cmdlet은 공통 영역 전화에 사용할 새 대화 상대 개체를 만들거나, 기존 대화 상대 개체를 새 공통 영역 전화에 연결할 수 있습니다. 공통 영역 전화와 연결된 대화 상대 개체의 속성을 수정하려면**Set-CsCommonAreaPhone** cmdlet을 사용합니다. **Set-CsCommonAreaPhone**에 대해 선택적 매개 변수를 사용하면 대화 상대의 Active Directory 표시 이름이나 전화와 연결된 줄 URI(Uniform Resource Identifier)와 같은 항목을 변경할 수 있으며 Lync Server에서 계정을 사용하거나 사용하지 않도록 설정할 수 있습니다. 수정할 수 있는 모든 항목에 대한 자세한 내용은 [Set-CsCommonAreaPhone](set-cscommonareaphone.md)의 매개 변수 섹션을 참조하십시오. **New-CsCommonAreaPhone** 매개 변수에 대한 자세한 내용은 [New-CsCommonAreaPhone](new-cscommonareaphone.md)을 참조하십시오.
+모든 공통 영역 전화에 대해 Active Directory 도메인 서비스 대화 상대 개체를 만들려면**New-CsCommonAreaPhone** cmdlet을 사용합니다. 이 cmdlet은 공통 영역 전화에 사용할 새 대화 상대 개체를 만들거나, 기존 대화 상대 개체를 새 공통 영역 전화에 연결할 수 있습니다. 공통 영역 전화와 연결된 대화 상대 개체의 속성을 수정하려면**Set-CsCommonAreaPhone** cmdlet을 사용합니다. **Set-CsCommonAreaPhone**에 대해 선택적 매개 변수를 사용하면 대화 상대의 Active Directory 표시 이름이나 전화와 연결된 줄 URI(Uniform Resource Identifier)와 같은 항목을 변경할 수 있으며 Lync Server에서 계정을 사용하거나 사용하지 않도록 설정할 수 있습니다. 수정할 수 있는 모든 항목에 대한 자세한 내용은 [Set-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCommonAreaPhone)의 매개 변수 섹션을 참조하십시오. **New-CsCommonAreaPhone** 매개 변수에 대한 자세한 내용은 [New-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCommonAreaPhone)을 참조하십시오.
 
 이 두 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다. 원격 Windows PowerShell을 사용하여 Lync Server에 연결하는 방법에 대한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서인 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876))를 참조하세요.
 
@@ -40,5 +40,5 @@ _**마지막으로 수정된 항목:** 2013-02-20_
     
         Set-CsCommonAreaPhone -Identity "Lobby" -SipAddress "sip:lobby@litwareinc.com"
 
-자세한 내용은 [New-CsCommonAreaPhone](new-cscommonareaphone.md) cmdlet 및 [Set-CsCommonAreaPhone](set-cscommonareaphone.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [New-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCommonAreaPhone) cmdlet 및 [Set-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCommonAreaPhone) cmdlet의 도움말 항목을 참조하십시오.
 

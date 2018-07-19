@@ -47,7 +47,7 @@ Lync Server 2013 환경에서 지원하려는 클라이언트 버전을 지정�
 
 ## Lync Server PowerShell Cmdlet을 사용하여 기본 작업 수정
 
-사용자가 클라이언트 버전 정책에 의해 명시적으로 지원되거나 제한되지 않는 클라이언트를 사용해서 로그인하려고 할 때 수행할 기본 작업은 Windows PowerShell 명령줄 인터페이스 및 **Set-CsClientVersionPolicy** cmdlet을 사용하여 관리할 수도 있습니다. 이 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다. 원격 Windows PowerShell을 사용하여 Lync Server에 연결하는 방법에 대한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서인 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876))를 참조하세요.
+사용자가 클라이언트 버전 정책에 의해 명시적으로 지원되거나 제한되지 않는 클라이언트를 사용해서 로그인하려고 할 때 수행할 기본 작업은 Windows PowerShell 명령줄 인터페이스 및 **set-csclientversionpolicy** cmdlet을 사용하여 관리할 수도 있습니다. 이 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다. 원격 Windows PowerShell을 사용하여 Lync Server에 연결하는 방법에 대한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서인 "빠른 시작: 원격 PowerShell을 사용하여 Microsoft Lync Server 2010 관리"([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876))를 참조하세요.
 
 ## 액세스 차단을 위한 기본 작업 구성
 
@@ -61,7 +61,7 @@ Lync Server 2013 환경에서 지원하려는 클라이언트 버전을 지정�
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -DefaultAction Allow
 
-자세한 내용은 [Set-CsClientVersionPolicy](set-csclientversionpolicy.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [set-csclientversionpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy) cmdlet의 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

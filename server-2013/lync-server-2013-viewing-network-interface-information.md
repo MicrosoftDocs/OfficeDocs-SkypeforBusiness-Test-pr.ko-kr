@@ -37,5 +37,5 @@ Lync Server 관리 셸과 **Get-CsNetworkInterface** cmdlet을 사용하여 네�
         ConfiguredIPAddress   :
         ConfiguredIPv6Address :
 
-자세한 내용은 [Get-CsNetworkInterface](get-csnetworkinterface.md)를 참조하십시오.
+자세한 내용은 [Get-CsNetworkInterface](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterface)를 참조하십시오.
 

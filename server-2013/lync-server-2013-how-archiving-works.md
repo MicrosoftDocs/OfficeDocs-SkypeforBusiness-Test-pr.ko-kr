@@ -141,9 +141,9 @@ Lync Server 2013 보관 정책은 다음을 포함합니다.
 
 Lync Server 2013 관리 셸에서는 Lync Server 2013 제어판에서 사용할 수 없는 옵션을 구현하는 cmdlet을 사용할 수 있습니다. 이러한 옵션은 다음과 같습니다.
 
-  - **중복 메시지 보관**. 자세한 내용은 작업 설명서에서 [New-CsArchivingConfiguration](new-csarchivingconfiguration.md) 및 [Set-CsArchivingConfiguration](set-csarchivingconfiguration.md)을 참고하세요.
+  - **중복 메시지 보관**. 자세한 내용은 작업 설명서에서 [New-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingConfiguration) 및 [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration)을 참고하세요.
 
-  - **보관된 데이터 내보내기**. 자세한 내용은 [Export-CsArchivingData](export-csarchivingdata.md)를 참고하세요.
+  - **보관된 데이터 내보내기**. 자세한 내용은 [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)를 참고하세요.
 
 ## 보관된 데이터에 액세스하는 방법
 

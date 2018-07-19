@@ -19,7 +19,7 @@ _**마지막으로 수정된 항목:** 2014-02-05_
 
 
 > [!IMPORTANT]
-> 지정된 모든 범위(사이트, 전역, 풀 또는 컴퓨터)에 대해 항상 최대 2개의 시나리오를 실행할 수 있습니다. 현재 실행 중인 시나리오를 확인하려면 Windows PowerShell 및 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</A>를 사용합니다. Windows PowerShell 및 <A href="set-csclsscenario.md">Set-CsClsScenario</A>를 사용하면 실행 중인 시나리오를 동적으로 변경할 수 있습니다. 로깅 세션 중 실행 중인 시나리오를 수정하여 공급자로부터 수집 중인 데이터를 조정하거나 세부적으로 조정할 수 있습니다.
+> 지정된 모든 범위(사이트, 전역, 풀 또는 컴퓨터)에 대해 항상 최대 2개의 시나리오를 실행할 수 있습니다. 현재 실행 중인 시나리오를 확인하려면 Windows PowerShell 및 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</A>를 사용합니다. Windows PowerShell 및 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsScenario">Set-CsClsScenario</A>를 사용하면 실행 중인 시나리오를 동적으로 변경할 수 있습니다. 로깅 세션 중 실행 중인 시나리오를 수정하여 공급자로부터 수집 중인 데이터를 조정하거나 세부적으로 조정할 수 있습니다.
 
 
 
@@ -51,7 +51,7 @@ Lync Server 관리 셸을 사용하여 중앙 로깅 서비스 함수를 실행�
 
 1.  Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync Server 2013**을 차례로 클릭한 다음 **Lync Server 관리 셸**을 클릭합니다.
 
-2.  로깅 세션에 대한 새 시나리오를 만들려면 [New-CsClsProvider](new-csclsprovider.md)를 사용하고 시나리오의 이름을 정의합니다(즉, 고유하게 식별하기 위한 방법). WPP(Windows Software Tracing Preprocessor의 약어이며 기본값임), EventLog(Windows 이벤트 로그 형식) 또는 IISLog(IIS 로그 파일 형식을 기반으로 하는 ASCII 형식 파일) 중에서 로깅 형식 유형을 선택합니다. 그런 다음 수준(이 항목의 로깅 수준 아래에 정의됨) 및 플래그(이 항목의 플래그 아래에 정의됨)를 정의합니다.
+2.  로깅 세션에 대한 새 시나리오를 만들려면 [New-CsClsProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsProvider)를 사용하고 시나리오의 이름을 정의합니다(즉, 고유하게 식별하기 위한 방법). WPP(Windows Software Tracing Preprocessor의 약어이며 기본값임), EventLog(Windows 이벤트 로그 형식) 또는 IISLog(IIS 로그 파일 형식을 기반으로 하는 ASCII 형식 파일) 중에서 로깅 형식 유형을 선택합니다. 그런 다음 수준(이 항목의 로깅 수준 아래에 정의됨) 및 플래그(이 항목의 플래그 아래에 정의됨)를 정의합니다.
     
     이 예제 시나리오에서는 예제 공급자 변수로 LyssProvider를 사용합니다.
     

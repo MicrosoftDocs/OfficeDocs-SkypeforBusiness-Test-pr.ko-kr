@@ -17,9 +17,9 @@ _**마지막으로 수정된 항목:** 2012-10-20_
 
 Lync Server 2013은 IP-PBX와 PSTN(공중 전화망) 게이트웨이를 상호 연결하여 PBX 전화의 통화를 PSTN으로 라우팅하고 수신 PSTN 호출은 PBX(Private Branch Exchange) 전화로 라우팅될 수 있습니다. 마찬가지로, Lync Server 2013을 둘 이상의 IP-PBX 시스템을 상호 연결하여 서로 다른 IP-PBX 시스템에서 PBX 전화 간에 통화를 배치하고 수신할 수 있습니다.
 
-트렁크 간 라우팅 기능은 새 매개 변수 PstnUsages와 함께 Lync Server 관리 셸 cmdlet인 **Set-CsTrunkConfiguration**을 사용하여 구성할 수 있습니다. 이 매개 변수는 사용할 PSTN 사용 레코드 집합을 지정합니다. 트렁크는 이 PSTN 사용 정보를 사용하여 경로를 결정하고 모든 수신 통화를 그에 따라 라우팅합니다.
+트렁크 간 라우팅 기능은 새 매개 변수 PstnUsages와 함께 Lync Server 관리 셸 cmdlet인 **set-cstrunkconfiguration**을 사용하여 구성할 수 있습니다. 이 매개 변수는 사용할 PSTN 사용 레코드 집합을 지정합니다. 트렁크는 이 PSTN 사용 정보를 사용하여 경로를 결정하고 모든 수신 통화를 그에 따라 라우팅합니다.
 
-    Set-CsTrunkConfiguration -Identity <TrunkId> -PstnUsages @{add="<UsageString>"}
+    set-cstrunkconfiguration -Identity <TrunkId> -PstnUsages @{add="<UsageString>"}
 
 다음 다이어그램은 Lync Server 2013에서 제공하는 PSTN 게이트웨이 및 IP-PBX 간 상호 연결에 대해 보여줍니다.
 

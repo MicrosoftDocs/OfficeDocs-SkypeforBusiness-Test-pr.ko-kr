@@ -29,5 +29,5 @@ Lync Server 2013에는 특정 기능이 제대로 작동하는지 확인하기 �
 
 #### 기타 리소스
 
-[Test-CsAddressBookService](test-csaddressbookservice.md)
+[Test-CsAddressBookService](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAddressBookService)
 

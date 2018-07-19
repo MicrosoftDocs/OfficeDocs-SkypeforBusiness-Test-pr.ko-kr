@@ -63,7 +63,7 @@ Windows PowerShell 및 **Set-CsCdrConfiguration** cmdlet을 사용하여 CDR을 
     
         Get-CsCdrConfiguration | Set-CsCdrConfiguration "site:Redmond" -EnableCDR $True
 
-자세한 내용은 [Set-CsCdrConfiguration](set-cscdrconfiguration.md) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration) cmdlet에 대한 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

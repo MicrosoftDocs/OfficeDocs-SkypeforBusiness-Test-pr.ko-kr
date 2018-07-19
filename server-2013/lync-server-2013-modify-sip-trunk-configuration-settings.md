@@ -60,7 +60,7 @@ Lync Server 제어판을 사용하여 SIP 트렁크 구성 설정을 수정할 �
 <tr class="even">
 <td><p>암호화 지원 수준</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>중재 서버와 서비스 공급자 쪽 PSTN 게이트웨이, IP-PBX 또는 SBC 간의 미디어 트래픽을 보호하는 지원 수준을 나타냅니다. 미디어 우회의 경우 이 값은 미디어 구성의 EncryptionLevel 설정과 호환되어야 합니다. 미디어 구성은 <a href="new-csmediaconfiguration.md">New-CsMediaConfiguration</a> 및 <a href="set-csmediaconfiguration.md">Set-CsMediaConfiguration</a> cmdlet을 사용하여 설정합니다.</p>
+<td><p>중재 서버와 서비스 공급자 쪽 PSTN 게이트웨이, IP-PBX 또는 SBC 간의 미디어 트래픽을 보호하는 지원 수준을 나타냅니다. 미디어 우회의 경우 이 값은 미디어 구성의 EncryptionLevel 설정과 호환되어야 합니다. 미디어 구성은 <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> 및 <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a> cmdlet을 사용하여 설정합니다.</p>
 <p>허용되는 값은 다음과 같습니다.</p>
 <ul>
 <li><p>필수: SRTP 암호화를 사용해야 합니다.</p></li>
@@ -147,7 +147,7 @@ Lync Server 제어판을 사용하여 SIP 트렁크 구성 설정을 수정할 �
 
 
 > [!NOTE]
-> Lync Server CsTrunkConfiguration cmdlet은 Lync Server 제어판에 표시되지 않은 추가 속성을 지원합니다. 자세한 내용은 <A href="set-cstrunkconfiguration.md">Set-CsTrunkConfiguration</A> cmdlet의 도움말 항목을 참조하십시오.
+> Lync Server CsTrunkConfiguration cmdlet은 Lync Server 제어판에 표시되지 않은 추가 속성을 지원합니다. 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">set-cstrunkconfiguration</A> cmdlet의 도움말 항목을 참조하십시오.
 
 
 

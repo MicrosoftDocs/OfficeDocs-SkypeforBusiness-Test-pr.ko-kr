@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**마지막으로 수정된 항목:** 2013-02-20_
 
-**Get-CsCommonAreaPhone** cmdlet을 사용하면 조직에서 사용하도록 구성된 공통 영역 전화에 대한 정보를 볼 수 있습니다. 매개 변수 없이 사용하는 경우 이 cmdlet은 모든 공통 영역 전화에 대한 정보를 반환합니다. 선택적 매개 변수를 포함하면 다른 방식으로 정보를 필터링할 수 있습니다. 예를 들어 지정된 OU(조직 구성 단위)에 대화 상대 개체가 있거나 모든 대화 상대 개체가 지정된 건물에 있는 모든 공통 영역 전화를 반환할 수 있습니다. **Get-CsCommonAreaPhone** 매개 변수에 대한 자세한 내용은 [Get-CsCommonAreaPhone](get-cscommonareaphone.md)을 참조하십시오.
+**Get-CsCommonAreaPhone** cmdlet을 사용하면 조직에서 사용하도록 구성된 공통 영역 전화에 대한 정보를 볼 수 있습니다. 매개 변수 없이 사용하는 경우 이 cmdlet은 모든 공통 영역 전화에 대한 정보를 반환합니다. 선택적 매개 변수를 포함하면 다른 방식으로 정보를 필터링할 수 있습니다. 예를 들어 지정된 OU(조직 구성 단위)에 대화 상대 개체가 있거나 모든 대화 상대 개체가 지정된 건물에 있는 모든 공통 영역 전화를 반환할 수 있습니다. **Get-CsCommonAreaPhone** 매개 변수에 대한 자세한 내용은 [Get-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCommonAreaPhone)을 참조하십시오.
 
 **Get-CsCommonAreaPhone**은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행합니다.
 
@@ -46,5 +46,5 @@ _**마지막으로 수정된 항목:** 2013-02-20_
         Description        :
         ExUmEnabled        : False
 
-자세한 내용은 [Get-CsCommonAreaPhone](get-cscommonareaphone.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Get-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCommonAreaPhone) cmdlet의 도움말 항목을 참조하십시오.
 

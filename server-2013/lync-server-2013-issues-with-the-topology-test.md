@@ -17,7 +17,7 @@ _**마지막으로 수정된 항목:** 2012-09-21_
 
 **Test-CsTopology** cmdlet과 마찬가지로 모범 사례 분석기를 사용하면 Lync Server 2013이 전역 수준에서 올바르게 작동하는지 확인할 수 있습니다. 기본적으로 cmdlet과 마찬가지로 모범 사례 분석기는 전체 Lync Server 2013 인프라를 검사하여 필요한 서비스가 실행되고 있는지, 그리고 이러한 서비스 및 Lync Server 2013을 설치할 때 만들어진 유니버설 보안 그룹에 대해 적절한 사용 권한이 설정되었는지 확인합니다.
 
-Lync Server 전체의 유효성을 검사하는 것 외에도 **Test-CsTopology**를 통해 특정 서비스의 유효성을 검사할 수 있습니다. cmdlet을 사용해서 특정 서비스를 테스트하는 방법에 대한 자세한 내용은 Lync Server 관리 셸 설명서에서 [Test-CsTopology](test-cstopology.md)를 참조하십시오. 토폴로지 문제를 해결하는 데 도움이 필요하면 다음 정보를 참조하십시오.
+Lync Server 전체의 유효성을 검사하는 것 외에도 **Test-CsTopology**를 통해 특정 서비스의 유효성을 검사할 수 있습니다. cmdlet을 사용해서 특정 서비스를 테스트하는 방법에 대한 자세한 내용은 Lync Server 관리 셸 설명서에서 [Test-CsTopology](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsTopology)를 참조하십시오. 토폴로지 문제를 해결하는 데 도움이 필요하면 다음 정보를 참조하십시오.
 
 
 > [!NOTE]

@@ -67,7 +67,7 @@ Lync Server 2013에 대해 사용자가 설정되었고 Lync Server 2013에 있�
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-자세한 내용은 [Grant-CsArchivingPolicy](grant-csarchivingpolicy.md) cmdlet 설명서를 참조하십시오.
+자세한 내용은 [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy) cmdlet 설명서를 참조하십시오.
 
 ## 참고 항목
 

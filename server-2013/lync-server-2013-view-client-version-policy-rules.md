@@ -56,5 +56,5 @@ _**마지막으로 수정된 항목:** 2013-02-23_
         Enabled           : True
         CompareOp         : LEQ
 
-자세한 내용은 [Get-CsClientVersionPolicyRule](get-csclientversionpolicyrule.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Get-CsClientVersionPolicyRule](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionPolicyRule) cmdlet의 도움말 항목을 참조하십시오.
 

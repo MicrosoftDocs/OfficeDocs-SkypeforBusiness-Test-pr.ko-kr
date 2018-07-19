@@ -31,5 +31,5 @@ Test-CsAddressBookService 가상 트랜잭션과 마찬가지로 Test-CsAddressB
 
 #### 기타 리소스
 
-[Test-CsAddressBookWebQuery](test-csaddressbookwebquery.md)
+[Test-CsAddressBookWebQuery](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAddressBookWebQuery)
 

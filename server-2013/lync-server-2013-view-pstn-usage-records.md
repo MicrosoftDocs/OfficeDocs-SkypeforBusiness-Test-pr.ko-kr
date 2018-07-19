@@ -48,7 +48,7 @@ PSTN(공중 전화망) 사용 레코드는 조직의 여러 사용자 또는 사
         Identity : Global
         Usage    : {Internal, Local, Long Distance}
 
-자세한 내용은 [Get-CsPstnUsage](get-cspstnusage.md)을 참고하세요.
+자세한 내용은 [Get-CsPstnUsage](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPstnUsage)을 참고하세요.
 
 ## 참고 항목
 

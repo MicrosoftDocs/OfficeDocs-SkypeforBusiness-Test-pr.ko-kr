@@ -57,7 +57,7 @@ Windows PowerShell 및 **Set-CsQoEConfiguration** cmdlet을 사용하여 QoE 보
     
         Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20 
 
-자세한 내용은 [Set-CsQoEConfiguration](set-csqoeconfiguration.md) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Set-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsQoEConfiguration) cmdlet에 대한 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

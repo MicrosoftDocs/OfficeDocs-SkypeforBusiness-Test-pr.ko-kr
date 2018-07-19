@@ -37,5 +37,5 @@ Get-CsAddressBookConfiguration과 Set-CsAddressBookConfiguration 기능을 결�
 
 #### 기타 리소스
 
-[Get-CsAddressBookConfiguration](get-csaddressbookconfiguration.md)
+[Get-CsAddressBookConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAddressBookConfiguration)
 

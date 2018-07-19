@@ -17,7 +17,7 @@ _**마지막으로 수정된 항목:** 2013-02-23_
 
 CDR(통화 정보 기록)을 사용하면 피어 투 피어 인스턴트 메시징 세션, VoIP(Voice over Internet Protocol) 전화 통화, 전화 회의 통화 등의 사용 현황을 추적할 수 있습니다. 이러한 사용 내역 데이터에는 누가 누구에게 전화를 걸었는지, 언제 전화를 걸었는지 및 얼마나 오래 통화했는지에 대한 정보가 포함됩니다.
 
-Microsoft Lync Server 2013을 설치하면 CDR 구성 설정에 대한 단일 전역 컬렉션이 자동으로 만들어집니다. 관리자는 또한 개별 사이트에 적용할 수 있는 사용자 지정 설정 컬렉션을 만들 수 있습니다. Lync Server 제어판 또는 [Get-CsCdrConfiguration](get-cscdrconfiguration.md) cmdlet을 사용하면 조직에서 사용 중인 CDR 구성 설정을 볼 수 있습니다.
+Microsoft Lync Server 2013을 설치하면 CDR 구성 설정에 대한 단일 전역 컬렉션이 자동으로 만들어집니다. 관리자는 또한 개별 사이트에 적용할 수 있는 사용자 지정 설정 컬렉션을 만들 수 있습니다. Lync Server 제어판 또는 [Get-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCdrConfiguration) cmdlet을 사용하면 조직에서 사용 중인 CDR 구성 설정을 볼 수 있습니다.
 
 ## Lync Server 제어판을 사용하여 CDR 구성 정보를 보려면
 
@@ -44,5 +44,5 @@ CDR 구성 설정은 Lync Server 관리 셸 및 Get-CsCdrConfiguration cmdlet을
         KeepErrorReportForDays : 60
         PurgeHourOfDay         : 2
 
-자세한 내용은 [Get-CsCdrConfiguration](get-cscdrconfiguration.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Get-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCdrConfiguration) cmdlet의 도움말 항목을 참조하십시오.
 

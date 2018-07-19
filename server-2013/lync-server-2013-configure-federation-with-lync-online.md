@@ -55,5 +55,5 @@ Move-CsUser : HostedMigration fault: Error=(510), Description=(이 사용자의 
 
 #### 기타 리소스
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

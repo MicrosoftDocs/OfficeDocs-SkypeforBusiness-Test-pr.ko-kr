@@ -105,7 +105,7 @@ _**마지막으로 수정된 항목:** 2013-02-22_
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-자세한 내용은 [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy) cmdlet의 도움말 항목을 참조하십시오.
 
 ## 참고 항목
 

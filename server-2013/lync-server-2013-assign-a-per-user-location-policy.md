@@ -105,5 +105,5 @@ Grant-CsLocationPolicy cmdlet을 사용하여 사용자별 위치 정책을 할�
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName $Null
 
-자세한 내용은 [Grant-CsLocationPolicy](grant-cslocationpolicy.md) cmdlet에 대한 도움말 항목을 참조하십시오.
+자세한 내용은 [Grant-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsLocationPolicy) cmdlet에 대한 도움말 항목을 참조하십시오.
 

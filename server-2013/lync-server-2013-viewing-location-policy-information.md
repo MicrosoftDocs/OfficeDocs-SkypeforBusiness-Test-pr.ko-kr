@@ -49,8 +49,8 @@ Lync Server 2013에서는 위치 정책을 사용하여 E9-1-1(고급 9-1-1) 기
 
 #### 기타 리소스
 
-[New-CsLocationPolicy](new-cslocationpolicy.md)  
-[Set-CsLocationPolicy](set-cslocationpolicy.md)  
+[New-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsLocationPolicy)  
+[Set-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsLocationPolicy)  
 [Remove-CsLocationPolicy](remove-cslocationpolicy.md)  
 [Get-CsLocationPolicy](get-cslocationpolicy.md)
 

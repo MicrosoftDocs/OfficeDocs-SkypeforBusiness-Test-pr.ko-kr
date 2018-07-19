@@ -4003,7 +4003,7 @@
         href: lync-server-2013-managing-certificates-for-operational-processes.md
         items:
         - name: Set-CsCertificate에 -Roll을 사용하여 Lync Server 2013에서 AV 및 OAuth 인증서 준비
-          href: lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md
+          href: lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate
       - name: Lync Server 2013에서 서버 간 인증(Oauth) 및 파트너 응용 프로그램 관리
         href: lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md
         items:
@@ -4193,7 +4193,7 @@
         - name: 주소록 관리용 Windows PowerShell Cmdlet
           href: lync-server-2013-windows-powershell-cmdlets-for-address-book-management.md
           items:
-          - name: 주소록 관리용 New-CsAddressBookConfiguration
+          - name: 주소록 관리용 new-csaddressbookconfiguration
             href: lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md
           - name: 주소록 관리용 Set-CsAddressBookConfiguration
             href: lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md
@@ -4213,7 +4213,7 @@
             href: lync-server-2013-set-csclientpolicy-for-address-book-management.md
           - name: 주소록 관리용 Get-CsService
             href: lync-server-2013-get-csservice-for-address-book-management.md
-          - name: 주소록용 New-CsWebServiceConfiguration
+          - name: 주소록용 new-cswebserviceconfiguration
             href: lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md
           - name: 주소록 관리용 Get-CsWebServiceConfiguration
             href: lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md
@@ -4838,9 +4838,9 @@
       - name: Lync Server 2013에서 도메인 준비로 인한 변경
         href: lync-server-2013-changes-made-by-domain-preparation.md
       - name: Lync Server 2013에서 Grant-CsSetupPermission으로 인한 변경
-        href: lync-server-2013-changes-made-by-grant-cssetuppermission.md
+        href: lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsSetupPermission
       - name: Lync Server 2013에서 Grant-CsOUPermission으로 인한 변경
-        href: lync-server-2013-changes-made-by-grant-csoupermission.md
+        href: lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsOUPermission
   - name: Lync Server 관리 셸
     href: https://docs.microsoft.com/en-us/powershell/module/skype/
   - name: 용어집

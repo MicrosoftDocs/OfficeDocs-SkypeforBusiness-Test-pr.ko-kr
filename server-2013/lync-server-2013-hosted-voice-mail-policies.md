@@ -55,7 +55,7 @@ _**마지막으로 수정된 항목:** 2012-10-01_
 
 
 > [!NOTE]
-> 호스팅된 Exchange UM 서비스의 테넌트 관리자는 Destination 및 Organization 특성 설정에 필요한 값을 제공합니다. 정책을 구성하려면 New-CsHostedVoicemailPolicy cmdlet를 실행하거나 Set-CsHostedVoicemailPolicy cmdlet를 사용하여 기존의 정책(예: 전역 정책)을 수정해야 합니다.
+> 호스팅된 Exchange UM 서비스의 테넌트 관리자는 Destination 및 Organization 특성 설정에 필요한 값을 제공합니다. 정책을 구성하려면 New-CsHostedVoicemailPolicy cmdlet를 실행하거나 set-cshostedvoicemailpolicy cmdlet를 사용하여 기존의 정책(예: 전역 정책)을 수정해야 합니다.
 
 
 
@@ -63,7 +63,7 @@ _**마지막으로 수정된 항목:** 2012-10-01_
 
   - New-CsHostedVoicemailPolicy
 
-  - Set-CsHostedVoicemailPolicy
+  - set-cshostedvoicemailpolicy
 
   - Get-CsHostedVoicemailPolicy
 

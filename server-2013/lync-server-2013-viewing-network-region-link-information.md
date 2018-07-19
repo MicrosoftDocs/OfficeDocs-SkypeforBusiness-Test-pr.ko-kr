@@ -53,7 +53,7 @@ Lync Server 관리 셸 및 **Get-CsNetworkRegionLink** cmdlet을 사용하여 �
         NetworkRegionID1    : Pacific Northwest
         NetworkRegionID2    : California
 
-자세한 내용은 [Get-CsNetworkRegionLink](get-csnetworkregionlink.md)을 참조하십시오.
+자세한 내용은 [Get-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)을 참조하십시오.
 
 ## 참고 항목
 

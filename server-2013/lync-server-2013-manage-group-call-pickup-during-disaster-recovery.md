@@ -27,7 +27,7 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 
 백업 풀로의 장애 조치(failover) 프로세스가 완료되고 나면 통화 대기 번호 테이블의 그룹 호출 받기 번호 범위를 백업 풀로 리디렉션해야 합니다. 기본 풀로의 장애 복구(failback) 프로세스가 완료된 후에는 번호 범위를 기본 풀로 다시 리디렉션해야 합니다. 그룹 호출 받기 범위를 리디렉션하려면 **Set-CsCallParkOrbit** cmdlet을 사용합니다.
 
-FQDN(정규화된 도메인 이름)이 다른 새 풀을 배포하여 기본 풀을 대체할 경우 기본 풀과 연결된 모든 그룹 호출 받기 번호 범위를 새 풀의 FQDN에 다시 할당해야 합니다. 번호 범위를 새 풀에 다시 할당하려면 **Set-CsCallParkOrbit** cmdlet을 사용할 수 있습니다. **Set-CsCallParkOrbit** cmdlet에 대한 자세한 내용은 [Set-CsCallParkOrbit](set-cscallparkorbit.md)을 참조하십시오.
+FQDN(정규화된 도메인 이름)이 다른 새 풀을 배포하여 기본 풀을 대체할 경우 기본 풀과 연결된 모든 그룹 호출 받기 번호 범위를 새 풀의 FQDN에 다시 할당해야 합니다. 번호 범위를 새 풀에 다시 할당하려면 **Set-CsCallParkOrbit** cmdlet을 사용할 수 있습니다. **Set-CsCallParkOrbit** cmdlet에 대한 자세한 내용은 [Set-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkOrbit)을 참조하십시오.
 
 ## 풀 오류 발생 시 그룹 호출 받기 환경
 

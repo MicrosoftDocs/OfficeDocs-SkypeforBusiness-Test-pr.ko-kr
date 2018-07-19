@@ -35,10 +35,10 @@ Lync Server 2013에 제공되는 기본 음악 파일 대신 대기 음악에 �
     
 
     > [!TIP]
-    > <STRONG>Get-CsService</STRONG> cmdlet을 사용하여 서비스를 식별합니다. 자세한 내용은 <A href="get-csservice.md">Get-CsService</A>를 참조하십시오.
+    > <STRONG>Get-CsService</STRONG> cmdlet을 사용하여 서비스를 식별합니다. 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService">Get-CsService</A>를 참조하십시오.
 
     
-    다음 예에서는 soothingmusic.wma 파일의 내용을 바이트 배열로 가져와서 변수에 지정하는 방법을 보여 줍니다. 그런 후에 오디오 파일은 통화 대기용 대기 음악 파일로 지정됩니다. 자세한 내용은 [Set-CsCallParkServiceMusicOnHoldFile](set-cscallparkservicemusiconholdfile.md)을 참조하십시오.
+    다음 예에서는 soothingmusic.wma 파일의 내용을 바이트 배열로 가져와서 변수에 지정하는 방법을 보여 줍니다. 그런 후에 오디오 파일은 통화 대기용 대기 음악 파일로 지정됩니다. 자세한 내용은 [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)을 참조하십시오.
     
         $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
         Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
@@ -47,6 +47,6 @@ Lync Server 2013에 제공되는 기본 음악 파일 대신 대기 음악에 �
 
 #### 기타 리소스
 
-[Set-CsCallParkServiceMusicOnHoldFile](set-cscallparkservicemusiconholdfile.md)  
-[Get-CsService](get-csservice.md)
+[Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)  
+[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)
 
