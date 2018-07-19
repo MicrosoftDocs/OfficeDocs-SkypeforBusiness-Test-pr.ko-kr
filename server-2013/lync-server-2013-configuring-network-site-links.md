@@ -59,7 +59,7 @@ CAC(통화 허용 제어) 구성 내에서 직접 연결된 사이트 간의 대
 
 #### 개념
 
-[통화 허용 제어 Cmdlet](lync-server-2013-call-admission-control-cmdlets.md)  
+[통화 허용 제어 Cmdlet](https://docs.microsoft.com/en-us/powershell/module/skype/)  
 
 #### 기타 리소스
 
