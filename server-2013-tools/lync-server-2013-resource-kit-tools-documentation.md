@@ -428,6 +428,7 @@ CPS 도구의 용도는 CPS 데이터베이스에 대한 명령줄 액세스 권
 
 이 도구가 CPS를 실행하는 컴퓨터와 동일한 컴퓨터에서 실행되는 경우에는 요구 사항이 없습니다. 원격 컴퓨터에서 이 도구가 실행되는 경우에는 Lync Server 2013에서 사용하는 SQL Server 데이터베이스가 원격 액세스를 허용하도록 구성되어야 합니다. Call Parkometer는 풀의 SQL Server에 연결하기 위해 SQL Server 데이터베이스 연결 문자열을 사용하여 구성해야 합니다. 이 SQL Server 데이터베이스 연결 문자열은 구성 파일인 **parkometer.exe.config**에서 정의됩니다. 이 파일은 parkometer.exe가 위치한 디렉터리와 동일한 디렉터리에 위치해야 합니다. 다음 XML 파일은 parkometer.exe.config의 예입니다. 구성해야 하는 매개 변수는 사용자 이름(예: mydomain\\Administrator), 암호(예: mypassword), 호스트 이름(예: myserver)입니다.
 
+```xml
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <appSettings>
@@ -438,6 +439,7 @@ CPS 도구의 용도는 CPS 데이터베이스에 대한 명령줄 액세스 권
     Integrated Security=false;"/>
       </appSettings>
     </configuration>
+```
 
 ## 예제
 
