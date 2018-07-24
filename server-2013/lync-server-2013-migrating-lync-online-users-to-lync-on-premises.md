@@ -31,9 +31,13 @@ _**마지막으로 수정된 항목:** 2015-03-09_
     
       - 온-프레미스 배포의 Lync Server 관리 셸에 다음 cmdlet을 입력해 Lync Online의 호스팅 공급자를 만듭니다.
         
+      ```
             Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
-        
+       ```
+       ``` 
             New-CSHostingProvider -Identity LyncOnline -Name LyncOnlin -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+
+    ```
 
 2.  온-프레미스 에지 서버에 다음 표에서와 같이 Lync Online에 대한 연결을 설정하는 인증서 체인이 있는지 확인합니다. 이 체인은 [https://corp.sts.microsoft.com/Onboard/ADFS\_Onboarding\_Pack/corp\_sts\_certs.zip](https://corp.sts.microsoft.com/onboard/adfs_onboarding_pack/corp_sts_certs.zip)에서 다운로드할 수 있습니다.
     
@@ -98,10 +102,13 @@ _**마지막으로 수정된 항목:** 2015-03-09_
     
     단일 사용자를 이동하려면 다음을 입력합니다.
     
-        $cred = Get-Credential
-    
+    ```
+            $cred = Get-Credential
+    ```
+    ```
         Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
-    
+    ```
+
     **Get-CsUSer** cmdlet과 함께 –Filter 매개 변수를 사용하여 특정 속성이 있는 사용자를 선택하면 여러 사용자를 이동할 수 있습니다. 예를 들어 {Hosting Provider –eq "sipfed.online.lync.om"}을 필터링해 모든 Lync Online 사용자를 선택할 수 있습니다. 그런 다음에 아래와 같이 반환된 사용자를 **Move-CsUSer** cmdlet에 전달하면 됩니다.
     
         Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com" -Credential $creds -HostedMigrationOverrideURL <URL>
@@ -131,7 +138,7 @@ _**마지막으로 수정된 항목:** 2015-03-09_
         `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > rtcxds 데이터베이스의 트랜잭션 로그 파일에 대한 기본 최대 크기는 16GB입니다. 한 번에 많은 사용자를 이동할 때 특히 미러링이 설정되어 있으면 이 정도로는 충분하지 않을 수 있습니다. 이 문제를 해결하기 위해서 파일 크기를 늘리거나 로그 파일을 정기적으로 백업하는 방법이 있습니다. 자세한 내용은 <A class=uri href="http://support.microsoft.com/kb/2756725">http://support.microsoft.com/kb/2756725</A>를 참고하세요.
 
 

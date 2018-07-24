@@ -22,7 +22,7 @@ XMPP(Extensible Messaging and Presence Protocol) 페더레이션 파트너 지�
 1.  에지 서버의 배포 마법사에서 **3단계: 인증서 요청, 설치 또는 할당** 옆에 있는 **다시 실행** 을 클릭합니다.
     
 
-    > [!TIP]
+    > [!TIP]  
     > 처음으로 에지 서버를 배포하는 경우 "다시 실행" 대신 "실행"이 나타납니다.
 
 
@@ -56,7 +56,7 @@ XMPP(Extensible Messaging and Presence Protocol) 페더레이션 파트너 지�
 12. **추가 주체 대체 이름 구성** 페이지에서 필요한 추가 주체 대체 이름을 지정합니다.
     
 
-    > [!TIP]
+    > [!TIP]  
     > XMPP 프록시가 설치된 경우 기본적으로 도메인 이름(예: contoso.com)이 SAN 항목에 채워집니다. 더 많은 항목이 필요한 경우 이 단계에서 추가합니다.
 
 
@@ -71,10 +71,13 @@ XMPP(Extensible Messaging and Presence Protocol) 페더레이션 파트너 지�
 
 17. 공용 인증서를 받아 가져오고 할당한 후 에지 서버 서비스를 중지한 다음 다시 시작해야 합니다. 이는 Lync Server 관리 콘솔에서 다음을 입력해서 수행할 수도 있습니다.
     
-        Stop-CsWindowsService
-    
+      ```
+              Stop-CsWindowsService
+    ```
+    ```
         Start-CsWindowsService
-
+    ```
+    
 ## 새로운 Lync Server 2013 XMPP 게이트웨이 구성
 
 1.  Lync Server 제어판을 엽니다.

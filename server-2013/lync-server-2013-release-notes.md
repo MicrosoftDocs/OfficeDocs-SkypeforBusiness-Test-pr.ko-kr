@@ -90,9 +90,12 @@ Lync Server 2013 배포에 대한 IP 주소 구성을 변경할 경우(예: IPv4
 
 이 문제를 해결하려면 배포에 대한 IP 주소 구성을 변경한 후에 Lync Server 서비스를 다시 시작합니다. 이를 위해 Lync Server 관리 셸에서 다음 cmdlet을 실행합니다.
 
+```
     Stop-CsWindowsService -graceful
-
+```
+```
     Start-CsWindowsService
+```
 
 ## Lync Server 2013 관리 팩에서 전화 접속 회의 가상 트랜잭션 cmdlet을 더 이상 사용할 수 없음(3212342)
 

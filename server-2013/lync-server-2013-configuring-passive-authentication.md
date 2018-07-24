@@ -65,11 +65,14 @@ Lync 웹 서비스에 대해 인증서 인증을 사용하지 않도록 설정�
 
 1.  Lync Server 관리 셸 명령줄에서 다음 명령을 사용하여 수동 인증을 사용할 수 있는 누적 업데이트(2013년 7월)가 적용된 각 Lync Server 2013 에지 풀, 엔터프라이즈 풀 및 Standard Edition 서버에 대해 새 프록시 구성을 만듭니다.
     
+```
         New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
-    
+```
+```    
         New-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+```
 
 2.  다음 명령을 실행하여 기타 모든 프록시 인증 유형을 사용하지 않도록 설정했는지 확인합니다.
     

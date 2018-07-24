@@ -21,9 +21,12 @@ _**마지막으로 수정된 항목:** 2015-08-19_
 
 페더레이션은 온-프레미스 배포의 사용자가 조직의 Office 365 사용자와 통신할 수 있도록 허용합니다. 페더레이션을 구성하려면 다음 cmdlet을 실행합니다.
 
+```
     Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting
-
+```
+```
     New-CSHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+```
 
 ## 공유 SIP 주소 공간에 대한 비즈니스용 Skype Online 테넌트 구성
 
@@ -39,13 +42,18 @@ Move-CsUser : HostedMigration fault: Error=(510), Description=(이 사용자의 
 
 이 모듈을 설치한 후 다음 cmdlet으로 원격 세션을 설정할 수 있습니다.
 
+```
     Import-Module LyncOnlineConnector
-
+```
+```
     $cred = Get-Credential
-
+```
+```
     $CSSession = New-CsOnlineSession -Credential $cred
-
+```
+```
     Import-PSSession $CSSession -AllowClobber
+```
 
 원격 PowerShell 세션을 비즈니스용 Skype Online에 설정하는 방법에 대한 자세한 내용은 [Windows PowerShell을 사용하여 Lync Online에 연결](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)을 참고하세요.
 

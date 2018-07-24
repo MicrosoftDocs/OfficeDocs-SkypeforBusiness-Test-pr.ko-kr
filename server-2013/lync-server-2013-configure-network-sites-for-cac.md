@@ -16,7 +16,7 @@ ms.translationtype: HT
 _**마지막으로 수정된 항목:** 2012-09-05_
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > E9-1-1 또는 미디어 바이패스에 대해 네트워크 사이트를 이미 만든 경우 <STRONG>Set-CsNetworkSite</STRONG> cmdlet을 사용하여 대역폭 정책 프로필을 적용할 기존 네트워크 사이트를 수정합니다. 네트워크 사이트를 수정하는 방법에 대한 예는 <A href="lync-server-2013-create-or-modify-a-network-site.md">Lync Server 2013에서 네트워크 사이트 만들기 또는 수정</A>을 참조하십시오.
 
 
@@ -28,7 +28,7 @@ CAC 배포 예에서 북미 지역에는 6개의 사이트가 있습니다. 이 
 네트워크 토폴로지 예를 보려면 [예: Lync Server 2013에서 통화 허용 제어 서비스에 대한 요구 사항 수집](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)을 참조하십시오.
 
 
-> [!NOTE]
+> [!NOTE]  
 > 다음 절차에서는 Lync Server 관리 셸을 사용하여 네트워크 사이트를 만듭니다. Lync Server 제어판을 사용하여 네트워크 사이트를 만드는 방법에 대한 자세한 내용은 <A href="lync-server-2013-create-or-modify-a-network-site.md">Lync Server 2013에서 네트워크 사이트 만들기 또는 수정</A>을 참조하십시오.
 
 
@@ -39,11 +39,15 @@ CAC 배포 예에서 북미 지역에는 6개의 사이트가 있습니다. 이 
 
 2.  **New-CsNetworkSite** cmdlet을 실행하여 네트워크 사이트를 만들고 각 사이트에 적합한 대역폭 정책 프로필을 적용합니다. 예를 들어 다음을 실행합니다.
     
-        New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
-    
+```
+                New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
+```
+```    
         New-CsNetworkSite -NetworkSiteID Portland -Description "NA:Branch office for marketing force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 5MB_Link
-    
+```
+```    
         New-CsNetworkSite -NetworkSiteID Albuquerque -Description "NA:Branch office for SouthWest sales" -NetworkRegionID EMEA -BWPolicyProfileID 10MB_Link
+```
 
 3.  전체 토폴로지 예에 대한 네트워크 사이트 만들기를 종료하려면 EMEA 및 APAC 지역의 대역폭 제한 네트워크 사이트에 대해 2단계를 반복합니다.
 

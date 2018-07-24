@@ -18,7 +18,7 @@ _**마지막으로 수정된 항목:** 2014-02-05_
 서버 관리자와 SQL Server 관리자의 역할 및 직무를 구분하면 구현이 지연될 수 있습니다. Lync Server 2013은 RBAC(역할 기반 액세스 제어)를 사용하여 이러한 문제를 완화합니다. 경우에 따라 SQL Server 관리자는 RBAC 외부의 SQL Server 기반 서버에서 데이터베이스 설치를 관리해야 합니다. Lync Server 2013 관리 셸을 통해 SQL Server 관리자는 올바른 데이터 및 로그 파일을 사용하여 데이터베이스를 구성하도록 설계된 Windows PowerShell cmdlet를 실행할 수 있습니다. 자세한 내용은 [Lync Server 2013의 SQL Server에 대한 배포 권한](lync-server-2013-deployment-permissions-for-sql-server.md)을 참조하십시오.
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > 다음 절차에서는 최소한 Lync Server 2013 OCSCore.msi, SQL Server Native Client(sqlncli.msi), Microsoft SQL Server 2012 Management Objects, CLR Types for Microsoft SQL Server 2012 및 Microsoft SQL Server 2012 ADOMD.NET이 설치되어 있다고 가정합니다. OCSCore.msi는 \Setup\AMD64\Setup 디렉터리의 설치 미디어에 있습니다. 나머지 구성 요소는 \Setup\amd64에 위치합니다. 또한 Lync Server 2013에 대한 Active Directory 준비가 완료되어야 합니다.
 
 
@@ -26,7 +26,7 @@ _**마지막으로 수정된 항목:** 2014-02-05_
 **Install-CsDatabase**는 데이터베이스를 설치하는 데 사용하는 Windows PowerShell cmdlet입니다. **Install-CsDatabase** cmdlet는 수많은 매개 변수를 가지며 여기에서는 그 중 몇 가지만 설명합니다. 사용 가능한 매개 변수에 대한 자세한 내용은 Lync Server 2013 관리 셸 설명서를 참조하십시오.
 
 
-> [!WARNING]
+> [!WARNING]  
 > 성능 및 가능한 시간 제한 문제를 피하려면 SQL Server 기반 서버를 참조할 때 항상 FQDN(정규화된 도메인 이름)을 사용하십시오. 호스트 이름 전용 참조는 사용하지 마십시오. 예를 들어 sqlbe01.contoso.net을 사용하고 SQLBE01은 사용하지 마십시오.
 
 
@@ -49,15 +49,17 @@ _**마지막으로 수정된 항목:** 2014-02-05_
 
 3.  **Install-CsDatabase** cmdlet를 사용하여 중앙 관리 저장소를 설치합니다.
     
+```
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn <fully qualified domain name of SQL Server> 
         -SqlInstanceName <named instance> -DatabasePaths <logfile path>,<database file path> 
         -Report <path to report file>
-    
+```
+```    
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
-    
+```    
 
-    > [!TIP]
-    > Report 매개 변수는 선택적이지만 설치 프로세스를 문서화하는 경우에 유용합니다.
+> [!TIP]  
+> Report 매개 변수는 선택적이지만 설치 프로세스를 문서화하는 경우에 유용합니다.
 
 
 
@@ -76,7 +78,7 @@ _**마지막으로 수정된 항목:** 2014-02-05_
 2.  원하는 컴퓨터에서 SQL Server 기반 서버에 데이터베이스를 만들 수 있도록 관리 자격 증명을 사용하여 로그온합니다. 자세한 내용은 [Lync Server 2013의 SQL Server에 대한 배포 권한](lync-server-2013-deployment-permissions-for-sql-server.md)을 참조하십시오.
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > SQL Server 기반 데이터베이스를 구성할 수 있으려면 여기에 설명된 단계를 실행하기 위해 사용되는 SQL Server 관리자 계정이 SQL Server를 실행하고 중앙 관리 서버 역할을 보유하는 서버에서 sysadmins 그룹(또는 이에 상응하는 그룹)의 구성원인지 확인합니다. 이러한 구성은 SQL Server 데이터베이스 설치 또는 구성이 필요한 추가 Lync Server 2013 풀을 확인하는 데 특히 중요합니다. 예를 들어 두 번째 풀(pool02)을 배포 중이지만 중앙 관리 서버 역할을 pool01이 보유하고 있는 경우가 있을 수 있습니다. SQL Server 그룹(또는 이에 상응하는 그룹)에는 SQL Server 기반 데이터베이스 모두에 대한 권한이 있어야 합니다.
 
 
@@ -85,15 +87,17 @@ _**마지막으로 수정된 항목:** 2014-02-05_
 
 4.  **Install-CsDatabase** cmdlet를 사용하여 토폴로지 작성기에서 구성된 데이터베이스를 설치합니다.
     
+```
         Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
          -DatabasePaths <logfile path>,<database file path> -Report <path to report file>
-    
+```
+```    
         Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe.contoso.net 
         -Report "C:\Logs\InstallDatabases.html"
     
-
-    > [!TIP]
-    > Report 매개 변수는 선택적이지만 설치 프로세스를 문서화하는 경우에 유용합니다.
+```
+> [!TIP]  
+> Report 매개 변수는 선택적이지만 설치 프로세스를 문서화하는 경우에 유용합니다.
 
 
 
@@ -106,7 +110,7 @@ _**마지막으로 수정된 항목:** 2014-02-05_
 2.  원하는 컴퓨터에서 SQL Server 기반 서버에 데이터베이스를 만들 수 있도록 관리 자격 증명을 사용하여 로그온합니다. 자세한 내용은 [Lync Server 2013의 SQL Server에 대한 배포 권한](lync-server-2013-deployment-permissions-for-sql-server.md)을 참조하십시오.
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > SQL Server 기반 데이터베이스를 구성할 수 있으려면 여기에 설명된 단계를 실행하기 위해 사용되는 SQL Server 관리자 계정이 SQL Server를 실행하고 중앙 관리 서버 역할을 보유하는 서버에서 sysadmins 그룹(또는 이에 상응하는 그룹)의 구성원인지 확인합니다. 이러한 구성은 SQL Server 데이터베이스 설치 또는 구성이 필요한 추가 Lync Server 풀을 확인하는 데 특히 중요합니다. 예를 들어 두 번째 풀(pool02)을 배포 중이지만 중앙 관리 서버 역할을 pool01이 보유하고 있는 경우가 있을 수 있습니다. SQL Server sysadmin 그룹(또는 이에 상응하는 그룹)에는 SQL Server 기반 데이터베이스 모두에 대한 권한이 있어야 합니다.
 
 
