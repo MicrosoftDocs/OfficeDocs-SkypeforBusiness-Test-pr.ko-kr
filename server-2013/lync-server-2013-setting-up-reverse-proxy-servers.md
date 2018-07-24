@@ -73,23 +73,17 @@ Forefront Threat Management Gateway 2010을 역방향 프록시로 올바르게 
 
 IIS ARR을 역방향 프록시로 성공적으로 배포하려면 다음 항목을 검토하여 하드웨어 및 소프트웨어 필수 구성 요소를 구성하세요.
 
-  -   
-    Windows Server 2008 또는 Windows Server 2008 R2에 IIS를 설치하려면 [Windows Server 2008 또는 Windows Server 2008 R2에 IIS 7 설치(영어)](http://go.microsoft.com/fwlink/?linkid=291296)를 참고하세요.
+  - Windows Server 2008 또는 Windows Server 2008 R2에 IIS를 설치하려면 [Windows Server 2008 또는 Windows Server 2008 R2에 IIS 7 설치(영어)](http://go.microsoft.com/fwlink/?linkid=291296)를 참고하세요.
 
-  -   
-    Windows Server 2012에 IIS를 설치하려면 [Windows Server 2012에 IIS 8 설치(영어)](http://go.microsoft.com/fwlink/?linkid=291297)를 참고하세요.
+  - Windows Server 2012에 IIS를 설치하려면 [Windows Server 2012에 IIS 8 설치(영어)](http://go.microsoft.com/fwlink/?linkid=291297)를 참고하세요.
 
-  -   
-    Windows Server 2012 R2에 IIS를 설치하려면 [Windows Server 2012 R2에 IIS 8.5 설치(영어)](http://go.microsoft.com/fwlink/?linkid=330687)를 참고하세요.
+  - Windows Server 2012 R2에 IIS를 설치하려면 [Windows Server 2012 R2에 IIS 8.5 설치(영어)](http://go.microsoft.com/fwlink/?linkid=330687)를 참고하세요.
 
-  -   
-    IIS용 ARR(Application Request Routing) 확장 프로그램을 다운로드하려면 [Application Request Routing v2.5 다운로드(영어)](http://go.microsoft.com/fwlink/?linkid=291298)의 지침을 따르세요.
+  - IIS용 ARR(Application Request Routing) 확장 프로그램을 다운로드하려면 [Application Request Routing v2.5 다운로드(영어)](http://go.microsoft.com/fwlink/?linkid=291298)의 지침을 따르세요.
 
-  -   
-    ARR을 설치하려면 [Application Request Routing Version 2(영어)](http://go.microsoft.com/fwlink/?linkid=291299)의 지침을 따르세요.
+  - ARR을 설치하려면 [Application Request Routing Version 2(영어)](http://go.microsoft.com/fwlink/?linkid=291299)의 지침을 따르세요.
     
-
-    > [!NOTE]  
-    > 현재 게시된 지침은 ARR 2.0에 적용됩니다. 확장 프로그램 설치는 두 버전 간 차이가 없습니다.
+> [!NOTE]  
+> 현재 게시된 지침은 ARR 2.0에 적용됩니다. 확장 프로그램 설치는 두 버전 간 차이가 없습니다.
 
 
