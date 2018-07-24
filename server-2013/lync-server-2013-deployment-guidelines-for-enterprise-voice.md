@@ -49,11 +49,9 @@ Enterprise Voice 배포 환경을 최적화하려면 IT 인프라, 네트워크 
     
       - 다음 운영 체제 중 하나를 실행합니다.
         
-          -   
-            Windows Server 2008 Standard 운영 체제 64비트 버전
+           Windows Server 2008 Standard 운영 체제 64비트 버전
         
-          -   
-            Windows Server 2008 Enterprise 운영 체제 64비트 버전
+           Windows Server 2008 Enterprise 운영 체제 64비트 버전
 
   - TDM(Time Division Multiplexing) 연결을 통해 PSTN(공중 전화망) 또는 PBX(Private Branch Exchange)에 연결된 경우에는 하나 이상의 PSTN 게이트웨이를 배포에 사용할 수 있습니다. SIP 트렁크를 통해 연결된 경우에는 PSTN 게이트웨이가 필요하지 않습니다.
 

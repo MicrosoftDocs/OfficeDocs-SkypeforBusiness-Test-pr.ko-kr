@@ -19,14 +19,11 @@ Lync Server 2013 배포의 클라이언트 및 장치에 대한 소프트웨어 
 
 ## 이 단원의 내용
 
-  -   
-    [Lync Server 2013의 Lync 클라이언트 소프트웨어 지원](lync-server-2013-lync-client-software-support.md)
+   [Lync Server 2013의 Lync 클라이언트 소프트웨어 지원](lync-server-2013-lync-client-software-support.md)
 
-  -   
-    [Lync Server 2013의 공용 메신저 연결 지원](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
+   [Lync Server 2013의 공용 메신저 연결 지원](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
 
-  -   
-    [Lync에서 사용자 사진이 표시되는 방식](how-user-photos-are-displayed-in-lync.md)
+   [Lync에서 사용자 사진이 표시되는 방식](how-user-photos-are-displayed-in-lync.md)
 
 
 > [!NOTE]

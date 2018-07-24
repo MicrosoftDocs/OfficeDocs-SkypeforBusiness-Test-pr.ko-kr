@@ -65,11 +65,9 @@ Microsoft Forefront Threat Management Gateway 2010, Microsoft Internet Security 
 
 Forefront Threat Management Gateway 2010을 역방향 프록시로 올바르게 배포하려면 Forefront Threat Management Gateway 2010 설명서에 정의되어 있는 필수 구성 요소 및 하드웨어 요구 사항에 따라 서버를 설치 및 구성해야 합니다. 계속하기 전에 서버에서 적절하게 하드웨어를 구성하고 Forefront Threat Management Gateway 2010을 설치하려면 다음 항목을 참고하세요.
 
-  -   
-    [Forefront Threat Management Gateway(TMG) 2010](http://go.microsoft.com/fwlink/?linkid=291292)
+   [Forefront Threat Management Gateway(TMG) 2010](http://go.microsoft.com/fwlink/?linkid=291292)
 
-  -   
-    [Forefront TMG 2010 하드웨어 권장 사항](http://go.microsoft.com/fwlink/?linkid=291293)
+   [Forefront TMG 2010 하드웨어 권장 사항](http://go.microsoft.com/fwlink/?linkid=291293)
 
 IIS ARR을 역방향 프록시로 성공적으로 배포하려면 다음 항목을 검토하여 하드웨어 및 소프트웨어 필수 구성 요소를 구성하세요.
 

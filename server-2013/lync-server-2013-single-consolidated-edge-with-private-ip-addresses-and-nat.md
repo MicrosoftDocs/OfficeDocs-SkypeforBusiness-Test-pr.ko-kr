@@ -17,14 +17,11 @@ _**마지막으로 수정된 항목:** 2012-09-08_
 
 조직에서 15,000개 미만의 액세스 에지 서비스 클라이언트 연결, 1,000개 미만의 활성 Lync Server 웹 회의 서비스 클라이언트 연결 또는 500개 미만의 동시 A/V 에지 세션을 지원해야 하고 에지 서버의 고가용성이 중요하지 않을 경우 이 토폴로지는 하드웨어 비용 절감, 배포 단순화 등과 같은 이점을 제공합니다. 더 큰 용량을 필요로 하거나 고가용성을 필요로 하는 경우에는 확장 통합 에지 서버 토폴로지를 배포해야 합니다. 자세한 내용은 다음 중 하나를 참조하십시오.
 
-  -   
-    [Lync Server 2013의 조정된 통합 에지, NAT 사용 개인 IP 주소의 DNS 부하 분산](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+   [Lync Server 2013의 조정된 통합 에지, NAT 사용 개인 IP 주소의 DNS 부하 분산](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  -   
-    [Lync Server 2013의 조정된 통합 에지, 공용 IP 주소의 DNS 부하 분산](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+   [Lync Server 2013의 조정된 통합 에지, 공용 IP 주소의 DNS 부하 분산](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  -   
-    [Lync Server 2013의 하드웨어 부하 분산 장치를 사용하는 조정된 통합 에지](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+   [Lync Server 2013의 하드웨어 부하 분산 장치를 사용하는 조정된 통합 에지](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
 이 그림에는 에지 서버와 프런트 엔드 풀 또는 서버 사이의 내부 네트워크에 배포된 선택적 서버 역할인 디렉터가 표시되지 않습니다. 디렉터 토폴로지에 대한 자세한 내용은 [Lync Server 2013의 디렉터에 필요한 구성 요소](lync-server-2013-components-required-for-the-director.md)를 참조하십시오. 이 그림은 단일 역방향 프록시를 나타냅니다.
 

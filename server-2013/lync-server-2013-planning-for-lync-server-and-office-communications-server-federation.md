@@ -45,8 +45,7 @@ Microsoft Lync Server 2013, Lync Server 2010 및 Office Communications Server �
 
   - 페더레이션 도메인 검색에 필요한 요구 사항을 결정합니다.
     
-      -   
-        페더레이션을 수동으로 구성하는 경우 Lync Server 제어판의 **페더레이션 및 외부 액세스**, **SIP 페더레이션 도메인**에 입력할 수 있도록 파트너 에지 서버의 FQDN(정규화된 도메인 이름)과 도메인 이름(또는 온라인 도메인 이름)이 필요합니다. FQDN으로 도메인을 허용하거나 차단하려면 **새로 만들기**로 정책을 새로 만들거나 **편집**으로 기존 정책을 편집합니다.
+       페더레이션을 수동으로 구성하는 경우 Lync Server 제어판의 **페더레이션 및 외부 액세스**, **SIP 페더레이션 도메인**에 입력할 수 있도록 파트너 에지 서버의 FQDN(정규화된 도메인 이름)과 도메인 이름(또는 온라인 도메인 이름)이 필요합니다. FQDN으로 도메인을 허용하거나 차단하려면 **새로 만들기**로 정책을 새로 만들거나 **편집**으로 기존 정책을 편집합니다.
         
 
         > [!WARNING]
@@ -58,8 +57,7 @@ Microsoft Lync Server 2013, Lync Server 2010 및 Office Communications Server �
         > <STRONG>새 SIP 페더레이션 도메인</STRONG>의 경우 Microsoft Lync Online, Microsoft Office 365에 <STRONG>도메인 이름 또는 FQDN</STRONG>을 지정해야 합니다. Microsoft Lync Server 2013, Lync Server 2010 및 Office Communications Server의 경우 <STRONG>액세스 에지 서비스(FQDN)</STRONG>도 지정해야 합니다.
 
     
-      -   
-        파트너가 사용자의 에지 서버를 검색할 수 있는 '검색된 파트너 페더레이션'의 경우 포트 5061과 에지 서버의 호스트(A) 레코드를 가리키도록 외부 DNS(\_sipfederationtls.\_tcp.contoso.com)에 SRV 레코드를 만들어야 합니다.
+       파트너가 사용자의 에지 서버를 검색할 수 있는 '검색된 파트너 페더레이션'의 경우 포트 5061과 에지 서버의 호스트(A) 레코드를 가리키도록 외부 DNS(\_sipfederationtls.\_tcp.contoso.com)에 SRV 레코드를 만들어야 합니다.
         
 
         > [!IMPORTANT]

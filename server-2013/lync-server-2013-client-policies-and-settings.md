@@ -27,9 +27,7 @@ _**마지막으로 수정된 항목:** 2012-06-18_
 
 ## 이 섹션의 내용
 
-  -   
-    [Lync 2013의 새로운 기능과 변경된 기능](lync-server-2013-new-and-changed-settings-for-lync-2013.md)
+   [Lync 2013의 새로운 기능과 변경된 기능](lync-server-2013-new-and-changed-settings-for-lync-2013.md)
 
-  -   
-    [Lync 2013용 그룹 정책 설정](lync-server-2013-group-policy-settings-for-lync-2013.md)
+   [Lync 2013용 그룹 정책 설정](lync-server-2013-group-policy-settings-for-lync-2013.md)
 

@@ -59,17 +59,13 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 
 이 섹션에서는 다음의 아웃바운드 통화 라우팅 서버 설정을 구성하는 지침을 제공합니다.
 
-  -   
-    [Lync Server 2013의 다이얼 플랜 및 정규화 규칙](lync-server-2013-dial-plans-and-normalization-rules.md)
+   [Lync Server 2013의 다이얼 플랜 및 정규화 규칙](lync-server-2013-dial-plans-and-normalization-rules.md)
 
-  -   
-    [Lync Server 2013의 음성 정책](lync-server-2013-voice-policies.md)
+   [Lync Server 2013의 음성 정책](lync-server-2013-voice-policies.md)
 
-  -   
-    [Lync Server 2013의 PSTN 사용 레코드](lync-server-2013-pstn-usage-records.md)
+   [Lync Server 2013의 PSTN 사용 레코드](lync-server-2013-pstn-usage-records.md)
 
-  -   
-    [Lync Server 2013의 음성 경로](lync-server-2013-voice-routes.md)
+   [Lync Server 2013의 음성 경로](lync-server-2013-voice-routes.md)
 
 ## 참고 항목
 
