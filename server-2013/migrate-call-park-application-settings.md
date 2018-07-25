@@ -17,9 +17,12 @@ _**마지막으로 수정된 항목:** 2012-10-19_
 
 Lync Server 2010에서 Lync Server 2013으로 통화 대기 응용 프로그램을 마이그레이션할 때는 Lync Server 2010에 업로드된 사용자 지정 대기 음악 파일을 사용하여 Lync Server 2013 풀을 프로비저닝하고, 서비스 수준 설정을 복원하고, 모든 통화 대기 파킹된 통화 번호의 대상을 Lync Server 2013 풀로 다시 지정합니다. Lync Server 2010 풀에서 사용자 지정된 대기 음악 파일이 구성된 경우에는 이러한 파일을 새 Lync Server 2013 풀로 복사해야 합니다. 또한 통화 대기 사용자 지정된 대기 음악 파일을 Lync Server 2010에서 다른 대상으로 백업하여 통화 대기용으로 업로드한 모든 사용자 지정된 대기 음악 파일의 별도 백업 복사본을 보관해야 합니다. 통화 대기 응용 프로그램용 사용자 지정된 대기 음악 파일은 풀의 파일 저장소에 저장됩니다. Lync Server 2010 풀 파일 저장소에서 Lync Server 2013 파일 저장소로 오디오 파일을 복사하려면 다음 매개 변수를 포함하여 **Xcopy** 명령을 사용합니다.
 
+```
     Xcopy <Source: Lync Server 2010 Pool CPS File Store Path> <Destination: Lync Server 2013 Pool CPS File Store Path>
-
+```
+```
     Example usage:  Xcopy "<Lync Server 2010 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Lync Server 2013 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
+```
 
 사용자 지정된 모든 오디오 파일을 Lync Server 2013 파일 저장소로 복사한 후에는 Lync Server 2013 풀의 통화 대기 응용 프로그램 설정을 구성해야 하며, Lync Server 2010 풀에 연결된 통화 대기 파킹된 통화 번호 범위를 Lync Server 2013 풀에 다시 할당해야 합니다.
 
@@ -32,7 +35,7 @@ Lync Server 2010에서 Lync Server 2013으로 통화 대기 응용 프로그램�
 2.  명령줄에 다음을 입력합니다.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Lync Server 2013 통화 대기 응용 프로그램 설정이 레거시 Lync Server 2010 설정과 동일한 경우에는 이 단계 실행을 건너뛰어도 됩니다. Lync Server 2013 및 Lync Server 2010 환경에서 통화 대기 응용 프로그램 설정이 서로 다른 경우에는 아래 cmdlet을 템플릿으로 사용하여 해당 변경 내용을 업데이트합니다.
 
     

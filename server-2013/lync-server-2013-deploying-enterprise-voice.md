@@ -57,41 +57,29 @@ Enterprise Voice 서버 역할을 배포하는 예와 해당 서버 역할과 �
 
 ## 이 섹션의 내용
 
-  -   
-    [Lync Server 2013에 대한 Enterprise Voice 필수 구성 요소](lync-server-2013-enterprise-voice-prerequisites.md)
+   [Lync Server 2013에 대한 Enterprise Voice 필수 구성 요소](lync-server-2013-enterprise-voice-prerequisites.md)
 
-  -   
-    [Lync Server 2013에서 중재 서버 배포 및 피어 정의](lync-server-2013-deploying-mediation-servers-and-defining-peers.md)
+   [Lync Server 2013에서 중재 서버 배포 및 피어 정의](lync-server-2013-deploying-mediation-servers-and-defining-peers.md)
 
-  -   
-    [Lync Server 2013에서 트렁크 구성](lync-server-2013-configuring-trunks.md)
+   [Lync Server 2013에서 트렁크 구성](lync-server-2013-configuring-trunks.md)
 
-  -   
-    [Lync Server 2013에서 다이얼 플랜 구성](lync-server-2013-configuring-dial-plans.md)
+   [Lync Server 2013에서 다이얼 플랜 구성](lync-server-2013-configuring-dial-plans.md)
 
-  -   
-    [Lync Server 2013에서 음성 정책, PSTN 사용 레코드 및 음성 경로 구성](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
+   [Lync Server 2013에서 음성 정책, PSTN 사용 레코드 및 음성 경로 구성](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
 
-  -   
-    [Lync Server 2013에서 음성 라우팅 구성 내보내기 및 가져오기](lync-server-2013-exporting-and-importing-voice-routing-configuration.md)
+   [Lync Server 2013에서 음성 라우팅 구성 내보내기 및 가져오기](lync-server-2013-exporting-and-importing-voice-routing-configuration.md)
 
-  -   
-    [Lync Server 2013에서 음성 라우팅 테스트](lync-server-2013-test-voice-routing.md)
+   [Lync Server 2013에서 음성 라우팅 테스트](lync-server-2013-test-voice-routing.md)
 
-  -   
-    [Lync Server 2013에서 음성 라우팅 구성에 보류 중인 변경 사항 게시](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)
+   [Lync Server 2013에서 음성 라우팅 구성에 보류 중인 변경 사항 게시](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)
 
-  -   
-    [Lync Server 2013 음성 메일을 제공하도록 온-프레미스 Exchange UM 배포](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)
+   [Lync Server 2013 음성 메일을 제공하도록 온-프레미스 Exchange UM 배포](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)
 
-  -   
-    [호스팅된 Exchange UM에서 Lync Server 2013 사용자 음성 메일 제공](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md)
+   [호스팅된 Exchange UM에서 Lync Server 2013 사용자 음성 메일 제공](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md)
 
-  -   
-    [Exchange Online과 온-프레미스 Lync Server 2013 통합 구성](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md)
+   [Exchange Online과 온-프레미스 Lync Server 2013 통합 구성](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md)
 
-  -   
-    [Lync Server 2013에서 고급 Enterprise Voice 기능 배포](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+   [Lync Server 2013에서 고급 Enterprise Voice 기능 배포](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
     
       - [Lync Server 2013의 네트워크 지역, 사이트 및 서브넷 정보](lync-server-2013-about-network-regions-sites-and-subnets.md)
     
@@ -107,8 +95,7 @@ Enterprise Voice 서버 역할을 배포하는 예와 해당 서버 역할과 �
     
       - [Lync Server 2013에서 미디어 바이패스 구성](lync-server-2013-configure-media-bypass.md)
 
-  -   
-    [Lync Server 2013에서 사용자가 Enterprise Voice를 사용할 수 있도록 설정](lync-server-2013-enable-users-for-enterprise-voice.md)
+   [Lync Server 2013에서 사용자가 Enterprise Voice를 사용할 수 있도록 설정](lync-server-2013-enable-users-for-enterprise-voice.md)
 
 ## 참고 항목
 

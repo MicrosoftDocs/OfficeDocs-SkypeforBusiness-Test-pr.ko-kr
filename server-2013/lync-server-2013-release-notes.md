@@ -23,38 +23,27 @@ Lync Server 2013 릴리스 노트입니다. Lync Server 2013의 알려진 문제
 
 이 문서에는 다음 섹션이 포함되어 있습니다.
 
-  -   
-    Lync 2013 클라이언트
+   Lync 2013 클라이언트
 
-  -   
-    Lync Server
+   Lync Server
 
-  -   
-    설치
+   설치
 
-  -   
-    모바일
+   모바일
 
-  -   
-    회의
+   회의
 
-  -   
-    Enterprise Voice
+   Enterprise Voice
 
-  -   
-    현재 상태
+   현재 상태
 
-  -   
-    응답 그룹 응용 프로그램 및 통화 대기 응용 프로그램
+   응답 그룹 응용 프로그램 및 통화 대기 응용 프로그램
 
-  -   
-    Lync Server 제어판, 토폴로지 작성기 및 계획 도구
+   Lync Server 제어판, 토폴로지 작성기 및 계획 도구
 
-  -   
-    지역화
+   지역화
 
-  -   
-    저작권
+   저작권
 
 ## Lync 2013 클라이언트
 
@@ -90,9 +79,12 @@ Lync Server 2013 배포에 대한 IP 주소 구성을 변경할 경우(예: IPv4
 
 이 문제를 해결하려면 배포에 대한 IP 주소 구성을 변경한 후에 Lync Server 서비스를 다시 시작합니다. 이를 위해 Lync Server 관리 셸에서 다음 cmdlet을 실행합니다.
 
+```
     Stop-CsWindowsService -graceful
-
+```
+```
     Start-CsWindowsService
+```
 
 ## Lync Server 2013 관리 팩에서 전화 접속 회의 가상 트랜잭션 cmdlet을 더 이상 사용할 수 없음(3212342)
 

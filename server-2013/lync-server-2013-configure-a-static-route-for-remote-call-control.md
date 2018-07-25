@@ -26,7 +26,7 @@ _**마지막으로 수정된 항목:** 2012-09-22_
 3.  고정 경로를 만들고 이 경로를 $TLSRoute 또는 $TCPRoute 변수에 넣으려면 다음 중 하나를 수행합니다.
     
 
-    > [!TIP]
+    > [!TIP]  
     > 도메인의 자식 도메인을 일치시키려면 MatchUri 매개 변수에서 와일드카드 값을 지정하면 됩니다(예: <STRONG>*.contoso.net</STRONG> ). 해당 값은 <STRONG>contoso.net</STRONG> 접미사로 끝나는 모든 도메인과 일치합니다.
 
     
@@ -45,7 +45,7 @@ _**마지막으로 수정된 항목:** 2012-09-22_
       - TCP(Transmission Control Protocol) 연결의 경우 명령 프롬프트에 다음을 입력합니다.
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > FQDN(정규화된 도메인 이름)을 지정한 경우 DNS(도메인 이름 시스템) A 레코드를 먼저 구성해야 합니다.
 
         
@@ -69,9 +69,12 @@ _**마지막으로 수정된 항목:** 2012-09-22_
 
 4.  중앙 관리 저장소에서 새로 만들어진 고정 경로를 유지하려면 적절하게 다음 중 하나를 실행합니다.
     
-        Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
-    
-        Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
+    ```
+        Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}    
+    ```
+    ```    
+    Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
+    ```
 
 ## 참고 항목
 

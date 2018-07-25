@@ -27,24 +27,17 @@ Lync Server 2010 서버 및 서버 역할을 제거하는 방법에 대한 전�
 
 ## 이 단원의 내용
 
-  -   
-    [DNS SRV 레코드 업데이트](update-dns-srv-records.md)
+   [DNS SRV 레코드 업데이트](update-dns-srv-records.md)
 
-  -   
-    [Lync Server 2013으로 Lync Server 2013 중앙 관리 서버 이동](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
+   [Lync Server 2013으로 Lync Server 2013 중앙 관리 서버 이동](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
 
-  -   
-    [회의 디렉터리 이동](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
+   [회의 디렉터리 이동](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
 
-  -   
-    [보관 서버 연결 제거](remove-the-archiving-server-association.md)
+   [보관 서버 연결 제거](remove-the-archiving-server-association.md)
 
-  -   
-    [모니터링 서버 연결 제거](remove-the-monitoring-server-association.md)
+   [모니터링 서버 연결 제거](remove-the-monitoring-server-association.md)
 
-  -   
-    [Enterprise Edition 프런트 엔드 서버 또는 Standard Edition 프런트 엔드 서버 제거](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
+   [Enterprise Edition 프런트 엔드 서버 또는 Standard Edition 프런트 엔드 서버 제거](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
 
-  -   
-    [백 엔드 서버에서 SQL Server 인스턴스 및 데이터베이스 제거](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
+   [백 엔드 서버에서 SQL Server 인스턴스 및 데이터베이스 제거](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
 

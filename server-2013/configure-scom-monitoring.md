@@ -37,13 +37,15 @@ Microsoft Lync Server 2013으로 마이그레이션한 후 System Center Operati
 
 2.  명령줄에 다음을 입력합니다.
     
-        New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
-    
+  ```
+          New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
+  ```
+  ```  
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
-    
+  ```    
 
-    > [!NOTE]
-    > 레지스트리를 편집할 때마다 레지스트리 키가 이미 있으면 명령이 실패했다는 오류가 발생할 수 있습니다. 이 문제가 발생할 경우 오류를 무시해도 됩니다.
+  > [!NOTE]  
+  > 레지스트리를 편집할 때마다 레지스트리 키가 이미 있으면 명령이 실패했다는 오류가 발생할 수 있습니다. 이 문제가 발생할 경우 오류를 무시해도 됩니다.
 
 
 

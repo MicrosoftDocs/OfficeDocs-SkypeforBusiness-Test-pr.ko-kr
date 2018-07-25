@@ -17,14 +17,11 @@ _**마지막으로 수정된 항목:** 2012-09-08_
 
 조직에서 15,000개 미만의 액세스 에지 서비스 클라이언트 연결, 1,000개 미만의 활성 Lync Server 웹 회의 서비스 클라이언트 연결 또는 500개 미만의 동시 A/V 에지 세션을 지원해야 하고 에지 서버의 고가용성이 중요하지 않을 경우 이 토폴로지는 하드웨어 비용 절감, 배포 단순화 등과 같은 이점을 제공합니다. 더 큰 용량을 필요로 하거나 고가용성을 필요로 하는 경우에는 확장 통합 에지 서버 토폴로지를 배포해야 합니다.
 
-  -   
-    [Lync Server 2013의 조정된 통합 에지, NAT 사용 개인 IP 주소의 DNS 부하 분산](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+   [Lync Server 2013의 조정된 통합 에지, NAT 사용 개인 IP 주소의 DNS 부하 분산](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  -   
-    [Lync Server 2013의 조정된 통합 에지, 공용 IP 주소의 DNS 부하 분산](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+   [Lync Server 2013의 조정된 통합 에지, 공용 IP 주소의 DNS 부하 분산](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  -   
-    [Lync Server 2013의 하드웨어 부하 분산 장치를 사용하는 조정된 통합 에지](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+   [Lync Server 2013의 하드웨어 부하 분산 장치를 사용하는 조정된 통합 에지](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
 
 > [!IMPORTANT]

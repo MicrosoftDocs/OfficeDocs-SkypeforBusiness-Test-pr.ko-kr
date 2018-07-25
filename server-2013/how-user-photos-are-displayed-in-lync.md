@@ -185,13 +185,18 @@ Exchange 2013가 배포에 사용되지 않은 경우 사용자 사진에 대한
 
 Lync Server 관리 셸에서 [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy) 정책을 실행하여 **웹 사이트의 사진 표시** 설정을 사용하도록 클라이언트 정책을 설정할 수 있습니다. 다음 예제 cmdlet은 배포에 속한 모든 사용자를 위해 전역적으로 정책을 설정하는 방법을 보여 줍니다.
 
+```
     $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
-
+```
+```
     $po=Get-CsClientPolicy -Identity Global
-
+```
+```
     $po.PolicyEntry.Add($pe)
-
+```
+```
     Set-CsClientPolicy -Instance $po
+```
 
 사용자의 사서함에 이미지를 업로드하면 Exchange가 클라이언트 응용 프로그램에서 사용할 수 있는 더 낮은 해상도의 이미지를 자동으로 만듭니다. 사용자 사진은 AD DS에서도 업데이트됩니다.
 

@@ -32,7 +32,7 @@ _**마지막으로 수정된 항목:** 2012-12-03_
 6.  에지 서버의 배포 마법사에서 3단계: 인증서 요청, 설치 또는 할당 옆에 있는 다시 실행을 클릭합니다.
     
 
-    > [!TIP]
+    > [!TIP]  
     > 처음으로 에지 서버를 배포하는 경우 "다시 실행" 대신 "실행"이 나타납니다.
 
 
@@ -66,7 +66,7 @@ _**마지막으로 수정된 항목:** 2012-12-03_
 17. 추가 주체 대체 이름 구성 페이지에서 필요한 추가 주체 대체 이름을 지정합니다.
     
 
-    > [!TIP]
+    > [!TIP]  
     > XMPP 프록시가 설치된 경우 기본적으로 도메인 이름(예: contoso.com)이 SAN 항목에 채워집니다. 더 많은 항목이 필요한 경우 이 단계에서 추가합니다.
 
 
@@ -81,38 +81,51 @@ _**마지막으로 수정된 항목:** 2012-12-03_
 
 22. 공용 인증서를 받아 가져오고 할당한 후 에지 서버 서비스를 중지한 다음 다시 시작해야 합니다. 이는 Lync Server 관리 콘솔에서 다음을 입력해서 수행할 수도 있습니다.
     
+```
         Stop-CsWindowsService
-    
+```
+```    
         Start-CsWindowsService
+```
 
 23. XMPP 프레젠테이션에 대해 DNS를 구성하려면 다음 SRV 레코드를 외부 DNS:\_xmpp-server.\_tcp.\<도메인 이름\>에 추가합니다. SRV 레코드는 포트 5269를 사용해서 에지 서버의 액세스 에지 FQDN으로 확인됩니다. 또한 액세스 에지 서버의 IP 주소를 가리키는 'A' 호스트 레코드(예: xmpp.contoso.com)를 구성합니다.
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > 여러 사이트에 에지 풀이 있는 경우 XMPP 페더레이션에 대해 여러 SRV 레코드를 추가하는 것이 좋습니다. 조직 내 모든 에지 풀에 대해 SRV 레코드를 추가하고 이러한 각 SRV 레코드에 서로 다른 우선 순위를 지정합니다. 모든 에지 풀이 실행될 때 XMPP 요청은 우선 순위가 가장 높은 에지 풀에서 처리됩니다. 하지만 해당 에지 풀이 다운된 경우 XMPP 페더레이션 기능을 다시 확보하기 위해 새로운 SRV 레코드를 추가할 필요가 없습니다.
 
 
 
 24. 프런트 엔드에서 Lync Server 관리 셸을 열고 다음을 입력하여 모든 사용자를 사용하도록 설정하기 위해 새로운 외부 액세스 정책을 구성합니다.
     
+```
         New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
-    
+```
+```    
         New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
-    
+```
+```    
         Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
+```
+
+다음을 입력하여 외부 사용자에 대해 XMPP 액세스를 사용하도록 설정합니다.
     
-    다음을 입력하여 외부 사용자에 대해 XMPP 액세스를 사용하도록 설정합니다.
-    
+```
         Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
-    
+```
+```    
         Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
+```
 
 25. XMPP 프록시가 배포된 에지 서버에서 명령 프롬프트 또는 Windows PowerShell™ 명령줄 인터페이스를 열고 다음을 입력합니다.
     
+```
         Netstat -ano | findstr 5269
-    
+```
+```    
         Netstat -ano | findstr 23456
-    
+```
+
     **netstat -ano** 명령은 네트워크 통계 명령입니다. **-ano** 매개 변수는 netstat으로 모든 연결 및 수신 대기 포트를 표시하고, 주소 및 포트를 숫자 형식으로 표시하고, 소유 프로세스 ID가 각 연결과 연결되도록 요청합니다. **|** 문자는 다음 명령인 **findstr** 또는 find string에 대한 파이프를 정의합니다. findstr에 매개 변수로 전달된 숫자 5269 및 23456은 findstr이 netstat 출력에서 5269 및 23456 문자열을 찾도록 지시합니다. XMPP를 올바르게 구성한 경우 이 명령의 출력에 따라 외부 에지 서버의 외부(포트 5269) 및 내부(포트 23456) 모두에서 수신 대기 중이고 설정된 연결을 가져옵니다.
     
     명령이 5269 및 23456에서 설정되었거나 수신 대기 중인 포트를 반환하지 않으면 다음을 확인합니다.
@@ -144,7 +157,7 @@ _**마지막으로 수정된 항목:** 2012-12-03_
 10. 토폴로지를 게시합니다. 자세한 내용은 [Lync Server 2013에서 토폴로지 게시](lync-server-2013-publish-your-topology.md)를 참조하십시오.
     
 
-    > [!TIP]
+    > [!TIP]  
     > 필수는 아니고 일반적으로 필요하지 않지만 에지 서버를 다시 시작해야 할 수 있습니다.
 
 

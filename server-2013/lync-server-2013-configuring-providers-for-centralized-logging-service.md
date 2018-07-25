@@ -135,9 +135,12 @@ $LyssProvider는 **New-CsClsProvider**로 만들어진 정의된 시나리오가
 
 2.  제공된 cmdlet을 사용하면 기존 공급자를 업데이트하고 새 공급자를 만들 수 있습니다. 공급자를 제거하려면 **Set-CsClsScenario**의 Provider 매개 변수에 대해 Replace 지시문을 사용해야 합니다. 공급자를 완전히 제거하는 유일한 방법은 동일한 이름으로 다시 정의된 공급자로 바꾸고 Update 지시문을 사용하는 것입니다. 예를 들어, LyssProvider 공급자는 로그 유형이 WPP로 정의되어 있으며, 로그 수준은 Debug이고, 플래그 집합은 TF\_CONNECTION 및 TF\_DIAG입니다. 플래그를 "All"로 변경해야 합니다. 공급자를 변경하려면 다음을 입력합니다.
     
-        $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
-    
+```   
+     $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
+```
+```    
         Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
+```
 
 3.  시나리오 및 시나리오와 연결된 공급자를 완전히 제거하려면 다음을 입력합니다.
     

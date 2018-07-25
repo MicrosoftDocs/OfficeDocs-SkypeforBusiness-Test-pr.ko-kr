@@ -25,15 +25,20 @@ Lync Online 사용자를 온-프레미스 환경으로 이동하기 전에 다�
     
     모듈을 설치한 후에는 다음 cmdlet을 Lync Server 관리 셸에 입력해 원격 세션을 설정할 수 있습니다.
     
+    ```
         Import-Module LyncOnlineConnector
-    
+    ```
+    ```    
         $cred = Get-Credential
-    
+    ```
+    ``` 
         $CSSession = New-CsOnlineSession -Credential $cred
-    
+    ```    
+    ```
         Import-PSSession $CSSession -AllowClobber
-    
-    원격 PowerShell 세션을 비즈니스용 Skype Online에 설정하는 방법에 대한 자세한 내용은 [Windows PowerShell을 사용하여 Lync Online에 연결](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)을 참고하세요.
+    ```
+
+  원격 PowerShell 세션을 비즈니스용 Skype Online에 설정하는 방법에 대한 자세한 내용은 [Windows PowerShell을 사용하여 Lync Online에 연결](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)을 참고하세요.
     
     비즈니스용 Skype Online PowerShell 모듈 사용에 대한 자세한 내용은 [Windows PowerShell을 사용하여 Lync Online 관리](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)를 참고하세요.
 

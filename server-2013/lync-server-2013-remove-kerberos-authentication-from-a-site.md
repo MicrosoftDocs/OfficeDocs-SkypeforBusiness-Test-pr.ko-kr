@@ -20,7 +20,7 @@ _**마지막으로 수정된 항목:** 2012-01-16_
 사이트에서 Kerberos 인증을 제거하거나 사이트를 폐기해야 하는 경우 **Remove-CsKerberosAccountAssignment** cmdlet을 사용하여 사이트에서 Kerberos 인증 계정 할당을 제거해야 합니다. 다음 절차를 사용하여 Kerberos 인증 계정 할당을 제거하면 사이트의 모든 컴퓨터에서 할당이 제거됩니다.
 
 
-> [!WARNING]
+> [!WARNING]  
 > Kerberos 사용 계정을 영구적으로 폐기하려는 경우 할당을 제거한 후 Active Directory 사용자 및 컴퓨터를 사용하여 Active Directory 도메인 서비스에서 해당 계정을 삭제해야 합니다. 나중에 개체를 사용하려는 경우 Active Directory 개체를 유지하고자 할 수 있습니다.
 
 
@@ -33,18 +33,22 @@ _**마지막으로 수정된 항목:** 2012-01-16_
 
 3.  명령줄에서 다음의 두 명령을 실행합니다.
     
+```
         Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
-    
+```
+```    
         Enable-CsTopology
+```    
+예를 들면 다음과 같습니다.
     
-    예를 들면 다음과 같습니다.
-    
+```
         Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
-    
+```
+```    
         Enable-CsTopology
-    
+```    
 
-    > [!IMPORTANT]
-    > 계정을 추가하거나 제거하는 등 Kerberos 인증을 변경한 후에는 Lync Server 관리 셸 명령 프롬프트에서 <STRONG>Enable-CsTopology</STRONG>를 실행해야 합니다.
+ > [!IMPORTANT]  
+> 계정을 추가하거나 제거하는 등 Kerberos 인증을 변경한 후에는 Lync Server 관리 셸 명령 프롬프트에서 <STRONG>Enable-CsTopology</STRONG>를 실행해야 합니다.
 
 

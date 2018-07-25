@@ -46,16 +46,22 @@ _**마지막으로 수정된 항목:** 2013-07-03_
 
 8.  다음 명령을 실행하여 Windows PowerShell을 사용하는 신뢰 당사자 트러스트에 대한 발급 권한 부여 규칙을 만들고 할당합니다.
     
+```
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
-    
+```
+```    
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth 
         -IssuanceAuthorizationRules $IssuanceAuthorizationRules
+```
 
 9.  다음 명령을 실행하여 Windows PowerShell을 사용하는 신뢰 당사자 트러스트에 대한 발급 변환 규칙을 만들고 할당합니다.
     
+```
         $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
-    
+```
+```    
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
+```
 
 10. AD FS 2.0 관리 콘솔에서 신뢰 당사자 트러스트를 마우스 오른쪽 단추로 클릭하고 **클레임 규칙 편집**을 선택합니다.
 

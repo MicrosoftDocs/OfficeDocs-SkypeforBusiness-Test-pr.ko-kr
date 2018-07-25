@@ -25,26 +25,19 @@ Lync Server 2013은 인증서를 사용하여 통신 암호화 및 서버 ID 인
 
 와일드카드 항목은 어떠한 역할에 대해서도 주체 이름(및 CN(공용 이름)이라고도 함)으로 지원되지 않습니다. 다음은 SAN에서 와일드카드 항목을 사용할 때 지원되는 서버 역할입니다.
 
-  -   
-    **역방향 프록시.**   와일드카드 SAN 항목은 단순 URL(모임 및 전화 접속) 게시 인증서에 대해 지원됩니다.
+   **역방향 프록시.**   와일드카드 SAN 항목은 단순 URL(모임 및 전화 접속) 게시 인증서에 대해 지원됩니다.
 
-  -   
-    **역방향 프록시.**   와일드카드 SAN 항목은 게시 인증서의 LyncDiscover를 위한 SAN 항목에 대해 지원됩니다.
+   **역방향 프록시.**   와일드카드 SAN 항목은 게시 인증서의 LyncDiscover를 위한 SAN 항목에 대해 지원됩니다.
 
-  -   
-    **디렉터.**   와일드카드 SAN 항목은 디렉터 웹 구성 요소의 단순 URL(모임 및 전화 접속)과 LyncDiscover 및 LyncDiscoverInternal의 SAN 항목에 대해 지원됩니다.
+   **디렉터.**   와일드카드 SAN 항목은 디렉터 웹 구성 요소의 단순 URL(모임 및 전화 접속)과 LyncDiscover 및 LyncDiscoverInternal의 SAN 항목에 대해 지원됩니다.
 
-  -   
-    **프런트 엔드 서버( Standard Edition) 및 프런트 엔드 풀( Enterprise Edition).**   와일드카드 SAN 항목은 프런트 엔드 웹 구성 요소의 단순 URL(모임 및 전화 접속)과 LyncDiscover 및 LyncDiscoverInternal의 SAN 항목에 대해 지원됩니다.
+   **프런트 엔드 서버( Standard Edition) 및 프런트 엔드 풀( Enterprise Edition).**   와일드카드 SAN 항목은 프런트 엔드 웹 구성 요소의 단순 URL(모임 및 전화 접속)과 LyncDiscover 및 LyncDiscoverInternal의 SAN 항목에 대해 지원됩니다.
 
-  -   
-    **Exchange 통합 메시징(UM).**   독립 실행형 서버로 배포된 서버에서는 SAN 항목이 사용되지 않습니다.
+   **Exchange 통합 메시징(UM).**   독립 실행형 서버로 배포된 서버에서는 SAN 항목이 사용되지 않습니다.
 
-  -   
-    **Microsoft Exchange Server 클라이언트 액세스 서버.**   SAN의 와일드카드 항목은 내부 및 외부 클라이언트에 대해 지원됩니다.
+   **Microsoft Exchange Server 클라이언트 액세스 서버.**   SAN의 와일드카드 항목은 내부 및 외부 클라이언트에 대해 지원됩니다.
 
-  -   
-    **동일한 서버의 Exchange 통합 메시징(UM) 및 Microsoft Exchange Server 클라이언트 액세스 서버.**   와일드카드 SAN 항목이 지원됩니다.
+   **동일한 서버의 Exchange 통합 메시징(UM) 및 Microsoft Exchange Server 클라이언트 액세스 서버.**   와일드카드 SAN 항목이 지원됩니다.
 
 이 항목에서 다루지 않는 서버 역할:
 

@@ -40,7 +40,7 @@ Microsoft Lync Server 2013 에지 서버 배포의 경우, 외부 클라이언�
 Microsoft Forefront Threat Management Gateway 2010, Microsoft Internet Security and Acceleration(ISA) Server 2006 SP1 또는 IIS ARR(Internet Information Server Application Request Routing) 7.0, 7.5 또는 8.0을 역방향 프록시로 사용할 수 있습니다. 이 섹션의 세부 단계에서는 Forefront Threat Management Gateway 2010을 구성하는 방법에 대해 설명합니다. ISA Server 2006을 구성하는 단계도 거의 비슷합니다. IIS ARR에 대한 지침도 제공됩니다. 다른 역방향 프록시를 사용하는 경우 해당 제품의 설명서를 참고하고, 여기에 정의되어 있는 요구 사항을 다른 역방향 프록시의 관련 기능에 매핑하세요.
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > IIS ARR(Internet Information Server 응용 프로그램 요청 라우팅)은 확실한 테스트를 거쳤으며 Lync Server 2010 및 Lync Server 2013의 역방향 프록시를 구현하기 위해 지원되는 옵션입니다. 2012년 11월을 기점으로 Microsoft는 ForeFront Threat Management Gateway 2010 또는 TMG의 라이선스 판매를 중단했습니다. TMG는 여전히 완벽 지원되며, 타사가 판매하는 장비를 통해 계속해서 이용할 수 있습니다. 또한 많은 타사 하드웨어 부하 분산 장치와 방화벽이 역방향 프록시 지원을 제공하고 있습니다. 역방향 프록시 기능을 제공하는 하드웨어 부하 분산 장치 및 방화벽에 대한 자세한 내용은 Lync Server에 역방향 프록시 지원을 제공하도록 제품을 구성하는 방법에 대해 공급 업체에서 제공하는 구체적인 지침을 참고하세요. 또한 Microsoft에 제품에 대한 설명서를 제출한 타사도 확인할 수 있습니다. 타사의 솔루션에 대한 지원은 타사가 제공합니다. 솔루션을 적극적으로 제공하고 있는 타사를 확인하려면 <A href="http://go.microsoft.com/fwlink/?linkid=268730">Infrastructure qualified for Microsoft Lync</A>를 참고하세요.
 
 
@@ -65,31 +65,23 @@ Microsoft Forefront Threat Management Gateway 2010, Microsoft Internet Security 
 
 Forefront Threat Management Gateway 2010을 역방향 프록시로 올바르게 배포하려면 Forefront Threat Management Gateway 2010 설명서에 정의되어 있는 필수 구성 요소 및 하드웨어 요구 사항에 따라 서버를 설치 및 구성해야 합니다. 계속하기 전에 서버에서 적절하게 하드웨어를 구성하고 Forefront Threat Management Gateway 2010을 설치하려면 다음 항목을 참고하세요.
 
-  -   
-    [Forefront Threat Management Gateway(TMG) 2010](http://go.microsoft.com/fwlink/?linkid=291292)
+   [Forefront Threat Management Gateway(TMG) 2010](http://go.microsoft.com/fwlink/?linkid=291292)
 
-  -   
-    [Forefront TMG 2010 하드웨어 권장 사항](http://go.microsoft.com/fwlink/?linkid=291293)
+   [Forefront TMG 2010 하드웨어 권장 사항](http://go.microsoft.com/fwlink/?linkid=291293)
 
 IIS ARR을 역방향 프록시로 성공적으로 배포하려면 다음 항목을 검토하여 하드웨어 및 소프트웨어 필수 구성 요소를 구성하세요.
 
-  -   
-    Windows Server 2008 또는 Windows Server 2008 R2에 IIS를 설치하려면 [Windows Server 2008 또는 Windows Server 2008 R2에 IIS 7 설치(영어)](http://go.microsoft.com/fwlink/?linkid=291296)를 참고하세요.
+  - Windows Server 2008 또는 Windows Server 2008 R2에 IIS를 설치하려면 [Windows Server 2008 또는 Windows Server 2008 R2에 IIS 7 설치(영어)](http://go.microsoft.com/fwlink/?linkid=291296)를 참고하세요.
 
-  -   
-    Windows Server 2012에 IIS를 설치하려면 [Windows Server 2012에 IIS 8 설치(영어)](http://go.microsoft.com/fwlink/?linkid=291297)를 참고하세요.
+  - Windows Server 2012에 IIS를 설치하려면 [Windows Server 2012에 IIS 8 설치(영어)](http://go.microsoft.com/fwlink/?linkid=291297)를 참고하세요.
 
-  -   
-    Windows Server 2012 R2에 IIS를 설치하려면 [Windows Server 2012 R2에 IIS 8.5 설치(영어)](http://go.microsoft.com/fwlink/?linkid=330687)를 참고하세요.
+  - Windows Server 2012 R2에 IIS를 설치하려면 [Windows Server 2012 R2에 IIS 8.5 설치(영어)](http://go.microsoft.com/fwlink/?linkid=330687)를 참고하세요.
 
-  -   
-    IIS용 ARR(Application Request Routing) 확장 프로그램을 다운로드하려면 [Application Request Routing v2.5 다운로드(영어)](http://go.microsoft.com/fwlink/?linkid=291298)의 지침을 따르세요.
+  - IIS용 ARR(Application Request Routing) 확장 프로그램을 다운로드하려면 [Application Request Routing v2.5 다운로드(영어)](http://go.microsoft.com/fwlink/?linkid=291298)의 지침을 따르세요.
 
-  -   
-    ARR을 설치하려면 [Application Request Routing Version 2(영어)](http://go.microsoft.com/fwlink/?linkid=291299)의 지침을 따르세요.
+  - ARR을 설치하려면 [Application Request Routing Version 2(영어)](http://go.microsoft.com/fwlink/?linkid=291299)의 지침을 따르세요.
     
-
-    > [!NOTE]
-    > 현재 게시된 지침은 ARR 2.0에 적용됩니다. 확장 프로그램 설치는 두 버전 간 차이가 없습니다.
+> [!NOTE]  
+> 현재 게시된 지침은 ARR 2.0에 적용됩니다. 확장 프로그램 설치는 두 버전 간 차이가 없습니다.
 
 

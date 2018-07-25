@@ -37,10 +37,13 @@ _**마지막으로 수정된 항목:** 2012-09-24_
 
 2.  New-CsExUmContact cmdlet을 실행하여 배포에 필요한 연락처 개체를 만듭니다. 예를 들어 다음을 실행하여 AA 및 SA 연락처 개체를 만듭니다.
     
+      ```
         New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
-    
+    ```    
+    ```
         New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
-    
+    ```
+
     이러한 예는 다음 매개 변수를 설정합니다.
     
       - **SipAddress**는 연락처 개체의 SIP 주소를 지정하며, Active Directory 도메인 서비스에서 사용자나 연락처 개체를 구성하는 데 사용되지 않은 주소여야 합니다. 이 값은 이전 예에 표시된 바와 같이 “sip:\< *SIP 주소* \>“ 형식이어야 합니다.
@@ -48,7 +51,7 @@ _**마지막으로 수정된 항목:** 2012-09-24_
       - **RegistrarPool**은 등록자 서비스가 실행되고 있는 풀의 FQDN(정규화된 도메인 이름)을 지정합니다.
         
 
-        > [!NOTE]
+        > [!NOTE]   
         > Exchange UM 연락처 개체는 Lync Server 2013 이전의 Lync Server 2013 배포의 일부인 풀로 이동할 수 없습니다.
 
     
