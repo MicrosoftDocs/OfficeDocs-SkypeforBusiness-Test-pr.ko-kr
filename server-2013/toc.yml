@@ -317,7 +317,7 @@
           - name: DNS 요약 - SIP, XMPP 페더레이션 및 공용 IM
             href: lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md
           - name: DNS 요약 - 공용 인스턴트 메시징 연결
-            href: 
+            href: this-topic-is-no-longer-available.md
           - name: DNS 요약 - XMPP(Extensible Messaging and Presence Protocol) 페더레이션
             href: lync-server-2013-dns-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md
       - name: 포트 요구 사항
@@ -672,7 +672,7 @@
             - name: 포트 요약 - 공용 인스턴트 메시징 연결
               href: lync-server-2013-port-summary-public-instant-messaging-connectivity.md
             - name: DNS 요약 - 공용 인스턴트 메시징 연결
-              href: 
+              href: this-topic-is-no-longer-available.md
           - name: Lync Server 2013의 XMPP(Extensible Messaging and Presence Protocol) 페더레이션 계획
             href: lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md
             items:
@@ -1280,7 +1280,7 @@
         - name: Lync Server 2013용 Windows Update
           href: lync-server-2013-windows-update-for-lync-server.md
         - name: Protecting the Edge Server Against DoS and Password Brute-Force Attacks in Lync Server
-          href: 
+          href: this-topic-is-no-longer-available_1.md
       - name: Lync Server 2013에서 SQL Server 비표준 포트 및 별칭 배포
         href: deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013.md
   - name: 배포
@@ -2559,12 +2559,12 @@
     - name: 하이브리드 배포 개요
       href: lync-server-2013-overview-of-hybrid-deployments.md
     - name: 하이브리드 배포 계획
-      href: 
+      href: this-topic-is-no-longer-available_2.md
       items:
       - name: 하이브리드 Lync Server 배포 계획
-        href: 
+        href: lync-server-2013-planning-for-hybrid-deployments.md
       - name: 지원되는 하이브리드 구성
-        href: 
+        href: lync-server-2013-supported-hybrid-configurations.md
     - name: 하이브리드 배포 구성
       href: lync-server-2013-configuring-hybrid-deployments.md
       items:
@@ -4003,7 +4003,7 @@
         href: lync-server-2013-managing-certificates-for-operational-processes.md
         items:
         - name: Set-CsCertificate에 -Roll을 사용하여 Lync Server 2013에서 AV 및 OAuth 인증서 준비
-          href: lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate
+          href: lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md
       - name: Lync Server 2013에서 서버 간 인증(Oauth) 및 파트너 응용 프로그램 관리
         href: lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md
         items:
@@ -4842,6 +4842,6 @@
       - name: Lync Server 2013에서 Grant-CsOUPermission으로 인한 변경
         href: lync-server-2013-changes-made-by-grant-csoupermission.md
   - name: Lync Server 관리 셸
-    href: https://docs.microsoft.com/en-us/powershell/module/skype/
+    href: lync-server-2013-lync-server-management-shell.md
   - name: 용어집
     href: lync-server-2013-glossary.md
