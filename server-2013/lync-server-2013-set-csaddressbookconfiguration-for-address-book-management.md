@@ -19,7 +19,7 @@ _**마지막으로 수정된 항목:** 2012-11-01_
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsAddressBookConfiguration"}
 
-Set-CsAddressBookConfiguration은 기존 구성을 수정하는 데 사용된다는 점을 제외하면 new-csaddressbookconfiguration cmdlet와 비슷합니다.
+Set-CsAddressBookConfiguration은 기존 구성을 수정하는 데 사용된다는 점을 제외하면 New-CsAddressBookConfiguration cmdlet와 비슷합니다.
 
 예:
 

@@ -142,7 +142,7 @@ Lync Server 2013에서 정규화 규칙을 적용하지 않고도 사용자가 A
     
       - 배포에 Lync Server 2013과 Lync Server 2010 또는 Office Communications Server 2007 R2가 함께 포함되어 있는 경우 다음 cmdlet을 실행하여 토폴로지의 각 Lync Server 2013 풀에 할당합니다.
         
-            new-csaddressbookconfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
+            New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
 
 3.  모든 풀에서 CMS 복제가 수행될 때까지 기다립니다.
 

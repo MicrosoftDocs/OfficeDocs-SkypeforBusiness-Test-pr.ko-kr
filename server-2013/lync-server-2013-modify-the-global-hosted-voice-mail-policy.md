@@ -15,17 +15,17 @@ ms.translationtype: HT
 
 _**마지막으로 수정된 항목:** 2012-09-24_
 
-호스팅된 *전역* 음성 사서함 정책은 Lync Server 2013과 함께 설치됩니다. 요구 사항을 충족하도록 정책을 수정할 수 있지만 정책의 이름을 변경하거나 정책을 삭제할 수는 없습니다. 글로벌 정책을 수정하려면 set-cshostedvoicemailpolicy cmdlet을 사용하여 특정 배포에 적절한 값으로 매개 변수를 설정합니다.
+호스팅된 *전역* 음성 사서함 정책은 Lync Server 2013과 함께 설치됩니다. 요구 사항을 충족하도록 정책을 수정할 수 있지만 정책의 이름을 변경하거나 정책을 삭제할 수는 없습니다. 글로벌 정책을 수정하려면 Set-CsHostedVoicemailPolicy cmdlet을 사용하여 특정 배포에 적절한 값으로 매개 변수를 설정합니다.
 
-[set-cshostedvoicemailpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy) cmdlet에 대한 자세한 내용은 Lync Server 관리 셸 설명서를 참조하십시오.
+[Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy) cmdlet에 대한 자세한 내용은 Lync Server 관리 셸 설명서를 참조하십시오.
 
 ## 호스팅된 전역 음성 메일 정책을 수정하려면
 
 1.  Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync Server 2013**을 차례로 클릭한 다음 **Lync Server 관리 셸**을 클릭합니다.
 
-2.  set-cshostedvoicemailpolicy cmdlet를 실행하여 환경에 대한 전역 정책 매개 변수를 설정합니다. 예를 들어 다음을 실행합니다.
+2.  Set-CsHostedVoicemailPolicy cmdlet를 실행하여 환경에 대한 전역 정책 매개 변수를 설정합니다. 예를 들어 다음을 실행합니다.
     
-        set-cshostedvoicemailpolicy -Destination ExUM.fabrikam.com -Organization "corp1.litwareinc.com"
+        Set-CsHostedVoicemailPolicy -Destination ExUM.fabrikam.com -Organization "corp1.litwareinc.com"
     
     이 명령은 정책의 Identity 매개 변수를 지정하지 않으므로 Windows PowerShell 명령줄 인터페이스는 호스팅된 전역 음성 메일 정책에서 다음 값을 설정합니다.
     
@@ -40,5 +40,5 @@ _**마지막으로 수정된 항목:** 2012-09-24_
     
         $a = Get-CsHostedVoicemailPolicy
         $a.Organization += ",corp3.litwareinc.com"
-        set-cshostedvoicemailpolicy -Organization $a.Organization
+        Set-CsHostedVoicemailPolicy -Organization $a.Organization
 
