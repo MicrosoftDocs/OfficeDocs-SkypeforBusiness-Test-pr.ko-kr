@@ -11,8 +11,6 @@ ms.translationtype: HT
 
 # Lync Server 2013의 IIS 구성
 
- 
-
 _**마지막으로 수정된 항목:** 2015-03-09_
 
 이 절차를 완료하려면 최소한 로컬 관리자나 도메인 사용자로 서버에 로그온해야 합니다.
@@ -117,9 +115,12 @@ Lync Server 2013, Standard Edition 또는 풀의 첫 번째 프런트 엔드 서
 
 또는 Windows Server 2008 R2 SP1 x64 운영 체제에서 Windows PowerShell 2.0을 사용할 수 있습니다. 이 경우 먼저 ServerManager 모듈을 설치한 다음 IIS 7.5 역할 및 역할 서비스를 설치해야 합니다.
 
+```
     Import-Module ServerManager
-
+```
+```
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
+```
 
 
 > [!NOTE]
@@ -307,9 +308,12 @@ Lync Server 2013, Standard Edition 또는 풀의 첫 번째 프런트 엔드 서
 
 Windows Server 2012 및 Windows Server 2012 R2에서는 Windows PowerShell 3.0을 사용하여 IIS 요구 사항을 설치할 수 있습니다. Windows PowerShell 3.0의 ServerManager 모듈을 사용하여 다음을 입력합니다.
 
+```
     Import-Module ServerManager
-
+```
+```
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
+```
 
 
 > [!IMPORTANT]

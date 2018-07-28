@@ -338,9 +338,12 @@ HH:MM:SS 시간 형식을 사용할 경우 패브릭 추적이 만들어지므�
 
 1.  Windows PowerShell을 시작하고 다음 cmdlet을 실행합니다.
     
+    ```
         New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
-    
+    ```
+    ```    
         $a="HKU:\.Default\Control Panel\International"
+    ```
 
 2.  현재 값을 보려면 다음 cmdlet을 실행합니다.
     
