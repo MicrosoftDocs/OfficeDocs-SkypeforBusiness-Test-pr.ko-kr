@@ -27,9 +27,12 @@ Lync Online으로 사용자를 이동하기 전에 소수의 파일럿 사용자
 
 온-프레미스 사용자를 비즈니스용 Skype Online 테넌트로 이동하려면 Microsoft Office 365 테넌트에 대한 관리자 자격 증명을 사용하여 Lync Server 관리 셸에서 다음 cmdlet을 실행합니다. 이때 "username@contoso.com"은 이동하려는 사용자의 정보로 바꿉니다.
 
+```
     $creds=Get-Credential
-
+```
+```
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
+```
 
 **HostedMigrationOverrideUrl** 매개 변수에 대해 지정되는 URL의 형식은 호스트된 마이그레이션 서비스가 실행되고 있는 풀의 URL이어야 하며 *Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc* 와 같은 형식이어야 합니다.
 

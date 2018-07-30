@@ -81,7 +81,7 @@ _**마지막으로 수정된 항목:** 2014-02-07_
     
 
     > [!NOTE]
-    > <STRONG>미디어 바이패스 사용</STRONG> 옵션을 선택한 상태에서 이 옵션을 사용하지 않도록 설정하면 추가 설정이 필요합니다. 트렁크 피어가 중재 서버로부터의 SIP REFER 요청 수신을 지원하지 않는데 미디어 바이패스를 사용하는 경우 미디어 바이패스에 대한 적절한 조건을 지원하기 위해 <STRONG>set-cstrunkconfiguration</STRONG> cmdlet도 실행하여 활성 및 대기 중인 통화에 대해 RTCP를 사용하지 않도록 설정해야 합니다. 자세한 내용은 <A href="lync-server-2013-lync-server-management-shell.md">Lync Server 관리 셸</A> 설명서를 참조하십시오.<BR>또는 전송된 통화에 미디어 바이패스를 사용하려고 하며 게이트웨이가 SIP REFER 요청을 지원하지 않는 경우 <STRONG>타사 통화 제어를 통한 REFER 사용</STRONG> 을 선택할 수 있습니다.
+    > <STRONG>미디어 바이패스 사용</STRONG> 옵션을 선택한 상태에서 이 옵션을 사용하지 않도록 설정하면 추가 설정이 필요합니다. 트렁크 피어가 중재 서버로부터의 SIP REFER 요청 수신을 지원하지 않는데 미디어 바이패스를 사용하는 경우 미디어 바이패스에 대한 적절한 조건을 지원하기 위해 <STRONG>Set-CsTrunkConfiguration</STRONG> cmdlet도 실행하여 활성 및 대기 중인 통화에 대해 RTCP를 사용하지 않도록 설정해야 합니다. 자세한 내용은 <A href="lync-server-2013-lync-server-management-shell.md">Lync Server 관리 셸</A> 설명서를 참조하십시오.<BR>또는 전송된 통화에 미디어 바이패스를 사용하려고 하며 게이트웨이가 SIP REFER 요청을 지원하지 않는 경우 <STRONG>타사 통화 제어를 통한 REFER 사용</STRONG> 을 선택할 수 있습니다.
 
 
 

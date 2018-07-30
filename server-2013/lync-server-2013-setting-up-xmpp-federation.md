@@ -82,10 +82,10 @@ _**마지막으로 수정된 항목:** 2012-12-03_
 22. 공용 인증서를 받아 가져오고 할당한 후 에지 서버 서비스를 중지한 다음 다시 시작해야 합니다. 이는 Lync Server 관리 콘솔에서 다음을 입력해서 수행할 수도 있습니다.
     
 ```
-        Stop-CsWindowsService
+Stop-CsWindowsService
 ```
 ```    
-        Start-CsWindowsService
+Start-CsWindowsService
 ```
 
 23. XMPP 프레젠테이션에 대해 DNS를 구성하려면 다음 SRV 레코드를 외부 DNS:\_xmpp-server.\_tcp.\<도메인 이름\>에 추가합니다. SRV 레코드는 포트 5269를 사용해서 에지 서버의 액세스 에지 FQDN으로 확인됩니다. 또한 액세스 에지 서버의 IP 주소를 가리키는 'A' 호스트 레코드(예: xmpp.contoso.com)를 구성합니다.
@@ -99,34 +99,34 @@ _**마지막으로 수정된 항목:** 2012-12-03_
 24. 프런트 엔드에서 Lync Server 관리 셸을 열고 다음을 입력하여 모든 사용자를 사용하도록 설정하기 위해 새로운 외부 액세스 정책을 구성합니다.
     
 ```
-        New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
+New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
 ```
 ```    
-        New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
+New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
 ```
 ```    
-        Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
+Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
 ```
 
 다음을 입력하여 외부 사용자에 대해 XMPP 액세스를 사용하도록 설정합니다.
     
 ```
-        Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
+Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
 ```
 ```    
-        Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
+Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
 ```
 
 25. XMPP 프록시가 배포된 에지 서버에서 명령 프롬프트 또는 Windows PowerShell™ 명령줄 인터페이스를 열고 다음을 입력합니다.
     
 ```
-        Netstat -ano | findstr 5269
+Netstat -ano | findstr 5269
 ```
 ```    
-        Netstat -ano | findstr 23456
+Netstat -ano | findstr 23456
 ```
 
-    **netstat -ano** 명령은 네트워크 통계 명령입니다. **-ano** 매개 변수는 netstat으로 모든 연결 및 수신 대기 포트를 표시하고, 주소 및 포트를 숫자 형식으로 표시하고, 소유 프로세스 ID가 각 연결과 연결되도록 요청합니다. **|** 문자는 다음 명령인 **findstr** 또는 find string에 대한 파이프를 정의합니다. findstr에 매개 변수로 전달된 숫자 5269 및 23456은 findstr이 netstat 출력에서 5269 및 23456 문자열을 찾도록 지시합니다. XMPP를 올바르게 구성한 경우 이 명령의 출력에 따라 외부 에지 서버의 외부(포트 5269) 및 내부(포트 23456) 모두에서 수신 대기 중이고 설정된 연결을 가져옵니다.
+**netstat -ano** 명령은 네트워크 통계 명령입니다. **-ano** 매개 변수는 netstat으로 모든 연결 및 수신 대기 포트를 표시하고, 주소 및 포트를 숫자 형식으로 표시하고, 소유 프로세스 ID가 각 연결과 연결되도록 요청합니다. **|** 문자는 다음 명령인 **findstr** 또는 find string에 대한 파이프를 정의합니다. findstr에 매개 변수로 전달된 숫자 5269 및 23456은 findstr이 netstat 출력에서 5269 및 23456 문자열을 찾도록 지시합니다. XMPP를 올바르게 구성한 경우 이 명령의 출력에 따라 외부 에지 서버의 외부(포트 5269) 및 내부(포트 23456) 모두에서 수신 대기 중이고 설정된 연결을 가져옵니다.
     
     명령이 5269 및 23456에서 설정되었거나 수신 대기 중인 포트를 반환하지 않으면 다음을 확인합니다.
 

@@ -27,15 +27,21 @@ Kerberos 계정을 만든 후 이를 사이트에 지정해야 합니다. 이 �
 
 3.  명령줄에서 다음의 두 명령을 실행합니다.
     
+    ```
         New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount" -Identity "site:SiteName"
-    
+    ```
+    ```    
         Enable-CsTopology
+    ```
     
     예를 들면 다음과 같습니다.
     
+    ``` 
         New-CsKerberosAccountAssignment -UserAccount "contoso\kerbauth" -Identity "site:redmond"
-    
+    ```
+    ```
         Enable-CsTopology
+    ```
     
 
     > [!NOTE]

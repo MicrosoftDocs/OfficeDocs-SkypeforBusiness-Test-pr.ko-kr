@@ -35,7 +35,7 @@ _**마지막으로 수정된 항목:** 2013-07-11_
 
 3.  Lync Server 관리 셸 명령줄에서 다음 명령을 실행하여 수동 인증에 사용하도록 설정된 각 디렉터, 엔터프라이즈 풀 및 Standard Edition 서버에 대해 새 웹 서비스 구성을 만듭니다.
     
-        new-cswebserviceconfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+        New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
     
 
     > [!WARNING]
