@@ -141,21 +141,21 @@ Exchange 통합 메시징(UM)을 Lync Server 2013과 통합하려면 이 항목�
 <tr class="even">
 <td><p>Lync Server 2013 다이얼 플랜을 구성합니다.</p></td>
 <td><p>Exchange 2007 SP1 또는 최신 서비스 팩이나 Exchange 2010과 통합하는 경우 Exchange UM 다이얼 플랜 FQDN(정규화된 도메인 이름)과 일치하는 이름으로 새 Enterprise Voice 다이얼 플랜을 만듭니다.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > 각 UM 다이얼 플랜에 대해 이 작업을 수행해야 합니다.
 
 
-</div>
+
 <p>Exchange 2010 SP1과 통합하는 경우 적절한 전역/사이트 수준 또는 풀 수준 Enterprise Voice 다이얼 플랜이 구성되었는지 확인합니다.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Exchange 2010 SP1과 통합하는 경우에는 Lync Server 다이얼 플랜 이름과 Exchange UM SIP 다이얼 플랜 이름이 일치하지 않아도 됩니다.
 
 
-</div></td>
+</td>
 <td><p>RTCUniversalServerAdmins</p></td>
 <td><p><a href="lync-server-2013-configuring-dial-plans.md">Lync Server 2013에서 다이얼 플랜 구성</a></p></td>
 </tr>
@@ -168,20 +168,20 @@ Exchange 통합 메시징(UM)을 Lync Server 2013과 통합하려면 이 항목�
 </ul>
 <p>이 도구는 Active Directory에서 Exchange UM 설정을 검색하며 Lync Server 2013 관리자가 연락처 개체를 보고 만들고 편집할 수 있도록 합니다.</p></td>
 <td><p>RTCUniversalServerAdmins <em>및</em> RTCUniversalUserAdmins</p>
-<div class="alert">
+
 
 > [!IMPORTANT]
 > ocsumutil.exe를 실행하려면 사용자가 이 두 그룹 모두에 속해 있어야 합니다.
 
 
-</div>
-<div class="alert">
+
+
 
 > [!NOTE]
 > 대화 상대 개체를 만들려면 ocsumutil.exe를 실행하는 사용자에게 새 대화 상대 개체를 저장할 Active Directory OU(조직 구성 단위)에 대한 올바른 권한이 있어야 합니다. 이 사용 권한을 부여하려면 <STRONG>Grant-CsOUPermission</STRONG> cmdlet을 실행하면 됩니다. 자세한 내용은 Lync Server 관리 셸 설명서를 참조하십시오.
 
 
-</div></td>
+</td>
 <td><p><a href="lync-server-2013-configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server.md">Microsoft Exchange Server의 통합 메시징과 함께 작동하도록 Lync Server 2013 구성</a></p></td>
 </tr>
 <tr class="even">

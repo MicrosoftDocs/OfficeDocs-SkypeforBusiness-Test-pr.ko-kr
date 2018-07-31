@@ -47,42 +47,42 @@ XMPP(Extensible Messaging and Presence Protocol) 파트너와 통신을 설정�
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>contoso.com</p>
-<div class="alert">
+
 
 > [!NOTE]
 > contoso.com XMPP 네임스페이스 지원
 
 
-</div>
+
 <p>sip.fabrikam.com</p>
-<div class="alert">
+
 
 > [!NOTE]
 > fabrikam.com SIP 네임스페이스 지원
 
 
-</div>
+
 <p>fabrikam.com</p>
-<div class="alert">
+
 
 > [!NOTE]
 > fabrikam.com XMPP 네임스페이스 지원
 
 
-</div></td>
+</td>
 <td><p>인증서는 공용 CA에서 발급한 것이어야 하며, AOL을 사용하여 공용 IM 연결을 배포하려는 경우 서버 EKU 및 클라이언트 EKU가 있어야 합니다. 다음 항목에 대한 외부 에지 서버 인터페이스에 인증서가 할당됩니다.</p>
 <ul>
 <li><p>액세스 에지 서비스</p></li>
 <li><p>웹 회의 에지 서비스</p></li>
 <li><p>A/V 에지 서비스</p></li>
 </ul>
-<div class="alert">
+
 
 > [!NOTE]
 > 기술적으로 인증서는 A/V 에지에 할당되지 않습니다. 보안 통신과 인증은 MRAS(미디어 릴레이 인증 서비스)를 통해 관리됩니다. MRAS는 에지 서버 내부 인터페이스에 할당된 인증서를 사용합니다.
 
 
-</div>
+
 <p>토폴로지 작성기의 정의에 기반하여 SAN이 인증서에 자동으로 추가됩니다. 지원해야 할 추가 SIP 도메인과 다른 항목이 있는 경우 SAN 항목을 추가할 수 있습니다. 주체 이름이 SAN에 복제되며 올바른 작동을 위해서는 이 이름이 필요합니다.</p></td>
 </tr>
 </tbody>

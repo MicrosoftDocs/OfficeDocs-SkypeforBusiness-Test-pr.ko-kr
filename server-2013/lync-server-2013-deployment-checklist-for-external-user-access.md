@@ -69,13 +69,13 @@ Microsoft Lync Server 2013에는 내부 서버 및 에지 서버의 계획 및 �
 </ul>
 <p></p></td>
 <td><p><strong>Domain Admins</strong> 그룹 및 <strong>RTCUniversalServerAdmins</strong> 또는 <strong>CsAdmins</strong> 그룹</p>
-<div class="alert">
+
 
 > [!NOTE]
 > 로컬 사용자 그룹의 구성원인 계정을 사용하여 토폴로지를 정의할 수 있지만 토폴로지를 게시하려면 <STRONG>Domain Admins</STRONG> 그룹 및 <STRONG>RTCUniversalServerAdmins</STRONG> 그룹의 구성원인 계정이 필요합니다.
 
 
-</div></td>
+</td>
 <td><p>배포 설명서의 <a href="lync-server-2013-building-an-edge-and-director-topology.md">Lync Server 2013에서 에지 및 디렉터 토폴로지 구성</a></p></td>
 </tr>
 <tr class="even">
@@ -86,7 +86,7 @@ Microsoft Lync Server 2013에는 내부 서버 및 에지 서버의 계획 및 �
 <li><p>에지 서버로 배포할 컴퓨터에 대한 DNS 접미사 구성을 포함하여 내부 및 외부 DNS 레코드(IPv4 및 IPv6의 경우 호스트 A 및 AAAA)를 구성합니다.</p></li>
 <li><p>(선택 사항) 공용 인증서를 만들고 설치합니다. 인증서를 얻는 데 소용되는 시간은 인증서를 발급하는 CA(인증 기관)에 따라 다릅니다. 지금 이 단계를 수행하지 않은 경우 에지 서버 설치 시 이 단계를 수행해야 합니다. 인증서를 얻고 설치할 때까지 에지 서버 서비스를 시작할 수 없습니다.</p></li>
 <li><p>Windows Live, AOL 또는 Yahoo! 사용자와의 통신을 지원하려면 공용 메신저 연결에 대한 지원을 프로비전합니다.</p>
-<div class="alert">
+
 
 > [!IMPORTANT]
 > <UL>
@@ -98,7 +98,7 @@ Microsoft Lync Server 2013에는 내부 서버 및 에지 서버의 계획 및 �
 > <P>Lync는 전 세계의 여러 조직과 개별 사용자를 연결해 주는 매우 효율적인 도구입니다. Lync Standard CAL 외의 추가 사용자/장치 라이선스가 없어도 Windows Live Messenger와의 페더레이션이 가능합니다. Skype 페더레이션도 이 목록에 추가될 예정이므로 Lync 사용자는 메신저 및 음성을 통해 수많은 사람들과 연결할 수 있습니다.</P></LI></UL>
 
 
-</div></li>
+</li>
 <li><p>XMPP에 대한 지원 및 Office Communications Server 2007, Office Communications Server 2007 R2, Lync Server 2010 파트너에 대한 페더레이션 지원을 프로비전합니다(배포에 사용되는 경우).</p></li>
 <li><p>방화벽을 구성합니다.</p></li>
 </ol></td>

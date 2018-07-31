@@ -98,7 +98,7 @@ _**마지막으로 수정된 항목:** 2015-03-09_
     <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Lync Server 2013에서 호스팅된 SIP 페더레이션 공급자 만들기 또는 편집</a></p></li>
     </ul></td>
     <td><p>이 페더레이션 유형은 사용자에 대해 구성할 서비스 및 호스트 공급자를 정의합니다. 일반적인 사용 방식으로는 Windows Live Messenger, Yahoo!, AOL 등의 공용 메신저 공급자 및 Lync Online, Office 365 등의 호스트 공급자에 대한 구성이 포함됩니다.</p>
-    <div class="alert">
+    
 
     > [!IMPORTANT]
     > <UL>
@@ -110,7 +110,7 @@ _**마지막으로 수정된 항목:** 2015-03-09_
     > <P>Lync는 전 세계의 여러 조직과 개별 사용자를 연결해 주는 매우 효율적인 도구입니다. Lync Standard CAL 외의 추가 사용자/장치 라이선스가 없어도 Windows Live Messenger와의 페더레이션이 가능합니다. Skype 페더레이션도 이 목록에 추가될 예정이므로 Lync 사용자는 메신저 및 음성을 통해 수많은 사람들과 연결할 수 있습니다.</P></LI></UL>
 
 
-    </div></td>
+    </td>
     </tr>
     </tbody>
     </table>

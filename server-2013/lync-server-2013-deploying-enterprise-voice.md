@@ -81,19 +81,19 @@ Enterprise Voice 서버 역할을 배포하는 예와 해당 서버 역할과 �
 
    [Lync Server 2013에서 고급 Enterprise Voice 기능 배포](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
     
-    - [Lync Server 2013의 네트워크 지역, 사이트 및 서브넷 정보](lync-server-2013-about-network-regions-sites-and-subnets.md)
-    
-    - [Lync Server 2013에서 네트워크 지역 만들기 또는 수정](lync-server-2013-create-or-modify-a-network-region.md)
-    
-    - [Lync Server 2013에서 네트워크 사이트 만들기 또는 수정](lync-server-2013-create-or-modify-a-network-site.md)
-    
-    - [Lync Server 2013 에서 네트워크 사이트에 서브넷 연결](lync-server-2013-associate-a-subnet-with-a-network-site.md)
-    
-    - [Lync Server 2013에서 통화 허용 제어 서비스 구성](lync-server-2013-configure-call-admission-control.md)
-    
-    - [Lync Server 2013에서 고급 9-1-1 구성](lync-server-2013-configure-enhanced-9-1-1.md)
-    
-    - [Lync Server 2013에서 미디어 바이패스 구성](lync-server-2013-configure-media-bypass.md)
+  - [Lync Server 2013의 네트워크 지역, 사이트 및 서브넷 정보](lync-server-2013-about-network-regions-sites-and-subnets.md)
+  
+  - [Lync Server 2013에서 네트워크 지역 만들기 또는 수정](lync-server-2013-create-or-modify-a-network-region.md)
+  
+  - [Lync Server 2013에서 네트워크 사이트 만들기 또는 수정](lync-server-2013-create-or-modify-a-network-site.md)
+  
+  - [Lync Server 2013 에서 네트워크 사이트에 서브넷 연결](lync-server-2013-associate-a-subnet-with-a-network-site.md)
+  
+  - [Lync Server 2013에서 통화 허용 제어 서비스 구성](lync-server-2013-configure-call-admission-control.md)
+  
+  - [Lync Server 2013에서 고급 9-1-1 구성](lync-server-2013-configure-enhanced-9-1-1.md)
+  
+  - [Lync Server 2013에서 미디어 바이패스 구성](lync-server-2013-configure-media-bypass.md)
 
    [Lync Server 2013에서 사용자가 Enterprise Voice를 사용할 수 있도록 설정](lync-server-2013-enable-users-for-enterprise-voice.md)
 

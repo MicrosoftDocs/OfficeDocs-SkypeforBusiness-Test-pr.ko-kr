@@ -33,24 +33,24 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <tr class="odd">
 <td><p><strong>setup.exe</strong> - Lync Server 2013 관리 도구 설치를 시작하는 실행 파일입니다.</p></td>
 <td><p>실행 파일이 실행되는 컴퓨터에서 로컬 Administrators 그룹의 구성원. Active Directory 도메인 서비스의 정보를 읽을 수 있는 도메인 사용자 그룹의 구성원. 로컬 컴퓨터에서 필수 MSI 패키지를 자동으로 설치하려면 Program Files 디렉터리와 같은 보호된 로컬 컴퓨터 리소스와 Local Machine 하이브와 같은 보호된 레지스트리를 읽고 쓸 수 있는 권한이 필요하므로 이 사용 권한 수준이 필요합니다.</p>
-<div class="alert">
+
 
 > [!TIP]
 > 또한 도메인 관리자 그룹의 구성원 자격을 부여하지 않으려는 사용자 또는 그룹에 설치 권한을 위임할 수 있습니다. 자세한 내용은 배포 설명서의 <A href="lync-server-2013-granting-setup-permissions.md">Lync Server 2013에서 설치 권한 부여</A>를 참조하십시오.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p><strong>deploy.exe</strong> - setup.exe에 의해 호출되는 deploy.exe는 서버 역할에 대한 소프트웨어 구성 요소를 배포하는 작업을 담당합니다.</p></td>
 <td><p>실행 파일이 실행되는 컴퓨터에서 로컬 Administrators 그룹의 구성원. AD DS의 정보를 읽을 수 있는 도메인 사용자 그룹의 구성원. 로컬 컴퓨터에서 필수 MSI 패키지를 자동으로 설치하려면 Program Files 디렉터리와 같은 보호된 로컬 컴퓨터 리소스와 Local Machine 하이브와 같은 보호된 레지스트리를 읽고 쓸 수 있는 권한이 필요하므로 이 사용 권한 수준이 필요합니다. 중앙 관리 저장소를 읽으려면 RtcUniversalReadOnlyAdmins 그룹의 구성원 자격이 필요합니다.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Windows Vista 운영 체제 또는 Windows 7 운영 체제를 실행하는 경우에는 UAC(사용자 액세스 제어)를 통해 설치를 계속하라는 메시지가 표시됩니다. 표준 사용자 계정으로 로그온한 경우 소프트웨어를 설치할 권한이 있는 계정이 필요하다는 메시지가 표시되면 로컬 Administrators 그룹 구성원이 자격 증명을 제공해야 합니다.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p><strong>bootstrapper.exe</strong> - setup.exe에 의해 호출되는 bootstrapper.exe는 서버 역할을 배포 및 구성하는 작업을 담당합니다.</p></td>

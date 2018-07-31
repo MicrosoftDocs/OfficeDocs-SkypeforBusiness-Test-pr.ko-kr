@@ -43,13 +43,13 @@ Lync Server 2013 배포를 위해 Active Directory 도메인 서비스를 준비
 <td><p>Lync Server에서 사용되는 새 클래스 및 특성을 추가하여 Active Directory 스키마를 확장합니다.</p>
 <p>Lync Server가 배포된 배포에서 각 포리스트에 대해 한 번씩 실행합니다.</p></td>
 <td><p>Lync Server를 배포할 각 포리스트의 루트 도메인에 있는 스키마 마스터에 대해 실행합니다.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > 스키마 마스터에 대한 사용 권한이 있는 경우 루트 도메인에서 이 단계를 실행할 필요가 없습니다. 단, 루트 도메인에서 Schema Admins 그룹의 구성원이어야 하며 스키마 마스터에서 Enterprise Admins 그룹의 구성원이어야 합니다. 리소스 포리스트 토폴로지에서는 사용자 포리스트가 아니라 리소스 포리스트에서만 이 단계를 실행합니다. 중앙 포리스트 토폴로지에서는 사용자 포리스트가 아니라 중앙 포리스트에서만 이 단계를 실행합니다.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>2.</p></td>
@@ -57,26 +57,26 @@ Lync Server 2013 배포를 위해 Active Directory 도메인 서비스를 준비
 <td><p>Lync Server에 사용되는 전역 설정과 유니버설 그룹을 만듭니다.</p>
 <p>Lync Server가 배포된 배포에서 각 포리스트에 대해 한 번씩 실행합니다.</p></td>
 <td><p>Lync Server를 배포할 각 포리스트의 루트 도메인에서 실행합니다. 이 단계를 실행하려면 Enterprise Admins 그룹의 구성원이어야 합니다.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > 리소스 포리스트 토폴로지에서는 사용자 포리스트가 아니라 리소스 포리스트에서만 이 단계를 실행합니다. 중앙 포리스트 토폴로지에서는 사용자 포리스트가 아니라 중앙 포리스트에서만 이 단계를 실행합니다.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p>3.</p></td>
 <td><p><a href="lync-server-2013-preparing-domains.md">Lync Server 2013에 대한 도메인 준비</a></p></td>
 <td><p>유니버설 그룹의 구성원으로 사용할 개체에 대한 사용 권한을 추가합니다.</p>
 <p>사용자 도메인이나 서버 도메인당 한 번씩 실행합니다.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Lync Server 2010에서 Lync Server 2013으로 마이그레이션한 경우 배포 마법사에 도메인 준비가 이미 완료되었다고 표시될 수 있습니다. 도메인 준비를 다시 실행할 필요는 없습니다. 권한은 Lync Server 2010에서 Lync Server 2013으로 변경되지 않습니다.
 
 
-</div></td>
+</td>
 <td><p>Lync Server가 배포된 각 도메인의 구성원 서버에서 실행합니다. 이 단계를 실행하려면 Domain Admins 그룹의 구성원이어야 합니다.</p></td>
 </tr>
 </tbody>

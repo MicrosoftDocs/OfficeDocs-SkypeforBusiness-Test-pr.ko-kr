@@ -66,13 +66,12 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 </ol></li>
 <li><p>선택적으로 Lync Server 관리 셸을 사용하여 미리 정의된 응답 그룹 업무 시간 및 휴일을 만들 수 있습니다.</p></li>
 <li><p>응답 그룹 구성 도구 또는 Lync Server 관리 셸을 사용하여, 사용자 지정 응답 그룹 업무 시간 및 휴일을 비롯한 워크플로(헌트 그룹 또는 IVR(대화형 음성 응답) 통화 흐름)를 만듭니다.</p>
-<div class="alert">
 
 > [!NOTE]
 > Lync Server 제어판을 통해 응답 그룹 구성 도구에 액세스할 수 있습니다.
 
 
-</div></li>
+</li>
 </ol></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsResponseGroupAdministrator</p>
