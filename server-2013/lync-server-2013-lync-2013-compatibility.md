@@ -189,13 +189,13 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <tr class="odd">
 <td><p>Exchange Server 2013</p></td>
 <td><p>Exchange Server 2010 지원과 동일하며 통합 연락처 저장소, 고해상도 사진 및 보관 통합 기능이 추가됩니다.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > 자세한 내용은 <A href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">Microsoft Lync Server 2013과 Microsoft Exchange Server 2013 통합</A>을 참고하세요.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>Exchange Server 2010</p></td>

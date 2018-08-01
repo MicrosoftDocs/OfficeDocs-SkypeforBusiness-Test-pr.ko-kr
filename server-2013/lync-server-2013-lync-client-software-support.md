@@ -43,13 +43,13 @@ _**마지막으로 수정된 항목:** 2015-07-06_
 <p>Windows 8</p>
 <p>Windows 7 운영 체제</p>
 <p>Windows Server 2008 R2(최신 서비스 팩 설치)</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Lync 2013 및 Lync 2013용 온라인 모임 추가 기능은 Windows Vista 또는 Windows XP(모든 버전)에서 지원되지 않습니다.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>설치 및 업데이트</p></td>
@@ -62,13 +62,13 @@ _**마지막으로 수정된 항목:** 2015-07-06_
 <p>Internet Explorer 8 인터넷 브라우저</p>
 <p>Internet Explorer 7 인터넷 브라우저</p>
 <p>Mozilla Firefox 웹 브라우저</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Microsoft Exchange Online에서 Lync를 사용 중이고 조직에서 인증 HTTP 프록시를 배포한 경우 Internet Explorer 9 또는 Internet Explorer 8이 필요합니다.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>Microsoft Office 통합</p></td>

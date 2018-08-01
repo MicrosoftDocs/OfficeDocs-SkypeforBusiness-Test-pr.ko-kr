@@ -49,13 +49,13 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <li><p>토폴로지 작성기를 실행하여 토폴로지를 구성합니다. 토폴로지를 구성할 때 전화 접속 회의 옵션을 선택합니다.</p></li>
 <li><p>토폴로지를 게시하고 프런트 엔드 풀 또는 Standard Edition 서버를 배포합니다.</p></li>
 <li><p>필요한 경우 독립 실행형 중재 서버를 만들어 PSTN 게이트웨이와 연결합니다.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > 이 단계는 Enterprise Voice를 배포하지 않고 중재 서버를 Enterprise Edition프런트 엔드 서버 또는 Standard Edition 서버와 함께 배치하지 않은 경우에만 필요합니다. Enterprise Voice를 배포하는 경우에는 Enterprise Voice 배포의 일부로 중재 서버 및 PSTN 게이트웨이를 설치 및 구성하고, 중재 서버를 배치하는 경우에는 프런트 엔드 풀 또는 Standard Edition 서버 배포의 일부로 중재 서버를 설치 및 구성합니다.
 
 
-</div></li>
+</li>
 </ol></td>
 <td><p>DomainAdmins</p>
 <p>RTCUniversalServerAdmins</p>
@@ -112,13 +112,13 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <tr class="even">
 <td><p><strong>전화 접속 액세스 번호를 구성합니다.</strong></p></td>
 <td><p>Lync Server 2013 제어판 또는 Lync Server 관리 셸을 사용하여 사용자가 전화 회의에 전화 접속하는 액세스 번호를 설정하고 이 액세스 번호를 적절한 다이얼 플랜과 연결하는 지역을 지정합니다. 이끌이의 다이얼 플랜에 지정된 지역에 대한 처음 3개의 액세스 번호가 전화 회의 초대에 포함됩니다. 모든 액세스 번호는 전화 접속 회의 설정 페이지에서 확인할 수 있습니다.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > 전화 접속 액세스 번호를 만든 후 사용자가 올바른 액세스 번호를 보다 쉽게 식별할 수 있도록 <STRONG>Set-CsDialInConferencingAccessNumber</STRONG> cmdlet을 사용하여 Active Directory 연락처 개체의 표시 이름을 수정할 수 있습니다.
 
 
-</div></td>
+</td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>

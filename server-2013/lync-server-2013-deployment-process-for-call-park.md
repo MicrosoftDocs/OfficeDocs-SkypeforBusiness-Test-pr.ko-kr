@@ -38,13 +38,13 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <tr class="odd">
 <td><p>파킹된 통화 번호 표에서 통화 대기 파킹된 통화 번호 범위 구성</p></td>
 <td><p>Lync Server 제어판 또는 <strong>New-CSCallParkOrbit</strong> cmdlet을 사용하여 통화 대기 파킹된 통화 번호 표에서 파킹된 통화 번호 범위를 만든 다음, 통화 대기 응용 프로그램을 호스팅하는 응용 프로그램 서비스에 해당 범위를 연결합니다.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > 기존 다이얼 플랜과 원활하게 통합할 수 있도록, 파킹된 통화 번호 범위는 일반적으로 가상 내선 번호 블록으로 구성됩니다. DID(Direct Inward Dialing) 번호를 통화 대기 파킹된 통화 번호 표에서 파킹된 통화 번호로 할당할 수는 없습니다.
 
 
-</div></td>
+</td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
@@ -77,20 +77,20 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <tr class="even">
 <td><p>사용자가 통화 대기를 사용할 수 있도록 음성 정책 구성</p></td>
 <td><p>Lync Server 제어판 또는 <strong>Set-CSVoicePolicy</strong> cmdlet을 <strong>EnableCallPark</strong> 옵션과 함께 사용하여 음성 정책에서 사용자에 대해 통화 대기를 사용하도록 설정합니다.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > 기본적으로 모든 사용자가 통화 대기를 사용할 수 없도록 설정되어 있습니다.
 
 
-</div>
-<div class="alert">
+
+
 
 > [!NOTE]
 > 음성 정책이 여러 개인 경우에는 기본 정책뿐 아니라 각 음성 정책에 대해 EnableCallPark 속성이 설정되어 있는지 확인합니다.
 
 
-</div></td>
+</td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
 <p>CsUserAdministrator</p>

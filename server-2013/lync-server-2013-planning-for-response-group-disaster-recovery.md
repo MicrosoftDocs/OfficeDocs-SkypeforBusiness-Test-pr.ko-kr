@@ -106,26 +106,26 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <tr class="even">
 <td><p>중단 상태</p></td>
 <td><p><strong>Import-CsRgsConfiguration</strong> cmdlet을 실행하여 백업된 Lync Server 응답 그룹 서비스 구성을 기본 풀에서 백업 풀로 가져옵니다.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > 백업 풀의 응용 프로그램 수준 응답 그룹 설정을 기본 풀의 설정으로 바꾸려면 -ReplaceExistingSettings 매개 변수를 사용합니다. 응용 프로그램 수준 설정을 기본 풀에서 백업 풀로 전송하지 않는 경우 기본 풀을 복구할 수 없으면 기본 풀의 설정이 손실됩니다.
 
 
-</div></td>
+</td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsResponseGroupAdministrator</p></td>
 </tr>
 <tr class="odd">
 <td><p>가져오기 후</p></td>
 <td><p>-ShowAll 매개 변수(모든 응답 그룹 표시) 또는 -Owner 매개 변수(가져온 응답 그룹만 표시)를 포함해 응답 그룹 cmdlet을 실행하여 모든 응답 그룹 구성을 백업 풀로 가져왔는지 확인합니다.</p>
-<div class="alert">
+
 
 > [!IMPORTANT]
 > -ShowAll 매개 변수 또는 -Owner 매개 변수를 사용하지 않으면 백업 풀로 가져온 응답 그룹이 cmdlet에서 반환하는 결과에 나열되지 않습니다.
 
 
-</div>
+
 <p>다음 cmdlet을 실행합니다.</p>
 <ul>
 <li><p><strong>Get-CsRgsWorkflow</strong></p></li>
@@ -144,13 +144,13 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <li><p>모든 공식 에이전트가 백업 풀에서 공식 그룹에 다시 로그인해야 합니다.</p></li>
 <li><p>구성 변경 내용을 관리합니다.</p>
 <p>백업 풀의 응답 그룹은 백업 풀로 가져온 것이든 백업 풀이 소유한 것이든 중단 상태에서 일반적인 방법으로 수정할 수 있습니다.</p>
-<div class="alert">
+
 
 > [!IMPORTANT]
 > Lync Server 관리 셸을 사용하여 백업 풀로 가져온 응답 그룹을 관리해야 합니다. 이러한 응답 그룹이 백업 풀에 있는 동안에는 Lync Server 제어판을 사용하여 관리할 수 없습니다.
 
 
-</div></li>
+</li>
 </ul></td>
 <td><p>해당 없음</p></td>
 </tr>
@@ -164,13 +164,13 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <td><p>장애 복구(failback) 후</p></td>
 <td><ul>
 <li><p><strong>Import-CsRgsConfiguration</strong> cmdlet을 실행하여 응답 그룹을 기본 풀로 다시 가져옵니다.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > 기본 풀을 복구할 수 없어 새 풀을 배포해 기본 풀을 대체하는 경우에는 -ReplaceExistingSettings 매개 변수를 사용하여 응용 프로그램 수준 설정을 백업 풀에서 새 풀로 전송합니다. 백업 풀에서 설정을 전송하지 않으면 새 풀에서는 기본 설정을 사용합니다.
 
 
-</div></li>
+</li>
 <li><p>-ShowAll 매개 변수(모든 응답 그룹 표시) 또는 -Owner 매개 변수(가져온 응답 그룹만 표시)를 포함해 다음 cmdlet을 실행하여 모든 응답 그룹 구성을 기본 풀로 올바르게 다시 가져왔는지 확인합니다.</p>
 <ul>
 <li><p><strong>Get-CsRgsWorkflow</strong></p></li>

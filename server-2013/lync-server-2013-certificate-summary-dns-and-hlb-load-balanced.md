@@ -53,13 +53,13 @@ DNS 부하 분산 및 하드웨어 부하 분산 장치를 포함하는 디렉�
 <td><p>OAuthTokenIssuer</p></td>
 <td><p>dir01.contoso.net</p></td>
 <td><p>항목 없음</p></td>
-<td><div class="alert">
+<td>
 
 > [!IMPORTANT]
 > 최소 키 길이는 1024이지만 최소 권장 키 길이가 2048비트라는 경고가 표시될 수 있습니다.
 
 
-</div>
+
 <p>OAuthTokenIssuer 인증서는 대규모 환경에서 서버 인증 목적을 위한 단일 목적 인증서이며 내부 CA 또는 공용 CA에서 요청될 수 있습니다. 필수 인증서입니다.</p></td>
 </tr>
 </tbody>

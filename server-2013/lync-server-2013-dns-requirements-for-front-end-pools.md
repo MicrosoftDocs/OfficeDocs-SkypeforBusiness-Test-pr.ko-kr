@@ -41,13 +41,13 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <p>예를 들어 DNS 부하 분산과 하드웨어 부하 분산을 모두 사용하는 경우 풀의 각 프런트 엔드 서버에 대해 DNS 부하 분산용 A 레코드가 있고 하드웨어 부하 분산 장치의 가상 IP를 가리키는 내부 웹 서비스용 A 레코드가 있습니다.</p>
 <ul>
 <li><p>DNS 부하 분산:   Pool01.contoso.net   풀의 IP 주소   10.10.10.5</p>
-<div class="alert">
+
 
 > [!WARNING]
 > 각 프런트 엔드 서버에는 고유 A 레코드도 있습니다.
 
 
-</div>
+
 <ol>
 <li><p>FE01.contoso.net    10.10.10.1</p></li>
 <li><p>FE02.contoso.net    10.10.10.2</p></li>
@@ -78,13 +78,13 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <tr class="even">
 <td><p>UC(통합 통신) 장치를 통한 장치 업데이트 웹 서비스 검색</p></td>
 <td><p>장치 업데이트 웹 서비스를 호스트하는 프런트 엔드 풀의 IP 주소를 확인하는 ucupdates-r2.&lt;SIP 도메인&gt; 이름의 내부 A 레코드. UC 장치가 설정되었지만 사용자가 장치에 로그인하지 않은 상황에서 A 레코드를 사용하면 장치가 장치 업데이트 웹 서비스를 호스트하는 프런트 엔드 풀을 검색하고 업데이트를 가져올 수 있습니다. 그렇지 않으면 장치는 사용자가 처음 로그인할 때 인밴드 구축을 통해 이 정보를 가져옵니다.</p>
-<div class="alert">
+
 
 > [!IMPORTANT]
 > Lync Server 2010에 기존 장치 업데이트 웹 서비스가 배포되어 있는 경우 이름이 ucupdates.<EM>&lt;SIP 도메인&gt;</EM>인 내부 A 레코드가 이미 만들어져 있습니다. Microsoft Office Communications Server 2007 R2의 경우 이름이 ucupdates-r2.<EM>&lt;SIP 도메인&gt;</EM>인 DNS A 레코드를 추가로 만들어야 합니다.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p>HTTP 트래픽을 지원하는 역방향 프록시</p></td>

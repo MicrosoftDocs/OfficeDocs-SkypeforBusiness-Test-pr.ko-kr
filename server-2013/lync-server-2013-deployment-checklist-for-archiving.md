@@ -60,13 +60,13 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <li><p>Exchange 2013을 일부 사용자 또는 모든 사용자의 보관 저장소로 사용해서 Microsoft Exchange 통합을 사용하려면 기존 Exchange 2013 배포가 필요합니다.</p></li>
 <li><p>일부 또는 모든 사용자의 보관 저장소로 별도의 보관 데이터베이스(SQL Server 데이터베이스 사용)를 사용하려는 경우 해당 서버에서 보관 데이터를 저장할 SQL Server</p></li>
 </ul>
-<div class="alert">
+
 
 > [!NOTE]
 > 보관은 엔터프라이즈 풀의 프런트 엔드 서버 및 Standard Edition 서버에서 실행됩니다. 이러한 서버를 설치하는 데 필요한 것 외에 추가 하드웨어 또는 소프트웨어 요구 사항은 없습니다.
 
 
-</div></td>
+</td>
 <td><p>로컬 Administrators 그룹의 구성원인 도메인 사용자</p></td>
 <td><p>지원 가능성 설명서의 <a href="lync-server-2013-supported-hardware.md">Lync Server 2013에서 지원되는 하드웨어</a></p>
 <p>지원 가능성 설명서의 <a href="lync-server-2013-server-software-and-infrastructure-support.md">Lync Server 2013의 서버 소프트웨어 및 인프라 지원</a></p>

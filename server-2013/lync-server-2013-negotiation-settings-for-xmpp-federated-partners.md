@@ -94,13 +94,13 @@ XMPP 파트너의 구성에서 협상 유형에 대한 다양한 조합의 설�
 <td><p>필수</p></td>
 <td><p>True</p></td>
 <td><p>SASL over TLS</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > SASL 및 TLS가 필수인 경우 Dialback이 작동되지 않습니다.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>필수</p></td>
@@ -114,58 +114,58 @@ XMPP 파트너의 구성에서 협상 유형에 대한 다양한 조합의 설�
 <td><p>필수</p></td>
 <td><p>True</p></td>
 <td><p>SASL over TLS, TLS Dialback, TCP Dialback</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > SASL에 TLS가 필요합니다. TLS를 선택 항목으로 설정하면 세션 협상에 실패할 수 있습니다.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>선택</p></td>
 <td><p>필수</p></td>
 <td><p>False</p></td>
 <td><p>SASL over TLS</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > SASL에 TLS가 필요합니다. TLS를 선택 항목으로 설정하면 세션 협상에 실패할 수 있습니다.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p>지원 안 됨</p></td>
 <td><p>필수</p></td>
 <td><p>True</p></td>
 <td><p>TCP Dialback</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > SASL에 TLS가 필요합니다. TLS를 선택 항목으로 설정하면 세션 협상에 실패할 수 있습니다.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>지원 안 됨</p></td>
 <td><p>필수</p></td>
 <td><p>False</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > 유효하지 않은 구성
 
 
-</div></td>
-<td><div class="alert">
+</td>
+<td>
 
 > [!WARNING]
 > SASL에 TLS가 필요하지만 TLS를 사용할 수 없으므로 SASL/TLS가 성공할 수 없습니다. TCP Dialback이 False로 설정되고 사용할 수 없습니다.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p>필수</p></td>
@@ -186,58 +186,58 @@ XMPP 파트너의 구성에서 협상 유형에 대한 다양한 조합의 설�
 <td><p>선택</p></td>
 <td><p>True</p></td>
 <td><p>SASL over TLS, TLS Dialback, TCP Dialback</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > SASL에 TLS가 필요합니다. TLS를 선택 항목으로 설정하면 세션 협상에 실패할 수 있습니다.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>선택</p></td>
 <td><p>선택</p></td>
 <td><p>False</p></td>
 <td><p>SASL over TLS</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > SASL에 TLS가 필요합니다. TLS를 선택 항목으로 설정하면 세션 협상에 실패할 수 있습니다.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p>지원 안 됨</p></td>
 <td><p>선택</p></td>
 <td><p>True</p></td>
 <td><p>TCP Dialback</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > SASL에 TLS가 필요합니다. TLS를 선택 항목으로 설정하면 세션 협상에 실패할 수 있습니다.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>지원 안 됨</p></td>
 <td><p>선택</p></td>
 <td><p>False</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > 유효하지 않은 구성
 
 
-</div></td>
-<td><div class="alert">
+</td>
+<td>
 
 > [!WARNING]
 > SASL에 TLS가 필요합니다. TLS를 선택 항목으로 설정하면 세션 협상에 실패할 수 있습니다.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p>필수</p></td>
@@ -251,13 +251,13 @@ XMPP 파트너의 구성에서 협상 유형에 대한 다양한 조합의 설�
 <td><p>지원 안 됨</p></td>
 <td><p>False</p></td>
 <td><p>유효하지 않은 구성</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > SASL 또는 Dialback을 사용하도록 설정해야 합니다.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p>선택</p></td>
@@ -271,13 +271,13 @@ XMPP 파트너의 구성에서 협상 유형에 대한 다양한 조합의 설�
 <td><p>지원 안 됨</p></td>
 <td><p>False</p></td>
 <td><p>유효하지 않은 구성</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > SASL 또는 Dialback을 사용하도록 설정해야 합니다.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p>지원 안 됨</p></td>
@@ -291,13 +291,13 @@ XMPP 파트너의 구성에서 협상 유형에 대한 다양한 조합의 설�
 <td><p>지원 안 됨</p></td>
 <td><p>False</p></td>
 <td><p>유효하지 않은 구성</p></td>
-<td><div class="alert">
+<td>
 
 > [!WARNING]
 > SASL 또는 Dialback을 사용하도록 설정해야 합니다.
 
 
-</div></td>
+</td>
 </tr>
 </tbody>
 </table>

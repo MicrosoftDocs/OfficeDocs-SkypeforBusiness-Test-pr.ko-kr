@@ -72,26 +72,26 @@ HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\15.0\\Lync\\CustomCommands
 <td><p>ApplicationType</p></td>
 <td><p>DWORD</p></td>
 <td><p>0 = 실행 파일(기본값)</p>
-<div class="alert">
+
 
 > [!NOTE]
 > ApplicationInstallPath가 필요합니다.
 
 
-</div>
+
 <p>1 = 프로토콜</p></td>
 </tr>
 <tr class="odd">
 <td><p>ApplicationInstallPath</p></td>
 <td><p>REG_SZ</p></td>
 <td><p>실행 파일의 전체 경로.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > ApplicationType이 0(실행 파일)일 경우 지정해야 합니다.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>Path</p></td>

@@ -95,13 +95,13 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <li><p>Wi-Fi 네트워크를 통해 푸시 알림을 지원하려면 TCP 포트 5223에 대한 아웃바운드 방화벽 규칙을 구성합니다.</p></li>
 <li><p><strong>Set-CsPushNotificationConfiguration</strong> cmdlet을 사용하여 APNS(Apple 푸시 알림 서비스) 및 MPNS(Microsoft 푸시 알림 서비스)에 대해 푸시 알림을 사용하도록 설정합니다. 이 기능은 기본적으로 사용되지 않습니다.</p></li>
 <li><p><strong>Test-CsFederatedPartner</strong> cmdlet을 사용하여 페더레이션 구성을 테스트하고 <strong>Test-CsMCXPushNotification</strong> cmdlet을 사용하여 푸시 알림을 테스트합니다.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > 푸시 알림은 Apple 장치 및 Windows Phone에서 Lync 2010 Mobile 클라이언트에 대해 사용됩니다.<BR>푸시 알림은 Windows Phone의 Lync 2013 모바일 클라이언트에만 필요합니다.
 
 
-</div></li>
+</li>
 </ul></td>
 <td><p>RtcUniversalServerAdmins</p></td>
 <td><p><a href="lync-server-2013-configuring-for-push-notifications.md">Lync Server 2013의 푸시 알림 구성</a></p></td>

@@ -156,13 +156,13 @@ Lync Server 2013의 내부 배포를 설치하고 구성하면 조직의 내부 
 <td><p>모임 및 회의에 대한 익명 사용자 액세스</p></td>
 <td><p></p></td>
 <td><p><a href="lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md">Lync Server 2013에서 익명 사용자 지원을 위한 회의 정책 할당</a></p>
-<div class="alert">
+
 
 > [!NOTE]
 > 회의 정책 아래의 <A href="lync-server-2013-create-or-modify-a-conferencing-policy.md">회의 정책 만들기 또는 수정</A> 및 <A href="lync-server-2013-conferencing-policy-settings-reference.md">Lync Server 2013용 회의 정책 설정 참조</A> 구성 설정도 고려해야 합니다.
 
 
-</div></td>
+</td>
 <td><p></p></td>
 <td><p></p></td>
 <td><p></p></td>
