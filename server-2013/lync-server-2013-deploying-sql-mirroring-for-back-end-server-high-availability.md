@@ -62,7 +62,7 @@ SQL 미러링을 사용하면 풀을 만들 때 또는 풀이 이미 만들어�
 
 
 > [!NOTE]
-> 미러 파일에 쓸 수 있도록 파일 공유를 만들어야 하며 SQL Server 및 SQL Agent 실행 서비스에 읽기/쓰기 액세스 권한이 필요합니다. SQL Server 서비스가 네트워크 서비스의 컨텍스트에서 실행되는 경우 공유 사용 권한에 기본 SQL Server와 미러 SQL Server의 &lt;Domain&gt;\&lt;SQLSERVERNAME&gt;$를 추가할 수 있습니다. $는 컴퓨터 계정임을 식별하는 데 중요합니다.
+> 미러 파일에 쓸 수 있도록 파일 공유를 만들어야 하며 SQL Server 및 SQL Agent 실행 서비스에 읽기/쓰기 액세스 권한이 필요합니다. SQL Server 서비스가 네트워크 서비스의 컨텍스트에서 실행되는 경우 공유 사용 권한에 기본 SQL Server와 미러 SQL Server의 &lt;Domain&gt;\\&lt;SQLSERVERNAME&gt;$를 추가할 수 있습니다. $는 컴퓨터 계정임을 식별하는 데 중요합니다.
 
 
 

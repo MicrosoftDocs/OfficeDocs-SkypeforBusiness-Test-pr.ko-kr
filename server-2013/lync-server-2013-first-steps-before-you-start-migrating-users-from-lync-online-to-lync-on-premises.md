@@ -38,9 +38,9 @@ Lync Online 사용자를 온-프레미스 환경으로 이동하기 전에 다�
         Import-PSSession $CSSession -AllowClobber
     ```
 
-  원격 PowerShell 세션을 비즈니스용 Skype Online에 설정하는 방법에 대한 자세한 내용은 [Windows PowerShell을 사용하여 Lync Online에 연결](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)을 참고하세요.
-    
-    비즈니스용 Skype Online PowerShell 모듈 사용에 대한 자세한 내용은 [Windows PowerShell을 사용하여 Lync Online 관리](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)를 참고하세요.
+원격 PowerShell 세션을 비즈니스용 Skype Online에 설정하는 방법에 대한 자세한 내용은 [Windows PowerShell을 사용하여 Lync Online에 연결](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)을 참고하세요.
+
+비즈니스용 Skype Online PowerShell 모듈 사용에 대한 자세한 내용은 [Windows PowerShell을 사용하여 Lync Online 관리](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)를 참고하세요.
 
   - Lync Online을 공유 SIP 주소 공간에 맞게 구성해야 합니다. 이렇게 하려면 먼저 Lync Online을 사용해 원격 Powershell 세션을 시작합니다. 그리고 나서 다음 cmdlet을 실행합니다.
     
