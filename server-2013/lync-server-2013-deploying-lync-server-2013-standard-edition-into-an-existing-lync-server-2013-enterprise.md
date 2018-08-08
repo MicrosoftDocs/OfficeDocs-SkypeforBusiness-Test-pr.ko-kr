@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: 기존 Lync Server 2013 Enterprise에 Lync Server 2013 Standard Edition 배포'
+title: "Lync Server 2013: 기존 Lync Server Enterprise에 Lync Server Standard Edition 배포"
 TOCTitle: 기존 Lync Server 2013 Enterprise에 Lync Server 2013 Standard Edition 배포
 ms:assetid: 05ea128d-6c94-49b3-b28b-477367196425
 ms:mtpsurl: https://technet.microsoft.com/ko-kr/library/Gg398112(v=OCS.15)

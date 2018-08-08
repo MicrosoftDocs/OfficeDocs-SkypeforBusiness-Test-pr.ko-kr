@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: 토폴로지에 Lync Server 2010 SBA(Survivable Branch Appliance) 분기 사이트 추가'
+title: "Lync Server 2013: 토폴로지에 Lync Server 2010 SBA 분기 사이트 추가"
 TOCTitle: 토폴로지에 Lync Server 2010 SBA(Survivable Branch Appliance) 분기 사이트 추가
 ms:assetid: 2920d66e-6e1f-4f7f-89d8-510f004ac4c3
 ms:mtpsurl: https://technet.microsoft.com/ko-kr/library/JJ688004(v=OCS.15)
