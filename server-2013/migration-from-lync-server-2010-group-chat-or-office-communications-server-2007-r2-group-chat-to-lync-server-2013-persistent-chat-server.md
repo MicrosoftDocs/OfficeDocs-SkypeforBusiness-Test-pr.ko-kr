@@ -1,6 +1,6 @@
 ﻿---
-title: Lync Server 2010, 그룹 채팅 또는 Office Communications Server 2007 R2 그룹 채팅에서 Lync Server 2013, 영구 채팅 서버로 마이그레이션
-TOCTitle: Lync Server 2010, 그룹 채팅 또는 Office Communications Server 2007 R2 그룹 채팅에서 Lync Server 2013, 영구 채팅 서버로 마이그레이션
+title: "Lync Server 2010/그룹 채팅/Communications Server 그룹채팅->Lync Server, 영구채팅서버 마이그레이션"
+TOCTitle: "Lync Server 2010/그룹 채팅/Communications Server 그룹채팅->Lync Server, 영구채팅서버 마이그레이션"
 ms:assetid: 5b4d3db1-6eba-4932-b49c-f60bcf9488f9
 ms:mtpsurl: https://technet.microsoft.com/ko-kr/library/Gg615442(v=OCS.15)
 ms:contentKeyID: 49303749

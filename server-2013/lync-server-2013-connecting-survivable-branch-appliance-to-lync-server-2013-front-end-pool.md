@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Lync Server 2013 프런트 엔드 풀에 SBA(Survivable Branch Appliance) 연결'
+title: "Lync Server 2013 프런트 엔드 풀에 SBA(Survivable Branch Appliance) 연결"
 TOCTitle: Lync Server 2013 프런트 엔드 풀에 SBA(Survivable Branch Appliance) 연결
 ms:assetid: 3c7ca33f-5295-4d82-9152-41d8bc6f35cf
 ms:mtpsurl: https://technet.microsoft.com/ko-kr/library/JJ688026(v=OCS.15)

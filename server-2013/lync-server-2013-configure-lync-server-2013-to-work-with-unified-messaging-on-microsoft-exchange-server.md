@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Microsoft Exchange Server의 통합 메시징과 함께 작동하도록 Lync Server 2013 구성'
+title: "Microsoft Exchange Server의 통합 메시징과 함께 작동하도록 Lync Server 2013 구성"
 TOCTitle: Microsoft Exchange Server의 통합 메시징과 함께 작동하도록 Lync Server 2013 구성
 ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
 ms:mtpsurl: https://technet.microsoft.com/ko-kr/library/Gg398193(v=OCS.15)
