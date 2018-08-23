@@ -42,13 +42,13 @@ Lync 2013에는 H.264/MPEG-4 Part 10 고급 비디오 코딩 표준을 기반으
 <li><p>그래픽 카드가 DirectX 9.0을 지원해야 하며 DXVA2_ModeH264_VLD_NoFGT 디코딩 모드를 제공해야 합니다.</p></li>
 <li><p>최신 그래픽 카드 드라이버를 설치해야 합니다.</p></li>
 </ul>
-<div class="alert">
+
 
 > [!NOTE]
 > 디코딩 모드에 대한 자세한 내용은 <A class=uri href="http://go.microsoft.com/fwlink/?linkid=268530%26clcid=0x412">http://go.microsoft.com/fwlink/?linkid=268530&amp;clcid=0x412</A>를 참조하세요.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>하드웨어 가속 H.264 인코딩: 칩셋 요구 사항</p></td>
@@ -68,13 +68,13 @@ Lync 2013에는 H.264/MPEG-4 Part 10 고급 비디오 코딩 표준을 기반으
 <tr class="odd">
 <td><p>하드웨어 가속 H.264 인코딩: 카메라 요구 사항</p></td>
 <td><p>UVC(USB Video Class) 사양 버전 1.5를 준수하는 통합 H.264 하드웨어 인코더가 포함된 USB 비디오 카메라</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Lync 2013은 Windows 8 또는 Windows 8.1에서 UVC 1.5에 대한 지원을 포함하는 UVC 1.5 카메라를 지원합니다. Windows 7에는 UVC 1.5에 대한 지원이 포함되지 않기 때문에 Lync 2013은 UVC 1.5 카메라를 일반 카메라로 취급하고 하드웨어 인코딩을 지원하지 않습니다.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>DXVA(DirectX 비디오 가속 설정)를 사용한 하드웨어 가속 H.264 디코딩</p></td>
@@ -82,13 +82,13 @@ Lync 2013에는 H.264/MPEG-4 Part 10 고급 비디오 코딩 표준을 기반으
 <li><p>그래픽 카드가 DirectX 9.0을 지원해야 하며 DXVA2_ModeH264_VLD_NoFGT 디코딩 모드를 제공해야 합니다.</p></li>
 <li><p>최신 그래픽 카드 드라이버를 설치해야 합니다.</p></li>
 </ul>
-<div class="alert">
+
 
 > [!NOTE]
 > 디코딩 모드에 대한 자세한 내용은 <A class=uri href="http://go.microsoft.com/fwlink/?linkid=268530%26clcid=0x412">http://go.microsoft.com/fwlink/?linkid=268530&amp;clcid=0x412</A>를 참조하세요.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p>하드웨어 가속 H.264 인코딩: 칩셋 요구 사항</p></td>
@@ -108,13 +108,13 @@ Lync 2013에는 H.264/MPEG-4 Part 10 고급 비디오 코딩 표준을 기반으
 <tr class="even">
 <td><p>하드웨어 가속 H.264 인코딩: 카메라 요구 사항</p></td>
 <td><p>UVC(USB Video Class) 사양 버전 1.5를 준수하는 통합 H.264 하드웨어 인코더가 포함된 USB 비디오 카메라</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Lync 2013은 Windows 8 또는 Windows 8.1에서 UVC 1.5에 대한 지원을 포함하는 UVC 1.5 카메라를 지원합니다. Windows 7에는 UVC 1.5에 대한 지원이 포함되지 않기 때문에 Lync 2013은 UVC 1.5 카메라를 일반 카메라로 취급하고 하드웨어 인코딩을 지원하지 않습니다.
 
 
-</div></td>
+</td>
 </tr>
 </tbody>
 </table>

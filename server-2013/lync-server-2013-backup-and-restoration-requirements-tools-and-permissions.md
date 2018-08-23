@@ -66,13 +66,13 @@ Lync Server를 백업하려면 아래 표에 나와 있는 도구를 사용합�
 </tr>
 <tr class="odd">
 <td><p>모든 파일 저장소(Lync Server 파일 공유, 보관 파일 저장소)</p>
-<div class="alert">
+
 
 > [!NOTE]
 > 이름이 <STRONG>Meeting.Active</STRONG>인 파일은 백업해서는 안됩니다. 이러한 파일은 사용 중이며 모임이 수행되는 동안 잠깁니다.
 
 
-</div></td>
+</td>
 <td><p>표준 파일 시스템 관리 도구(예: Robocopy)</p></td>
 </tr>
 </tbody>
@@ -121,13 +121,13 @@ Lync Server를 복원하려면 아래 표의 도구를 사용합니다. Lync Ser
 </tr>
 <tr class="even">
 <td><p>Active Directory 도메인 서비스 포인터를 중앙 관리 저장소로 복원</p>
-<div class="alert">
+
 
 > [!NOTE]
 > 언제라도 서비스 연결 지점이 손실될 경우 이 cmdlet을 다시 실행할 수 있습니다.
 
 
-</div></td>
+</td>
 <td><p>Set-CsConfigurationStoreLocation</p></td>
 </tr>
 <tr class="odd">
@@ -147,13 +147,13 @@ Lync Server를 복원하려면 아래 표의 도구를 사용합니다. Lync Ser
 <tr class="even">
 <td><p>Lync Server 구성 요소를 다시 설치</p></td>
 <td><p>Lync Server 설치</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Lync Server 설치 폴더 또는 미디어에 있음(\setup\amd64\Setup.exe)
 
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p>위치 정보(E9-1-1) 데이터(Lis.mdf) 복원</p></td>
@@ -166,13 +166,13 @@ Lync Server를 복원하려면 아래 표의 도구를 사용합니다. Lync Ser
 <tr class="odd">
 <td><p>응답 그룹 구성 데이터 복원(RgsConfig.mdf)</p></td>
 <td><p>Import-CsRgsConfiguration</p>
-<div class="alert">
+
 
 > [!NOTE]
 > 데이터베이스에 응답 그룹 데이터가 없는 새로 배포한 풀에 구성을 복원하는 경우에는 -OverwriteOwner 옵션을 사용해야 합니다. 복원하는 데이터가 FQDN(정규화된 도메인 이름)이 같은 풀에 있더라도 이 옵션을 사용합니다. 그렇지 않으면 응답 그룹에 대한 대화 상대 개체가 Active Directory에 이미 있기 때문에 가져오기가 정상적으로 수행되지 않습니다.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="even">
 <td><p>다음 데이터베이스 복원:</p>

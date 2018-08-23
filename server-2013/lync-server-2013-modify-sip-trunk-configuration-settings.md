@@ -147,7 +147,7 @@ Lync Server 제어판을 사용하여 SIP 트렁크 구성 설정을 수정할 �
 
 
 > [!NOTE]
-> Lync Server CsTrunkConfiguration cmdlet은 Lync Server 제어판에 표시되지 않은 추가 속성을 지원합니다. 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">set-cstrunkconfiguration</A> cmdlet의 도움말 항목을 참조하십시오.
+> Lync Server CsTrunkConfiguration cmdlet은 Lync Server 제어판에 표시되지 않은 추가 속성을 지원합니다. 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">Set-CsTrunkConfiguration</A> cmdlet의 도움말 항목을 참조하십시오.
 
 
 

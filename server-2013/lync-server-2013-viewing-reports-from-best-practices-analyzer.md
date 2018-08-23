@@ -49,7 +49,7 @@ _**마지막으로 수정된 항목:** 2012-09-21_
         
 
         > [!NOTE]
-        > 모범 사례 분석기가 <EM>&lt;systemDrive&gt;</EM>\Documents 및 Settings\<EM>&lt;user&gt;</EM>\Application Data\Microsoft\RtcBPA 폴더에서 로컬 파일의 목록을 만듭니다.
+        > 모범 사례 분석기가 <EM>&lt;systemDrive&gt;</EM>\D\\<EM>&lt;user&gt;</EM>\Application Data\Microsoft\RtcBPA 폴더에서 로컬 파일의 목록을 만듭니다.
 
     
       - 다른 위치에 저장된 검색 결과에 대한 보고서를 보려면 **검색 가져오기**를 클릭하고 검색 결과가 포함된 파일을 찾은 후 **열기**를 클릭합니다.

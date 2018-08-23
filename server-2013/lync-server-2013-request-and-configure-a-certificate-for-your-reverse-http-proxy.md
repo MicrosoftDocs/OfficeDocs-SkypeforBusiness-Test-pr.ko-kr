@@ -43,13 +43,13 @@ Microsoft Lync Server 2013을 실행하는 내부 서버에 서버 인증서를 
 <td><p>주체 대체 이름</p></td>
 <td><p>풀 FQDN</p></td>
 <td><p>webext.contoso.com</p>
-<div class="alert">
+
 
 > [!IMPORTANT]
 > 주체 이름도 주체 대체 이름에 있어야 합니다.
 
 
-</div></td>
+</td>
 </tr>
 <tr class="odd">
 <td><p>주체 대체 이름</p></td>
@@ -59,13 +59,13 @@ Microsoft Lync Server 2013을 실행하는 내부 서버에 서버 인증서를 
 <tr class="even">
 <td><p>주체 대체 이름</p></td>
 <td><p>모임 단순 URL</p>
-<div class="alert">
+
 
 > [!NOTE]
 > 모든 모임 단순 URL은 주체 대체 이름에 있어야 합니다. 각 SIP 도메인에는 하나 이상의 활성 모임 단순 URL이 있어야 합니다.
 
 
-</div></td>
+</td>
 <td><p>meet.contoso.com</p></td>
 </tr>
 <tr class="odd">
@@ -82,13 +82,13 @@ Microsoft Lync Server 2013을 실행하는 내부 서버에 서버 인증서를 
 <td><p>주체 대체 이름</p></td>
 <td><p>외부 자동 검색 서비스 URL</p></td>
 <td><p>lyncdiscover.contoso.com</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Microsoft Exchange Server도 사용하는 경우 Exchange 자동 검색 및 웹 서비스 URL에 대한 역방향 프록시 규칙도 구성해야 합니다.
 
 
-</div></td>
+</td>
 </tr>
 </tbody>
 </table>

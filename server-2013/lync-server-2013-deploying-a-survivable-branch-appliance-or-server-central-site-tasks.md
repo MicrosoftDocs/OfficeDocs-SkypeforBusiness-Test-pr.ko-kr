@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: SBA(Survivable Branch Appliance) 또는 지속 가능 분기 서버 배포 - 중앙 사이트 작업'
+title: "SBA(Survivable Branch Appliance) 또는 지속 가능 분기 서버 배포 - 중앙 사이트 작업"
 TOCTitle: SBA(Survivable Branch Appliance) 또는 지속 가능 분기 서버 배포 - 중앙 사이트 작업
 ms:assetid: 0f631a36-fc2e-41cd-8a0d-f27e84f4a89e
 ms:mtpsurl: https://technet.microsoft.com/ko-kr/library/Gg398189(v=OCS.15)

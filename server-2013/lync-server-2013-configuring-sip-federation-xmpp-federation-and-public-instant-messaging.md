@@ -82,13 +82,13 @@ XMPP 페더레이션은 XMPP(eXtensible Messaging and Presence Protocol)을 기�
 <td><p>기존 에지 배포에 추가할 옵션 결정</p></td>
 <td><p>토폴로지 작성기를 실행하여 에지 서버 설정을 편집하고 토폴로지를 만들어 게시합니다. 기존 에지 토폴로지의 변경 내용이 중앙 관리 저장소에서 에지 서버로 복제됩니다.</p></td>
 <td><p>Domain Admins 그룹 및 RTCUniversalServerAdmins 그룹</p>
-<div class="alert">
+
 
 > [!NOTE]
 > 로컬 사용자 그룹의 구성원인 계정을 사용하여 토폴로지를 편집할 수 있지만 토폴로지를 게시하려면 Domain Admins 그룹 및 RTCUniversalServerAdmins 그룹의 구성원인 계정이 필요합니다.
 
 
-</div></td>
+</td>
 <td><p><a href="lync-server-2013-building-an-edge-and-director-topology.md">Lync Server 2013에서 에지 및 디렉터 토폴로지 구성</a></p></td>
 </tr>
 <tr class="even">

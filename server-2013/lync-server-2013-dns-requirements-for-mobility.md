@@ -94,13 +94,13 @@ DNS 레코드는 CNAME 레코드 또는 A(호스트) 레코드일 수 있습니�
 <td><p>_sipfederationtls._tcp. <em>&lt;SIP 도메인&gt;</em></p>
 <p>액세스 에지 서비스의 호스트(A 또는 AAAA) 레코드로 확인됩니다.</p></td>
 <td><p>푸시 알림 서비스 및 Apple 푸시 알림 서비스를 지원하려면 Microsoft Lync Mobile 클라이언트가 있는 SIP 도메인마다 SRV 레코드를 하나씩 만듭니다.</p>
-<div class="alert">
+
 
 > [!IMPORTANT]
 > 이 요구 사항은 Apple 또는 Microsoft 기반 모바일 장치의 Microsoft Lync Mobile 클라이언트에만 적용됩니다. Andriod 및 Nokia Symbian 장치에서는 푸시 알림을 사용하지 않습니다.
 
 
-</div></td>
+</td>
 </tr>
 </tbody>
 </table>

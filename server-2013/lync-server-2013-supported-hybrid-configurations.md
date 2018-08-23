@@ -52,42 +52,42 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <li><p>Outlook 일정 약속 있음/없음 정보를 기반으로 상태 게시</p></li>
 <li><p>대화 상대 목록(통합 연락처 저장소를 통해)</p>
 <p>자세한 내용은 <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">통합 연락처 저장소를 사용하도록 Microsoft Lync Server 2013 구성</a>을 참고하세요.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Exchange 2013이 필요합니다.<BR>Lync 2013 데스크톱 클라이언트가 필요합니다.
 
 
-</div></li>
+</li>
 <li><p>Lync 2013 클라이언트 및 Lync Web App의 고해상도 대화 상대 사진</p>
 <p>자세한 내용은 <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">Microsoft Lync Server 2013에서 고해상도 사진 사용 구성</a>을 참고하세요.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Exchange 2013이 필요합니다.
 
 
-</div></li>
+</li>
 <li><p>모임 위임</p>
 <p>두 사용자 모두 동일한 포리스트의 온라인으로 이동되었거나 둘 다 온-프레미스로 이동된 경우에만 지원됩니다.</p></li>
 <li><p>부재 중 대화 내용과 통화 기록은 사용자의 Exchange 사서함에 기록됩니다.</p></li>
 <li><p>Exchange에 콘텐츠 보관(메신저 대화 및 모임)</p>
 <p>자세한 내용은 <a href="lync-server-2013-deployment-checklist-for-archiving.md">Lync Server 2013의 보관용 배포 검사 목록</a>을 참고하세요.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Exchange 2013이 필요합니다.
 
 
-</div></li>
+</li>
 <li><p>보관된 콘텐츠 검색</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Exchange 2013이 필요합니다.
 
 
-</div></li>
+</li>
 <li><p>음성 사서함</p>
 <p>자세한 내용은 <a href="lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md">Lync Server 2013 음성 메일을 제공하도록 온-프레미스 Exchange UM 배포</a>를 참고하세요.</p></li>
 </ul></td>
@@ -103,13 +103,13 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <li><p>모바일 클라이언트에서 온라인 모임 참가</p></li>
 <li><p>Outlook 일정 약속 있음/없음 정보를 기반으로 상태 게시</p></li>
 <li><p>대화 상대 목록(통합 연락처 저장소를 통해). 자세한 내용은 <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">통합 연락처 저장소를 사용하도록 Microsoft Lync Server 2013 구성</a>을 참고하세요.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Lync Server 2013 전용. Lync 2013 데스크톱 클라이언트가 필요합니다.
 
 
-</div></li>
+</li>
 <li><p>Lync 2013 클라이언트 및 Lync Web App의 고해상도 대화 상대 사진</p>
 <p>자세한 내용은 <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">Microsoft Lync Server 2013에서 고해상도 사진 사용 구성</a>을 참고하세요.</p></li>
 <li><p>모임 위임</p>
@@ -129,13 +129,13 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <li><p>모바일 클라이언트의 메신저 대화/현재 상태</p></li>
 <li><p>부재 중 대화 내용과 통화 기록은 사용자의 Exchange 사서함에 기록됩니다.</p></li>
 <li><p>Lync 2013 클라이언트의 고해상도 대화 상대 사진</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Microsoft Exchange Server 2013이 필요합니다. 사용자가 비즈니스용 Skype Online으로 이동된 경우 Lync Web App에서는 지원되지 않습니다.
 
 
-</div></li>
+</li>
 <li><p>모바일 클라이언트에서 온라인 모임 참가</p></li>
 <li><p>Outlook 일정 약속 있음/없음 정보를 기반으로 상태 게시</p></li>
 <li><p>모임 위임</p>
@@ -151,13 +151,13 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <li><p>Outlook 일정 약속 있음/없음 정보를 기반으로 상태 게시</p></li>
 <li><p>부재 중 대화 내용과 통화 기록은 사용자의 Exchange 사서함에 기록됩니다.</p></li>
 <li><p>대화 상대 목록(통합 연락처 저장소를 통해)</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Lync Server 2013 클라이언트가 필요합니다.
 
 
-</div></li>
+</li>
 <li><p>Lync 2013 클라이언트 및 Lync Web App의 고해상도 대화 상대 사진</p></li>
 <li><p>모임 위임</p>
 <p>두 사용자 모두 동일한 포리스트의 온라인으로 이동되었거나 둘 다 온-프레미스로 이동된 경우에만 지원됩니다.</p></li>

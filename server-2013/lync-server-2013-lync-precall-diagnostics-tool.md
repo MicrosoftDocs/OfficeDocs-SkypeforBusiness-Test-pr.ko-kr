@@ -119,7 +119,7 @@ Lync PCD에는 다음 기능이 포함되어 있습니다.
     
     ![PreCall Diagnostic 도구 아이콘](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "PreCall Diagnostic 도구 아이콘")
 
-2.  도구가 시작되면 자격 제공을 증명할 기본 방법을 선택하고 **PreCall Diagnostics Tool Options(PreCall Diagnostics 도구 옵션)** 대화 상자에서 네트워크 운영 모드를 선택한 다음 **OK(확인)**를 선택합니다.
+2.  도구가 시작되면 자격 제공을 증명할 기본 방법을 선택하고 **PreCall Diagnostics Tool Options(PreCall Diagnostics 도구 옵션)** 대화 상자에서 네트워크 운영 모드를 선택한 다음 **OK(확인)** 를 선택합니다.
 
 3.  **Start Test(테스트 시작)** 단추를 선택하여 진단 실행을 시작합니다.
     
@@ -134,7 +134,7 @@ Lync PCD에는 다음 기능이 포함되어 있습니다.
     
     ![PreCall Diagnostic 도구 아이콘](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "PreCall Diagnostic 도구 아이콘")
 
-2.  도구가 시작되면 Lync 자격 증명을 제공한 다음 **OK(확인)**를 선택합니다.
+2.  도구가 시작되면 Lync 자격 증명을 제공한 다음 **OK(확인)** 를 선택합니다.
     
     ![Lync PreCall Diagnostics 도구 로그인](images/Dn451255.88039914-4c68-48f6-a9fa-58cb4e3f3488(OCS.15).jpg "Lync PreCall Diagnostics 도구 로그인")
 

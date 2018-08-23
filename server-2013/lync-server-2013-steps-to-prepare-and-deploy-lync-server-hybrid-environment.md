@@ -56,13 +56,13 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <td><p></p></td>
 <td><p>Active Directory 동기화 준비</p></td>
 <td><p>Active Directory 동기화에서는 온-프레미스 Active Directory를 Office 365와 동기화된 상태로 유지합니다. 따라서 각 사용자 계정과 그룹의 동기화된 버전을 만들 수 있으며 로컬 Microsoft Exchange Server 환경에서 Microsoft Exchange Online으로의 GAL(전체 주소 목록) 동기화를 수행할 수 있습니다.</p>
-<div class="alert">
+
 
 > [!IMPORTANT]
 > 사용자를 Lync Online으로 이동하지 않았더라도 조직의 모든 Lync 사용자에 대해 온-프레미스와 온라인 Lync 배포 간에 AD 계정을 동기화해야 합니다. 모든 사용자를 동기화하지 않으면 온-프레미스와 조직의 온라인 사용자 간에 통신이 예상대로 이루어지지 않을 수 있습니다.
 
 
-</div>
+
 <p>Active Directory 동기화를 위해 환경을 준비하려면 Single Sign-On 설정을 비롯하여 <a href="http://go.microsoft.com/fwlink/p/?linkid=254988">디렉터리 동기화: 로드맵</a>에 설명되어 있는 단계를 따르세요.</p></td>
 </tr>
 <tr class="odd">

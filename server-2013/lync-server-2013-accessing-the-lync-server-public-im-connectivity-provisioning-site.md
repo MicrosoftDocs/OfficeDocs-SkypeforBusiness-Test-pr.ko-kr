@@ -61,13 +61,13 @@ Lync-Skype 연결을 위한 프로비저닝 프로세스가 이전 PIC 프로비
 <li><p><strong>프로비저닝 요청 시작</strong> 페이지에서 해당 링크를 클릭하여 프로비저닝 요청을 시작합니다.</p></li>
 <li><p><strong>프로비저닝 정보 지정</strong> 페이지에서 <strong>액세스 에지 서비스 FQDN</strong>을 입력합니다(예: <strong>accessedge.contoso.com</strong>).</p></li>
 <li><p>하나 이상의 SIP 도메인 이름을 입력한 다음 <strong>추가</strong>를 클릭합니다.</p>
-<div class="alert">
+
 
 > [!IMPORTANT]
 > 프로비저닝 프로세스를 완료하기 위해서는 최소 하나의 액세스 에지 서버와 SIP 도메인이 필요합니다. SIP 도메인과 액세스 에지 서버는 활성 상태로 작동 중이어야 하며 네트워크에서 연결할 수 있어야 합니다.
 
 
-</div></li>
+</li>
 <li><p><strong>공용 메신저 서비스 공급자</strong> 목록에서 <strong>Skype</strong>를 선택하고 <strong>다음</strong>을 클릭하여 대화 상대 정보를 추가한 다음 프로비저닝 요청을 제출합니다.</p></li>
 </ol></td>
 </tr>
@@ -79,13 +79,13 @@ Lync-Skype 연결을 위한 프로비저닝 프로세스가 이전 PIC 프로비
 <li><p><strong>프로비저닝 요청 시작</strong> 페이지에서 해당 링크를 클릭하여 프로비저닝 요청을 시작합니다.</p></li>
 <li><p><strong>프로비저닝 정보 지정</strong> 페이지에서 <strong>액세스 에지 서비스 FQDN</strong>을 입력합니다(예: <strong>accessedge.contoso.com</strong>).</p></li>
 <li><p>하나 이상의 SIP 도메인 이름을 입력한 다음 <strong>추가</strong>를 클릭합니다.</p>
-<div class="alert">
+
 
 > [!IMPORTANT]
 > 프로비저닝 프로세스를 완료하기 위해서는 최소 하나의 액세스 에지 서버와 SIP 도메인이 필요합니다. SIP 도메인과 액세스 에지 서버는 활성 상태로 작동 중이어야 하며 네트워크에서 연결할 수 있어야 합니다.
 
 
-</div></li>
+</li>
 <li><p><strong>공용 메신저 서비스 공급자</strong> 목록에서 <strong>Skype</strong>를 선택하고 <strong>다음</strong>을 클릭하여 대화 상대 정보를 추가한 다음 프로비저닝 요청을 제출합니다.</p></li>
 </ol></td>
 </tr>

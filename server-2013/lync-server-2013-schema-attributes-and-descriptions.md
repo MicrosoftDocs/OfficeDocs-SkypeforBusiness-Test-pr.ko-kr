@@ -315,13 +315,13 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <td><p>msRTCSIP-EnableBestEffortNotify(구식 항목)</p></td>
 <td><p>이 특성은 서버에서 클라이언트의 SUBSCRIBE 요청에 대한 응답으로 NOTIFY 요청 대신 BENOTIFY(Best Effort NOTIFY) 요청을 생성할 것인지 여부를 제어합니다. BENOTIFY는 구독 알림 핸드셰이크의 성능을 향상시킨 확장 기능으로, 서버에서 일반적인 NOTIFY 요청 대신 BENOTIFY 요청을 생성합니다. 이 경우 BENOTIFY 요청은 NOTIFY 요청에서 필요로 하는 200 OK 응답을 요구하지 않는다는 성능상의 이점이 있습니다.</p>
 <p>유효한 값은 <strong>TRUE</strong> 또는 <strong>FALSE</strong>입니다.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Live Communications Server 2003은 BENOTIFY 요청을 지원하지 않습니다. Live Communications Server 2005 및 타사 서버에서 실행되는 Live Communications Server 2003 서버 API로 작성된 서버 응용 프로그램과 상호 운용하기 위해 BENOTIFY 요청 값을 <STRONG>FALSE</STRONG>로 설정하여 BENOTIFY 요청을 비활성화할 수 있습니다. BENOTIFY는 현재 IETF(Internet Engineering Task Force) SIP 표준화 프로세스에 포함되어 있지 않습니다.
 
 
-</div></td>
+</td>
 <td><p>Live Communications Server 2005의 새로운 기능</p>
 <p>Lync Server 2010에서 사용되지 않음</p></td>
 </tr>

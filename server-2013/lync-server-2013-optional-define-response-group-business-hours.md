@@ -45,7 +45,7 @@ _**마지막으로 수정된 항목:** 2012-11-01_
 
 3.  정의할 각 고유 시간 범위에 대해 다음을 실행합니다.
     
-        $x = new-csrgstimerange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
+        $x = New-CsRgsTimeRange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
     
     정의한 범위를 사용하는 업무 시간 컬렉션을 만들려면 다음을 실행합니다.
     
@@ -67,6 +67,6 @@ _**마지막으로 수정된 항목:** 2012-11-01_
 
 #### 기타 리소스
 
-[new-csrgstimerange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
+[New-CsRgsTimeRange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
 [New-CsRgsHoursOfBusiness](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoursOfBusiness)
 

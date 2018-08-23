@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Microsoft Exchange Server의 통합 메시징과 함께 작동하도록 Lync Server 2013 구성'
+title: "Microsoft Exchange Server의 통합 메시징과 함께 작동하도록 Lync Server 2013 구성"
 TOCTitle: Microsoft Exchange Server의 통합 메시징과 함께 작동하도록 Lync Server 2013 구성
 ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
 ms:mtpsurl: https://technet.microsoft.com/ko-kr/library/Gg398193(v=OCS.15)
@@ -30,17 +30,15 @@ Exchange UM 통합 유틸리티를 실행하면 다음 작업이 수행됩니다
 
   - 각 Enterprise Voice 다이얼 플랜의 이름이 해당 UM(통합 메시징) 다이얼 플랜 전화 컨텍스트와 일치하는지 확인합니다. UM 다이얼 플랜이 Exchange 2010 SP1(서비스 팩 1) 이전의 Exchange 버전에서 실행 중인 경우에만 두 항목이 이와 같이 일치하면 됩니다 *.*
 
-> [!important]  
+> [!IMPORTANT]  
 > Exchange UM 통합 유틸리티를 실행하기 전에 다음을 수행했는지 확인합니다.
 > <ul>
 > <li><p>Exchange 제품 설명서에 설명된 대로 하나 이상의 Exchange UM을 만듭니다.</p>
-<p>Microsoft Exchange Server 2010의 경우 &quot;UM 다이얼 플랜 만들기&quot;( <a href="http://go.microsoft.com/fwlink/?linkid=186177%26clcid=0x412" class="uri">http://go.microsoft.com/fwlink/?linkid=186177&amp;clcid=0x412</a>)를 참조하십시오.</p>
-<p>Microsoft Exchange Server 2007 SP1(서비스 팩 1)의 경우 &quot;통합 메시징 SIP URI 다이얼 플랜을 만드는 방법&quot;( <a href="http://go.microsoft.com/fwlink/?linkid=185771%26clcid=0x412" class="uri">http://go.microsoft.com/fwlink/?linkid=185771&amp;clcid=0x412</a>)을 참조하십시오.</p></li>
-> <li><p><a href="lync-server-2013-create-a-dial-plan.md">Lync Server 2013에서 다이얼 플랜 만들기</a>에 설명된 대로 해당하는 Lync Server 다이얼 플랜을 하나 이상 만듭니다.</p>
-	> [!IMPORTANT]
-	> Microsoft Exchange Server 2010 SP1 이전 Exchange 버전을 사용 중인 경우에는 Lync Server 2013 다이얼 플랜 <STRONG>단순한 이름</STRONG> 필드에 해당하는 Exchange 통합 메시징(UM) SIP 다이얼 플랜의 FQDN(정규화된 도메인 이름)을 입력해야 합니다. Microsoft Exchange Server 2010 SP1 또는 최신 서비스 팩을 사용 중인 경우에는 이와 같이 다이얼 플랜 이름이 일치하는지를 확인할 필요가 없습니다.
-</li>
-> <li><p>자동 전화 교환을 만들고 구독자 액세스 번호와 자동 전화 교환 번호가 모두 E.164 형식인지 확인합니다.</p></li></ul>
+> <p>Microsoft Exchange Server 2010의 경우 &quot;UM 다이얼 플랜 만들기&quot;( <a href="http://go.microsoft.com/fwlink/?linkid=186177%26clcid=0x412" class="uri">http://go.microsoft.com/fwlink/?linkid=186177&amp;clcid=0x412</a>)를 참조하십시오.</p>
+> <p>Microsoft Exchange Server 2007 SP1(서비스 팩 1)의 경우 &quot;통합 메시징 SIP URI 다이얼 플랜을 만드는 방법&quot;( <a href="http://go.microsoft.com/fwlink/?linkid=185771%26clcid=0x412" class="uri">http://go.microsoft.com/fwlink/?linkid=185771&amp;clcid=0x412</a>)을 참조하십시오.</p></li>
+> <li><p><a href="lync-server-2013-create-a-dial-plan.md">Lync Server 2013에서 다이얼 플랜 만들기</a>에 설명된 대로 해당하는 Lync Server 다이얼 플랜을 하나 이상 만듭니다.</p></li>
+> <ul><li>Microsoft Exchange Server 2010 SP1 이전 Exchange 버전을 사용 중인 경우에는 Lync Server 2013 다이얼 플랜 <STRONG>단순한 이름</STRONG> 필드에 해당하는 Exchange 통합 메시징(UM) SIP 다이얼 플랜의 FQDN(정규화된 도메인 이름)을 입력해야 합니다. Microsoft Exchange Server 2010 SP1 또는 최신 서비스 팩을 사용 중인 경우에는 이와 같이 다이얼 플랜 이름이 일치하는지를 확인할 필요가 없습니다.</li></ul>
+> <li>자동 전화 교환을 만들고 구독자 액세스 번호와 자동 전화 교환 번호가 모두 E.164 형식인지 확인합니다.</li></ul>
 
 
 ## Exchange UM 통합 유틸리티를 실행하려면

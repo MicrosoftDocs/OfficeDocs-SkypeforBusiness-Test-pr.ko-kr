@@ -80,13 +80,13 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <li><p>호스팅된 Exchange UM에 대한 구독자 액세스 대화 상대 개체를 만듭니다.</p></li>
 </ol></td>
 <td><p>RTCUniversalUserAdmins</p>
-<div class="alert">
+
 
 > [!NOTE]
 > 대화 상대 개체를 만들거나 수정하거나 또는 제거하려면 New-CsExUmContact, Set-CsExUmContact 또는 Remove-CsExUmContact cmdlet를 실행하는 사용자에게 새 대화 상대 개체가 저장된 Active Directory 조직 구성 단위에 대한 올바른 권한이 있어야 합니다. 이 사용 권한을 부여하려면 Grant-CsOUPermission cmdlet를 실행하면 됩니다. 자세한 내용은 Lync Server 관리 셸 설명서를 참조하십시오.
 
 
-</div></td>
+</td>
 <td><p><a href="lync-server-2013-create-contact-objects-for-hosted-exchange-um.md">Lync Server 2013에서 호스팅된 Exchange UM에 대한 대화 상대 개체 만들기</a></p></td>
 </tr>
 </tbody>

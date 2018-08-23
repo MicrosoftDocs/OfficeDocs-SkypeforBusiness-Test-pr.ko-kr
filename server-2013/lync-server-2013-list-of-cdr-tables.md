@@ -266,13 +266,13 @@ CDR(통화 정보 기록) 데이터베이스 스키마는 다음과 같은 테�
 <tr class="odd">
 <td><p><a href="lync-server-2013-voipdetails-table.md">Lync Server 2013의 VoipDetails 테이블</a></p></td>
 <td><p>각 두 사용자 간 VoIP/PSTN 통화에 대해 VoIP 전화의 전화 ID, 사용된 게이트웨이 및 연결을 해제한 사용자 등 통화에 대한 정보를 저장합니다. 통화 시작/종료 시간 및 응답 코드에 대한 자세한 내용은 <a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013의 SessionDetails 테이블</a>을 참조하십시오.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > 통화에서 한 사용자가 VoIP 사용자이거나 통화에 중재 서버가 포함된 경우 이 테이블에 레코드가 만들어집니다. 공중 전화망(PSTN) 전화가 사용되지 않은 VoIP/VoIP 통화에 대한 정보는 <A href="lync-server-2013-sessiondetails-table.md">Lync Server 2013의 SessionDetails 테이블</A>에 캡처되어 있습니다.
 
 
-</div></td>
+</td>
 </tr>
 </tbody>
 </table>
@@ -296,13 +296,13 @@ CDR(통화 정보 기록) 데이터베이스 스키마는 다음과 같은 테�
 <tr class="odd">
 <td><p><a href="lync-server-2013-locations-table.md">Lync Server 2013의 Locations 테이블</a></p></td>
 <td><p>E9-1-1(Enhanced 9-1-1) 통화와 같은 각 긴급 통화에 대해서는 통화에 대한 위치 정보를 저장합니다. 통화 시작/종료 시간 및 응답 코드에 대한 자세한 내용은 <a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013의 SessionDetails 테이블</a>을 참조하십시오.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > 이 테이블에는 E9-1-1 통화에 대한 위치 BLOB만 포함됩니다. 통화에 대한 다른 세부 정보는 SessionDetails 테이블을 참조하십시오.
 
 
-</div></td>
+</td>
 </tr>
 </tbody>
 </table>

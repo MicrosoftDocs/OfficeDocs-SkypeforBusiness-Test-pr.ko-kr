@@ -45,13 +45,13 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <tr class="odd">
 <td><p><strong>하드웨어 및 소프트웨어 필수 구성 요소 설치</strong></p></td>
 <td><p>회의는 프런트 엔드 풀 및 Standard Edition 서버의 프런트 엔드 서버에서 실행됩니다. 해당 서버를 설치하는 데 필요한 것 외에는 추가 하드웨어 또는 소프트웨어 요구 사항이 없습니다.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > Lync Server 2013에서는 Office Web Apps 및 Office Web Apps 서버를 사용하여 PowerPoint 프레젠테이션의 공유 및 렌더링을 처리합니다. Office Web Apps 서버 설치 및 구성에 대한 자세한 내용은 <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Office Online Server 및 Lync Server 2013과 통합 구성</A>를 참조하십시오.
 
 
-</div></td>
+</td>
 <td><p>로컬 Administrators 그룹의 구성원인 도메인 사용자</p></td>
 <td><p>지원 가능성 설명서의 <a href="lync-server-2013-supported-hardware.md">Lync Server 2013에서 지원되는 하드웨어</a></p>
 <p>지원 가능성 설명서의 <a href="lync-server-2013-server-software-and-infrastructure-support.md">Lync Server 2013의 서버 소프트웨어 및 인프라 지원</a></p>

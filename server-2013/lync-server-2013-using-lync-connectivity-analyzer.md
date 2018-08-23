@@ -45,27 +45,27 @@ Lync 연결 분석기는 Microsoft 다운로드 센터(<http://go.microsoft.com/
 
 1.  도구에서 연결을 테스트하는 데 사용할 유효한 Lync 계정(온-프레미스 Lync 계정 또는 Office 365Lync 계정)의 자격 증명을 입력합니다.
     
-      - **Lync Account Type(Lync 계정 유형)**에서 **Office 365** 또는 **On-Premises(온-프레미스)**를 선택합니다.
+      - **Lync Account Type(Lync 계정 유형)** 에서 **Office 365** 또는 **On-Premises(온-프레미스)** 를 선택합니다.
     
-      - **SIP URI**에 Lync 연결의 SIP 로그인 주소를 **사용자@도메인.com** 형식으로 입력합니다.
+      - **SIP URI** 에 Lync 연결의 SIP 로그인 주소를 **사용자@도메인.com** 형식으로 입력합니다.
     
-      - **Password(암호)**에 해당 계정과 연결된 암호를 입력합니다.
+      - **Password(암호)** 에 해당 계정과 연결된 암호를 입력합니다.
     
-      - 해당하는 경우 **User name (optional)(사용자 이름(옵션))**에 사용자 이름을 입력합니다. 사용자 이름은 UPN(사용자 계정 이름)이라고도 합니다. 사용자 이름과 SIP URI가 같은 경우 사용자 이름을 입력하지 않아도 됩니다. 두 항목이 다른 경우에는 **사용자@도메인.com** 또는 **도메인\\사용자** 중 적절한 형식으로 사용자 이름을 입력합니다.
+      - 해당하는 경우 **User name (optional)(사용자 이름(옵션))** 에 사용자 이름을 입력합니다. 사용자 이름은 UPN(사용자 계정 이름)이라고도 합니다. 사용자 이름과 SIP URI가 같은 경우 사용자 이름을 입력하지 않아도 됩니다. 두 항목이 다른 경우에는 **사용자@도메인.com** 또는 **도메인\\사용자** 중 적절한 형식으로 사용자 이름을 입력합니다.
     
-      - 내부 네트워크에 연결된 컴퓨터에서 Lync 연결 분석기를 실행하는 경우 **Network access(네트워크 액세스)**에서 **From inside my organization(조직 내부)**를 선택합니다. 그렇지 않으면 **External (Internet)(외부(인터넷))**을 선택합니다. Lync 연결 분석기는 항상 내부 테스트와 외부 테스트를 모두 수행하지만 컴퓨터의 위치가 네트워크 내부인지 외부인지를 지정하면 특정 오류 발생 가능 여부를 해석할 수 있습니다.
+      - 내부 네트워크에 연결된 컴퓨터에서 Lync 연결 분석기를 실행하는 경우 **Network access(네트워크 액세스)** 에서 **From inside my organization(조직 내부)** 를 선택합니다. 그렇지 않으면 **External (Internet)(외부(인터넷))** 을 선택합니다. Lync 연결 분석기는 항상 내부 테스트와 외부 테스트를 모두 수행하지만 컴퓨터의 위치가 네트워크 내부인지 외부인지를 지정하면 특정 오류 발생 가능 여부를 해석할 수 있습니다.
     
-      - **Client(클라이언트)**에서 연결 테스트를 수행할 대상을 **Lync Windows Store app(Lync Windows 스토어 앱)** 또는 **Lync mobile apps(Lync 모바일 앱)** 중에서 선택합니다.
+      - **Client(클라이언트)** 에서 연결 테스트를 수행할 대상을 **Lync Windows Store app(Lync Windows 스토어 앱)** 또는 **Lync mobile apps(Lync 모바일 앱)** 중에서 선택합니다.
     
-      - **Server discovery(서버 검색)**에서 수행할 테스트의 유형을 선택합니다.
+      - **Server discovery(서버 검색)** 에서 수행할 테스트의 유형을 선택합니다.
         
-          - Lync 서버를 자동으로 검색하려면 **Automatic(자동)**을 선택합니다.
+          - Lync 서버를 자동으로 검색하려면 **Automatic(자동)** 을 선택합니다.
         
-          - 자동 검색 테스트를 건너뛰거나 연결하려는 서버의 이름을 알고 있으면 **Manual using address:(수동 주소 사용:)**를 선택하고 Lync 서버의 FQDN(정규화된 도메인 이름)을 **lync.company.com**과 같이 지정합니다.
+          - 자동 검색 테스트를 건너뛰거나 연결하려는 서버의 이름을 알고 있으면 **Manual using address:(수동 주소 사용:)** 를 선택하고 Lync 서버의 FQDN(정규화된 도메인 이름)을 **lync.company.com** 과 같이 지정합니다.
 
-2.  (선택 사항) 지정된 경로에서 로그 파일을 만들려면 **Log File(로그 파일)**에서 확인란을 선택합니다. 로깅을 사용하도록 설정된 경우 **Clear(지우기)**를 클릭하여 로그 파일을 지우고 **Open(열기)**을 클릭하여 로그 파일을 열어 표시한 다음 **Email(전자 메일)**을 클릭하여 전자 메일 메시지를 열어 지원 팀에 결과를 보냅니다. 지정된 경로에서 로그 파일을 수동으로 첨부해야 합니다.
+2.  (선택 사항) 지정된 경로에서 로그 파일을 만들려면 **Log File(로그 파일)** 에서 확인란을 선택합니다. 로깅을 사용하도록 설정된 경우 **Clear(지우기)** 를 클릭하여 로그 파일을 지우고 **Open(열기)** 을 클릭하여 로그 파일을 열어 표시한 다음 **Email(전자 메일)** 을 클릭하여 전자 메일 메시지를 열어 지원 팀에 결과를 보냅니다. 지정된 경로에서 로그 파일을 수동으로 첨부해야 합니다.
 
-3.  **Start(시작)**를 클릭합니다.
+3.  **Start(시작)** 를 클릭합니다.
 
 다음 그림에는 Lync 연결 분석기의 예제 결과가 나와 있습니다.
 
@@ -77,39 +77,39 @@ Lync 연결 분석기는 Microsoft 다운로드 센터(<http://go.microsoft.com/
 
 Lync 연결 분석기는 Lync Windows 스토어 앱 및 Lync 모바일 앱에서 사용하는 것과 같은 단계를 사용하여 Lync 서버 검색 및 연결 설정을 시도합니다. 또한 이 섹션에서 설명하는 대로 테스트를 수행합니다.
 
-**Automatic discovery(자동 검색)**를 선택하면 Lync 연결 분석기는 다음을 수행합니다.
+**Automatic discovery(자동 검색)** 를 선택하면 Lync 연결 분석기는 다음을 수행합니다.
 
   - 자동 검색 URL에 대해 DNS(도메인 이름 서비스)를 쿼리합니다.
 
-  - 보안 내부 채널을 사용하여 검색을 시도합니다. 예를 들어 **HTTPS://lyncdiscoverinternal.company.com/**과 같은 채널을 사용합니다.
+  - 보안 내부 채널을 사용하여 검색을 시도합니다. 예를 들어 **HTTPS://lyncdiscoverinternal.company.com/** 과 같은 채널을 사용합니다.
 
-  - 비보안 내부 채널을 사용하여 검색을 시도합니다. 예를 들어 **HTTP://lyncdiscoverinternal.company.com/**과 같은 채널을 사용합니다.
+  - 비보안 내부 채널을 사용하여 검색을 시도합니다. 예를 들어 **HTTP://lyncdiscoverinternal.company.com/** 과 같은 채널을 사용합니다.
 
-  - 보안 외부 채널을 사용하여 검색을 시도합니다. 예를 들어 **HTTPS://lyncdiscover.company.com/**과 같은 채널을 사용합니다.
+  - 보안 외부 채널을 사용하여 검색을 시도합니다. 예를 들어 **HTTPS://lyncdiscover.company.com/** 과 같은 채널을 사용합니다.
 
-  - 비보안 외부 채널을 사용하여 검색을 시도합니다. 예를 들어 **HTTP://lyncdiscover.company.com/**과 같은 채널을 사용합니다.
+  - 비보안 외부 채널을 사용하여 검색을 시도합니다. 예를 들어 **HTTP://lyncdiscover.company.com/** 과 같은 채널을 사용합니다.
 
 **Use the following server discovery address(다음 서버 검색 주소 사용)**를 선택하면 Lync 연결 분석기는 다음을 수행합니다.
 
   - DNS에 서버의 FQDN을 쿼리합니다.
 
-  - 보안 채널을 사용하여 검색을 시도합니다. 예를 들어 **HTTPS://serverFQDN/**과 같은 채널을 사용합니다.
+  - 보안 채널을 사용하여 검색을 시도합니다. 예를 들어 **HTTPS://serverFQDN/** 과 같은 채널을 사용합니다.
 
-  - 비보안 채널을 사용하여 검색을 시도합니다. 예를 들어 **HTTP://serverFQDN/**과 같은 채널을 사용합니다.
+  - 비보안 채널을 사용하여 검색을 시도합니다. 예를 들어 **HTTP://serverFQDN/** 과 같은 채널을 사용합니다.
 
-**Test the requirements for(요구 사항 테스트)**에서 **Lync Windows Store app(Lync Windows 스토어 앱)**을 선택하면 Lync 연결 분석기는 다음을 수행합니다.
+**Test the requirements for(요구 사항 테스트)** 에서 **Lync Windows Store app(Lync Windows 스토어 앱)** 을 선택하면 Lync 연결 분석기는 다음을 수행합니다.
 
   - 웹 티켓 서비스를 사용할 수 있는지 확인하고 Lync 계정 자격 증명의 인증을 테스트합니다.
 
   - 인증 브로커(Reach) 서비스를 사용할 수 있는지 확인합니다.
 
-**Client**에서 **Lync Mobile 2010 App**이 선택된 경우 Lync 연결 분석기가 다음을 수행합니다.
+**Client** 에서 **Lync Mobile 2010 App** 이 선택된 경우 Lync 연결 분석기가 다음을 수행합니다.
 
   - 웹 티켓 서비스를 사용할 수 있는지 확인하고 Lync 계정 자격 증명의 인증을 테스트합니다.
 
   - Mobility(MCX) Service를 사용할 수 있는지 확인합니다.
 
-**Client**에서 **Lync Mobile 2013 App**이 선택된 경우 Lync 연결 분석기가 다음을 수행합니다.
+**Client** 에서 **Lync Mobile 2013 App** 이 선택된 경우 Lync 연결 분석기가 다음을 수행합니다.
 
   - 웹 티켓 서비스를 사용할 수 있는지 확인하고 Lync 계정 자격 증명의 인증을 테스트합니다.
 

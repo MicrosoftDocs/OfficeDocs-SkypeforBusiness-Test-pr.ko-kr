@@ -50,20 +50,19 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 <tr class="even">
 <td><p>통화 대기 번호 테이블에서 호출 받기 번호 범위 구성</p></td>
 <td><p><strong>New-CSCallParkOrbit</strong> cmdlet을 사용해 통화 대기 번호 테이블에서 호출 받기 번호 범위를 만들고 호출 받기 범위에 GroupPickup 유형을 할당합니다.</p>
-<div class="alert">
+
 
 > [!NOTE]
 > 통화 대기 번호 테이블에서 그룹 호출 받기 번호 범위를 만들고 수정하고 제거하고 보려면 Lync Server 관리 셸을 사용해야 합니다. Lync Server 제어판에서는 그룹 호출 받기 번호 범위를 사용할 수 없습니다.
 
 
-</div>
-<div class="alert">
+
 
 > [!NOTE]
 > 기존 다이얼 플랜과 원활하게 통합할 수 있도록, 번호 범위는 일반적으로 가상 내선 번호 블록으로 구성됩니다. DID(Direct Inward Dialing) 번호를 통화 대기 번호 테이블에서 범위 번호로 할당할 수는 없습니다.
 
 
-</div></td>
+</td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>

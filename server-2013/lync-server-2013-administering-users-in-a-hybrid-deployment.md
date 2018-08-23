@@ -9,9 +9,7 @@ mtps_version: v=OCS.15
 ms.translationtype: HT
 ---
 
-# 하이브리드 Lync Server 2013 배포에서 사용자 관리
-
- 
+# 하이브리드 Lync Server 2013 배포에서 사용자 관리 
 
 _**마지막으로 수정된 항목:** 2014-05-29_
 
@@ -24,12 +22,14 @@ Microsoft Office 365 온라인 포털에서 제공되는 사용자 관리 기능
 > 이 섹션은 사용자를 만들어 Lync 온-프레미스를 사용할 수 있도록 설정했다가 온-프레미스 배포에서 Lync Online으로 이동한 경우에만 적용됩니다. Lync Online에서 만들고 온-프레미스 배포에서 Lync를 사용할 수 있도록 설정하지 않은 사용자를 이동하려면 <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Lync Server 2013에서 Lync Online과 Lync 온-프레미스 간 사용자 이동</A>을 참고하세요.
 
 
-
   - 사용자를 Lync Online에서 다시 Lync 온-프레미스로 이동하려면 다음 cmdlet을 실행합니다.
     
+    ``` 
         $cred=Get-Credential
-    
+    ```
+    ```    
         Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
+    ```
 
 **HostedMigrationOverrideUrl** 매개 변수에 대해 지정되는 URL의 형식은 호스트된 마이그레이션 서비스가 실행되고 있는 풀의 URL이어야 하며 다음과 같은 형식이어야 합니다.
 

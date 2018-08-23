@@ -51,21 +51,22 @@ _**마지막으로 수정된 항목:** 2013-02-21_
 
 10. 다음 cmdlet을 사용하여 두 풀의 사용자 및 전화 회의 데이터가 서로 동기화되도록 강제 지정합니다.
     
-```
+     ```
         Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
-```
-```
+     ```
+     ```           
         Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
-``` 
+     ```   
 
     데이터를 동기화하는 데는 시간이 걸릴 수 있습니다. 다음 cmdlet을 사용하여 상태를 확인할 수 있습니다. 양쪽 방향의 상태가 모두 안정적인지 확인합니다.
     
-```
+     ```
         Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
-```
-```    
+     ```
+     ```           
         Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
-```
+     ```   
+             
 
 > [!NOTE]  
 > 토폴로지 작성기의 <STRONG>자동 음성 장애 조치(failover) 및 장애 복구(failback)</STRONG> 옵션 및 연결된 시간 간격은 Lync Server 2010에 도입된 음성 탄성 기능에만 적용됩니다. 해당 옵션을 선택해도 이 문서에서 설명하는 풀 장애 조치(failover)가 자동으로 수행되는 것은 아닙니다. 풀 장애 조치(failover) 및 장애 복구(failback)를 수행하려면 항상 관리자가 장애 조치(failover) 및 장애 복구(failback) cmdlet을 각각 수동으로 호출해야 합니다.

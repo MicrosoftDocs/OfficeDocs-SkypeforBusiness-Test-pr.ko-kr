@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**마지막으로 수정된 항목:** 2013-02-20_
 
-**move-csmeetingroom** cmdlet을 사용하여 회의 장치를 등록자 풀 간에 이동합니다. 이 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다.
+**Move-CsMeetingRoom** cmdlet을 사용하여 회의 장치를 등록자 풀 간에 이동합니다. 이 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다.
 
 
 > [!NOTE]
@@ -28,7 +28,7 @@ _**마지막으로 수정된 항목:** 2013-02-20_
 
   - 회의 장치를 이동하려면 이동할 회의실 ID를 지정한 후 Target 매개 변수를 장치 이동 대상 등록자 풀의 FQDN(정규화된 도메인 이름)으로 설정해야 합니다. 예를 들면 다음과 같습니다.
     
-        move-csmeetingroom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
+        Move-CsMeetingRoom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
 
-자세한 내용은 [move-csmeetingroom](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsMeetingRoom) cmdlet의 도움말 항목을 참조하십시오.
+자세한 내용은 [Move-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsMeetingRoom) cmdlet의 도움말 항목을 참조하십시오.
 
