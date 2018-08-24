@@ -169,8 +169,7 @@ Lync Server에서는 모임, 전화 접속 및 관리의 세 가지 단순 URL�
 
 ```
     HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
-```
-```
+
     HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 ```
 

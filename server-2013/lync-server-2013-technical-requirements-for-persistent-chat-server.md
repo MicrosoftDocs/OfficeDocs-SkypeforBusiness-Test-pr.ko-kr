@@ -17,7 +17,7 @@ _**마지막으로 수정된 항목:** 2015-03-09_
 
 영구 채팅 서버을 호스트할 각 컴퓨터는 다음 구성 요소가 포함된 기존 Lync Server 2013 토폴로지에 액세스할 수 있어야 합니다.
 
-  - **Lync Server 2013, 프런트 엔드 서버.**프런트 엔드 서버는 가능한 영구 채팅 서버 및 영구 채팅 기능을 실행하는 컴퓨터 사이에 통신을 수행하는 SIP(Session Initiation Protocol)의 기초입니다. 영구 채팅 서버 배포를 시작하기 전에 Lync Server 2013, Standard Edition, 또는 Lync Server프런트 엔드 풀 및 조직에 따라 Lync Server를 실행하는 다른 모든 내부 컴퓨터의 배포를 확인해야 합니다.
+  - **Lync Server 2013, 프런트 엔드 서버.** 프런트 엔드 서버는 가능한 영구 채팅 서버 및 영구 채팅 기능을 실행하는 컴퓨터 사이에 통신을 수행하는 SIP(Session Initiation Protocol)의 기초입니다. 영구 채팅 서버 배포를 시작하기 전에 Lync Server 2013, Standard Edition, 또는 Lync Server프런트 엔드 풀 및 조직에 따라 Lync Server를 실행하는 다른 모든 내부 컴퓨터의 배포를 확인해야 합니다.
 
 다음 섹션에서는 영구 채팅 서버 데이터를 저장하는 데이터베이스 및 영구 채팅에 대한 특정 요구 사항을 설명합니다.
 
