@@ -55,7 +55,7 @@ _**마지막으로 수정된 항목:** 2012-10-19_
     
     2.  **Lync Server 2010**을 마우스 오른쪽 단추로 클릭하고 **새로 만들기**를 클릭합니다.
     
-    3.  **SBA(Survivable Branch Appliance)…**를 클릭합니다.
+    3.  <strong>**SBA(Survivable Branch Appliance)…**</strong>를 클릭합니다.
 
 9.  표시되는 마법사의 지침을 따르십시오. 마법사 항목에 대한 자세한 내용은 [Lync Server 2013에서 SBA(Survivable Branch Appliance) 또는 지속 가능 분기 서버 정의](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)를 참조하십시오.
     
