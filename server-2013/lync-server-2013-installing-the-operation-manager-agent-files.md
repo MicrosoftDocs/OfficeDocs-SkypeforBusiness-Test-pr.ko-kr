@@ -19,7 +19,7 @@ _**마지막으로 수정된 항목:** 2012-10-20_
 
 1.  System Center 설치 미디어에서 **SetupOM.exe**를 두 번 클릭합니다.
 
-2.  System Center Operation Manager 설치 프로그램에서 **Operations Manager 에이전트 설치(Install Operations Manager Agent)**를 클릭합니다.
+2.  System Center Operation Manager 설치 프로그램에서 <strong>Operations Manager 에이전트 설치(Install Operations Manager Agent)</strong>를 클릭합니다.
 
 3.  System Center 설치 마법사의 **System Center Operations Manager 설치 시작(Welcome to the System Center Operations Manager Setup)** 마법사 페이지에서 **다음**을 클릭합니다.
 
@@ -31,7 +31,7 @@ _**마지막으로 수정된 항목:** 2012-10-20_
 
 7.  **에이전트 작업 계정** 페이지에서 **로컬 시스템**을 선택하고 **다음**을 선택합니다.
 
-8.  **Microsoft Update** 페이지에서 **Microsoft Update 사용 안 함(I don't want to use Microsoft Update)**을 선택하고 **다음**을 클릭합니다.
+8.  **Microsoft Update** 페이지에서 <strong>Microsoft Update 사용 안 함(I don't want to use Microsoft Update)</strong>을 선택하고 **다음**을 클릭합니다.
 
 9.  **설치 준비 완료** 페이지에서 **설치**를 클릭합니다.
 
