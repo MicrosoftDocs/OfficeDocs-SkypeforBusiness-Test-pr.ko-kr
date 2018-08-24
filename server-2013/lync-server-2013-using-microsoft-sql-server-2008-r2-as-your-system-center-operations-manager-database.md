@@ -27,7 +27,7 @@ System Center Operations Manager 설치를 시작하기 전에 SQL Server 2008 R
 
 3.  **ReportServer** 폴더에서 **rsreportserver.config** 파일을 메모장 또는 기타 텍스트 편집기에서 엽니다.
 
-4.  파일 시작 부분에 일련의 "Add Key" 노드가 표시됩니다. **\<Add Key="SecureConnectionLevel"**로 시작하는 항목을 찾아서 값을 **0**으로 설정합니다.
+4.  파일 시작 부분에 일련의 "Add Key" 노드가 표시됩니다. <strong>\<Add Key="SecureConnectionLevel"</strong>로 시작하는 항목을 찾아서 값을 **0**으로 설정합니다.
     
         <Add Key="SecureConnectionLevel" Value="0"/>
 
@@ -149,7 +149,7 @@ System Center Operations Manager 콘솔을 설치 및 구성한 후에는 System
 
 5.  **제품 등록** 페이지의 **사용자 이름** 및 **조직** 상자에 자신의 이름과 조직의 이름이 각각 나타나는지 확인하고 **다음**을 클릭합니다.
 
-6.  **사용자 지정 설치** 페이지에서 **보고 서버**를 클릭하고 **이 구성 요소와 모든 종속 구성 요소는 로컬 디스크 드라이브에 설치됩니다.**를 선택합니다. **데이터 웨어하우스**를 클릭하고 **이 구성 요소를 사용할 수 없게 됩니다.**를 선택한 후에 **다음**을 클릭합니다.
+6.  **사용자 지정 설치** 페이지에서 <strong>보고 서버</strong>를 클릭하고 <strong>이 구성 요소와 모든 종속 구성 요소는 로컬 디스크 드라이브에 설치됩니다.</strong>를 선택합니다. <strong>데이터 웨어하우스</strong>를 클릭하고 <strong>이 구성 요소를 사용할 수 없게 됩니다.</strong>를 선택한 후에 **다음**을 클릭합니다.
 
 7.  **루트 관리 서버에 연결** 페이지의 **루트 관리 서버** 상자에 Operations Manager 루트 관리 서버의 이름을 입력하고 **다음**을 클릭합니다.
 
