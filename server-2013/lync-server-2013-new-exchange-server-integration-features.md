@@ -17,7 +17,7 @@ _**마지막으로 수정된 항목:** 2012-09-24_
 
 Lync Server 2013은 다음 목록에 설명된 바와 같이 Microsoft Exchange Server 2013과 함께 배포되면 새로운 기능을 지원합니다. 이러한 각 기능이 작동하려면 Lync Server 2013 및 Exchange 2013이 모두 배포되어야 합니다.
 
-  - Lync 대화 상대 목록이 Exchange 2013에 저장되는 **UCS(통합 대화 상대 저장소)**를 사용하고 대화 상대 저장소를 Lync 2013, Outlook 2013 및 Outlook Web App에서 관리할 수 있습니다.
+  - Lync 대화 상대 목록이 Exchange 2013에 저장되는 <strong>UCS(통합 대화 상대 저장소)</strong>를 사용하고 대화 상대 저장소를 Lync 2013, Outlook 2013 및 Outlook Web App에서 관리할 수 있습니다.
 
   - 대화 상대에 대해 **고해상도 사진**을 사용할 수 있습니다. 최대 648x648픽셀의 사진은 Exchange 2013에 저장되어 Lync 2013, Outlook 2013, Microsoft Lync Web App, Outlook Web App 등의 클라이언트에 사용할 수 있습니다.
 
